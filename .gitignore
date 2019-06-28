@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.tex
+*.nav
+*.snm
+*.toc
+dev/*
