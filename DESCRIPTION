@@ -1,0 +1,39 @@
+Package: DCPOtools
+Version: 0.1.0.9000
+Title: Tools for Dynamic Comparative Public Opinion
+Description: Collects and formats public opinion data for use in estimating cross-national latent variables.
+Authors@R: person("Frederick", "Solt", email = "frederick-solt@uiowa.edu", role = c("aut",  "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Depends: 
+  R (>= 3.4.0),
+Imports: 
+  readr, 
+  reshape2, 
+  dplyr, 
+  beepr, 
+  countrycode, 
+  rio, 
+  labelled, 
+  stringr,
+  forcats,
+  foreign,
+  haven,
+  janitor,
+  lubridate,
+  purrr,
+  rvest,
+  RSelenium,
+  gesis,
+  dataverse,
+  essurvey,
+  icpsrdata,
+  pewdata,
+  ropercenter
+Suggests: knitr
+VignetteBuilder: knitr
+SystemRequirements: GNU make
+NeedsCompilation: yes
+RoxygenNote: 6.1.1
