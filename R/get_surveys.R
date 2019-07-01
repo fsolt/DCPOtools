@@ -24,6 +24,7 @@
 #' @importFrom stringr str_replace str_subset str_detect
 #' @importFrom essurvey download_rounds
 #' @importFrom dataverse get_dataset get_file
+#' @importFrom httr content
 #' @importFrom purrr walk walk2 pwalk
 #' @importFrom haven read_por
 #' @importFrom foreign read.spss
