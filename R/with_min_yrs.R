@@ -13,6 +13,8 @@
 #' @export
 with_min_yrs <- function(x, min_yrs) {
   if (!is.na(min_yrs)) {
+    country <- yr_obs <- NULL
+
     x <- x %>%
       group_by(country) %>%
       mutate(yr_obs = length(unique(year))) %>%
