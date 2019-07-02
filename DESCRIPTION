@@ -24,6 +24,7 @@ Imports:
   janitor,
   lubridate,
   purrr,
+  httr,
   rvest,
   RSelenium,
   gesis,

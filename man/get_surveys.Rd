@@ -4,8 +4,7 @@
 \alias{get_surveys}
 \title{Get Survey Datasets for DCPO}
 \usage{
-get_surveys(vars, datapath = "../data/dcpo_surveys", file = "",
-  chime = TRUE)
+get_surveys(vars, datapath = "../data/dcpo_surveys", chime = TRUE)
 }
 \arguments{
 \item{vars}{a data frame (or, optionally, a vector of survey names or a .csv file) of survey items}

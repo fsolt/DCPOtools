@@ -26,16 +26,15 @@
 #' @importFrom dataverse get_dataset get_file
 #' @importFrom httr content
 #' @importFrom purrr walk walk2 pwalk
-#' @importFrom haven read_por
+#' @importFrom haven read_por read_dta
 #' @importFrom foreign read.spss
 #' @importFrom tools file_ext file_path_sans_ext
-#' @importFrom utils unzip
+#' @importFrom utils unzip download.file
 #'
 #' @export
 
 get_surveys <- function(vars,
                         datapath = "../data/dcpo_surveys",
-                        file = "",
                         chime = TRUE) {
   if ("data.frame" %in% class(vars)) {
     vars_table <- vars
@@ -272,8 +271,13 @@ get_surveys <- function(vars,
           last()
       }
       if (tools::file_ext(data_file) != "") {
-        rio::convert(file.path(new_dir, data_file),
-                     paste0(file.path(new_dir, file_id), ".RData"))
+        tryCatch(rio::convert(file.path(new_dir, data_file),
+                     paste0(file.path(new_dir, file_id), ".RData")),
+                 error = function(c) {
+                   haven::read_dta(file.path(new_dir, data_file), encoding = "latin1") %>%
+                     rio::export(paste0(file.path(new_dir, file_id), ".RData"))
+                 }
+        )
       }
       if (!is.na(cb_link)) {
         download.file(cb_link, file.path(new_dir, paste0(file_id, ".pdf")))

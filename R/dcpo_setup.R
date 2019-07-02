@@ -20,7 +20,9 @@
 #' @importFrom forcats fct_relabel
 #' @importFrom labelled labelled to_character to_factor
 #' @importFrom lubridate year
+#' @importFrom stats na.omit setNames
 #' @importFrom stringr str_detect str_subset str_extract str_replace str_to_lower str_trim
+#' @importFrom utils head
 #'
 #' @export
 
