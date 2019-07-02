@@ -14,10 +14,14 @@
 #' @return a list of Stan data
 #'
 #' @import dplyr
+#' @importFrom stats median
 #'
 #' @export
 
 format_claassen <- function(dcpo_data) {
+    # satisfy R CMD check
+    country <- year <- item <- r <- n <- survey <- x <- NULL
+
     # dichotomize (values above midpoint coded 1)
     dat <- dcpo_data %>%
         group_by(country, year, item) %>%
