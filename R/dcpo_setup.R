@@ -150,7 +150,7 @@ dcpo_setup <- function(vars,
                    ds$survey == "arabb3") {       # with interviews bleeding over years
           t_data %>%
             mutate(year = lubridate::year(t_data[[ds$year_var]]),
-                   year = if_else(is.na(year),
+                   year = if_else(is.na(year) | year < 1950,
                                   as.integer(names(table(year)[table(year)==max(table(year))])),
                                   as.integer(year)),
                    group_dcpo = c_dcpo) %>%
