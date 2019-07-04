@@ -146,9 +146,13 @@ dcpo_setup <- function(vars,
           )
         } else if (ds$survey == "amb_combo") {
           t_data[[ds$year_var]]
-        } else if (ds$surv_program == "afrob") { # single-wave cross-national surveys with interviews bleeding over years
+        } else if (ds$surv_program == "afrob" |   # single-wave cross-national surveys
+                   ds$survey == "arabb3") {       # with interviews bleeding over years
           t_data %>%
             mutate(year = lubridate::year(t_data[[ds$year_var]]),
+                   year = if_else(is.na(year),
+                                  as.integer(names(table(year)[table(year)==max(table(year))])),
+                                  as.integer(year)),
                    group_dcpo = c_dcpo) %>%
             group_by(c_dcpo) %>%
             mutate(y_dcpo = round(mean(year))) %>%
@@ -158,8 +162,8 @@ dcpo_setup <- function(vars,
           t_data %>%
             mutate(year = if_else(between(as.numeric(t_data[[ds$year_var]]),
                                   1950, as.numeric(lubridate::year(Sys.Date()))),
-                             t_data[[ds$year_var]],
-                             stringr::str_extract(ds$survey, "\\d{4}") %>% as.numeric()),
+                             as.integer(t_data[[ds$year_var]]),
+                             as.integer(names(table(t_data[[ds$year_var]])[table(t_data[[ds$year_var]])==max(table(t_data[[ds$year_var]]))]))),
                    group_dcpo = c_dcpo) %>%
                    {if (!is.na(ds$cy_var))
                      mutate(., group_dcpo = t_data[[ds$cy_var]])
