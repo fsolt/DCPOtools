@@ -150,8 +150,9 @@ dcpo_setup <- function(vars,
                    ds$survey == "arabb3") {       # with interviews bleeding over years
           t_data %>%
             mutate(year = lubridate::year(t_data[[ds$year_var]]),
+                   modal_year = as.integer(names(table(year)[table(year)==max(table(year))])),
                    year = if_else(is.na(year) | year < 1950,
-                                  as.integer(names(table(year)[table(year)==max(table(year))])),
+                                  modal_year,
                                   as.integer(year)),
                    group_dcpo = c_dcpo) %>%
             group_by(c_dcpo) %>%
@@ -160,10 +161,11 @@ dcpo_setup <- function(vars,
             .[["y_dcpo"]]
         } else { # cross-national surveys with interviews bleeding over years
           t_data %>%
-            mutate(year = if_else(between(as.numeric(t_data[[ds$year_var]]),
-                                  1950, as.numeric(lubridate::year(Sys.Date()))),
-                             as.integer(t_data[[ds$year_var]]),
-                             as.integer(names(table(t_data[[ds$year_var]])[table(t_data[[ds$year_var]])==max(table(t_data[[ds$year_var]]))]))),
+            mutate(modal_year = as.integer(names(table(t_data[[ds$year_var]])[table(t_data[[ds$year_var]])==max(table(t_data[[ds$year_var]]))])),
+                   year = if_else(between(as.numeric(t_data[[ds$year_var]]),
+                                 1950, as.numeric(lubridate::year(Sys.Date()))),
+                         as.integer(t_data[[ds$year_var]]),
+                         modal_year),
                    group_dcpo = c_dcpo) %>%
                    {if (!is.na(ds$cy_var))
                      mutate(., group_dcpo = t_data[[ds$cy_var]])
