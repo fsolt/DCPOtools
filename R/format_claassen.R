@@ -42,7 +42,8 @@ format_claassen <- function(dcpo_data) {
                             tt      = as.numeric(as.factor(dat$year)),
                             pp      = as.numeric(as.factor(paste(dat$country, dat$item))),
                             x       = round(dat$x),
-                            samp    = round(dat$samp) )
+                            samp    = round(dat$samp),
+                            data    = dat)
 
     return(claassen_stan)
 }
