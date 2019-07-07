@@ -40,7 +40,7 @@ format_dcpo <- function(x, scale_q, scale_cp) {
     scale_item_matrix <- n_qr %>%
         janitor::clean_names() %>%
         mutate_at(vars(matches(paste0("x\\d+$"))), ~if_else(. > 0, 10, 0)) %>%
-        mutate_at(vars(matches(paste0("x", scale_cp, "$"))), ~if_else(item == scale_item, . + 1, 0)) %>%
+        mutate_at(vars(matches(paste0("x", scale_cp, "$"))), ~if_else(item == scale_q, . + 1, 0)) %>%
         mutate_at(vars(matches(paste0("x\\d+$"))), ~if_else(. > 0, . - 10, 0)) %>%
         select(-rowname, -item) %>%
         as.matrix()
