@@ -14,7 +14,7 @@
 #'
 #' @export
 
-format_dcpo <- function(x, scale_item, scale_cp) {
+format_dcpo <- function(x, scale_q, scale_cp) {
     # satisfy R CMD check
     country <- year <- item <- r <- n <- NULL
 
@@ -50,13 +50,11 @@ format_dcpo <- function(x, scale_item, scale_cp) {
                        T          = max(dat$year) - min(dat$year) + 1,
                        Q          = dplyr::n_distinct(dat$item),
                        R          = max(dat$cp),
-                       P          = max(as.numeric(as.factor(paste(dat$country, dat$item)))),
                        N          = nrow(dat),
                        kk         = as.numeric(as.factor(dat$country)),
                        tt         = as.numeric(as.factor(dat$year)),
                        qq         = as.numeric(as.factor(dat$item)),
                        rr         = dat$cp,
-                       pp         = as.numeric(as.factor(paste(dat$country, dat$item))),
                        y_r        = round(dat$y_r),
                        n_r        = round(dat$n_r),
                        fixed_cutp = scale_item_matrix,
