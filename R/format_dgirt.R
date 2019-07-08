@@ -20,13 +20,19 @@ format_dgirt <- function(dcpo_data) {
                               value.var = "n",
                               drop = FALSE)
 
-    dgirt_stan <- list( G          = dplyr::n_distinct(x$country),
-                        T          = max(x$year) - min(x$year) + 1,
-                        Q          = dplyr::n_distinct(x$item),
-                        K          = max(x$r),
+    unused_cp <- as.data.frame(apply(n_tkqr, c(3, 4), sum)) %>%
+        tibble::rownames_to_column() %>%
+        dplyr::mutate_all(~if_else(. > 0, 0, 1)) %>%
+        dplyr::select(-`1`, -rowname) %>%
+        as.matrix()
+
+    dgirt_stan <- list( G          = dplyr::n_distinct(dcpo_data$country),
+                        T          = max(dcpo_data$year) - min(dcpo_data$year) + 1,
+                        Q          = dplyr::n_distinct(dcpo_data$item),
+                        K          = max(dcpo_data$r),
                         D          = 1,
                         N          = n_tkqr,
-                        beta_sign  = matrix(1, dplyr::n_distinct(x$item), 1),
+                        beta_sign  = matrix(1, dplyr::n_distinct(dcpo_data$item), 1),
                         unused_cut = unused_cp,
                         N_nonzero  = sum(n_tkqr != 0)
     )

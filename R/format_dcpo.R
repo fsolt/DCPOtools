@@ -14,12 +14,12 @@
 #'
 #' @export
 
-format_dcpo <- function(x, scale_q, scale_cp) {
+format_dcpo <- function(dcpo_data, scale_q, scale_cp) {
     # satisfy R CMD check
     country <- year <- item <- r <- n <- NULL
 
     # generate cumulative number of respondents with answers above each cutpoint
-    dat <- x %>%
+    dat <- dcpo_data %>%
         group_by(country, year, item) %>%
         arrange(desc(r), .by_group = TRUE) %>%
         mutate(item_c = paste(item, r, "or higher"),
