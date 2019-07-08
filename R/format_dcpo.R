@@ -37,6 +37,16 @@ format_dcpo <- function(x, scale_q, scale_cp) {
                             drop = FALSE) %>%
         tibble::rownames_to_column()
 
+    use_delta <- reshape2::dcast(dat,
+                            item ~ country,
+                            fun.aggregate = n_distinct,
+                            value.var = "year",
+                            drop = FALSE) %>%
+        select(-item) %>%
+        mutate(countries = rowSums(.)) %>%
+        mutate_at(vars(matches("^[A-Z]")), funs(if_else(. > 1 & countries > 1, 1, 0))) %>%
+        select(-countries)
+
     scale_item_matrix <- n_qr %>%
         janitor::clean_names() %>%
         mutate_at(vars(matches(paste0("x\\d+$"))), ~if_else(. > 0, 10, 0)) %>%
@@ -58,6 +68,7 @@ format_dcpo <- function(x, scale_q, scale_cp) {
                        y_r        = round(dat$y_r),
                        n_r        = round(dat$n_r),
                        fixed_cutp = scale_item_matrix,
+                       use_delta  = use_delta,
                        data       = dat)
 
     return(dcpo_stan)
