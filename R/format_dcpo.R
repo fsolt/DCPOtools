@@ -27,13 +27,15 @@ format_dcpo <- function(dcpo_data, scale_q, scale_cp, delta = TRUE) {
                tt = year - min(year) + 1,
                qq = as_factor(item),
                rr = r - 1,
-               item_cp = paste(item, r, "or higher")) %>%
-        group_by(country, year, item) %>%
+               question = item,
+               item = paste(question, r, "or higher")) %>%
+        group_by(country, year, question) %>%
         arrange(desc(r), .by_group = TRUE) %>%
         mutate(y_r = round(cumsum(n)),
                n_r = round(sum(n))) %>%
         arrange(r, .by_group = TRUE) %>%
         ungroup() %>%
+        arrange(kk, tt) %>%
         filter(y_r > 0 & rr > 0)
 
     use_delta <- dat %>%
