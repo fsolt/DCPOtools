@@ -8,7 +8,8 @@
 #' @return a list of Stan data
 #'
 #' @importFrom reshape2 acast
-#' @importFrom dplyr n_distinct
+#' @importFrom dplyr n_distinct mutate_all select
+#' @importFrom tibble rownames_to_column
 #'
 #' @export
 
@@ -26,19 +27,20 @@ format_dgirt <- function(dcpo_data) {
         dplyr::select(-`1`, -rowname) %>%
         as.matrix()
 
-    dgirt_stan <- list(items = attr(n_tkqr, "dimnames")[[3]],
-                       time = "year",
-                       geo = "country",
-                       demo = "population",
-                       stan_data = list( G          = dplyr::n_distinct(dcpo_data$country),
-                                         T          = max(dcpo_data$year) - min(dcpo_data$year) + 1,
-                                         Q          = dplyr::n_distinct(dcpo_data$item),
-                                         K          = max(dcpo_data$r),
-                                         D          = 1,
-                                         N          = n_tkqr,
-                                         beta_sign  = matrix(1, dplyr::n_distinct(dcpo_data$item), 1),
-                                         unused_cut = unused_cp,
-                                         N_nonzero  = sum(n_tkqr != 0))
+    dgirt_stan <- new('modgirt_in',
+                      items = attr(n_tkqr, "dimnames")[[3]],
+                      time = "year",
+                      geo = "country",
+                      demo = "country",
+                      stan_data = list( G          = dplyr::n_distinct(dcpo_data$country),
+                                        T          = max(dcpo_data$year) - min(dcpo_data$year) + 1,
+                                        Q          = dplyr::n_distinct(dcpo_data$item),
+                                        K          = max(dcpo_data$r),
+                                        D          = 1,
+                                        N          = n_tkqr,
+                                        beta_sign  = matrix(1, dplyr::n_distinct(dcpo_data$item), 1),
+                                        unused_cut = unused_cp,
+                                        N_nonzero  = sum(n_tkqr != 0))
     )
 
     return(dgirt_stan)
