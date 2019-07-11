@@ -45,3 +45,13 @@ format_dgirt <- function(dcpo_data) {
 
     return(dgirt_stan)
 }
+
+#' @export
+modgirt_in <- setClass("modgirt_in",
+                       slots = list(
+                           items = "character",
+                           time = "character",
+                           geo = "character",
+                           demo = "character",
+                           stan_data = "list")
+)
