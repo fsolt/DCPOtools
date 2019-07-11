@@ -37,7 +37,7 @@ format_dgirt <- function(dcpo_data) {
                                         Q          = dplyr::n_distinct(dcpo_data$item),
                                         K          = max(dcpo_data$r),
                                         D          = 1,
-                                        N          = n_tkqr,
+                                        SSSS       = n_tkqr,
                                         beta_sign  = matrix(1, dplyr::n_distinct(dcpo_data$item), 1),
                                         unused_cut = unused_cp,
                                         N_nonzero  = sum(n_tkqr != 0))
