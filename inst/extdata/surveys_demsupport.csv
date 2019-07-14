@@ -1,0 +1,129 @@
+survey,item,variable,values
+afrob1,threestate_11,supdem,c(3:1)
+afrob1,strong_34,rejdic,c(5:1)
+afrob1,army_42,rejmil,c(5:1)
+afrob1,party_51,rejone,c(5:1)
+afrob2,threestate_11,q38,"c(2,1,3)"
+afrob2,strong_34,q35d,c(5:1)
+afrob2,army_42,q35c,c(5:1)
+afrob2,party_51,q35a,c(5:1)
+afrob3,threestate_11,q37,"c(2,1,3)"
+afrob3,strong_34,q36c,c(5:1)
+afrob3,army_42,q36b,c(5:1)
+afrob3,party_51,q36a,c(5:1)
+afrob4,threestate_11,q30,"c(2,1,3)"
+afrob4,strong_34,q29c,c(5:1)
+afrob4,army_42,q29b,c(5:1)
+afrob4,party_51,q29a,c(5:1)
+afrob5,threestate_11,q32,"c(2,1,3)"
+afrob5,strong_34,q31c,c(5:1)
+afrob5,army_42,q31b,c(5:1)
+afrob5,party_51,q31a,c(5:1)
+afrob6,threestate_11,q30,"c(2,1,3)"
+afrob6,strong_34,q28c,c(5:1)
+afrob6,army_42,q28b,c(5:1)
+afrob6,party_51,q28a,c(5:1)
+arabb1,church_21,q2324,c(4:1)
+arabb1,strong_38 ,q2452,c(1:4)
+arabb1,evdemoc_4,q2451,c(4:1)
+arabb1,democsuit_71,q243,c(1:10)
+arabb2,church_21,q5164,c(4:1)
+arabb2,strong_37,q5172,c(1:4)
+arabb2,evdemoc_4,q5171,c(4:1)
+arabb2,democsuit_71,q512,c(1:10)
+arabb3,church_21,q5164,c(4:1)
+arabb3,strong_37,q5172,c(1:4)
+arabb3,evdemoc_4,q5171,c(4:1)
+arabb3,democsuit_72,q512,c(0:10)
+asiab2003,strong_39,q27_a,c(1:3)
+asiab2003,army_44 ,q27_c,c(1:3)
+asiab2003,evdemoc_3,q27_d,c(3:1)
+asiab2004,strong_39,q32a,c(1:3)
+asiab2004,army_44 ,q32c,c(1:3)
+asiab2004,evdemoc_3,q32d,c(3:1)
+asiab2005,strong_39,q34a,c(1:3)
+asiab2005,army_44 ,q34c,c(1:3)
+asiab2005,evdemoc_3,q34d,c(3:1)
+asiab2006,strong_39,q38a,c(1:3)
+asiab2006,army_44 ,q38c,c(1:3)
+asiab2006,evdemoc_3,q38d,c(3:1)
+asiab2007,strong_39,q39a,c(1:3)
+asiab2007,army_44 ,q39c,c(1:3)
+asiab2007,evdemoc_3,q39d,c(3:1)
+asianb1,threestate_14,q117,c(1:3)
+asianb1,strong_31,q121,c(1:4)
+asianb1,army_41,q123,c(1:4)
+asianb1,party_52,q122 ,c(1:4)
+asianb1,democsuit_71,q103,c(1:10)
+asianb1,democextent_91,q101,c(1:10)
+asianb2,threestate_14,q121,"c(2,1,3)  "
+asianb2,strong_31,q124,c(1:4)
+asianb2,army_41,q126 ,c(1:4)
+asianb2,party_52,q125,c(1:4)
+asianb2,democsuit_71,q98,c(1:10)
+asianb2,democextent_91,q97,c(1:10)
+cses2,church_21,b3015,c(4:1)
+ess6,impdemoc_83,implvdm,c(0:10)
+amb_combo,threestate_13,dem2,"c(3,1,2)"
+amb_combo,church_22,ing4 ,c(1:7)
+amb_combo,strong_32,aut1 ,c(1:2)
+amb_combo,strong_33,aut1 ,c(1:2)
+lb1995,threestate_12,p20,"c(2,3,1)"
+lb1996,threestate_12,p19,"c(2,3,1)"
+lb1997,threestate_12,sp31,"c(2,3,1)"
+lb1998,threestate_12,sp28,"c(2,3,1)"
+lb2000,threestate_12,p29st,"c(2,3,1)"
+lb2001,threestate_12,p46st,"c(2,3,1)"
+lb2002,threestate_12,p32st,"c(2,3,1)"
+lb2002,church_21,p38no2c,c(4:1)
+lb2003,threestate_12,p14st,"c(2,3,1)"
+lb2003,church_21,p16st_c,c(4:1)
+lb2004,threestate_12,p13st,"c(2,3,1)"
+lb2004,church_21,p22sta,c(4:1)
+lb2005,threestate_12,p16st,"c(2,3,1)"
+lb2005,church_21,p25stb,c(4:1)
+lb2006,threestate_12,p17st,"c(2,3,1)"
+lb2006,church_21,p22st_a,c(4:1)
+lb2007,threestate_12,p9st,"c(2,3,1)"
+lb2007,church_21,p13sta,c(4:1)
+lb2008,threestate_12,p13st,"c(2,3,1)"
+lb2008,church_21,p19s_ta,c(4:1)
+lb2009,threestate_12,p10st,"c(2,3,1)"
+lb2009,church_21,p20st_a,c(4:1)
+lb2010,threestate_12,p10st,"c(2,3,1)"
+lb2010,church_21,p14st_a,c(4:1)
+lb2011,threestate_12,p13st,"c(2,3,1)"
+lb2011,church_21,p16st_a,c(4:1)
+lb2013,threestate_12,p12stgbs,"c(2,3,1)"
+lb2013,church_21,p43st_a,c(4:1)
+lb2015,threestate_12,p11stgbs,"c(2,3,1)"
+lb2015,church_21,p13st_a,c(4:1)
+pew2002,strong_36,q47,c(2:1)
+pew2002,impdemoc_81,q41b,c(4:1)
+pew2005_6,strong_36,q33,c(2:1)
+pew2006,strong_36,q5b_leader_dem,c(2:1)
+pew2007,strong_36,q55,c(2:1)
+pew2007,impdemoc_81,q51b,c(4:1)
+pew2008,strong_36,q58a,c(2:1)
+pew2009,strong_36,q35,c(2:1)
+pew2009,impdemoc_81,q41a,c(4:1)
+pew2010,threestate_11 ,q17,"c(2,3,1)"
+pew2011,threestate_11 ,q8,"c(2,3,1)"
+pew2011,strong_36,q57,c(2:1)
+pew2011,impdemoc_81,egy12b,c(4:1)
+pew2012,threestate_11 ,q21,"c(2,3,1)"
+pew2012,strong_36,q71,c(2:1)
+pew2012,impdemoc_81,q115b,c(4:1)
+pew2013,threestate_11 ,q15,"c(2,3,1)"
+pew2013,strong_36,q88,c(2:1)
+pew2013,impdemoc_81,q122b,c(4:1)
+pew2014,threestate_11 ,q19,"c(2,3,1)"
+pew2014,strong_36,qet1,c(2:1)
+pew2014,impdemoc_81,q104b,c(4:1)
+pew2015,strong_36,q9,c(2:1)
+pew2015,impdemoc_81,q56e,c(4:1)
+wvs_combo,church_21,e123,c(4:1)
+wvs_combo,strong_35,e114,c(1:4)
+wvs_combo,army_43 ,e116,c(1:4)
+wvs_combo,evdemoc_4,e117,c(4:1)
+wvs_combo,impdemoc_82 ,e235,c(1:10)
