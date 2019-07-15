@@ -32,7 +32,7 @@ internal_validation_tests <- function(dcpo_input, dcpo_output) {
     y_r_pred <- rstan::extract(dcpo_output, pars = c("y_r_pred")) %>%
         dplyr::first() %>%
         colMeans()
-    model_mae <- mean(abs((dcpo_input$y_r/dcpo_input$n_r) - (y_r_pred/gm_data$n_r))) %>%
+    model_mae <- mean(abs((dcpo_input$y_r/dcpo_input$n_r) - (y_r_pred/dcpo_input$n_r))) %>%
         round(3)
 
     country_mean <- dcpo_input$data %>%
