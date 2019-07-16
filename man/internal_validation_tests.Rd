@@ -4,12 +4,15 @@
 \alias{internal_validation_tests}
 \title{Internal Validation Tests for DCPO Models}
 \usage{
-internal_validation_tests(dcpo_input, dcpo_output)
+internal_validation_tests(dcpo_input, dcpo_output, model = c("dcpo",
+  "claassen"))
 }
 \arguments{
-\item{dcpo_input}{the data object created by \code{dcpo_setup} used as input for \code{DCPO::dcpo}}
+\item{model}{the model employed to estimate the results, either "dcpo" or "claassen".  The default is "dcpo".}
 
-\item{dcpo_output}{the output of \code{DCPO::dcpo}}
+\item{input_data}{the data object created by \code{dcpo_setup} used as input for \code{DCPO::dcpo}}
+
+\item{output}{the output of \code{DCPO::dcpo} or \code{rstan::stan} using a Claassen (2019) Stan file}
 }
 \value{
 A data frame of validation test statistics, including the model's mean absolute error,
