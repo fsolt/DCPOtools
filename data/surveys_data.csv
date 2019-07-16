@@ -89,7 +89,7 @@ amb_uruguay2016,,Uruguay,,,,2017,,,wt,misc,amb,amb_uruguay2016,,http://datasets.
 amb_us2016,,United States,,,,2017,,,wt,misc,amb,amb_us2016,,http://datasets.americasbarometer.org/database/files/2133069031United%20States%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,,
 amb_venezuela2016,,Venezuela,,,,2016,,,wt,misc,amb,amb_venezuela2016,,http://datasets.americasbarometer.org/database/files/25258094Venezuela%20LAPOP%20AmericasBarometer%202016-17%20V1.0_W.dta,,
 anes_combo,,United States,,,,,vcf0004,,vcf0009x,icpsr,anes,ICPSR_08475,,,,
-anes2016,,United States,,,,2016,,,,icpsr,anes,ICPSR_36824,,,,
+anes2016,,United States,,,,2016,,,v160102,icpsr,anes,ICPSR_36824,,,,
 angus_reid1995,,Canada,,,,1995,,,wt,roper,angus_reid,CNAREID1995-9504,Social_Issues_Forum,,,
 ap_us1996,,United States,,,,1996,,,pweight,roper,ap,USAPICR1996-924L,,,,
 arabb1,,country,,,,,,"tibble(orig=c(""jordan"",""palestine"",""algeria"",""morocco"",""lebanon"",""yemen"",""bahrain""),year=c(2006,2006,2006,2007,2006,2007,2009))",,misc,arabb,arabb1,,https://www.arabbarometer.org/wp-content/uploads/ABI_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABI_Questionnaire_ENG.pdf,
