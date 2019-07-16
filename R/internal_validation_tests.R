@@ -1,7 +1,8 @@
 #' Internal Validation Tests for DCPO Models
 #'
-#' @param dcpo_input the data object created by \code{dcpo_setup} used as input for \code{DCPO::dcpo}
-#' @param dcpo_output the output of \code{DCPO::dcpo}
+#' @param input_data the data object created by \code{dcpo_setup} used as input for \code{DCPO::dcpo}
+#' @param output the output of \code{DCPO::dcpo} or \code{rstan::stan} using a Claassen (2019) Stan file
+#' @param model the model employed to estimate the results, either "dcpo" or "claassen".  The default is "dcpo".
 #'
 #' @details
 #'
@@ -17,7 +18,9 @@
 #'
 #' @export
 
-internal_validation_tests <- function(dcpo_input, dcpo_output) {
+internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo", "claassen")) {
+    model <- match.arg(model)
+
     loo_ic <- suppressWarnings(
         dcpo_output %>%
         loo::extract_log_lik() %>%
@@ -29,18 +32,33 @@ internal_validation_tests <- function(dcpo_input, dcpo_output) {
         dplyr::pull(Estimate)
     )
 
-    y_r_pred <- rstan::extract(dcpo_output, pars = c("y_r_pred")) %>%
-        dplyr::first() %>%
-        colMeans()
-    model_mae <- mean(abs((dcpo_input$y_r/dcpo_input$n_r) - (y_r_pred/dcpo_input$n_r))) %>%
-        round(3)
+    if (model == "dcpo") {
+        y_r_pred <- rstan::extract(dcpo_output, pars = c("y_r_pred")) %>%
+            dplyr::first() %>%
+            colMeans()
+        model_mae <- mean(abs((dcpo_input$y_r/dcpo_input$n_r) - (y_r_pred/dcpo_input$n_r))) %>%
+            round(3)
 
-    country_mean <- dcpo_input$data %>%
-        dplyr::group_by(country) %>%
-        dplyr::mutate(country_mean = mean(y_r/n_r)) %>%
-        dplyr::ungroup()
-    country_mean_mae <- mean(abs((country_mean$y_r/country_mean$n_r - country_mean$country_mean))) %>%
-        round(3)
+        country_mean <- dcpo_input$data %>%
+            dplyr::group_by(country) %>%
+            dplyr::mutate(country_mean = mean(y_r/n_r)) %>%
+            dplyr::ungroup()
+        country_mean_mae <- mean(abs((country_mean$y_r/country_mean$n_r - country_mean$country_mean))) %>%
+            round(3)
+    } else if (model == "claassen") {
+        x_pred <- rstan::extract(dcpo_output, pars = c("x_pred")) %>%
+            dplyr::first() %>%
+            colMeans()
+        model_mae <- mean(abs((dcpo_input$x/dcpo_input$samp) - (x_pred/dcpo_input$samp))) %>%
+            round(3)
+
+        country_mean <- dcpo_input$data %>%
+            dplyr::group_by(country) %>%
+            dplyr::mutate(country_mean = mean(x/samp)) %>%
+            dplyr::ungroup()
+        country_mean_mae <- mean(abs((country_mean$x/country_mean$samp - country_mean$country_mean))) %>%
+            round(3)
+    }
 
     improv_vs_cmmae <- round((country_mean_mae - model_mae)/country_mean_mae * 100, 1)
 
