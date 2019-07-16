@@ -178,7 +178,7 @@ get_surveys <- function(vars,
   roper_ascii_files <- roper_ds %>%
     filter(!is.na(read_ascii_args)) %>%
     pull(file_id)
-  if (nrow(roper_ascii_files) > 0) {
+  if (length(roper_ascii_files) > 0) {
     walk(roper_ascii_files, function(file) {
       ra_ds <- ds %>%
         filter(file_id %in% file)
