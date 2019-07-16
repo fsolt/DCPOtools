@@ -121,7 +121,7 @@ get_surveys <- function(vars,
           rio::export(str_replace(file.path(new_dir, data_file), ".por", ".RData"))
       } else {
         tryCatch(rio::convert(file.path(new_dir2, data_file),
-                              str_replace(file.path(new_dir, data_file), ".por", ".RData")),
+                              str_replace(file.path(new_dir, data_file), ".dta", ".RData")),
                  error = function(c) suppressWarnings(
                    foreign::read.dta(file.path(new_dir2, data_file),
                                      convert.factors = FALSE) %>%
@@ -252,35 +252,37 @@ get_surveys <- function(vars,
 
   # Misc
   misc_ds <- ds %>%
-    filter(archive == "misc" & !(is.na(data_link)))
+    filter(archive == "misc")
   if (nrow(misc_ds > 0)) {
     pwalk(misc_ds, function(new_dir, data_link, cb_link, file_id, ...) {
-      dir.create(new_dir, recursive = TRUE, showWarnings = FALSE)
-      dl_file <- str_extract(data_link, "[^//]*$")
-      download.file(data_link, file.path(new_dir, dl_file))
-      if (str_detect(dl_file, "zip$")) {
-        utils::unzip(file.path(new_dir, dl_file), exdir = new_dir)
-        unlink(file.path(new_dir, list.files(new_dir, ".zip")))
-      }
-      data_file <- list.files(path = new_dir) %>%
-        str_subset("\\.dta") %>%
-        last()
-      if (is.na(data_file)) {
+      if (!(is.na(data_link))) {
+        dir.create(new_dir, recursive = TRUE, showWarnings = FALSE)
+        dl_file <- str_extract(data_link, "[^//]*$")
+        download.file(data_link, file.path(new_dir, dl_file))
+        if (str_detect(dl_file, "zip$")) {
+          utils::unzip(file.path(new_dir, dl_file), exdir = new_dir)
+          unlink(file.path(new_dir, list.files(new_dir, ".zip")))
+        }
         data_file <- list.files(path = new_dir) %>%
-          str_subset("\\.sav") %>%
+          str_subset("\\.dta") %>%
           last()
-      }
-      if (tools::file_ext(data_file) != "") {
-        tryCatch(rio::convert(file.path(new_dir, data_file),
-                     paste0(file.path(new_dir, file_id), ".RData")),
-                 error = function(c) {
-                   haven::read_dta(file.path(new_dir, data_file), encoding = "latin1") %>%
-                     rio::export(paste0(file.path(new_dir, file_id), ".RData"))
-                 }
-        )
-      }
-      if (!is.na(cb_link)) {
-        download.file(cb_link, file.path(new_dir, paste0(file_id, ".pdf")))
+        if (is.na(data_file)) {
+          data_file <- list.files(path = new_dir) %>%
+            str_subset("\\.sav") %>%
+            last()
+        }
+        if (tools::file_ext(data_file) != "") {
+          tryCatch(rio::convert(file.path(new_dir, data_file),
+                                paste0(file.path(new_dir, file_id), ".RData")),
+                   error = function(c) {
+                     haven::read_dta(file.path(new_dir, data_file), encoding = "latin1") %>%
+                       rio::export(paste0(file.path(new_dir, file_id), ".RData"))
+                   }
+          )
+        }
+        if (!is.na(cb_link)) {
+          download.file(cb_link, file.path(new_dir, paste0(file_id, ".pdf")))
+        }
       }
     })
   }
