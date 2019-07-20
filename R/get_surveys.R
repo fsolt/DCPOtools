@@ -253,7 +253,7 @@ get_surveys <- function(vars,
   # Misc
   misc_ds <- ds %>%
     filter(archive == "misc")
-  if (nrow(misc_ds > 0)) {
+  if (nrow(misc_ds) > 0) {
     pwalk(misc_ds, function(new_dir, data_link, cb_link, file_id, ...) {
       if (!(is.na(data_link))) {
         dir.create(new_dir, recursive = TRUE, showWarnings = FALSE)
