@@ -95,6 +95,7 @@ ap_us1996,,United States,,,,1996,,,pweight,roper,ap,USAPICR1996-924L,,,,
 arabb1,,country,,,,,,"tibble(orig=c(""jordan"",""palestine"",""algeria"",""morocco"",""lebanon"",""yemen"",""bahrain""),year=c(2006,2006,2006,2007,2006,2007,2009))",,misc,arabb,arabb1,,https://www.arabbarometer.org/wp-content/uploads/ABI_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABI_Questionnaire_ENG.pdf,
 arabb2,,country,,,,,,"tibble(orig=c(""1. Algeria"",""5. Egypt"",""7. Iraq"",""8. Jordan"",""10. Lebanon"",""15. Palestine"",""17. Saudi Arabia"",""19. Sudan"",""21. Tunisia"",""22. Yemen""),year=c(2011,2011,2011,2010,2010,2010,2011,2010,2011,2011))",wt,misc,arabb,arabb2,,https://www.arabbarometer.org/wp-content/uploads/ABII_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABII_Questionnaire_English-1.pdf,
 arabb3,,country,,,,,date,,wt,misc,arabb,arabb3,,https://www.arabbarometer.org/wp-content/uploads/ABIII_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABIII_Questionnaire_ENG.pdf,
+arabb4,,country,,,,2016,,,wt,misc,arabb,arabb4,,https://www.arabbarometer.org/wp-content/uploads/ABIV_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABIV_Questionnaire_ENG.pdf,
 arkolsky198905,,Argentina,,,,1989,,,,roper,arkolsky,ARKOLSKY1989-SIST12,,,,"list(file = file_path, var_names = c(""p28""), var_cards = c(4), var_positions = c(7), var_widths = c(1), total_cards = 4)"
 arromer199111,,Argentina,,,,1991,,,,roper,arromer,ARROMER1991-TOP008 ,,,,
 arromer199207,,Argentina,,,,1992,,,,roper,arromer,ARROMER1992-TOP012,,,,
