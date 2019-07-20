@@ -307,7 +307,7 @@ get_surveys <- function(vars,
   # Poland GSS
   pgss_ds <- ds %>%
     filter(survey == "pgss")
-  if (nrow(pgss_ds > 0)) {
+  if (nrow(pgss_ds) > 0) {
     new_dir <- pgss_ds$new_dir[1]
     dir.create(new_dir, recursive = TRUE, showWarnings = FALSE)
 
@@ -338,7 +338,7 @@ get_surveys <- function(vars,
   # WVS
   wvs_ds <- ds %>%
     filter(survey == "wvs_combo")
-  if (nrow(wvs_ds > 0)) {
+  if (nrow(wvs_ds) > 0) {
     new_dir <- wvs_ds$new_dir[1]
 
     # build path to chrome's default download directory
