@@ -76,7 +76,7 @@ format_dcpo <- function(dcpo_data, scale_q, scale_cp, delta = TRUE) {
                        fixed_cutp = scale_item_matrix,
                        use_delta  = use_delta,
                        data       = dat,
-                       data_args  = list(scale_q = scale_q, scale_cq = scale_cp, delta = delta))
+                       data_args  = list(scale_q = scale_q, scale_cp = scale_cp, delta = delta))
 
     return(dcpo_stan)
 }
