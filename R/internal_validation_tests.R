@@ -18,9 +18,10 @@
 #'
 #' @export
 
-internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo", "claassen")) {
+internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo", "claassen", "dgirt")) {
     model <- match.arg(model)
 
+    if (!(model == "dgirt")) {
     loo_ic <- suppressWarnings(
         dcpo_output %>%
         loo::extract_log_lik() %>%
@@ -30,10 +31,12 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
         tibble::rownames_to_column("var") %>%
         dplyr::filter(var == "looic") %>%
         dplyr::pull(Estimate)
-    )
+    ) } else {
+        loo_ic <- NA
+    }
 
     if (model == "dcpo") {
-        y_r_pred <- rstan::extract(dcpo_output, pars = c("y_r_pred")) %>%
+        y_r_pred <- rstan::extract(dcpo_output, pars = "y_r_pred") %>%
             dplyr::first() %>%
             colMeans()
         model_mae <- mean(abs((dcpo_input$y_r/dcpo_input$n_r) - (y_r_pred/dcpo_input$n_r))) %>%
@@ -46,7 +49,7 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
         country_mean_mae <- mean(abs((country_mean$y_r/country_mean$n_r - country_mean$country_mean))) %>%
             round(3)
     } else if (model == "claassen") {
-        x_pred <- rstan::extract(dcpo_output, pars = c("x_pred")) %>%
+        x_pred <- rstan::extract(dcpo_output, pars = "x_pred") %>%
             dplyr::first() %>%
             colMeans()
         model_mae <- mean(abs((dcpo_input$x/dcpo_input$samp) - (x_pred/dcpo_input$samp))) %>%
@@ -58,11 +61,41 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
             dplyr::ungroup()
         country_mean_mae <- mean(abs((country_mean$x/country_mean$samp - country_mean$country_mean))) %>%
             round(3)
+    } else {
+        if (!("stanfit" %in% class(dcpo_output))) {
+            dcpo_output1 <- dcpo_output@stanfit
+        } else {
+            dcpo_output1 <- dcpo_output
+        }
+        pi_pred <- rstan::extract(dcpo_output1, pars = "PI") %>%
+            dplyr::first() %>%
+            colMeans() %>%
+            `dimnames<-`(dimnames(dcpo_input@stan_data$SSSS)) %>%
+            reshape::melt(varnames=c("year", "country", "item", "r"))
+        pi <- dcpo_input@stan_data$data %>%
+            group_by(country, year, item) %>%
+            mutate(pi = n/sum(n)) %>%
+            ungroup() %>%
+            left_join(pi_pred, by = c("country", "year", "item", "r"))
+        model_mae <- mean(abs((pi$pi - pi$value))) %>%
+            round(3)
+
+        country_mean <- dcpo_input@stan_data$data %>%
+            dplyr::arrange(desc(r), .by_group = TRUE) %>%
+            dplyr::mutate(y_r = round(cumsum(n)),
+                   n_r = round(sum(n))) %>%
+            dplyr::arrange(r, .by_group = TRUE) %>%
+            dplyr::ungroup() %>%
+            dplyr::group_by(country) %>%
+            dplyr::mutate(country_mean = mean(y_r/n_r)) %>%
+            dplyr::ungroup()
+        country_mean_mae <- mean(abs((country_mean$y_r/country_mean$n_r - country_mean$country_mean))) %>%
+            round(3)
     }
 
     improv_vs_cmmae <- round((country_mean_mae - model_mae)/country_mean_mae * 100, 1)
 
-    model_name <- match.call()$dcpo_output %>%
+    model_name <- match.call()$model %>%
         as.character()
     ivt_results <- tibble::tibble(model = c(model_name, "country means"),
                    mae = c(model_mae, country_mean_mae),
