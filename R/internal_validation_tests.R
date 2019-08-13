@@ -72,11 +72,13 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
             colMeans() %>%
             `dimnames<-`(dimnames(dcpo_input@stan_data$SSSS)) %>%
             reshape::melt(varnames=c("year", "country", "item", "r"))
-        pi <- dcpo_input@stan_data$data %>%
+        pi <- suppressWarnings(
+            dcpo_input@stan_data$data %>%
             group_by(country, year, item) %>%
             mutate(pi = n/sum(n)) %>%
             ungroup() %>%
             left_join(pi_pred, by = c("country", "year", "item", "r"))
+            )
         model_mae <- mean(abs((pi$pi - pi$value))) %>%
             round(3)
 
