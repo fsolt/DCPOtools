@@ -81,6 +81,7 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
             round(3)
 
         country_mean <- dcpo_input@stan_data$data %>%
+            dplyr::group_by(country, year, item) %>%
             dplyr::arrange(desc(r), .by_group = TRUE) %>%
             dplyr::mutate(y_r = round(cumsum(n)),
                    n_r = round(sum(n))) %>%
