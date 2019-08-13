@@ -87,6 +87,7 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
                    n_r = round(sum(n))) %>%
             dplyr::arrange(r, .by_group = TRUE) %>%
             dplyr::ungroup() %>%
+            dplyr::filter(r > 1) %>%
             dplyr::group_by(country) %>%
             dplyr::mutate(country_mean = mean(y_r/n_r)) %>%
             dplyr::ungroup()
