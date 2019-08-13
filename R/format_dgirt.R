@@ -40,7 +40,8 @@ format_dgirt <- function(dcpo_data) {
                                         SSSS       = n_tkqr,
                                         beta_sign  = matrix(1, dplyr::n_distinct(dcpo_data$item), 1),
                                         unused_cut = unused_cp,
-                                        N_nonzero  = sum(n_tkqr != 0))
+                                        N_nonzero  = sum(n_tkqr != 0),
+                                        data       = dcpo_data)
     )
 
     return(dgirt_stan)
