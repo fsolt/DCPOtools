@@ -22,16 +22,17 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
     model <- match.arg(model)
 
     if (!(model == "dgirt")) {
-    loo_ic <- suppressWarnings(
-        dcpo_output %>%
-        loo::extract_log_lik() %>%
-        loo::loo() %>%
-        `[[`("estimates") %>%
-        as.data.frame() %>%
-        tibble::rownames_to_column("var") %>%
-        dplyr::filter(var == "looic") %>%
-        dplyr::pull(Estimate)
-    ) } else {
+        loo_ic <- suppressWarnings(
+            dcpo_output %>%
+                loo::extract_log_lik() %>%
+                loo::loo() %>%
+                `[[`("estimates") %>%
+                as.data.frame() %>%
+                tibble::rownames_to_column("var") %>%
+                dplyr::filter(var == "looic") %>%
+                dplyr::pull(Estimate)
+        )
+    } else {
         loo_ic <- NA
     }
 
@@ -99,9 +100,7 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
 
     improv_vs_cmmae <- round((country_mean_mae - model_mae)/country_mean_mae * 100, 1)
 
-    model_name <- match.call()$model %>%
-        as.character()
-    ivt_results <- tibble::tibble(model = c(model_name, "country means"),
+    ivt_results <- tibble::tibble(model = c(model, "country means"),
                    mae = c(model_mae, country_mean_mae),
                    improv_over_cmmae = c(improv_vs_cmmae, NA),
                    loo_ic = c(loo_ic, NA))
