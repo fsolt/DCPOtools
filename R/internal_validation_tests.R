@@ -100,10 +100,11 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
 
     improv_vs_cmmae <- round((country_mean_mae - model_mae)/country_mean_mae * 100, 1)
 
-    ivt_results <- tibble::tibble(model = c(model, "country means"),
-                   mae = c(model_mae, country_mean_mae),
-                   improv_over_cmmae = c(improv_vs_cmmae, NA),
-                   loo_ic = c(loo_ic, NA))
+    ivt_results <- tibble::tibble(model = model,
+                                  cmmae = country_mean_mae,
+                                  mae = model_mae,
+                                  improv_over_cmmae = improv_vs_cmmae,
+                                  loo_ic = loo_ic)
 
     return(ivt_results)
 }
