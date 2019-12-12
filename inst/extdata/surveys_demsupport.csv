@@ -98,6 +98,9 @@ lb2013,threestate_12,p12stgbs,"c(2,3,1)"
 lb2013,church_21,p43st_a,c(4:1)
 lb2015,threestate_12,p11stgbs,"c(2,3,1)"
 lb2015,church_21,p13st_a,c(4:1)
+neb_combo,army_41,a3b,c(1:4)
+neb_combo,strong_31,a3c,c(1:4)
+neb_combo,threestate_12,a7,"c(2,3,1)"
 pew2002,strong_36,q47,c(2:1)
 pew2002,impdemoc_81,q41b,c(4:1)
 pew2005_6,strong_36,q33,c(2:1)
