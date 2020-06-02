@@ -4,8 +4,7 @@
 \alias{dcpo_setup}
 \title{Prepare Data for DCPO}
 \usage{
-dcpo_setup(vars, datapath = "../data/dcpo_surveys", file = "",
-  chime = TRUE)
+dcpo_setup(vars, datapath = "../data/dcpo_surveys", file = "", chime = TRUE)
 }
 \arguments{
 \item{vars}{a data frame (or, optionally, a .csv file) of survey items}

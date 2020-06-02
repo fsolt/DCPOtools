@@ -4,8 +4,11 @@
 \alias{internal_validation_tests}
 \title{Internal Validation Tests for DCPO Models}
 \usage{
-internal_validation_tests(dcpo_input, dcpo_output, model = c("dcpo",
-  "claassen", "dgirt"))
+internal_validation_tests(
+  dcpo_input,
+  dcpo_output,
+  model = c("dcpo", "claassen", "dgirt")
+)
 }
 \arguments{
 \item{model}{the model employed to estimate the results, either "dcpo" or "claassen".  The default is "dcpo".}
