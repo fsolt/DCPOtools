@@ -9,7 +9,7 @@
 #' @details \code{get_surveys}, when passed a data frame of survey items, downloads the
 #' source survey datasets, converts them to .RData format, and saves them to a specified
 #' directory for later use by \code{dcpo_setup}.  When constructing a list of surveys, one
-#' should be use the name employed in \code{DCPO}'s built-in \code{surveys_data} database:
+#' should be sure to use the name employed in \code{DCPO}'s built-in \code{surveys_data} database:
 #' \code{View(surveys_data)}.
 #'
 #' @return the function downloads datasets
