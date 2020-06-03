@@ -58,7 +58,7 @@ aes2010,,Australia,,,,2010,,,weight2,dataverse,aes,aes2010,,https://dataverse.ad
 aes2013,,Australia,,,,2013,,,weight,dataverse,aes,aes2013,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/WDBBAS,,
 aes2016,,Australia,,,,2016,,,wt_enrol ,dataverse,aes,aes2016,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/7OZCZA,,
 allbus,,Germany,,,,,year,,v1565,gesis,allbus,ZA4582,,,,
-amb_combo,,pais,,,,,year,,wt,misc,amb,amb_combo,,http://datasets.americasbarometer.org/database/files/746278534AmericasBarometer%20Grand%20Merge%202004-2014%20v3.0_FREE_dta.zip,http://datasets.americasbarometer.org/database/files/12364388022004-2014%20Grand%20Merge%20Codebook_V3.0_Free_W.pdf,
+amb_combo,,pais,,,,,year,,wt,misc,amb,amb_combo,,http://datasets.americasbarometer.org/database/files/2004-2018%20LAPOP%20AmericasBaometer%20Merge_FREE_V1.0_W.zip,http://datasets.americasbarometer.org/database/files/2004-2018%20LAPOP%20AmericasBarometer%20Merge_Codebook_v1.0_FREE_W.pdf,
 amb_antigua2016,,Antigua,,,,2016,,,wt,misc,amb,amb_antigua2016,,http://datasets.americasbarometer.org/database/files/2123276248Antigua%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,,
 amb_argentina2016,,Argentina,,,,2017,,,wt,misc,amb,amb_argentina2016,,http://datasets.americasbarometer.org/database/files/42076439Argentina%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,,
 amb_bolivia2016,,Bolivia,,,,2017,,,wt,misc,amb,amb_bolivia2016,,http://datasets.americasbarometer.org/database/files/142790203Bolivia%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,,
