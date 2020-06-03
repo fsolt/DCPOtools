@@ -17,10 +17,10 @@
 #' @import icpsrdata
 #' @import pewdata
 #' @import ropercenter
+#' @import gesisdata
 #' @import rvest
 #' @import RSelenium
 #' @importFrom rio convert export
-#' @importFrom gesis login download_dataset download_codebook
 #' @importFrom stringr str_replace str_subset str_detect
 #' @importFrom essurvey download_rounds
 #' @importFrom dataverse get_dataset get_file
@@ -61,29 +61,20 @@ get_surveys <- function(vars,
   gesis_ds <- ds %>%
     filter(archive == "gesis")
   if (nrow(gesis_ds) > 0) {
-    s <- gesis::login()
-    pwalk(gesis_ds, function(file_id, new_dir, ...) {
-      dir.create(new_dir, recursive = TRUE, showWarnings = FALSE)
-      doi <- str_replace(file_id, "ZA", "")
-      tryCatch(gesis::download_dataset(s, doi = doi, path = new_dir),
-               error = function(c) {
-                 gesis::download_dataset(s, doi = doi, path = new_dir, filetype = ".zip")
-                 zip_file <- list.files(path = new_dir) %>% str_subset(".zip") %>% last()
-                 unzip(file.path(new_dir, zip_file), exdir = new_dir)
-                 unlink(file.path(new_dir, zip_file))
-               }
-      )
-      try(gesis::download_codebook(doi = doi, path = new_dir))
-      data_file <- list.files(path = new_dir) %>% str_subset(".dta") %>% last()
-      if (data_file %>% str_detect(".zip$")) {
-        unzip(file.path(new_dir, data_file), exdir = new_dir)
-        unlink(file.path(new_dir, data_file))
-        data_file <- list.files(path = new_dir) %>%
-          str_subset(".dta") %>%
-          last()
-      }
-      rio::convert(file.path(new_dir, data_file),
-                   str_replace(file.path(new_dir, data_file), ".dta", ".RData"))
+    gesis_sp <- gesis_ds %>%
+      select(surv_program) %>%
+      unique() %>%
+      unlist()
+    walk(gesis_sp, function(sp) {
+      gesis_sp_files <- gesis_ds %>%
+        filter(surv_program == sp) %>%
+        select(file_id) %>%
+        unlist()
+      gesisdata::gesis_download(file_id = gesis_sp_files,
+                                download_dir = file.path(datapath,
+                                                         "gesis_files",
+                                                         paste0(sp, "_files")))
+      Sys.sleep(2)
     })
   }
 
