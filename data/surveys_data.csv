@@ -509,6 +509,7 @@ ptvs2008,,Portugal,,,,2008,,,ponderador,misc,ptvs,ptvs2008,,http://er.cies.iscte
 ptvs2012,,Portugal,,,,2012,,,pond,misc,ptvs,ptvs2012,,http://er.cies.iscte-iul.pt/sites/default/dfiles/ElectorsSurvey_PT_2012_db_0.sav,http://er.cies.iscte-iul.pt/sites/default/dfiles/ElectorsSurvey_PT_2012_quest_EN.pdf,
 rdet1969a,,var1,,"tibble(orig = sprintf(""%02d"", c(1:8, 11:18)), dest = c(""France"", ""Belgium"", ""Netherlands"", ""Luxembourg"", ""Italy"", ""Germany"", ""Switzerland"", ""Austria"", ""United Kingdom"", ""Ireland"", ""Denmark"", ""Finland"", ""Sweden"", ""Norway"", ""Spain"", ""Portugal""))",,1969,,,,ukds,rd,UKDA-987-stata8,d987a,,,
 rdet1969b,,var1,,"tibble(orig = sprintf(""%02d"", c(1:8, 11:18)), dest = c(""France"", ""Belgium"", ""Netherlands"", ""Luxembourg"", ""Italy"", ""Germany"", ""Switzerland"", ""Austria"", ""United Kingdom"", ""Ireland"", ""Denmark"", ""Finland"", ""Sweden"", ""Norway"", ""Spain"", ""Portugal""))",,1969,,,,ukds,rd,UKDA-987-stata8,d987b,,,
+rded1990,,nation,,,,1990,,,wpop,gesis,rd,ZA2322,,,,
 ress2014,,Russia,,,,2014,,,dweight,misc,ess,ress2014,,http://www.europeansocialsurvey.org/docs/related_studies/CESSI_ESS7/ESS7RU_main_data.zip,http://www.europeansocialsurvey.org/docs/related_studies/CESSI_ESS7/ESS7RU_questionnaire.pdf,
 sasas2014,,South Africa,,,,2014,,,weightza,misc,ess,sasas2014,,http://www.europeansocialsurvey.org/docs/related_studies/SASAS_2014/SASAS14_e01.stata.zip,http://www.europeansocialsurvey.org/docs/related_studies/SASAS_2014/sasas2014_questionnaire_q2.pdf,
 sasianb1,,v1,,,,2005,,,,misc,asianb,sasianb1,,,,
