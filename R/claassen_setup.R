@@ -7,8 +7,8 @@
 #' @param file a file path to save output to (in comma-separated format)
 #' @param chime play chime when complete?
 #
-#' @details \code{dcpo_setup}, when passed a data frame of survey items, collects the
-#' responses and formats them for use with the \code{dcpo} function.
+#' @details \code{claassen_setup}, when passed a data frame of survey items, collects the
+#' responses and formats them for use with Claassen's models (e.g., Model 5).
 #'
 #' @return a data frame
 #'
@@ -25,7 +25,7 @@
 #' @importFrom utils head
 #'
 
-dcpo_setup_claassen <- function(vars,
+claassen_setup <- function(vars,
                        datapath = "../data/dcpo_surveys",
                        file = "",
                        chime = TRUE) {
