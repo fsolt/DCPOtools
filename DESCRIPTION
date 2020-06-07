@@ -27,9 +27,9 @@ Imports:
   httr,
   rvest,
   RSelenium,
-  gesis,
   dataverse,
   essurvey,
+  gesisdata,
   icpsrdata,
   pewdata,
   ropercenter
