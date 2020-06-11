@@ -148,7 +148,8 @@ claassen_setup <- function(vars,
         } else if (ds$survey == "neb_combo") {
           floor(t_data[[ds$year_var]])
         } else if (ds$surv_program == "afrob" |   # single-wave cross-national surveys
-                   ds$survey == "arabb3") {       # with interviews bleeding over years
+                   ds$survey == "arabb3" |        # with interviews bleeding over years
+                   ds$survey == "asianb3") {
           t_data %>%
             mutate(year = lubridate::year(t_data[[ds$year_var]]),
                    modal_year = as.integer(names(table(year)[table(year)==max(table(year))])),
