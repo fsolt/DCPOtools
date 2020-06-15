@@ -107,6 +107,11 @@ claassen_setup <- function(vars,
         } else ds$country_var %>%
           countrycode("country.name", "dcpo.name", custom_dict = cc_dcpo)
       )
+      if (ds$survey == "wvs4_swe") {
+        t_data <- labelled::remove_labels(t_data)
+        t_data <- t_data %>%
+          dplyr::filter(c_dcpo == "Sweden")
+      }
       t_data <- t_data %>%
         filter(!is.na(c_dcpo))
 
