@@ -36,25 +36,6 @@ dcpo_setup <- function(vars,
     vars_table <- readr::read_csv(vars, col_types = "cccc")
   }
 
-  # Revise countrycode::countrycode to work better with custom names in cc_dcpo
-  body(countrycode)[[2]] <- substitute(
-    if (is.null(custom_dict) | as.list(match.call())[["custom_dict"]] == "cc_dcpo") {
-      if (origin == "country.name") {
-        origin <- "country.name.en"
-      }
-      if (destination == "country.name") {
-        destination <- "country.name.en"
-      }
-      if (origin %in% c("country.name.en", "country.name.de")) {
-        origin <- paste0(origin, ".regex")
-        origin_regex <- TRUE
-      }
-      else {
-        origin_regex <- FALSE
-      }
-    }
-  )
-
   # loop rather than purrr to avoid reloading datasets (some are big and slow)
   all_sets <- list()
   for (i in seq(nrow(vars_table))) {
@@ -99,14 +80,14 @@ dcpo_setup <- function(vars,
             {if (!is.na(ds$cc_dict))
               countrycode(., "orig", "dest", custom_dict = eval(parse(text = ds$cc_dict)))
               else if (!is.na(ds$cc_origin))
-                countrycode(., ds$cc_origin, "dcpo.name", custom_dict = cc_dcpo)
+                countrycode(., ds$cc_origin, "country.name")
               else if (!is.na(ds$cc_match))
-                countrycode(., "country.name", "dcpo.name",
-                            custom_match = eval(parse(text = ds$cc_match)), custom_dict = cc_dcpo)
-              else countrycode(., "country.name", "dcpo.name", custom_dict = cc_dcpo)} %>%
-            countrycode("country.name", "dcpo.name", custom_dict = cc_dcpo)
+                countrycode(., "country.name", "country.name",
+                            custom_match = eval(parse(text = ds$cc_match)))
+              else countryname(.)} %>%
+            countryname()
         } else ds$country_var %>%
-          countrycode("country.name", "dcpo.name", custom_dict = cc_dcpo)
+          countryname()
       )
       if (ds$survey == "wvs4_swe") {
         t_data <- labelled::remove_labels(t_data)
@@ -114,7 +95,7 @@ dcpo_setup <- function(vars,
           dplyr::filter(c_dcpo == "Sweden")
       }
       t_data <- t_data %>%
-        filter(!is.na(c_dcpo))
+        mutate(c_dcpo = if_else(!is.na(c_dcpo), c_dcpo, as.character(.data[[ds$country_var]])))
 
       # Get years
       t_data$y_dcpo <- if (!is.na(ds$year_dict)) { # if there's a year dictionary...
