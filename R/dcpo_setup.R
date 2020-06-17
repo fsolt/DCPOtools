@@ -79,13 +79,14 @@ dcpo_setup <- function(vars,
             stringr::str_replace("Hait\xed", "Haiti") %>%
             {if (!is.na(ds$cc_dict))
               countrycode(., "orig", "dest", custom_dict = eval(parse(text = ds$cc_dict)))
+              else if (!is.na(ds$cc_origin) & !is.na(ds$cc_match))
+                  countrycode(., ds$cc_origin, "country.name", custom_match = eval(parse(text = ds$cc_match)))
               else if (!is.na(ds$cc_origin))
-                countrycode(., ds$cc_origin, "country.name")
+                  countrycode(., ds$cc_origin, "country.name")
               else if (!is.na(ds$cc_match))
                 countrycode(., "country.name", "country.name",
                             custom_match = eval(parse(text = ds$cc_match)))
-              else countryname(.)} %>%
-            countryname()
+              else countryname(.)}
         } else ds$country_var %>%
           countryname()
       )
@@ -94,8 +95,10 @@ dcpo_setup <- function(vars,
         t_data <- t_data %>%
           dplyr::filter(c_dcpo == "Sweden")
       }
-      t_data <- t_data %>%
-        mutate(c_dcpo = if_else(!is.na(c_dcpo), c_dcpo, as.character(.data[[ds$country_var]])))
+      if (ds$country_var %in% names(t_data)) {
+        t_data <- t_data %>%
+          mutate(c_dcpo = if_else(!is.na(c_dcpo), c_dcpo, as.character(.data[[ds$country_var]])))
+      }
 
       # Get years
       t_data$y_dcpo <- if (!is.na(ds$year_dict)) { # if there's a year dictionary...
