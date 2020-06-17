@@ -86,9 +86,9 @@ dcpo_setup <- function(vars,
               else if (!is.na(ds$cc_match))
                 countrycode(., "country.name", "country.name",
                             custom_match = eval(parse(text = ds$cc_match)))
-              else countryname(.)}
+              else countrycode(., "country.name", "country.name")}
         } else ds$country_var %>%
-          countryname()
+          countrycode(., "country.name", "country.name")
       )
       if (ds$survey == "wvs4_swe") {
         t_data <- labelled::remove_labels(t_data)
