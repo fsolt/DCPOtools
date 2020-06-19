@@ -76,7 +76,8 @@ dcpo_setup <- function(vars,
               forcats::fct_relabel(., function(x) stringr::str_replace(x, "\\[\\d+\\]\\s+", ""))
             else .} %>%
             as.character() %>%
-            stringr::str_replace("Hait\xed", "Haiti") %>%
+            stringr::str_replace("Haití", "Haiti") %>%
+            stringr::str_replace("República Dominicana", "Dominican Republic") %>%
             {if (!is.na(ds$cc_dict))
               countrycode(., "orig", "dest", custom_dict = eval(parse(text = ds$cc_dict)))
               else if (!is.na(ds$cc_origin) & !is.na(ds$cc_match))
