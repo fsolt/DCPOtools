@@ -295,7 +295,7 @@ eb815,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germa
 eb834,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6595,,,,
 eb884,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2017,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6939,,,,
 ees2009,,t102,,,,2009,,,v100,gesis,ees,ZA5055,,,,
-ees2019,,,,,,,,,,misc,ees,ees2019,,https://www.dropbox.com/s/ndb9bbvzwhryb88/EES2019%20Voter%20Study%20early%20release.dta?dl=0,http://europeanelectionstudies.net/wp-content/uploads/2019/09/2019-EES-post-electoral-survey-Master-quesitionnaire.pdf,
+ees2019,,hCountry,,,,2019,,,wgt5,misc,ees,ees2019,,https://www.dropbox.com/s/ndb9bbvzwhryb88/EES2019%20Voter%20Study%20early%20release.dta,http://europeanelectionstudies.net/wp-content/uploads/2019/09/2019-EES-post-electoral-survey-Master-quesitionnaire.pdf,
 eqls_combo,,y16_country,,,,,wave,,wcalib,ukds,eqls,7348,,,,
 ess1,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess1,,,,
 ess2,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess2,,,,
