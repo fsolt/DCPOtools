@@ -4,7 +4,8 @@ Title: Tools for Dynamic Comparative Public Opinion
 Description: Collects and formats public opinion data for use in estimating cross-national latent variables.
 Authors@R: c(
     person("Frederick", "Solt", email = "frederick-solt@uiowa.edu", role = c("aut",  "cre")),
-    person("Yue", "Hu", email = "yuehu@tsinghua.edu.cn", role = c("ctb")))
+    person("Yue", "Hu", email = "yuehu@tsinghua.edu.cn", role = c("ctb")),
+    person("Yuehong 'Cassandra'", "Tai", email = "yuehong-tai@uiowa.edu", role = c("ctb")))
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
