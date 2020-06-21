@@ -193,13 +193,18 @@ get_surveys <- function(vars,
   if (nrow(ess_ds) > 0) {
     pwalk(ess_ds, function(survey, new_dir, dl_dir, ...) {
       dir.create(new_dir, recursive = TRUE, showWarnings = FALSE)
-      suppressWarnings(essurvey::download_rounds(rounds = str_extract(survey, "\\d+"),
+      suppressWarnings(essurvey::download_rounds(rounds = as.numeric(str_extract(survey, "\\d+")),
                                                  output_dir = dl_dir))
       data_file <- list.files(path = new_dir) %>%
         str_subset("\\.dta") %>%
         last()
-      rio::convert(file.path(new_dir,  data_file),
-                   paste0(tools::file_path_sans_ext(file.path(new_dir, data_file)), ".RData"))
+      tryCatch(rio::convert(file.path(new_dir, data_file),
+                            paste0(tools::file_path_sans_ext(file.path(new_dir, data_file)), ".RData")),
+               error = function(c) {
+                 haven::read_dta(file.path(new_dir, data_file), encoding = "latin1") %>%
+                   rio::export(paste0(tools::file_path_sans_ext(file.path(new_dir, data_file)), ".RData"))
+               }
+      )
     })
   }
 
