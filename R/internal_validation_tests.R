@@ -1,7 +1,7 @@
 #' Internal Validation Tests for DCPO Models
 #'
 #' @param input_data the data object created by \code{dcpo_setup} used as input for \code{DCPO::dcpo}
-#' @param output the output of \code{DCPO::dcpo} or \code{rstan::stan} using a Claassen (2019) Stan file
+#' @param output either (a) the output of \code{DCPO::dcpo} or the extracted predicted number of responses from this output (via \code{rstan::extract(dcpo_output, pars = "y_r_pred")}) or (b) the output of \code{rstan::stan} using a Claassen (2019) Stan file or the extracted predicted number of responses from this output (via \code{rstan::extract(dcpo_output, pars = "x_pred")})
 #' @param model the model employed to estimate the results, either "dcpo" or "claassen".  The default is "dcpo".
 #'
 #' @details
@@ -37,7 +37,13 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
     }
 
     if (model == "dcpo") {
-        y_r_pred <- rstan::extract(dcpo_output, pars = "y_r_pred") %>%
+        if ("stanfit" %in% class(dcpo_output)) {
+            dcpo_output1 <- rstan::extract(dcpo_output, pars = "y_r_pred")
+        } else {
+            dcpo_output1 <- dcpo_output
+        }
+
+        y_r_pred <- dcpo_output1 %>%
             dplyr::first() %>%
             colMeans()
         model_mae <- mean(abs((dcpo_input$y_r/dcpo_input$n_r) - (y_r_pred/dcpo_input$n_r))) %>%
@@ -50,7 +56,13 @@ internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo",
         country_mean_mae <- mean(abs((country_mean$y_r/country_mean$n_r - country_mean$country_mean))) %>%
             round(3)
     } else if (model == "claassen") {
-        x_pred <- rstan::extract(dcpo_output, pars = "x_pred") %>%
+        if ("stanfit" %in% class(dcpo_output)) {
+            dcpo_output1 <- rstan::extract(dcpo_output, pars = "x_pred")
+        } else {
+            dcpo_output1 <- dcpo_output
+        }
+
+        x_pred <- dcpo_output1 %>%
             dplyr::first() %>%
             colMeans()
         model_mae <- mean(abs((dcpo_input$x/dcpo_input$samp) - (x_pred/dcpo_input$samp))) %>%
