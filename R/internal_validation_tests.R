@@ -21,7 +21,7 @@
 internal_validation_tests <- function(dcpo_input, dcpo_output, model = c("dcpo", "claassen", "dgirt")) {
     model <- match.arg(model)
 
-    if (!(model == "dgirt")) {
+    if (!(model == "dgirt") & inherits(dcpo_output, "stanfit")) {
         loo_ic <- suppressWarnings(
             dcpo_output %>%
                 loo::extract_log_lik() %>%
