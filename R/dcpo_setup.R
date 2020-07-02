@@ -96,6 +96,10 @@ dcpo_setup <- function(vars,
         t_data <- t_data %>%
           dplyr::filter(c_dcpo == "Sweden")
       }
+      if (ds$survey == "tcmeg2004") {
+        t_data <- t_data %>%
+          dplyr::filter(msurvey == 2)
+      }
       if (ds$country_var %in% names(t_data)) {
         t_data <- t_data %>%
           mutate(c_dcpo = if_else(!is.na(c_dcpo), c_dcpo, as.character(.data[[ds$country_var]])))
