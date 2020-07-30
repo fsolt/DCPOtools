@@ -234,8 +234,13 @@ get_surveys <- function(vars,
       })
       data_file <- list.files(path = new_dir) %>% str_subset("dta") %>% last()
       if (file.exists(file.path(new_dir, data_file))) {
-        haven::read_dta(file.path(new_dir, data_file), encoding = "latin1") %>%
-          rio::export(file.path(new_dir, paste0(file_id, ".RData")))
+        tryCatch(haven::read_dta(file.path(new_dir, data_file), encoding = "latin1") %>%
+                   rio::export(file.path(new_dir, paste0(file_id, ".RData"))),
+                 error = function(c) suppressWarnings(
+                   rio::convert(file.path(new_dir, str_replace(data_file, ".dta", ".sas7bdat")),
+                     file.path(new_dir, paste0(file_id, ".RData")))
+                 )
+        )
       } else {
         zip_file <- list.files(path = new_dir) %>% str_subset("(STATA|stata).*zip$")
         utils::unzip(file.path(new_dir, zip_file), exdir = new_dir)
