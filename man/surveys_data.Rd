@@ -4,7 +4,9 @@
 \name{surveys_data}
 \alias{surveys_data}
 \title{Surveys Used As Sources for DCPO}
-\format{A dataframe with six columns}
+\format{
+A dataframe with six columns
+}
 \usage{
 surveys_data
 }

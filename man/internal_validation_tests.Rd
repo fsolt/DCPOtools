@@ -15,7 +15,7 @@ internal_validation_tests(
 
 \item{input_data}{the data object created by \code{dcpo_setup} used as input for \code{DCPO::dcpo}}
 
-\item{output}{the output of \code{DCPO::dcpo} or \code{rstan::stan} using a Claassen (2019) Stan file}
+\item{output}{either (a) the output of \code{DCPO::dcpo} or the extracted predicted number of responses from this output (via \code{rstan::extract(dcpo_output, pars = "y_r_pred")}) or (b) the output of \code{rstan::stan} using a Claassen (2019) Stan file or the extracted predicted number of responses from this output (via \code{rstan::extract(dcpo_output, pars = "x_pred")})}
 }
 \value{
 A data frame of validation test statistics, including the model's mean absolute error,

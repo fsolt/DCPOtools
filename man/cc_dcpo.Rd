@@ -4,7 +4,9 @@
 \name{cc_dcpo}
 \alias{cc_dcpo}
 \title{Custom Country Names Used by DCPO}
-\format{A dataframe with six columns}
+\format{
+A dataframe with six columns
+}
 \usage{
 cc_dcpo
 }
