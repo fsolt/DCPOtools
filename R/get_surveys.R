@@ -437,7 +437,7 @@ get_surveys <- function(vars,
     elem1 <- remDr$findElements(using = "tag name", "iframe")
     remDr$switchToFrame(elem1[[1]])
     Sys.sleep(2)
-    remDr$findElement(using = "partial link text", "Stata")$clickElement()
+    remDr$findElement(using = "partial link text", "stata")$clickElement()
     Sys.sleep(3)
     remDr$findElement(using = "name", "LINOMBRE")$sendKeysToElement(list(getOption("pew_name")))
     remDr$findElement(using = "name", "LIEMPRESA")$sendKeysToElement(list(getOption("pew_org")))
