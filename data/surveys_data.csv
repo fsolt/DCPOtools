@@ -437,8 +437,10 @@ issp2016,,country,,,,,dateyr,,weight,gesis,issp,ZA6900,,,,
 issp2017,,country,,,,,dateyr,,weight,gesis,issp,ZA6980,,,,
 issp2018,,country,,,,,dateyr,,weight,gesis,issp,ZA7570,,,,
 issp2018ext,,country,,,,,dateyr,,weight,gesis,issp,ZA7630,,,,
+issp2018tn,,Tunisia,,,,2019,,,weight,gesis,issp,ZA7629,,,,
 itdoxa199303,,Italy,,,,1993,,,,roper,itdoxa,ITDOXA1993-93010-07,,,,
 jgss,,Japan,,,,,ryear,,weight,icpsr,jgss,ICPSR_04472,,,,
+jgss2006,,Japan,,,,2006,,,weight,gesis,jgss,ZA4873,,,,
 kgss,,Korea,,,,,year,,,misc,kgss,kgss,,http://kgss.skku.edu/wp-content/uploads/2018/10/2003-2016_KGSS_ENG_09302018.sav_.zip,http://kgss.skku.edu/wp-content/uploads/2018/10/2003-2016-KGSS-Cumulative-Code-Book_09302018.pdf,
 lat198312,,United States,,,,1983,,,weight,roper,lat,USLAT1983-074,,,,"list(file = file_path, var_names = c(""q107"", ""weight""), var_cards = c(2, 3), var_positions = c(74, 2), var_widths = c(1, 5), total_cards = 3)"
 lat200006,,United States,,,,2000,,,weight,roper,lat,USLAT2000-442,,,,"list(file = file_path, var_names = c(""q24"", ""q30"", ""q31"", ""q33"", ""q34"", ""q54"", ""q57"", ""weight""), var_cards = c(1, 1, 1, 1, 1, 2, 2, 3), var_positions = c(58, 64, 65, 67, 68, 15, 18, 8), var_widths = c(1, 1, 1, 1, 1, 1, 1, 5), total_cards = 3)"
