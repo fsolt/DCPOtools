@@ -184,7 +184,7 @@ dcpo_setup <- function(vars,
       # Get weights
       if (!is.na(ds$wt) & !all(is.na(ds$wt))) {
         if (length(unlist(strsplit(ds$wt, split = " "))) == 1) {
-          wt <- with(t_data, get(ds$wt))
+          wt <- as.numeric(with(t_data, get(ds$wt)))
         } else eval(parse(text = ds$wt))
         t_data$wt_dcpo <- wt
         t_data$wt_dcpo[t_data$wt_dcpo > 10] <- 10
