@@ -60,6 +60,7 @@ aes2013,,Australia,,,,2013,,,weight,dataverse,aes,aes2013,,https://dataverse.ada
 aes2016,,Australia,,,,2016,,,wt_enrol ,dataverse,aes,aes2016,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/7OZCZA,,
 allbus,,Germany,,,,,year,,wghtptew ,gesis,allbus,ZA5276,,,,
 amb_combo,,pais,,,,,year,,wt,misc,amb,amb_combo,,http://datasets.americasbarometer.org/database/files/2004-2018%20LAPOP%20AmericasBaometer%20Merge_FREE_V1.0_W.zip,http://datasets.americasbarometer.org/database/files/2004-2018%20LAPOP%20AmericasBarometer%20Merge_Codebook_v1.0_FREE_W.pdf,
+amb_combo2014,,pais,,,,,year,,wt,misc,amb,amb_combo2014,,http://datasets.americasbarometer.org/database/files/746278534AmericasBarometer%20Grand%20Merge%202004-2014%20v3.0_FREE_dta.zip,http://datasets.americasbarometer.org/database/files/12364388022004-2014%20Grand%20Merge%20Codebook_V3.0_Free_W.pdf,
 amb_antigua2016,,Antigua,,,,2016,,,wt,misc,amb,amb_antigua2016,,http://datasets.americasbarometer.org/database/files/2123276248Antigua%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,,
 amb_argentina2010,,Argentina,,,,2010,,,,misc,amb,amb_argentina2010,,http://datasets.americasbarometer.org/database/files/924077670Argentina_LAPOP_AmericasBarometer%202010%20data%20set%20approved%20v3.dta,,
 amb_argentina2012,,Argentina,,,,2012,,,wt,misc,amb,amb_argentina2012,,http://datasets.americasbarometer.org/database/files/1240357522Argentina%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,,
