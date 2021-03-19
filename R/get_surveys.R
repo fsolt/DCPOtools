@@ -265,11 +265,11 @@ get_surveys <- function(vars,
           unlink(file.path(new_dir, list.files(new_dir, ".zip")))
         }
         data_file <- list.files(path = new_dir) %>%
-          str_subset("\\.dta") %>%
+          str_subset(regex("\\.dta", ignore_case = TRUE)) %>%
           last()
         if (is.na(data_file)) {
           data_file <- list.files(path = new_dir) %>%
-            str_subset("\\.sav") %>%
+            str_subset(regex("\\.sav", ignore_case = TRUE)) %>%
             last()
         }
         if (tools::file_ext(data_file) != "") {
