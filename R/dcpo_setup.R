@@ -54,8 +54,8 @@ dcpo_setup <- function(vars,
       t_data <- rio::import(file.path(dataset_path, dataset_file))
 
       # Fix column names and make lowercase
-      valid_column_names <- make.names(names = names(t_data), unique = TRUE, allow_ = TRUE) %>%
-        stringr::str_to_lower()
+      valid_column_names <- stringr::str_to_lower(names(t_data)) %>%
+        make.names(names = ., unique = TRUE, allow_ = TRUE)
       names(t_data) <- valid_column_names
 
       # Get countries
