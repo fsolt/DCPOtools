@@ -226,9 +226,9 @@ get_surveys <- function(vars,
                         paste0(tools::file_path_sans_ext(name), ".dta"),
                         name)
         if (file_id == "autnes2017") {
-          f <- dataverse::get_file(file = id, dataset = datverse_doi, key = Sys.getenv("AUSSDA_KEY"))
+          f <- dataverse::get_file(file = id, dataset = dataverse_doi, key = Sys.getenv("AUSSDA_KEY"))
         } else {
-          f <- dataverse::get_file(file = id, dataset = datverse_doi)
+          f <- dataverse::get_file(file = id, dataset = dataverse_doi)
         }
         writeBin(as.vector(f), file.path(new_dir, name2))
       })
