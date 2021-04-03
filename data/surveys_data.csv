@@ -1,5 +1,844 @@
 survey,cy_var,country_var,cc_origin,cc_dict,cc_match,year,year_var,year_dict,wt,archive,surv_program,file_id,subfile,data_link,cb_link,read_ascii_args
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+abcwapo198105,NA,United States,NA,NA,NA,1981,NA,NA,weight,roper,abcwapo,USABCWASH1981-8846,NA,NA,NA,"list(file = file_path, var_names = c(""q45"", ""weight""), var_cards = c(2, 3), var_positions = c(15, 25), var_widths = c(1, 6), total_cards = 3)"
+abcwapo199406,NA,United States,NA,NA,NA,1994,NA,NA,weight,roper,abcwapo,USABCWASH1994-5294,NA,NA,NA,NA
+abcwapo199507,NA,United States,NA,NA,NA,1995,NA,NA,wght,roper,abcwapo,USABCWASH1995-5729,NA,NA,NA,NA
+abcwapo199509,NA,United States,NA,NA,NA,1995,NA,NA,wgt,roper,abcwapo,USABC1995-5796,NA,NA,NA,NA
+abcwapo199510,NA,United States,NA,NA,NA,1995,NA,NA,wght,roper,abcwapo,USABCWASH1995-5800,NA,NA,NA,NA
+abcwapo199607,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,abcwapo,USABCWASH1996-6143,NA,NA,NA,NA
+abcwapo199608,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,abcwapo,USABCWASH1996-6171,NA,NA,NA,NA
+abcwapo199903,NA,United States,NA,NA,NA,1999,NA,NA,weights,roper,abcwapo,USABCWASH1999-10556,NA,NA,NA,NA
+abcwapo199908,NA,United States,NA,NA,NA,1999,NA,NA,weight,roper,abcwapo,USABCWASH1999-11350,NA,NA,NA,NA
+abcwapo200007,NA,United States,NA,NA,NA,2000,NA,NA,weight,roper,abcwapo,USABCWASH2000-14376,NA,NA,NA,NA
+abcwapo200009,NA,United States,NA,NA,NA,2000,NA,NA,weight,roper,abcwapo,USABC2000-15056,NA,NA,NA,NA
+abcwapo200101,NA,United States,NA,NA,NA,2001,NA,NA,weight,roper,abcwapo,USABCWASH2001-16647,NA,NA,NA,NA
+abcwapo200301,NA,United States,NA,NA,NA,2003,NA,NA,weight,roper,abcwapo,USABCWASH2003-909,NA,NA,NA,NA
+abcwapo200401,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,abcwapo,USABCWASH2004-945,NA,NA,NA,NA
+abcwapo200403,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,abcwapo,USABCWASH2004-951,NA,NA,NA,NA
+abcwapo200405,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,abcwapo,USABCWASH2004-955,NA,NA,NA,NA
+abcwapo200412,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,abcwapo,USABCWASH2004-971,NA,NA,NA,NA
+abcwapo200505,NA,United States,NA,NA,NA,2005,NA,NA,oswgt,roper,abcwapo,USABCWASH2005-980,NA,NA,NA,NA
+abcwapo200508,NA,United States,NA,NA,NA,2005,NA,NA,weight,roper,abcwapo,USABCWASH2005-989,NA,NA,NA,NA
+abcwapo200512,NA,United States,NA,NA,NA,2005,NA,NA,weight,roper,abcwapo,USABCWASH2005-1001,NA,NA,NA,NA
+abcwapo200702,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,abcwapo,USABCWASH2007-1031,NA,NA,NA,NA
+abcwapo200707,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,abcwapo,USABCWASH2007-1041,NA,NA,NA,NA
+abcwapo200711,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,abcwapo,USABCWASH2007-1050,NA,NA,NA,NA
+abcwapo200712,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,abcwapo,USABCWASH2007-1054,NA,NA,NA,NA
+abcwapo200801,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,abcwapo,USABCWASH2008-1057,NA,NA,NA,NA
+abcwapo200806,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,abcwapo,USABCWASH2008-1065,NA,NA,NA,NA
+abcwapo200808,NA,United States,NA,NA,NA,2008,NA,NA,finalwt,roper,abcwapo,USABCWASH2008-1068,NA,NA,NA,NA
+abcwapo200905,NA,United States,NA,NA,NA,2009,NA,NA,weight,roper,abcwapo,USABCWASH2009-1089,NA,NA,NA,NA
+abcwapo200906,NA,United States,NA,NA,NA,2009,NA,NA,weight,roper,abcwapo,USABCWASH2009-1091,NA,NA,NA,NA
+abcwapo201002,NA,United States,NA,NA,NA,2010,NA,NA,weight,roper,abcwapo,USABCWASH2010-1102,NA,NA,NA,NA
+abcwapo201103,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,abcwapo,USABCWASH2011-1121,NA,NA,NA,NA
+abcwapo201107,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,abcwapo,USABCWASH2011-1125,NA,NA,NA,NA
+abcwapo201201,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,abcwapo,USABCWASH2012-1133,NA,NA,NA,NA
+abcwapo201203,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,abcwapo,USABCWASH2012-1135,NA,NA,NA,NA
+abcwapo201303,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,abcwapo,USABCWASH2013-1147,NA,NA,NA,NA
+abcwapo201307,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,abcwapo,USABCWASH2013-1150,NA,NA,NA,NA
+abcwapo201402,NA,United States,NA,NA,NA,2014,NA,NA,weight,roper,abcwapo,USABCWASH2014-1159,NA,NA,NA,NA
+abcwapo201405,NA,United States,NA,NA,NA,2014,NA,NA,weight,roper,abcwapo,USABCWASH2014-1161,NA,NA,NA,NA
+afrob1,NA,country,NA,NA,NA,NA,NA,"tibble(orig=c(""Botswana"",""Ghana"",""Lesotho"",""Malawi"",""Mali"",""Namibia"",""Nigeria"",""South Africa"",""Tanzania"",""Uganda"",""Zambia"",""Zimbabwe""),year=c(1999,1999,2000,1999,2001,1999,2000,2000,2001,2000,2000,1999))",withinwt,misc,afrob,afrob1,NA,https://afrobarometer.org/sites/default/files/data/round-1/merged_r1_data.sav,https://afrobarometer.org/sites/default/files/data/round-1/merged_r1_codebook2.pdf,NA
+afrob2,NA,country,NA,NA,NA,NA,dateintr,NA,withinwt,misc,afrob,afrob2,NA,https://afrobarometer.org/sites/default/files/data/round-2/merged_r2_data.sav,https://afrobarometer.org/sites/default/files/data/round-2/merged_r2_codebook2.pdf,NA
+afrob3,NA,country,NA,NA,NA,NA,dateintr,NA,withinwt,misc,afrob,afrob3,NA,https://afrobarometer.org/sites/default/files/data/round-3/merged_r3_data.sav,https://afrobarometer.org/sites/default/files/data/round-3/merged_r3_codebook2_0.pdf,NA
+afrob4,NA,country,NA,NA,NA,NA,dateintr,NA,withinwt,misc,afrob,afrob4,NA,https://afrobarometer.org/sites/default/files/data/round-4/merged_r4_data.sav,https://afrobarometer.org/sites/default/files/data/round-4/merged_r4_codebook3.pdf,NA
+afrob5,NA,country,NA,NA,NA,NA,dateintr,NA,withinwt,misc,afrob,afrob5,NA,http://afrobarometer.org/sites/default/files/data/round-5/merged-round-5-data-34-countries-2011-2013-last-update-july-2015.sav,http://afrobarometer.org/sites/default/files/data/round-5/merged_r5_codebook_2.pdf,NA
+afrob6,NA,country,NA,NA,NA,NA,dateintr,NA,withinwt,misc,afrob,afrob6,NA,http://afrobarometer.org/sites/default/files/data/round-6/merged_r6_data_2016_36countries2.sav,http://afrobarometer.org/sites/default/files/data/round-6/merged_round_6_codebook_2016_repost042018.pdf,NA
+afrob7,NA,country,NA,NA,NA,NA,dateintr,NA,withinwt,misc,afrob,afrob7,NA,http://afrobarometer.org/sites/default/files/data/round-7/r7_merged_data_34ctry.release.sav,NA,NA
+anpas1967,NA,Australia,NA,NA,NA,1967,NA,NA,NA,dataverse,aes,anpas1967,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/YKNUXT,NA,NA
+anpas1969,NA,Australia,NA,NA,NA,1969,NA,NA,NA,dataverse,aes,anpas1969,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/OTUJCZ,NA,NA
+anpas1979,NA,Australia,NA,NA,NA,1979,NA,NA,NA,dataverse,aes,anpas1979,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/AIOCOR,NA,NA
+aes1987,NA,Australia,NA,NA,NA,1987,NA,NA,NA,dataverse,aes,aes1987,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/PQFNYM,NA,NA
+aes1990,NA,Australia,NA,NA,NA,1990,NA,NA,NA,dataverse,aes,aes1990,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/KPVA0F,NA,NA
+aes1993,NA,Australia,NA,NA,NA,1993,NA,NA,weight,dataverse,aes,aes1993,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/ZZ3NOB,NA,NA
+aes1996,NA,Australia,NA,NA,NA,1996,NA,NA,NA,dataverse,aes,aes1996,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/NSDHWM,NA,NA
+aes1998,NA,Australia,NA,NA,NA,1998,NA,NA,NA,dataverse,aes,aes1998,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/FFBWUU,NA,NA
+aes2001,NA,Australia,NA,NA,NA,2001,NA,NA,NA,dataverse,aes,aes2001,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/CALXMK,NA,NA
+aes2004,NA,Australia,NA,NA,NA,2004,NA,NA,NA,dataverse,aes,aes2004,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/G9ITIO,NA,NA
+aes2007,NA,Australia,NA,NA,NA,2007,NA,NA,NA,dataverse,aes,aes2007,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/ZBUOW0,NA,NA
+aes2010,NA,Australia,NA,NA,NA,2010,NA,NA,weight2,dataverse,aes,aes2010,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/CYJNSM,NA,NA
+aes2013,NA,Australia,NA,NA,NA,2013,NA,NA,weight,dataverse,aes,aes2013,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/WDBBAS,NA,NA
+aes2016,NA,Australia,NA,NA,NA,2016,NA,NA,wt_enrol,dataverse,aes,aes2016,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/7OZCZA,NA,NA
+aes2019,NA,Australia,NA,NA,NA,2019,NA,NA,wt_pooled,dataverse,aes,aes2019,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/KMAMMW,NA,NA
+allbus,NA,Germany,NA,NA,NA,NA,year,NA,wghtptew,gesis,allbus,ZA5276,NA,NA,NA,NA
+amb_combo,NA,pais,NA,NA,NA,NA,year,NA,wt,misc,amb,amb_combo,NA,http://datasets.americasbarometer.org/database/files/2004-2018%20LAPOP%20AmericasBaometer%20Merge_FREE_V1.0_W.zip,http://datasets.americasbarometer.org/database/files/2004-2018%20LAPOP%20AmericasBarometer%20Merge_Codebook_v1.0_FREE_W.pdf,NA
+amb_combo2014,NA,pais,NA,NA,NA,NA,year,NA,wt,misc,amb,amb_combo2014,NA,http://datasets.americasbarometer.org/database/files/746278534AmericasBarometer%20Grand%20Merge%202004-2014%20v3.0_FREE_dta.zip,http://datasets.americasbarometer.org/database/files/12364388022004-2014%20Grand%20Merge%20Codebook_V3.0_Free_W.pdf,NA
+amb_antigua2016,NA,Antigua,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_antigua2016,NA,http://datasets.americasbarometer.org/database/files/2123276248Antigua%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_argentina2010,NA,Argentina,NA,NA,NA,2010,NA,NA,NA,misc,amb,amb_argentina2010,NA,http://datasets.americasbarometer.org/database/files/924077670Argentina_LAPOP_AmericasBarometer%202010%20data%20set%20approved%20v3.dta,NA,NA
+amb_argentina2012,NA,Argentina,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_argentina2012,NA,http://datasets.americasbarometer.org/database/files/1240357522Argentina%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_argentina2014,NA,Argentina,NA,NA,NA,2014,NA,NA,wt,misc,amb,amb_argentina2014,NA,http://datasets.americasbarometer.org/database/files/1757856948Argentina%20LAPOP%20AmericasBarometer%202014%20v3.0_W.dta,NA,NA
+amb_argentina2016,NA,Argentina,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_argentina2016,NA,http://datasets.americasbarometer.org/database/files/42076439Argentina%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_argentina2018,NA,Argentina,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_argentina2018,NA,http://datasets.americasbarometer.org/database/files/Argentina%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Argentina%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_bolivia2010,NA,Bolivia,NA,NA,NA,2010,NA,NA,wt,misc,amb,amb_bolivia2010,NA,http://datasets.americasbarometer.org/database/files/1748144313Bolivia_LAPOP_AmericasBarometer%202010%20data%20set%20%20approved%20v3.dta,NA,NA
+amb_bolivia2012,NA,Bolivia,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_bolivia2012,NA,http://datasets.americasbarometer.org/database/files/1852710534Bolivia%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_bolivia2014,NA,Bolivia,NA,NA,NA,2014,NA,NA,wt,misc,amb,amb_bolivia2014,NA,http://datasets.americasbarometer.org/database/files/1140434363Bolivia%20LAPOP%20AmericasBarometer%202014%20v3.0_W.dta,NA,NA
+amb_bolivia2016,NA,Bolivia,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_bolivia2016,NA,http://datasets.americasbarometer.org/database/files/142790203Bolivia%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_bolivia2018,NA,Bolivia,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_bolivia2018,NA,http://datasets.americasbarometer.org/database/files/Bolivia%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,NA,NA
+amb_brazil2016,NA,Brazil,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_brazil2016,NA,http://datasets.americasbarometer.org/database/files/780314464Brazil%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_brazil2018,NA,Brazil,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_brazil2018,NA,http://datasets.americasbarometer.org/database/files/Brazil%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Brazil%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_canada2010,NA,Canada,NA,NA,NA,2010,NA,NA,wt,misc,amb,amb_canada2010,NA,http://datasets.americasbarometer.org/database/files/1183322032Canada_LAPOP_AmericasBarometer%202010%20data%20set%20%20original%20v2.dta,NA,NA
+amb_canada2012,NA,Canada,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_canada2012,NA,http://datasets.americasbarometer.org/database/files/1921596816Canada%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_canada2014,NA,Canada,NA,NA,NA,2014,NA,NA,wt,misc,amb,amb_canada2014,NA,http://datasets.americasbarometer.org/database/files/1490134740Canada%20LAPOP%20AmericasBarometer%202014%20v3.0_W.dta,NA,NA
+amb_canada2016,NA,Canada,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_canada2016,NA,http://datasets.americasbarometer.org/database/files/576555173Canada%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_canada2018,NA,Canada,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_canada2018,NA,http://datasets.americasbarometer.org/database/files/Canada%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,NA,NA
+amb_chile2010,NA,Chile,NA,NA,NA,2010,NA,NA,wt,misc,amb,amb_chile2010,NA,http://datasets.americasbarometer.org/database/files/1217681709Chile_LAPOP_AmericasBarometer%202010%20data%20set%20approved%20v4.dta,NA,NA
+amb_chile2012,NA,Chile,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_chile2012,NA,http://datasets.americasbarometer.org/database/files/420502678Chile%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_chile2014,NA,Chile,NA,NA,NA,2014,NA,NA,wt,misc,amb,amb_chile2014,NA,http://datasets.americasbarometer.org/database/files/553131127Chile%20LAPOP%20AmericasBarometer%202014%20v3.0_W.dta,NA,NA
+amb_chile2016,NA,Chile,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_chile2016,NA,http://datasets.americasbarometer.org/database/files/336280178Chile%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_chile2018,NA,Chile,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_chile2018,NA,http://datasets.americasbarometer.org/database/files/Chile%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,NA,NA
+amb_colombia2005,NA,Colombia,NA,NA,NA,2005,NA,NA,NA,misc,amb,amb_colombia2005,NA,http://datasets.americasbarometer.org/database/files/84187789Colombia2005_Rev1_W.dta,NA,NA
+amb_colombia2007,NA,Colombia,NA,NA,NA,2007,NA,NA,NA,misc,amb,amb_colombia2007,NA,http://datasets.americasbarometer.org/database/files/274715745Colombia2007_Rev1_W.dta,NA,NA
+amb_colombia2009,NA,Colombia,NA,NA,NA,2009,NA,NA,NA,misc,amb,amb_colombia2009,NA,http://datasets.americasbarometer.org/database/files/754888614Colombia2009_Rev1_W.dta,NA,NA
+amb_colombia2011,NA,Colombia,NA,NA,NA,2011,NA,NA,NA,misc,amb,amb_colombia2011,NA,http://datasets.americasbarometer.org/database/files/1329454000Colombia2011_Rev1_W.dta,NA,NA
+amb_colombia2013,NA,Colombia,NA,NA,NA,2013,NA,NA,NA,misc,amb,amb_colombia2013,NA,http://datasets.americasbarometer.org/database/files/1734936926Colombia%20LAPOP%202013_W.dta,NA,NA
+amb_colombia2016,NA,Colombia,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_colombia2016,NA,http://datasets.americasbarometer.org/database/files/1966987763Colombia%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_colombia2018,NA,Colombia,NA,NA,NA,2018,NA,NA,wt,misc,amb,amb_colombia2018,NA,http://datasets.americasbarometer.org/database/files/Colombia%20LAPOP%20AmericasBarometer%202018%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Colombia%20LAPOP%20AmericasBarometer%202018%20_Codebook_v1.0_W.pdf,NA
+amb_costarica2016,NA,Costa Rica,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_costarica2016,NA,http://datasets.americasbarometer.org/database/files/1636511905CostaRica%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_costarica2018,NA,Costa Rica,NA,NA,NA,2018,NA,NA,wt,misc,amb,amb_costarica2018,NA,http://datasets.americasbarometer.org/database/files/CostaRica%20LAPOP%20AmericasBarometer%202018%20v1.0_W.dta,NA,NA
+amb_dominica2016,NA,Dominica,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_dominica2016,NA,http://datasets.americasbarometer.org/database/files/534210736Dominica%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_dominicanrepublic2016,NA,Dominican Republic,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_dominicanrepublic2016,NA,http://datasets.americasbarometer.org/database/files/919009550Dominican%20Republic%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_dominicanrepublic2018,NA,Dominican Republic,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_dominicanrepublic2018,NA,http://datasets.americasbarometer.org/database/files/DominicanRepublic%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,NA,NA
+amb_ecuador2014,NA,Ecuador,NA,NA,NA,2014,NA,NA,wt,misc,amb,amb_ecuador2014,NA,http://datasets.americasbarometer.org/database/files/244461055Ecuador%20LAPOP%20AmericasBarometer%202014%20v3.0_W.dta,NA,NA
+amb_ecuador2016,NA,Ecuador,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_ecuador2016,NA,http://datasets.americasbarometer.org/database/files/1061044693Ecuador%20LAPOP%20AmericasBarometer%202016-17%20V1.0_W.dta,NA,NA
+amb_ecuador2018,NA,Ecuador,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_ecuador2018,NA,http://datasets.americasbarometer.org/database/files/Ecuador%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Ecuador%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_elsalvador2016,NA,El Salvador,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_elsalvador2016,NA,http://datasets.americasbarometer.org/database/files/381267663ElSalvador%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_elsalvador2018,NA,El Salvador,NA,NA,NA,2018,NA,NA,wt,misc,amb,amb_elsalvador2018,NA,http://datasets.americasbarometer.org/database/files/ElSalvador%20LAPOP%20AmericasBarometer%202018%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/ElSalvador%20LAPOP%20AmericasBarometer%202018_Codebook_v1.0_W.pdf,NA
+amb_grenada2016,NA,Grenada,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_grenada2016,NA,http://datasets.americasbarometer.org/database/files/400479132Grenada%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_guatemala2016,NA,Guatemala,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_guatemala2016,NA,http://datasets.americasbarometer.org/database/files/823416394Guatemala%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_guatemala2018,NA,Guatemala,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_guatemala2018,NA,http://datasets.americasbarometer.org/database/files/Guatemala%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Guatemala%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_guyana2016,NA,Guyana,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_guyana2016,NA,http://datasets.americasbarometer.org/database/files/1740874324Guyana%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_haiti2016,NA,Haiti,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_haiti2016,NA,http://datasets.americasbarometer.org/database/files/544180976Haiti%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_honduras2016,NA,Honduras,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_honduras2016,NA,http://datasets.americasbarometer.org/database/files/1252173714Honduras%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_honduras2018,NA,Honduras,NA,NA,NA,2018,NA,NA,wt,misc,amb,amb_honduras2018,NA,http://datasets.americasbarometer.org/database/files/Honduras%20LAPOP%20AmericasBarometer%202018%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Honduras%20LAPOP%20AmericasBarometer%202018_Codebook_v1.0_W.pdf,NA
+amb_jamaica2016,NA,Jamaica,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_jamaica2016,NA,http://datasets.americasbarometer.org/database/files/428805428Jamaica%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_jamaica2018,NA,Jamaica,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_jamaica2018,NA,http://datasets.americasbarometer.org/database/files/Jamaica%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Jamaica%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_mexico2016,NA,Mexico,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_mexico2016,NA,http://datasets.americasbarometer.org/database/files/275973272Mexico%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_mexico2018,NA,Mexico,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_mexico2018,NA,http://datasets.americasbarometer.org/database/files/Mexico%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Mexico%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_nicaragua2016,NA,Nicaragua,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_nicaragua2016,NA,http://datasets.americasbarometer.org/database/files/1862548546Nicaragua%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_nicaragua2018,NA,Nicaragua,NA,NA,NA,2018,NA,NA,wt,misc,amb,amb_nicaragua2018,NA,http://datasets.americasbarometer.org/database/files/Nicaragua%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,NA,NA
+amb_panama2016,NA,Panama,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_panama2016,NA,http://datasets.americasbarometer.org/database/files/2078678947Panama%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_panama2018,NA,Panama,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_panama2018,NA,http://datasets.americasbarometer.org/database/files/Panama%20LAPOP%20AmericasBarometer%202018%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Panama%20LAPOP%20AmericasBarometer%202018_Codebook_v1.0_W.pdf,NA
+amb_paraguay2016,NA,Paraguay,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_paraguay2016,NA,http://datasets.americasbarometer.org/database/files/1311870907Paraguay%20LAPOP%20AmericasBarometer%202016%20V1.0%20W.dta,NA,NA
+amb_paraguay2018,NA,Paraguay,NA,NA,NA,2018,NA,NA,wt,misc,amb,amb_paraguay2018,NA,http://datasets.americasbarometer.org/database/files/Paraguay%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Paraguay%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_peru2016,NA,Peru,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_peru2016,NA,http://datasets.americasbarometer.org/database/files/83639715Peru_LAPOP_AmericasBarometer_2017_V1.1_W.dta,NA,NA
+amb_peru2018,NA,Peru,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_peru2018,NA,http://datasets.americasbarometer.org/database/files/Peru%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Peru%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_stkittsnevis2016,NA,St. Kitts & Nevis,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_stkittsnevis2016,NA,http://datasets.americasbarometer.org/database/files/1597907601StKittsNevis%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_stlucia2016,NA,St. Lucia,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_stlucia2016,NA,http://datasets.americasbarometer.org/database/files/1241300571StLucia%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_stvincent2016,NA,St. Vincent,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_stvincent2016,NA,http://datasets.americasbarometer.org/database/files/317383160StVincent%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,NA,NA
+amb_suriname2010,NA,Suriname,NA,NA,NA,2010,NA,NA,wt,misc,amb,amb_suriname2010,NA,http://datasets.americasbarometer.org/database/files/132981347Suriname_LAPOP_AmericasBarometer%202010%20data%20set%20%20original%20v1.dta,NA,NA
+amb_suriname2012,NA,Suriname,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_suriname2012,NA,http://datasets.americasbarometer.org/database/files/108630764Suriname%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_trinidad2010,NA,Trinidad & Tobago,NA,NA,NA,2010,NA,NA,wt,misc,amb,amb_trinidad2010,NA,http://datasets.americasbarometer.org/database/files/464873967Trinidad_LAPOP_AmericasBarometer%202010%20data%20set%20%20approved%20V3.dta,NA,NA
+amb_trinidad2012,NA,Trinidad & Tobago,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_trinidad2012,NA,http://datasets.americasbarometer.org/database/files/1496679067TrinandTob%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_us2010,NA,United States,NA,NA,NA,2010,NA,NA,wt,misc,amb,amb_us2010,NA,http://datasets.americasbarometer.org/database/files/1954363083US_LAPOP_AmericasBarometer%202010%20data%20set%20%20original%20V1.dta,http://datasets.americasbarometer.org/database/files/2128470678US%20CODEBOOK.pdf,NA
+amb_us2012,NA,United States,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_us2012,NA,http://datasets.americasbarometer.org/database/files/241473079UnitedStates%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_us2014,NA,United States,NA,NA,NA,2014,NA,NA,wt,misc,amb,amb_us2014,NA,http://datasets.americasbarometer.org/database/files/98099043UnitedStates%20LAPOP%20AmericasBarometer%202014%20v3.0_W.dta,NA,NA
+amb_us2016,NA,United States,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_us2016,NA,http://datasets.americasbarometer.org/database/files/2133069031United%20States%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_us2018,NA,United States,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_us2018,NA,http://datasets.americasbarometer.org/database/files/UnitedStates%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/UnitedStates%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_uruguay2016,NA,Uruguay,NA,NA,NA,2017,NA,NA,wt,misc,amb,amb_uruguay2016,NA,http://datasets.americasbarometer.org/database/files/646644681Uruguay%20LAPOP%20AmericasBarometer%202017%20V1.0_W.dta,NA,NA
+amb_uruguay2018,NA,Uruguay,NA,NA,NA,2019,NA,NA,wt,misc,amb,amb_uruguay2018,NA,http://datasets.americasbarometer.org/database/files/Uruguay%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta,http://datasets.americasbarometer.org/database/files/Uruguay%20LAPOP%20AmericasBarometer%202019_Codebook_v1.0_W.pdf,NA
+amb_venezuela2010,NA,Venezuela,NA,NA,NA,2010,NA,NA,NA,misc,amb,amb_venezuela2010,NA,http://datasets.americasbarometer.org/database/files/1451946926Venezuela_LAPOP_AmericasBarometer%202010%20data%20set%20APPROVED%20v3.dta,NA,NA
+amb_venezuela2012,NA,Venezuela,NA,NA,NA,2012,NA,NA,wt,misc,amb,amb_venezuela2012,NA,http://datasets.americasbarometer.org/database/files/256579462Venezuela%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,NA,NA
+amb_venezuela2014,NA,Venezuela,NA,NA,NA,2014,NA,NA,wt,misc,amb,amb_venezuela2014,NA,http://datasets.americasbarometer.org/database/files/822140976Venezuela%20LAPOP%20AmericasBarometer%202014%20v3.0_W.dta,NA,NA
+amb_venezuela2016,NA,Venezuela,NA,NA,NA,2016,NA,NA,wt,misc,amb,amb_venezuela2016,NA,http://datasets.americasbarometer.org/database/files/25258094Venezuela%20LAPOP%20AmericasBarometer%202016-17%20V1.0_W.dta,NA,NA
+anes_combo,NA,United States,NA,NA,NA,NA,vcf0004,NA,vcf0009z,misc,anes,anes_combo,NA,https://electionstudies.org/wp-content/uploads/2018/12/anes_timeseries_cdf_dta.zip,https://electionstudies.org/wp-content/uploads/2018/12/anes_timeseries_cdf_codebook_var.pdf,NA
+anes2016,NA,United States,NA,NA,NA,2016,NA,NA,v160102,icpsr,anes,ICPSR_36824,NA,NA,NA,NA
+anes2020,NA,United States,NA,NA,NA,2020,NA,NA,v200010b,misc,anes,anes2020,NA,https://electionstudies.org/wp-content/uploads/2021/03/anes_timeseries_2020_stata_20210324.zip,NA,NA
+angus_reid1995,NA,Canada,NA,NA,NA,1995,NA,NA,wt,roper,angus_reid,CNAREID1995-9504,Social_Issues_Forum,NA,NA,NA
+ap_us1996,NA,United States,NA,NA,NA,1996,NA,NA,pweight,roper,ap,USAPICR1996-924L,NA,NA,NA,NA
+arabb1,NA,country,NA,NA,NA,NA,NA,"tibble(orig=c(""jordan"",""palestine"",""algeria"",""morocco"",""lebanon"",""yemen"",""bahrain""),year=c(2006,2006,2006,2007,2006,2007,2009))",NA,misc,arabb,arabb1,NA,https://www.arabbarometer.org/wp-content/uploads/ABI_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABI_Questionnaire_ENG.pdf,NA
+arabb2,NA,country,NA,NA,NA,NA,NA,"tibble(orig=c(""1. Algeria"",""5. Egypt"",""7. Iraq"",""8. Jordan"",""10. Lebanon"",""15. Palestine"",""17. Saudi Arabia"",""19. Sudan"",""21. Tunisia"",""22. Yemen""),year=c(2011,2011,2011,2010,2010,2010,2011,2010,2011,2011))",wt,misc,arabb,arabb2,NA,https://www.arabbarometer.org/wp-content/uploads/ABII_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABII_Questionnaire_English-1.pdf,NA
+arabb3,NA,country,NA,NA,NA,NA,date,NA,wt,misc,arabb,arabb3,NA,https://www.arabbarometer.org/wp-content/uploads/ABIII_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABIII_Questionnaire_ENG.pdf,NA
+arabb4,NA,country,NA,NA,NA,2016,NA,NA,wt,misc,arabb,arabb4,NA,https://www.arabbarometer.org/wp-content/uploads/ABIV_English.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABIV_Questionnaire_ENG.pdf,NA
+arabb5,NA,country,NA,NA,NA,NA,NA,"tibble(orig=c(""Algeria"",""Egypt"",""Iraq"",""Jordan"",""Kuwait"",""Lebanon"",""Libya"",""Morocco"",""Palestine"",""Sudan"",""Tunisia"",""Yemen""), year=c(2019,2018,2019,2018,2019,2018,2019,2018,2018,2018,2018,2018))",wt,misc,arabb,arabb5,NA,https://www.arabbarometer.org/wp-content/uploads/ABV_Crossectional_Data_Release_ENG.dta_.zip,https://www.arabbarometer.org/wp-content/uploads/ABV_SourceQuestionnaire_ENG_Public-Opinion-2018-2019.pdf,NA
+arkolsky198905,NA,Argentina,NA,NA,NA,1989,NA,NA,NA,roper,arkolsky,ARKOLSKY1989-SIST12,NA,NA,NA,"list(file = file_path, var_names = c(""p28""), var_cards = c(4), var_positions = c(7), var_widths = c(1), total_cards = 4)"
+arromer199111,NA,Argentina,NA,NA,NA,1991,NA,NA,NA,roper,arromer,ARROMER1991-TOP008,NA,NA,NA,NA
+arromer199207,NA,Argentina,NA,NA,NA,1992,NA,NA,NA,roper,arromer,ARROMER1992-TOP012,NA,NA,NA,NA
+arromer199408,NA,Argentina,NA,NA,NA,1994,NA,NA,NA,roper,arromer,ARROMER1994-TOP024,NA,NA,NA,NA
+arromer199603,NA,Argentina,NA,NA,NA,1996,NA,NA,NA,roper,arromer,ARROMER1996-TOP034,NA,NA,NA,NA
+ases2000,NA,v0362,NA,NA,NA,2000,NA,NA,NA,icpsr,ases,ICPSR_22324,NA,NA,NA,NA
+asiab2003,NA,country,NA,NA,NA,2003,NA,NA,NA,misc,asiab,asiabarometer2003,NA,NA,NA,NA
+asiab2004,NA,country,NA,NA,NA,2004,NA,NA,weight,icpsr,asiab,ICPSR_20420,NA,NA,NA,NA
+asiab2005,NA,country,NA,NA,NA,2005,NA,NA,weight,misc,asiab,asiabarometer2005,NA,NA,NA,NA
+asiab2006,NA,country,NA,NA,NA,2006,NA,NA,NA,misc,asiab,asiabarometer2006,NA,NA,NA,NA
+asiab2007,NA,country,NA,NA,NA,2007,NA,NA,weigh,misc,asiab,asiabarometer2007,NA,NA,NA,NA
+asianb1,NA,country,NA,NA,NA,NA,yrsurvey,NA,w_all,misc,asianb,asianb1,NA,NA,NA,NA
+asianb2,NA,country,NA,NA,NA,NA,NA,"tibble(orig=c(""Japan"",""Hong Kong"",""Korea"",""Mainland China"",""Mongolia"",""Philippines"",""Taiwan"",""Thailand"",""Indonesia"",""Singapore"",""Vietnam"",""Cambodia"",""Malaysia""),year=c(2007,2007,2006,2008,2006,2005,2006,2006,2006,2006,2005,2008,2007))",w_all,misc,asianb,asianb2,NA,NA,NA,NA
+asianb3,NA,country,NA,NA,NA,NA,ir9,NA,allweight,misc,asianb,asianb3,NA,NA,NA,NA
+asianb4,NA,country,NA,NA,NA,NA,year,NA,w,misc,asianb,asianb4,NA,NA,NA,NA
+aussa2003,NA,Australia,NA,NA,NA,2003,NA,NA,NA,dataverse,aussa,aussa2003,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/8VUHRY,NA,NA
+aussa2005,NA,Australia,NA,NA,NA,2005,NA,NA,NA,dataverse,aussa,aussa2005,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/SRXRC6,NA,NA
+aussa2007,NA,Australia,NA,NA,NA,2007,NA,NA,v656,dataverse,aussa,aussa2007,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/1UPIZO,NA,NA
+aussa2009,NA,Australia,NA,NA,NA,2009,NA,NA,v488,dataverse,aussa,aussa2009,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/IH68HQ,NA,NA
+autnes2017,NA,Austria,NA,NA,NA,2017,NA,NA,"wt <- rowMeans(t_data %>% select(contains(""weightd"")), na.rm = TRUE)",dataverse,autnes,autnes2017,NA,https://data.aussda.at/dataset.xhtml?persistentId=doi:10.11587/I7QIYJ,NA,NA
+bges1992,NA,United Kingdom,NA,NA,NA,1992,NA,NA,wtfactor,ukds,bges,2981,NA,NA,NA,NA
+bges1997,NA,United Kingdom,NA,NA,NA,1997,NA,NA,wtallgb,icpsr,bges,ICPSR_02615,NA,NA,NA,NA
+brdir199109,NA,Brazil,NA,NA,NA,1991,NA,NA,peso,roper,datafolha,BRDIR1991-1033,NA,NA,NA,NA
+brdir199309,NA,Brazil,NA,NA,NA,1993,NA,NA,pesoe,roper,datafolha,BRDIR1993-00335,NA,NA,NA,NA
+brdir199503,NA,Brazil,NA,NA,NA,1995,NA,NA,pesoest,roper,datafolha,BRDIR1995-00405,NA,NA,NA,NA
+bsa_combo,NA,United Kingdom,NA,NA,NA,NA,year,NA,wt <- t_data$wtfactor; wt[wt > 10000] <- 1,icpsr,bsa,ICPSR_03095,NA,NA,NA,NA
+bsa1993,NA,United Kingdom,NA,NA,NA,1993,NA,NA,wtfactor,icpsr,bsa,ICPSR_03096,NA,NA,NA,NA
+bsa1994,NA,United Kingdom,NA,NA,NA,1994,NA,NA,wtfactor,icpsr,bsa,ICPSR_03097,NA,NA,NA,NA
+bsa1995,NA,United Kingdom,NA,NA,NA,1995,NA,NA,wtfactor,icpsr,bsa,ICPSR_03098,NA,NA,NA,NA
+bsa1996,NA,United Kingdom,NA,NA,NA,1996,NA,NA,wtfactor,icpsr,bsa,ICPSR_03099,NA,NA,NA,NA
+bsa1997,NA,United Kingdom,NA,NA,NA,1997,NA,NA,wtfactor,icpsr,bsa,ICPSR_03100,NA,NA,NA,NA
+bsa1998,NA,United Kingdom,NA,NA,NA,1998,NA,NA,wtfactor,ukds,bsa,4131,NA,NA,NA,NA
+bsa1999,NA,United Kingdom,NA,NA,NA,1999,NA,NA,wtfactor,ukds,bsa,4318,NA,NA,NA,NA
+bsa2000,NA,United Kingdom,NA,NA,NA,2000,NA,NA,wtfactor,ukds,bsa,4486,NA,NA,NA,NA
+bsa2001,NA,United Kingdom,NA,NA,NA,2001,NA,NA,wtfactor,icpsr,bsa,ICPSR_03900,NA,NA,NA,NA
+bsa2002,NA,United Kingdom,NA,NA,NA,2002,NA,NA,wtfactor,ukds,bsa,4838,NA,NA,NA,NA
+bsa2003,NA,United Kingdom,NA,NA,NA,2003,NA,NA,wtfactor,ukds,bsa,5235,NA,NA,NA,NA
+bsa2004,NA,United Kingdom,NA,NA,NA,2004,NA,NA,wtfactor,ukds,bsa,5329,NA,NA,NA,NA
+bsa2005,NA,United Kingdom,NA,NA,NA,2005,NA,NA,wtfactor,ukds,bsa,5618,NA,NA,NA,NA
+bsa2006,NA,United Kingdom,NA,NA,NA,2006,NA,NA,wtfactor,ukds,bsa,5823,NA,NA,NA,NA
+bsa2007,NA,United Kingdom,NA,NA,NA,2007,NA,NA,wtfactor,ukds,bsa,6240,NA,NA,NA,NA
+bsa2008,NA,United Kingdom,NA,NA,NA,2008,NA,NA,wtfactor,ukds,bsa,6390,NA,NA,NA,NA
+bsa2009,NA,United Kingdom,NA,NA,NA,2009,NA,NA,wtfactor,ukds,bsa,6695,NA,NA,NA,NA
+bsa2010,NA,United Kingdom,NA,NA,NA,2010,NA,NA,wtfactor,ukds,bsa,6969,NA,NA,NA,NA
+bsa2011,NA,United Kingdom,NA,NA,NA,2011,NA,NA,wtfactor,ukds,bsa,7237,NA,NA,NA,NA
+bsa2012,NA,United Kingdom,NA,NA,NA,2012,NA,NA,wtfactor,ukds,bsa,7476,NA,NA,NA,NA
+bsa2013,NA,United Kingdom,NA,NA,NA,2013,NA,NA,wtfactor,ukds,bsa,7500,NA,NA,NA,NA
+bsa2014,NA,United Kingdom,NA,NA,NA,2014,NA,NA,wtfactor,ukds,bsa,7809,NA,NA,NA,NA
+bsa2015,NA,United Kingdom,NA,NA,NA,2015,NA,NA,wtfactor,ukds,bsa,8116,NA,NA,NA,NA
+bsa2016,NA,United Kingdom,NA,NA,NA,2016,NA,NA,wtfactor,ukds,bsa,8252,NA,NA,NA,NA
+bsa2017,NA,United Kingdom,NA,NA,NA,2017,NA,NA,wtfactor,ukds,bsa,8450,NA,NA,NA,NA
+bsa2018,NA,United Kingdom,NA,NA,NA,2018,NA,NA,wtfactor,ukds,bsa,8606,NA,NA,NA,NA
+bsa2019,NA,United Kingdom,NA,NA,NA,2019,NA,NA,wtfactor,ukds,bsa,8772,NA,NA,NA,NA
+caucasusb2008,NA,country,NA,NA,NA,NA,cbyear,NA,NA,misc,cb,cb2008,NA,https://caucasusbarometer.org/downloads/CB2008_Regional_only_responses_22072015.dta,https://caucasusbarometer.org/downloads/CB2009_EN_Questionnaire.pdf,NA
+caucasusb2009,NA,country,NA,NA,NA,NA,cbyear,NA,NA,misc,cb,cb2009,NA,https://caucasusbarometer.org/downloads/CB2009_Regional_only_responses_18012011.dta,https://caucasusbarometer.org/downloads/CB2009_EN_Questionnaire.pdf,NA
+caucasusb2010,NA,country,NA,NA,NA,2010,NA,NA,NA,misc,cb,cb2010,NA,https://caucasusbarometer.org/downloads/CB2010_Regional_only_responses_21032011.dta,https://caucasusbarometer.org/downloads/CB2010_EN_Questionnaire.pdf,NA
+caucasusb2011,NA,country,NA,NA,NA,2011,NA,NA,NA,misc,cb,cb2011,NA,https://caucasusbarometer.org/downloads/CB2011_Regional_only_responses_1202012.dta,https://caucasusbarometer.org/downloads/CB2011_EN_Questionnaire.pdf,NA
+caucasusb2012,NA,country,NA,NA,NA,NA,cbyear,NA,NA,misc,cb,cb2012,NA,https://caucasusbarometer.org/downloads/CB2012_Regional_only_responses_01032013.dta,https://caucasusbarometer.org/downloads/CB2012_EN_Questionnaire.pdf,NA
+caucasusb2013,NA,country,NA,NA,NA,2013,NA,NA,NA,misc,cb,cb2013,NA,https://caucasusbarometer.org/downloads/CB2013_Regional_only_responses_07032014.dta,https://caucasusbarometer.org/downloads/CB2013_EN_Questionnaire.pdf,NA
+caucasusb2015,NA,country,NA,NA,NA,NA,cbyear,NA,NA,misc,cb,cb2015,NA,https://caucasusbarometer.org/downloads/CB_2015_Regional_Only_Responses_140416.dta,https://caucasusbarometer.org/downloads/CB2015_EN_Questionnaire.pdf,NA
+caucasusb2017,NA,country,NA,NA,NA,NA,cbyear,NA,NA,misc,cb,cb2017,NA,https://caucasusbarometer.org/downloads/CB_2017_Regional_Only_Responses_20.11.18.dta,https://caucasusbarometer.org/downloads/CB2017%20questionnaire%20ENG%20v06%2026102017.pdf,NA
+caucasusb2019,NA,country,NA,NA,NA,NA,cbyear,NA,NA,misc,cb,cb2019,NA,https://caucasusbarometer.org/downloads/cb2019/CB_2019_Regional_25.06.2020.dta,https://caucasusbarometer.org/downloads/cb2019/CB2019_questionnaire_ENG_Regional_PUBLIC.pdf,NA
+cbsnyt197710,NA,United States,NA,NA,NA,1977,NA,NA,weight,roper,cbsnyt,USCBSNYT1977-OCT,NA,NA,NA,"list(file = file_path, var_names = c(""q28b"", ""weight""), var_cards = c(1, 3), var_positions = c(73, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt197911,NA,United States,NA,NA,NA,1979,NA,NA,weight,roper,cbsnyt,USCBSNYT1979-NOV,NA,NA,NA,"list(file = file_path, var_names = c(""q41"", ""weight""), var_positions = c(154, 1), var_widths = c(1, 6))"
+cbsnyt198008,NA,United States,NA,NA,NA,1980,NA,NA,weight,roper,cbsnyt,USCBSNYT1980-AUG,NA,NA,NA,"list(file = file_path, var_names = c(""v81"", ""weight""), var_positions = c(96, 124), var_widths = c(1, 6))"
+cbsnyt198105,NA,United States,NA,NA,NA,1981,NA,NA,weight,roper,cbsnyt,USCBSNYT1981-APRIL,NA,NA,NA,NA
+cbsnyt198106,NA,United States,NA,NA,NA,1981,NA,NA,weight,roper,cbsnyt,USCBSNYT1981-JUNESOCSEC,NA,NA,NA,"list(file = file_path, var_names = c(""q25"", ""weight""), var_cards = c(1, 3), var_positions = c(63, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198501,NA,United States,NA,NA,NA,1985,NA,NA,weight,roper,cbsnyt,USCBSNYT1985-JAN,NA,NA,NA,"list(file = file_path, var_names = c(""q42"", ""weight""), var_cards = c(2, 3), var_positions = c(19, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198511,NA,United States,NA,NA,NA,1985,NA,NA,weight,roper,cbsnyt,USCBSNYT1985-NOVREL,NA,NA,NA,"list(file = file_path, var_names = c(""q9"", ""weight""), var_cards = c(1, 3), var_positions = c(37, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198606,NA,United States,NA,NA,NA,1986,NA,NA,weight,roper,cbsnyt,USCBSNYT1986-JUNE,NA,NA,NA,"list(file = file_path, var_names = c(""q14"", ""weight""), var_cards = c(1, 3), var_positions = c(51, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198705,NA,United States,NA,NA,NA,1987,NA,NA,weight,roper,cbsnyt,USCBSNYT1987-CONST,NA,NA,NA,"list(file = file_path, var_names = c(""q21"", ""weight""), var_cards = c(1, 3), var_positions = c(64, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198708,NA,United States,NA,NA,NA,1987,NA,NA,weight,roper,cbsnyt,USCBSNYT1987-CATHOLIC,NA,NA,NA,"list(file = file_path, var_names = c(""q14"", ""weight""), var_cards = c(1, 3), var_positions = c(46, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198807,NA,United States,NA,NA,NA,1988,NA,NA,weight,roper,cbsnyt,USCBSNYT1988-8807,NA,NA,NA,"list(file = file_path, var_names = c(""q31"", ""weight""), var_cards = c(2, 3), var_positions = c(14, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198810,NA,United States,NA,NA,NA,1988,NA,NA,weight,roper,cbsnyt,USCBSNYT1988-8810-B,NA,NA,NA,"list(file = file_path, var_names = c(""q20"", ""weight""), var_cards = c(1, 3), var_positions = c(56, 49), var_widths = c(1, 6), total_cards = 3)"
+cbsnyt198901,NA,United States,NA,NA,NA,1989,NA,NA,weight,roper,cbsnyt,USCBSNYT1989-JAN,NA,NA,NA,"list(file = file_path, var_names = c(""q22"",  ""q47"", ""weight""), var_cards = c(1, 2, 3), var_positions = c(69, 26, 49), var_widths = c(1, 1, 6), total_cards = 3)"
+cbsnyt198905,NA,United States,NA,NA,NA,1989,NA,NA,weight,roper,cbsnyt,USCBSNYT1989-APRIL,NA,NA,NA,"list(file = file_path, var_names = c(""q7"", ""q8"", ""q14a"", ""q14b"", ""q14c"", ""q14d"", ""weight""), var_cards = c(1, 1, 1, 1, 1, 1, 3), var_positions = c(40, 41, 49, 50, 51, 52, 49), var_widths = c(1, 1, 1, 1, 1, 1, 6), total_cards = 3)"
+cbsnyt198909,NA,United States,NA,NA,NA,1989,NA,NA,weight,roper,cbsnyt,USCBSNYT1989-SEP2,NA,NA,NA,"list(file = file_path, var_names = c(""q15"", ""q16"", ""q19a"", ""q19b"", ""q19c"", ""q19e"", ""q19g"", ""weight""), var_cards = c(1, 1, 1, 1, 1, 1, 1, 3), var_positions = c(54, 55, 58, 59, 60, 62, 64, 49), var_widths = c(1, 1, 1, 1, 1, 1, 1, 6), total_cards = 3)"
+cbsnyt199302,NA,United States,NA,NA,NA,1993,NA,NA,weight,roper,cbsnyt,USCBSNYT1993-FEB93A,NA,NA,NA,"list(file = file_path, var_names = c(""q45"", ""q46"", ""weight""), var_cards = c(2, 2, 3), var_positions = c(9, 10, 49), var_widths = c(1, 1, 6), total_cards = 3)"
+cbsnyt199801,NA,United States,NA,NA,NA,1998,NA,NA,weight,roper,cbsnyt,USCBSNYT1998-98001A,NA,NA,NA,NA
+cces2009,NA,United States,NA,NA,NA,2009,NA,NA,v200,dataverse,cces,cces2009,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/20536,NA,NA
+cces2012,NA,United States,NA,NA,NA,2012,NA,NA,v103,dataverse,cces,cces2012,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21447,NA,NA
+cces2014,NA,United States,NA,NA,NA,2014,NA,NA,weight,dataverse,cces,cces2014,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XFXJVY,NA,NA
+cces2015,NA,United States,NA,NA,NA,2015,NA,NA,weight,dataverse,cces,cces2015,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SWMWX8,NA,NA
+cces2016,NA,United States,NA,NA,NA,2016,NA,NA,commonweight,dataverse,cces,cces2016,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GDF6Z0,NA,NA
+cces2017,NA,United States,NA,NA,NA,2017,NA,NA,weights_common,dataverse,cces,cces2017,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3STEZY,NA,NA
+cces2018,NA,United States,NA,NA,NA,2018,NA,NA,NA,dataverse,cces,cces2018,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZSBZ7K,NA,NA
+cces2019,NA,United States,NA,NA,NA,2019,NA,NA,commonweight,dataverse,cces,cces2019,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WOT7O8,NA,NA
+cceb2002,NA,country,NA,NA,NA,2002,NA,NA,weight1,gesis,cceb,ZA3979,NA,NA,NA,NA
+cceb2003_5,NA,country,NA,NA,NA,2003,NA,NA,weight1,gesis,cceb,ZA3983,NA,NA,NA,NA
+cceb2003_11,NA,country,NA,NA,NA,2003,NA,NA,weight1,gesis,cceb,ZA3986,NA,NA,NA,NA
+cceb2004,NA,country,NA,NA,NA,2004,NA,NA,weight1,gesis,cceb,ZA4246,NA,NA,NA,NA
+cdcee,NA,v3,NA,NA,"c(""East Germany""=""Germany"", ""West Germany""=""Germany"")",NA,v666,NA,wt <- t_data$v633; wt[!is.na(t_data$v634)] <- t_data$v634[!is.na(t_data$v634)]; wt[!is.na(t_data$v636)] <- t_data$v636[!is.na(t_data$v636)]; wt[!is.na(t_data$v637)] <- t_data$v637[!is.na(t_data$v637)]; wt[!is.na(t_data$v638)] <- t_data$v638[!is.na(t_data$v638)]; wt[!is.na(t_data$v639)] <- t_data$v639[!is.na(t_data$v639)]; wt[!is.na(t_data$v640)] <- t_data$v640[!is.na(t_data$v640)]; wt[is.na(wt)] <- 1,gesis,cdcee,ZA4054,NA,NA,NA,NA
+chcep199012,NA,Chile,NA,NA,NA,1990,NA,NA,weight,roper,chcep,CHCEP1990-151,NA,NA,NA,"list(file = file_path, var_names = c(""p21"", ""weight""),  var_positions = c(121, 175), var_widths = c(1, 9))"
+chcep199109,NA,Chile,NA,NA,NA,1991,NA,NA,pond,roper,chcep,CHCEP1991-1022,NA,NA,NA,NA
+chcep199909,NA,Chile,NA,NA,NA,1999,NA,NA,weight,roper,chcep,CHCEP1999-1011,NA,NA,NA,"list(file = file_path, var_names = c(""p40"", ""weight""),  var_positions = c(232, 352), var_widths = c(1, 8))"
+chcep200604,NA,Chile,NA,NA,NA,2006,NA,NA,factor_m2,roper,chcep,CHCEP2006-0531,NA,NA,NA,NA
+chcep200803,NA,Chile,NA,NA,NA,2008,NA,NA,pond,roper,chcep,CHCEP2008-0416,NA,NA,NA,NA
+chcep200806,NA,Chile,NA,NA,NA,2008,NA,NA,fcorrecc,roper,chcep,CHCEP2008-0626,NA,NA,NA,NA
+chcep201810,NA,Chile,NA,NA,NA,2018,NA,NA,ponderad,roper,chcep,31115706,NA,NA,NA,NA
+cnn199301,NA,United States,NA,NA,NA,1993,NA,NA,weight,roper,cnn,USYANK1993-85202,NA,NA,NA,NA
+cnn199406,NA,United States,NA,NA,NA,1994,NA,NA,weight,roper,cnn,USYANK1994-94011,NA,NA,NA,NA
+cnn199810,NA,United States,NA,NA,NA,1998,NA,NA,weight,roper,cnn,USYANK1998-98014,NA,NA,NA,NA
+cnn200001,NA,United States,NA,NA,NA,2000,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2000-02,NA,NA,NA,NA
+cnn200306,NA,United States,NA,NA,NA,2003,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2003-35,NA,NA,NA,NA
+cnn200309,NA,United States,NA,NA,NA,2003,NA,NA,weight,roper,cnn,USHARRISINT2003-09,NA,NA,NA,NA
+cnn200310,NA,United States,NA,NA,NA,2003,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2003-47,National_Adult_Sample,NA,NA,NA
+cnn200312,NA,United States,NA,NA,NA,2003,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2003-55,NA,NA,NA,NA
+cnn200402,NA,United States,NA,NA,NA,2004,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2004-10,NA,NA,NA,NA
+cnn200403,NA,United States,NA,NA,NA,2004,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2004-11,NA,NA,NA,NA
+cnn200405,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,cnn,usharrisint2004-05,NA,NA,NA,"list(file = file_path, var_names = c(""q34"", ""weight""), var_cards = c(2, 3), var_positions = c(18, 60), var_widths = c(1, 6), total_cards = 3)"
+cnn200407,NA,United States,NA,NA,NA,2004,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2004-24,NA,NA,NA,NA
+cnn200503,NA,United States,NA,NA,NA,2005,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2005-14,NA,NA,NA,NA
+cnn200505,NA,United States,NA,NA,NA,2005,NA,NA,wtfctr,roper,cnn,USAIPOCNUS2005-21,NA,NA,NA,NA
+cnn200705,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,cnn,USORCCNN2007-006,NA,NA,NA,NA
+cnn200708,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,cnn,USORCCNN2007-008,NA,NA,NA,NA
+cnn200710,NA,United States,NA,NA,NA,2007,NA,NA,weight2,roper,cnn,USORCCNN2007-010,NA,NA,NA,NA
+cnn200806,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,cnn,USORCCNN2008-008,NA,NA,NA,NA
+cnn200812,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,cnn,USORCCNN2008-023,NA,NA,NA,NA
+cnn200905,NA,United States,NA,NA,NA,2009,NA,NA,weight,roper,cnn,USORCCNN2009-007,NA,NA,NA,NA
+cnn201105,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,cnn,USORCCNN2011-006,NA,NA,NA,NA
+cnn201109,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,cnn,USORCCNN2011-015,NA,NA,NA,NA
+cnn201205,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,cnn,USORCCNN2012-005,NA,NA,NA,NA
+cnn201303,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,cnn,USORCCNN2013-003,NA,NA,NA,NA
+cnn201306,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,cnn,USORCCNN2013-007,NA,NA,NA,NA
+cnn201412,NA,United States,NA,NA,NA,2014,NA,NA,weight,roper,cnn,USORCCNN2014-012,NA,NA,NA,NA
+cnn201606,NA,United States,NA,NA,NA,2016,NA,NA,weight,roper,cnn,USORCCNN2016-006,NA,NA,NA,NA
+cses1,NA,a1006_nam,NA,NA,NA,NA,a1028,NA,a1012_1,gesis,cses,ZA5179,NA,NA,NA,NA
+cses2,NA,b1006_nam,NA,NA,NA,NA,b1028,NA,b1012_1,gesis,cses,ZA5180,NA,NA,NA,NA
+cses3,NA,c1006_nam,NA,NA,NA,NA,c1028,NA,c1012_1,gesis,cses,ZA5181,NA,NA,NA,NA
+cses4,NA,d1006_nam,NA,NA,NA,NA,d1028,NA,d1012_1,gesis,cses,ZA5182,NA,NA,NA,NA
+cses5,NA,e1006_nam,NA,NA,NA,NA,e1034,NA,e1012_1,gesis,cses,ZA7557,NA,NA,NA,NA
+cses_combo,NA,study_id,NA,"tibble(orig = c(""ALB_2005"", ""AUS_1996"", ""AUS_2004"", ""AUS_2007"", ""AUT_2008"", ""BEL_2003"", ""BELF1999"", ""BELW1999"", ""BGR_2001"", ""BLR_2001"", ""BLR_2008"", ""BRA_2002"", ""BRA_2006"", ""BRA_2010"", ""CAN_1997"", ""CAN_2004"", ""CAN_2008"", ""CHE_1999"", ""CHE_2003"", ""CHE_2007"", ""CHL_1999"", ""CHL_2005"", ""CHL_2009"", ""CZE_1996"", ""CZE_2002"", ""CZE_2006"", ""CZE_2010"", ""DEU_1998"", ""DEU_2005"", ""DEU_2009"", ""DEU12002"", ""DNK_1998"", ""DNK_2001"", ""DNK_2007"", ""ESP_1996"", ""ESP_2000"", ""ESP_2004"", ""ESP_2008"", ""EST_2011"", ""FIN_2003"", ""FIN_2007"", ""FIN_2011"", ""FRA_2002"", ""FRA_2007"", ""GBR_1997"", ""GBR_2005"", ""GRC_2009"", ""HKG_1998"", ""HKG_2000"", ""HKG_2004"", ""HKG_2008"", ""HRV_2007"", ""HUN_1998"", ""HUN_2002"", ""IRL_2002"", ""IRL_2007"", ""ISL_1999"", ""ISL_2003"", ""ISL_2007"", ""ISL_2009"", ""ISR_1996"", ""ISR_2003"", ""ISR_2006"", ""ITA_2006"", ""JPN_1996"", ""JPN_2004"", ""JPN_2007"", ""KGZ_2005"", ""KOR_2000"", ""KOR_2004"", ""KOR_2008"", ""LTU_1997"", ""LVA_2010"", ""MEX_1997"", ""MEX_2000"", ""MEX_2003"", ""MEX_2006"", ""MEX_2009"", ""NLD_1998"", ""NLD_2002"", ""NLD_2006"", ""NLD_2010"", ""NOR_1997"", ""NOR_2001"", ""NOR_2005"", ""NOR_2009"", ""NZL_1996"", ""NZL_2002"", ""NZL_2008"", ""PER_2000"", ""PER_2001"", ""PER_2006"", ""PER_2011"", ""PHL_2004"", ""PHL_2010"", ""POL_1997"", ""POL_2001"", ""POL_2005"", ""POL_2007"", ""PRT_2002"", ""PRT_2005"", ""PRT_2009"", ""ROU_1996"", ""ROU_2004"", ""ROU_2009"", ""RUS_1999"", ""RUS_2000"", ""RUS_2004"", ""SVK_2010"", ""SVN_1996"", ""SVN_2004"", ""SVN_2008"", ""SWE_1998"", ""SWE_2002"", ""SWE_2006"", ""THA_2001"", ""THA_2007"", ""TUR_2011"", ""TWN_1996"", ""TWN_2001"", ""TWN_2004"", ""TWN_2008"", ""UKR_1998"", ""URY_2009"", ""USA_1996"", ""USA_2004"", ""USA_2008"", ""ZAF_2009""), dest = c(""Albania"", ""Australia"", ""Australia"", ""Australia"", ""Austria"", ""Belgium"", ""Belgium"", ""Belgium"", ""Bulgaria"", ""Belarus"", ""Belarus"", ""Brazil"", ""Brazil"", ""Brazil"", ""Canada"", ""Canada"", ""Canada"", ""Switzerland"", ""Switzerland"", ""Switzerland"", ""Chile"", ""Chile"", ""Chile"", ""Czechia"", ""Czechia"", ""Czechia"", ""Czechia"", ""Germany"", ""Germany"", ""Germany"", ""Germany"", ""Denmark"", ""Denmark"", ""Denmark"", ""Spain"", ""Spain"", ""Spain"", ""Spain"", ""Estonia"", ""Finland"", ""Finland"", ""Finland"", ""France"", ""France"", ""United Kingdom"", ""United Kingdom"", ""Greece"", ""Hong Kong SAR China"", ""Hong Kong SAR China"", ""Hong Kong SAR China"", ""Hong Kong SAR China"", ""Croatia"", ""Hungary"", ""Hungary"", ""Ireland"", ""Ireland"", ""Iceland"", ""Iceland"", ""Iceland"", ""Iceland"", ""Israel"", ""Israel"", ""Israel"", ""Italy"", ""Japan"", ""Japan"", ""Japan"", ""Kyrgyzstan"", ""South Korea"", ""South Korea"", ""South Korea"", ""Lithuania"", ""Latvia"", ""Mexico"", ""Mexico"", ""Mexico"", ""Mexico"", ""Mexico"", ""Netherlands"", ""Netherlands"", ""Netherlands"", ""Netherlands"", ""Norway"", ""Norway"", ""Norway"", ""Norway"", ""New Zealand"", ""New Zealand"", ""New Zealand"", ""Peru"", ""Peru"", ""Peru"", ""Peru"", ""Philippines"", ""Philippines"", ""Poland"", ""Poland"", ""Poland"", ""Poland"", ""Portugal"", ""Portugal"", ""Portugal"", ""Romania"", ""Romania"", ""Romania"", ""Russia"", ""Russia"", ""Russia"", ""Slovakia"", ""Slovenia"", ""Slovenia"", ""Slovenia"", ""Sweden"", ""Sweden"", ""Sweden"", ""Thailand"", ""Thailand"", ""Turkey"", ""Taiwan"", ""Taiwan"", ""Taiwan"", ""Taiwan"", ""Ukraine"", ""Uruguay"", ""United States"", ""United States"", ""United States"", ""South Africa""))",NA,NA,NA,"tibble(orig = c(""ALB_2005"", ""AUS_1996"", ""AUS_2004"", ""AUS_2007"", ""AUT_2008"", ""BEL_2003"", ""BELF1999"", ""BELW1999"", ""BGR_2001"", ""BLR_2001"", ""BLR_2008"", ""BRA_2002"", ""BRA_2006"", ""BRA_2010"", ""CAN_1997"", ""CAN_2004"", ""CAN_2008"", ""CHE_1999"", ""CHE_2003"", ""CHE_2007"", ""CHL_1999"", ""CHL_2005"", ""CHL_2009"", ""CZE_1996"", ""CZE_2002"", ""CZE_2006"", ""CZE_2010"", ""DEU_1998"", ""DEU_2005"", ""DEU_2009"", ""DEU12002"", ""DNK_1998"", ""DNK_2001"", ""DNK_2007"", ""ESP_1996"", ""ESP_2000"", ""ESP_2004"", ""ESP_2008"", ""EST_2011"", ""FIN_2003"", ""FIN_2007"", ""FIN_2011"", ""FRA_2002"", ""FRA_2007"", ""GBR_1997"", ""GBR_2005"", ""GRC_2009"", ""HKG_1998"", ""HKG_2000"", ""HKG_2004"", ""HKG_2008"", ""HRV_2007"", ""HUN_1998"", ""HUN_2002"", ""IRL_2002"", ""IRL_2007"", ""ISL_1999"", ""ISL_2003"", ""ISL_2007"", ""ISL_2009"", ""ISR_1996"", ""ISR_2003"", ""ISR_2006"", ""ITA_2006"", ""JPN_1996"", ""JPN_2004"", ""JPN_2007"", ""KGZ_2005"", ""KOR_2000"", ""KOR_2004"", ""KOR_2008"", ""LTU_1997"", ""LVA_2010"", ""MEX_1997"", ""MEX_2000"", ""MEX_2003"", ""MEX_2006"", ""MEX_2009"", ""NLD_1998"", ""NLD_2002"", ""NLD_2006"", ""NLD_2010"", ""NOR_1997"", ""NOR_2001"", ""NOR_2005"", ""NOR_2009"", ""NZL_1996"", ""NZL_2002"", ""NZL_2008"", ""PER_2000"", ""PER_2001"", ""PER_2006"", ""PER_2011"", ""PHL_2004"", ""PHL_2010"", ""POL_1997"", ""POL_2001"", ""POL_2005"", ""POL_2007"", ""PRT_2002"", ""PRT_2005"", ""PRT_2009"", ""ROU_1996"", ""ROU_2004"", ""ROU_2009"", ""RUS_1999"", ""RUS_2000"", ""RUS_2004"", ""SVK_2010"", ""SVN_1996"", ""SVN_2004"", ""SVN_2008"", ""SWE_1998"", ""SWE_2002"", ""SWE_2006"", ""THA_2001"", ""THA_2007"", ""TUR_2011"", ""TWN_1996"", ""TWN_2001"", ""TWN_2004"", ""TWN_2008"", ""UKR_1998"", ""URY_2009"", ""USA_1996"", ""USA_2004"", ""USA_2008"", ""ZAF_2009""), year = c(2005, 1996, 2004, 2007, 2009, 2004, 1999, 1999, 2001, 2001, 2009, 2002, 2006, 2010, 1997, 2004, 2008, 1999, 2003, 2007, 2000, 2006, 2010, 1996, 2002, 2006, 2010, 1998, 2005, 2009, 2002, 1998, 2001, 2008, 1996, 2000, 2004, 2008, 2011, 2003, 2007, 2011, 2002, 2007, 1997, 2005, 2009, 1998, 2000, 2004, 2008, 2008, 1998, 2002, 2002, 2007, 1999, 2003, 2007, 2009, 1996, 2003, 2006, 2006, 1996, 2004, 2007, 2006, 2000, 2004, 2008, 1998, 2010, 1997, 2000, 2003, 2006, 2009, 1998, 2002, 2006, 2010, 1997, 2001, 2005, 2009, 1996, 2002, 2008, 2000, 2001, 2006, 2011, 2004, 2010, 1997, 2001, 2005, 2007, 2002, 2005, 2009, 1996, 2004, 2009, 1999, 2000, 2004, 2010, 1997, 2005, 2009, 1998, 2002, 2006, 2001, 2007, 2011, 1996, 2002, 2004, 2008, 1998, 2010, 1996, 2004, 2008, 2009))",wt <- t_data$a1012_1; wt[!is.na(t_data$b1012_1)] <- t_data$b1012_1[!is.na(t_data$b1012_1)]; wt[!is.na(t_data$c1012_1)] <- t_data$c1012_1[!is.na(t_data$c1012_1)],gesis,cses,ZA6297,NA,NA,NA,NA
+de_rcs2009,NA,Germany,NA,NA,NA,2009,NA,NA,NA,gesis,rcs,ZA6969,NA,NA,NA,NA
+dkes1971,NA,Denmark,NA,NA,NA,1971,NA,NA,NA,misc,dkcssr,dkes1971,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1971&file=/nesstar/temp/download3728460921677844345.tmp/ElectionStudy-1971.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1973,NA,Denmark,NA,NA,NA,1973,NA,NA,NA,misc,dkcssr,dkes1973,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1973&file=/nesstar/temp/download8343303892344738382.tmp/ElectionStudy-1973.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1975,NA,Denmark,NA,NA,NA,1975,NA,NA,NA,misc,dkcssr,dkes1975,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1975&file=/nesstar/temp/download2786018609733727139.tmp/ElectionStudy-1975.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1977,NA,Denmark,NA,NA,NA,1977,NA,NA,NA,misc,dkcssr,dkes1977,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1977&file=/nesstar/temp/download188175613907961342.tmp/ElectionStudy-1977.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1979,NA,Denmark,NA,NA,NA,1979,NA,NA,NA,misc,dkcssr,dkes1979,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1979&file=/nesstar/temp/download9036957443603059422.tmp/ElectionStudy-1979.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1981,NA,Denmark,NA,NA,NA,1981,NA,NA,NA,misc,dkcssr,dkes1981,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1981&file=/nesstar/temp/download8359821183351566278.tmp/ElectionStudy-1981.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1984,NA,Denmark,NA,NA,NA,1984,NA,NA,NA,misc,dkcssr,dkes1984,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1984&file=/nesstar/temp/download6417525559370203771.tmp/ElectionStudy-1984.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1987,NA,Denmark,NA,NA,NA,1987,NA,NA,NA,misc,dkcssr,dkes1987,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1987&file=/nesstar/temp/download3963390644129913784.tmp/ElectionStudy-1987.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1990,NA,Denmark,NA,NA,NA,1990,NA,NA,NA,misc,dkcssr,dkes1990,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1990&file=/nesstar/temp/download3541187684512700318.tmp/ElectionStudy-1990.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1994,NA,Denmark,NA,NA,NA,1994,NA,NA,NA,misc,dkcssr,dkes1994,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1994&file=/nesstar/temp/download4396211267462066452.tmp/ElectionStudy-1994.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes1998,NA,Denmark,NA,NA,NA,1998,NA,NA,NA,misc,dkcssr,dkes1998,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1998&file=/nesstar/temp/download6714341711769347569.tmp/ElectionStudy-1998.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes2001,NA,Denmark,NA,NA,NA,2001,NA,NA,NA,misc,dkcssr,dkes2001,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-2001&file=/nesstar/temp/download8774093279396633505.tmp/ElectionStudy-2001.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes2005,NA,Denmark,NA,NA,NA,2005,NA,NA,NA,misc,dkcssr,dkes2005,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/Electionstudy-2005&file=/nesstar/temp/download3542169859384986790.tmp/Electionstudy-2005.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes2007,NA,Denmark,NA,NA,NA,2007,NA,NA,NA,misc,dkcssr,dkes2007,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-2007&file=/nesstar/temp/download4897844773925322266.tmp/ElectionStudy-2007.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dkes2011,NA,Denmark,NA,NA,NA,2011,NA,NA,NA,misc,dkcssr,dkes2011,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-2011&file=/nesstar/temp/download6927678728671535041.tmp/ElectionStudy-2011.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dksfpo1999,NA,Denmark,NA,NA,NA,1999,NA,NA,NA,misc,dkcssr,formpubop,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/Surveysabouttheformationofpublicopinion1999-2003&file=/nesstar/temp/download6112582944255120458.tmp/Surveysabouttheformationofpublicopinion1999-2003.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dksfpo2000,NA,Denmark,NA,NA,NA,2000,NA,NA,NA,misc,dkcssr,formpubop,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/Surveysabouttheformationofpublicopinion1999-2003&file=/nesstar/temp/download6112582944255120458.tmp/Surveysabouttheformationofpublicopinion1999-2003.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dksfpo2001,NA,Denmark,NA,NA,NA,2001,NA,NA,NA,misc,dkcssr,formpubop,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/Surveysabouttheformationofpublicopinion1999-2003&file=/nesstar/temp/download6112582944255120458.tmp/Surveysabouttheformationofpublicopinion1999-2003.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dksfpo2002,NA,Denmark,NA,NA,NA,2002,NA,NA,NA,misc,dkcssr,formpubop,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/Surveysabouttheformationofpublicopinion1999-2003&file=/nesstar/temp/download6112582944255120458.tmp/Surveysabouttheformationofpublicopinion1999-2003.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+dksfpo2003,NA,Denmark,NA,NA,NA,2003,NA,NA,NA,misc,dkcssr,formpubop,NA,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/Surveysabouttheformationofpublicopinion1999-2003&file=/nesstar/temp/download6112582944255120458.tmp/Surveysabouttheformationofpublicopinion1999-2003.zip&server=http://cssr.surveybank.aau.dk:80,NA,NA
+eass_w1,NA,v2,NA,NA,NA,NA,v1,NA,weight,icpsr,eass,ICPSR_34608,NA,NA,NA,NA
+eass_w2,NA,v2,NA,NA,NA,NA,v1,NA,weight,icpsr,eass,ICPSR_36277,NA,NA,NA,NA
+eb05,NA,v4,NA,NA,NA,1975,NA,NA,NA,gesis,eb,ZA0989,NA,NA,NA,NA
+eb06,NA,v4,NA,NA,NA,1976,NA,NA,NA,gesis,eb,ZA0990,NA,NA,NA,NA
+eb10,NA,v8,NA,NA,"c(""NORTHERN IRELAND""=""United Kingdom"")",1978,NA,NA,"wt <- t_data$v6; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v7[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA0994,NA,NA,NA,NA
+eb11,NA,v8,NA,NA,"c(""NORTHERN IRELAND""=""United Kingdom"")",1979,NA,NA,"wt <- t_data$v6; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v7[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA1036,NA,NA,NA,NA
+eb16,NA,v5,NA,NA,"c(""NORTHERN IRELAND""=""United Kingdom"")",1981,NA,NA,"wt <- t_data$v6; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v8[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA1207,NA,NA,NA,NA
+eb19,NA,v5,NA,NA,NA,1983,NA,NA,v6,gesis,eb,ZA1318,NA,NA,NA,NA
+eb20,NA,v5,NA,NA,NA,1983,NA,NA,v6,gesis,eb,ZA1319,NA,NA,NA,NA
+eb21,NA,v5,NA,NA,NA,1984,NA,NA,v6,gesis,eb,ZA1320,NA,NA,NA,NA
+eb24,NA,v5,NA,NA,NA,1985,NA,NA,v6,gesis,eb,ZA1542,NA,NA,NA,NA
+eb25,NA,v5,NA,NA,NA,1986,NA,NA,v6,gesis,eb,ZA1543,NA,NA,NA,NA
+eb28,NA,v5,NA,NA,NA,1987,NA,NA,v6,gesis,eb,ZA1713,NA,NA,NA,NA
+eb30,NA,v5,NA,NA,NA,1988,NA,NA,v6,gesis,eb,ZA1715,NA,NA,NA,NA
+eb36,NA,v6,NA,NA,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1991,NA,NA,"wt <- t_data$v7; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA2081,NA,NA,NA,NA
+eb37,NA,v5,NA,NA,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1992,NA,NA,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA2141,NA,NA,NA,NA
+eb38,NA,v5,NA,NA,"c(""NORTHERN IRELAND""=""United Kingdom"", ""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1992,NA,NA,"wt <- t_data$v9; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v6[grep(""GB\\-"", t_data$isocntry)]; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA2294,NA,NA,NA,NA
+eb39,NA,v10,NA,NA,"c(""NORTHERN IRELAND""=""United Kingdom"")",1993,NA,NA,"wt <- t_data$v9; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v7[grep(""GB\\-"", t_data$isocntry)]; wt[grep(""NO"", t_data$isocntry)] <- 1; wt[grep(""FI"", t_data$isocntry)] <- 1",gesis,eb,ZA2346,NA,NA,NA,NA
+eb411,NA,v5,NA,NA,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1994,NA,NA,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2491,NA,NA,NA,NA
+eb441,NA,v5,NA,NA,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1995,NA,NA,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2690,NA,NA,NA,NA
+eb443,NA,v6,NA,NA,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1996,NA,NA,"wt <- t_data$v7; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2830,NA,NA,NA,NA
+eb471,NA,v13,NA,NA,NA,1997,NA,NA,v14,gesis,eb,ZA2936,NA,NA,NA,NA
+eb48,NA,v13,NA,NA,NA,1997,NA,NA,"wt <- t_data$v14; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA2959,NA,NA,NA,NA
+eb501,NA,v13,NA,NA,NA,1998,NA,NA,"wt <- t_data$v14; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3086,NA,NA,NA,NA
+eb51,NA,v13,NA,NA,NA,1999,NA,NA,"wt <- t_data$v14; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3171,NA,NA,NA,NA
+eb521,NA,v13,NA,NA,NA,1999,NA,NA,"wt <- t_data$v14; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3205,NA,NA,NA,NA
+eb53,NA,v13,NA,NA,NA,2000,NA,NA,"wt <- t_data$v14; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3296,NA,NA,NA,NA
+eb541,NA,v13,NA,NA,NA,2000,NA,NA,"wt <- t_data$v14; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3387,NA,NA,NA,NA
+eb551,NA,v12,NA,NA,NA,2001,NA,NA,"wt <- t_data$v13; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3507,NA,NA,NA,NA
+eb561,NA,v12,NA,NA,NA,2001,NA,NA,"wt <- t_data$v13; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3626,NA,NA,NA,NA
+eb562,NA,v12,NA,NA,NA,2001,NA,NA,"wt <- t_data$v13; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3627,NA,NA,NA,NA
+eb571,NA,v12,NA,NA,NA,2002,NA,NA,"wt <- t_data$v13; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA3639,NA,NA,NA,NA
+eb58,NA,v12,NA,NA,NA,2002,NA,NA,v13,gesis,eb,ZA3692,NA,NA,NA,NA
+eb591,NA,v13,NA,NA,NA,2003,NA,NA,"wt <- t_data$v14; wt[grep(""NO"", t_data$v7)] <- 1",gesis,eb,ZA3904,NA,NA,NA,NA
+eb592,NA,v13,NA,NA,NA,2003,NA,NA,v14,gesis,eb,ZA3905,NA,NA,NA,NA
+eb601,NA,v12,NA,NA,NA,2003,NA,NA,v13,gesis,eb,ZA3938,NA,NA,NA,NA
+eb61,NA,v12,NA,NA,NA,2004,NA,NA,"wt <- t_data$v13; wt[grep(""NO"", t_data$isocntry)] <- 1",gesis,eb,ZA4056,NA,NA,NA,NA
+eb62,NA,v6,NA,NA,NA,2004,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4229,NA,NA,NA,NA
+eb621,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"")",2004,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v10[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA4230,NA,NA,NA,NA
+eb622,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"")",2004,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4231,NA,NA,NA,NA
+eb631,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"")",2005,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v10[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA4233,NA,NA,NA,NA
+eb634,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"")",2005,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4411,NA,NA,NA,NA
+eb642,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2005,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v10[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA4414,NA,NA,NA,NA
+eb652,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2006,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4506,NA,NA,NA,NA
+eb653,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2006,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v10[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA4507,NA,NA,NA,NA
+eb661,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2006,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]; wt[grep(""GB\\-"", t_data$isocntry)] <- t_data$v10[grep(""GB\\-"", t_data$isocntry)]",gesis,eb,ZA4526,NA,NA,NA,NA
+eb663,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2006,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v10[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v12[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4528,NA,NA,NA,NA
+eb672,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2007,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v10[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v12[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4530,NA,NA,NA,NA
+eb681,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2007,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v10[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v12[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4565,NA,NA,NA,NA
+eb691,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2008,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v10[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v12[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4743,NA,NA,NA,NA
+eb692,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2008,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4744,NA,NA,NA,NA
+eb701,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2008,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4819,NA,NA,NA,NA
+eb711,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2009,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4971,NA,NA,NA,NA
+eb712,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2009,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v10[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v12[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4972,NA,NA,NA,NA
+eb713,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2009,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4973,NA,NA,NA,NA
+eb721,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2009,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4975,NA,NA,NA,NA
+eb722,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2009,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4976,NA,NA,NA,NA
+eb724,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2009,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA4994,NA,NA,NA,NA
+eb734,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2010,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA5234,NA,NA,NA,NA
+eb741,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2010,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA5237,NA,NA,NA,NA
+eb742,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2010,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA5449,NA,NA,NA,NA
+eb753,NA,v6,NA,NA,"c(""Northern Ireland""=""United Kingdom"", ""Germany East""=""Germany"", ""Germany West""=""Germany"", ""Cyprus (CY-TCC)""=""Northern Cyprus"")",2011,NA,NA,"wt <- t_data$v8; wt[grep(""DE\\-"", t_data$v7)] <- t_data$v12[grep(""DE\\-"", t_data$v7)]; wt[grep(""GB\\-"", t_data$v7)] <- t_data$v10[grep(""GB\\-"", t_data$v7)]",gesis,eb,ZA5481,NA,NA,NA,NA
+eb761,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2011,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5565,NA,NA,NA,NA
+eb763,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2011,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5567,NA,NA,NA,NA
+eb773,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2012,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5612,NA,NA,NA,NA
+eb774,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2012,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5613,NA,NA,NA,NA
+eb781,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2012,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5685,NA,NA,NA,NA
+eb793,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2013,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5689,NA,NA,NA,NA
+eb801,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2013,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5876,NA,NA,NA,NA
+eb812,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2014,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5913,NA,NA,NA,NA
+eb814,NA,country,NA,NA,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2014,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5928,NA,NA,NA,NA
+eb815,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2014,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5929,NA,NA,NA,NA
+eb823,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2014,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5932,NA,NA,NA,NA
+eb824,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2014,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5933,NA,NA,NA,NA
+eb833,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5998,NA,NA,NA,NA
+eb834,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6595,NA,NA,NA,NA
+eb843,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6643,NA,NA,NA,NA
+eb852,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2016,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6694,NA,NA,NA,NA
+eb862,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2016,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6788,NA,NA,NA,NA
+eb873,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2017,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6863,NA,NA,NA,NA
+eb874,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2017,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6924,NA,NA,NA,NA
+eb883,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2017,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6928,NA,NA,NA,NA
+eb884,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2017,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6939,NA,NA,NA,NA
+eb891,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2018,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6963,NA,NA,NA,NA
+eb903,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2018,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7489,NA,NA,NA,NA
+eb912,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2019,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7562,NA,NA,NA,NA
+eb915,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2019,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7576,NA,NA,NA,NA
+eb923,NA,country,NA,NA,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2019,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7601,NA,NA,NA,NA
+ees1994,NA,country,NA,"data_frame(orig=c(1:14), dest = c(""Belgium"",  ""Denmark"",    ""West Germany"",  ""Greece"",  ""Italy"",  ""Spain"", ""France"",  ""Ireland"", ""Northern Ireland"",  ""Luxembourg"",      ""Netherlands"",  ""Portugal"",  ""United Kingdom"",   ""East Germany"" ))","c(""Northern Ireland""=""United Kingdom"", ""East Germany""=""Germany"", ""West Germany""=""Germany"")",1994,NA,NA,v3,gesis,ees,ZA2865,NA,NA,NA,NA
+ees2004,NA,country,NA,"data_frame(orig=c(1:26), dest = c(""Austria"",  ""Belgium"",  ""United Kingdom"",  "" Cyprus"",  ""Czech Republic"", ""Denmark"", ""Estonia"",   ""Finland"",   ""France"",  ""Germany"",  ""Greece"", ""Hungary"",  ""Ireland"",  ""Italy"", ""Latvia"",  ""Lithuania"",  ""Luxembourg"", ""Malta"",  ""Netherlands"", ""Northern Ireland"",  ""Poland"", ""Portugal"", ""Slovakia"",  ""Slovenia"", ""Spain"",  ""Sweden""  ))","c(""Northern Ireland""=""United Kingdom"", ""East Germany""=""Germany"", ""West Germany""=""Germany"")",2004,NA,NA,nweight,gesis,ees,ZA4566,NA,NA,NA,NA
+ees2009,NA,t102,NA,NA,NA,2009,NA,NA,v100,gesis,ees,ZA5055,NA,NA,NA,NA
+ees2014,NA,countrycode,NA,NA,NA,2014,NA,NA,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w2[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w3[t_data$c_dcpo==""United Kingdom""]",gesis,ees,ZA5161,NA,NA,NA,NA
+ees2019,NA,countrycode,NA,NA,NA,2019,NA,NA,wgt5,gesis,ees,ZA7581,NA,NA,NA,NA
+eqls_combo,NA,y16_country,NA,NA,NA,NA,wave,NA,wcalib,ukds,eqls,7348,NA,NA,NA,NA
+ess1,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess1,NA,NA,NA,NA
+ess2,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess2,NA,NA,NA,NA
+ess3,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess3,NA,NA,NA,NA
+ess4,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess4,NA,NA,NA,NA
+ess5,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess5,NA,NA,NA,NA
+ess6,NA,cntry,iso2c,NA,"c(""XK""=""Kosovo"")",NA,inwyr,NA,dweight,misc,ess,ess6,NA,NA,NA,NA
+ess7,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess7,NA,NA,NA,NA
+ess8,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess8,NA,NA,NA,NA
+ess9,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess9,NA,NA,NA,NA
+ess_combo,NA,cntry,iso2c,NA,NA,NA,inwyr,NA,dweight,misc,ess,ess1_9,NA,NA,NA,NA
+eunb_wave1,NA,isocntry,iso2c,NA,NA,2012,NA,NA,w1,gesis,eunb,ZA6288,NA,NA,NA,NA
+eunb_wave2,NA,isocntry,iso2c,NA,NA,2012,NA,NA,w1,gesis,eunb,ZA6289,NA,NA,NA,NA
+eunb_wave3,NA,isocntry,iso2c,NA,NA,2013,NA,NA,w1,gesis,eunb,ZA6290,NA,NA,NA,NA
+eunb_wave4,NA,isocntry,iso2c,NA,NA,2013,NA,NA,w1,gesis,eunb,ZA6291,NA,NA,NA,NA
+eunb_wave5,NA,isocntry,iso2c,NA,NA,2014,NA,NA,w1,gesis,eunb,ZA6292,NA,NA,NA,NA
+eunb_wave6,NA,isocntry,iso2c,NA,NA,2014,NA,NA,w1,gesis,eunb,ZA6293,NA,NA,NA,NA
+evs_combo,s025,s003,NA,NA,"c(""Northern Ireland""=""Northern Ireland"")",NA,s020,NA,s017,gesis,evs,ZA4804,NA,NA,NA,NA
+evs2008,NA,country,NA,NA,NA,NA,year,NA,weight_g,gesis,evs,ZA4800,NA,NA,NA,NA
+evs1999ger,NA,Germany,NA,NA,NA,1999,NA,NA,weight,gesis,evs,ZA3778,NA,NA,NA,NA
+evs1999fin,NA,Finland,NA,NA,NA,2000,NA,NA,weight,gesis,evs,ZA3787,NA,NA,NA,NA
+evs1999tur,NA,Turkey,NA,NA,NA,2001,NA,NA,NA,gesis,evs,ZA3808,NA,NA,NA,NA
+evs2017,NA,country,NA,NA,NA,NA,year,NA,gweight,gesis,evs,ZA7500,NA,NA,NA,NA
+evs_greece2017,NA,Greece,NA,NA,NA,2017,NA,NA,NA,gesis,evs,ZA7546,NA,NA,NA,NA
+feb227,NA,country,NA,NA,NA,2008,NA,NA,w4,gesis,eb,ZA4811,NA,NA,NA,NA
+frifop197211,NA,France,NA,NA,NA,1972,NA,NA,NA,roper,frifop,FRIFOP1972-O461,NA,NA,NA,NA
+gallup_canada1965,NA,Canada,NA,NA,NA,1965,NA,NA,NA,roper,gallup_canada,CNCIPO1965-312,NA,NA,NA,NA
+gallup_canada1970,NA,Canada,NA,NA,NA,1970,NA,NA,NA,roper,gallup_canada,CNCIPO1970-344,NA,NA,NA,NA
+gallup_canada1972,NA,Canada,NA,NA,NA,1972,NA,NA,NA,roper,gallup_canada,CNCIPO1972-355,NA,NA,NA,NA
+gallup_canada197409,NA,Canada,NA,NA,NA,1974,NA,NA,NA,roper,gallup_canada,CNCIPO1974-368,NA,NA,NA,NA
+gallup_canada197507,NA,Canada,NA,NA,NA,1975,NA,NA,NA,roper,gallup_canada,CNCIPO1975-378,NA,NA,NA,NA
+gallup_canada197902,NA,Canada,NA,NA,NA,1979,NA,NA,NA,roper,gallup_canada,CNCIPO1979-421B,NA,NA,NA,NA
+gallup_canada198307,NA,Canada,NA,NA,NA,1983,NA,NA,NA,roper,gallup_canada,CNCIPO1983-475-1,NA,NA,NA,NA
+gallup_canada198805,NA,Canada,NA,NA,NA,1988,NA,NA,NA,roper,gallup_canada,CNCIPO1988-533-1,NA,NA,NA,NA
+gallup_canada198809,NA,Canada,NA,NA,NA,1988,NA,NA,weight,roper,gallup_canada,CNCIPO1988-809-1,NA,NA,NA,NA
+gallup_canada198902,NA,Canada,NA,NA,NA,1989,NA,NA,weight,roper,gallup_canada,CNCIPO1989-902-2,NA,NA,NA,NA
+gallup_canada198908,NA,Canada,NA,NA,NA,1989,NA,NA,weight,roper,gallup_canada,CNCIPO1989-908-2,NA,NA,NA,"list(file = file_path, var_names = c(""q6a"", ""weight""), var_positions = c(25, 15), var_widths = c(1, 5))"
+gallup_canada198912,NA,Canada,NA,NA,NA,1989,NA,NA,weight,roper,gallup_canada,CNCIPO1989-912-1,NA,NA,NA,NA
+gallup_canada199009,NA,Canada,NA,NA,NA,1990,NA,NA,weight,roper,gallup_canada,CNCIPO1990-009-2,NA,NA,NA,NA
+gallup_canada199105,NA,Canada,NA,NA,NA,1991,NA,NA,weight,roper,gallup_canada,CNCIPO1991-105-1,NA,NA,NA,NA
+gallup_canada199209,NA,Canada,NA,NA,NA,1992,NA,NA,weight,roper,gallup_canada,CNCIPO1992-809T,NA,NA,NA,NA
+gallup_canada199306,NA,Canada,NA,NA,NA,1993,NA,NA,weight,roper,gallup_canada,CNCIPO1993-656T,NA,NA,NA,NA
+gallup_canada199508,NA,Canada,NA,NA,NA,1995,NA,NA,weight,roper,gallup_canada,CNCIPO1995-95008,NA,NA,NA,NA
+gallup_canada1996,NA,Canada,NA,NA,NA,1996,NA,NA,weight,roper,gallup_canada,CNCIPO1996-96010,NA,NA,NA,NA
+gallup_canada199711,NA,Canada,NA,NA,NA,1997,NA,NA,weight,roper,gallup_canada,CNCIPO1997-97011,NA,NA,NA,NA
+gallup_canada199811,NA,Canada,NA,NA,NA,1998,NA,NA,weight,roper,gallup_canada,CNCIPO1998-98011,NA,NA,NA,NA
+gallup_canada1999,NA,Canada,NA,NA,NA,1999,NA,NA,NA,roper,gallup_canada,CNCIPO1999-04,NA,NA,NA,NA
+gallup_canada199911,NA,Canada,NA,NA,NA,1999,NA,NA,weight,roper,gallup_canada,CNCIPO1999-11,NA,NA,NA,NA
+gallup_canada2000,NA,Canada,NA,NA,NA,2000,NA,NA,weight,roper,gallup_canada,CNCIPO2000-02,NA,NA,NA,NA
+gallup_canada200011,NA,Canada,NA,NA,NA,2000,NA,NA,weight,roper,gallup_canada,CNCIPO2000-11,NA,NA,NA,NA
+gallup_uk196910,NA,United Kingdom,NA,NA,NA,1969,NA,NA,NA,roper,gallup_uk,GBSSLT1969-CQ654,NA,NA,NA,NA
+gallup_uk197311,NA,United Kingdom,NA,NA,NA,1973,NA,NA,NA,roper,gallup_uk,GBSSLT1973-CQ876,NA,NA,NA,NA
+gallup_uk197501,NA,United Kingdom,NA,NA,NA,1975,NA,NA,NA,roper,gallup_uk,GBSSLT1975-CQ945,NA,NA,NA,NA
+gallup_uk1977,NA,United Kingdom,NA,NA,NA,1977,NA,NA,NA,roper,gallup_uk,GBSSLT1977-CQ575,NA,NA,NA,NA
+gallup_uk1981,NA,United Kingdom,NA,NA,NA,1981,NA,NA,NA,misc,roper_request,GBSSLT1981-CQ792,NA,NA,NA,NA
+gallup_uk198202,NA,United Kingdom,NA,NA,NA,1982,NA,NA,NA,roper,gallup_uk,GBSSLT1982-CQ806,NA,NA,NA,NA
+gallup_uk1985,NA,United Kingdom,NA,NA,NA,1985,NA,NA,NA,misc,roper_request,GBSSLT1985-CQ958A,NA,NA,NA,NA
+gallup_uk1986,NA,United Kingdom,NA,NA,NA,1986,NA,NA,NA,misc,roper_request,GBSSLT1986-CQ044A,NA,NA,NA,NA
+gallup_us196208,NA,United States,NA,NA,NA,1962,NA,NA,NA,roper,gallup_us,USAIPO1962-0662,NA,NA,NA,"list(file = file_path, var_names = c(""q21a"", ""q21b"", ""q21c""), var_cards = c(1, 1, 1), var_positions = c(53, 54, 55), var_widths = c(1, 1, 1), total_cards = 2)"
+gallup_us196512,NA,United States,NA,NA,NA,1965,NA,NA,NA,roper,gallup_us,USAIPO1965-0721,NA,NA,NA,"list(file = file_path, var_names = c(""q25a"", ""q25b"", ""q25c""), var_cards = c(2, 2, 2), var_positions = c(46, 47, 48), var_widths = c(1, 1, 1), total_cards = 2)"
+gallup_us196909,NA,United States,NA,NA,NA,1969,NA,NA,weight,roper,gallup_us,USAIPO1969-0788,NA,NA,NA,"list(file = file_path, var_names = c(""q44a"", ""q44b"", ""q44c"", ""q44d"", ""weight""), var_positions = c(29, 30, 31, 32, 64), var_widths = c(1, 1, 1, 1, 1))"
+gallup_us197706,NA,United States,NA,NA,NA,1977,NA,NA,weight,roper,gallup_us,USAIPO1977-0978,NA,NA,NA,NA
+gallup_us197811_ct,NA,United States,NA,NA,NA,1978,NA,NA,weight,roper,gallup_us,USAIPOSPGO1978-78139,NA,NA,NA,"list(file = file_path, var_names = c(""q60"", ""weight""), var_positions = c(67, 1), var_widths = c(1, 1))"
+gallup_us198206,NA,United States,NA,NA,NA,1982,NA,NA,weight,roper,gallup_us,USAIPO1982-1197G,NA,NA,NA,"list(file = file_path, var_names = c(""q09h"", ""q09j"", ""weight""), var_positions = c(36, 38, 1), var_widths = c(1, 1, 1))"
+gallup_us198606,NA,United States,NA,NA,NA,1986,NA,NA,weight,roper,gallup_us,USAIPO1986-1266G,NA,NA,NA,NA
+gallup_us198703,NA,United States,NA,NA,NA,1987,NA,NA,weight,roper,gallup_us,USAIPOSPAI1987-852,NA,NA,NA,"list(file = file_path, var_names = c(""q20"", ""weight""), var_positions = c(32, 4), var_widths = c(1, 3))"
+gallup_us198807,NA,United States,NA,NA,NA,1988,NA,NA,weight,roper,gallup_us,USAIPOSPAI1988-874,NA,NA,NA,NA
+gallup_us198909,NA,United States,NA,NA,NA,1989,NA,NA,weight,roper,gallup_us,USAIPOSPGONEW1989-89262,NA,NA,NA,NA
+gallup_us198910,NA,United States,NA,NA,NA,1989,NA,NA,weight,roper,gallup_us,USAIPOGNS1989-89139-W2,NA,NA,NA,NA
+gallup_us199109,NA,United States,NA,NA,NA,1991,NA,NA,weight,roper,gallup_us,USAIPOGNS1991-222013,NA,NA,NA,"list(file = file_path, var_names = c(""q7"", ""weight""), var_cards = c(3, 1), var_positions = c(41, 13), var_widths = c(1, 3), total_cards = 4)"
+gallup_us199206,NA,United States,NA,NA,NA,1992,NA,NA,weight,roper,gallup_us,USAIPOGNS1992-222054,NA,NA,NA,"list(file = file_path, var_names = c(""q24"", ""q25"", ""weight""), var_cards = c(4, 4, 1), var_positions = c(46, 47, 13), var_widths = c(1, 1, 3), total_cards = 4)"
+gallup_us199603,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,gallup_us,USAIPOCNUS1996-9603008,NA,NA,NA,"list(file = file_path, var_names = c(""q43a"", ""q44"", ""weight""), var_cards = c(6, 6, 1), var_positions = c(62, 64, 13), var_widths = c(1, 1, 3), total_cards = 7,  card_pattern = ""(?<=^.{10})\\d"", respondent_pattern = ""(?<=^\\s{2})\\d{4}"")"
+gallup_us199611,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,gallup_us,USAIPOGNS1996-9611036,NA,NA,NA,"list(file = file_path, var_names = c(""q12"", ""weight""), var_cards = c(6, 1), var_positions = c(51, 13), var_widths = c(1, 3), total_cards = 7,  card_pattern = ""(?<=^.{10})\\d"", respondent_pattern = ""^\\d{6}"")"
+gallup_us199902,NA,United States,NA,NA,NA,1999,NA,NA,weight,roper,gallup_us,USAIPOGNS1999-9902009,NA,NA,NA,"list(file = file_path, var_names = c(""q35"", ""q39a"", ""weight""), var_cards = c(7, 7, 1), var_positions = c(39, 49, 13), var_widths = c(1, 1, 3), total_cards = 7,  card_pattern = ""(?<=^.{10})\\d"", respondent_pattern = ""(?<=^\\s{2})\\d{4}"")"
+gallup_us200305,NA,United States,NA,NA,NA,2003,NA,NA,wtfctr,roper,gallup_us,USAIPOGNS2003-31,NA,NA,NA,NA
+gallup_us200401,NA,United States,NA,NA,NA,2004,NA,NA,wtfctr,roper,gallup_us,USAIPOCNUS2004-02,NA,NA,NA,NA
+gallup_us200402,NA,United States,NA,NA,NA,2004,NA,NA,wtfctr,roper,gallup_us,USAIPOGNS2004-08,NA,NA,NA,NA
+gallup_us200508,NA,United States,NA,NA,NA,2005,NA,NA,wtfctr,roper,gallup_us,USAIPOGNS2005-39,NA,NA,NA,NA
+gallup_us200709,NA,United States,NA,NA,NA,2007,NA,NA,wtfctr,roper,gallup_us,USAIPOUSA2007-30,NA,NA,NA,NA
+gallup_us200905,NA,United States,NA,NA,NA,2009,NA,NA,wtfctr,roper,gallup_us,USAIPOGNS2009-09,NA,NA,NA,NA
+gallup_us201112,NA,United States,NA,NA,NA,2011,NA,NA,wtfctr,roper,gallup_us,USAIPOUSA2011-22,NA,NA,NA,NA
+gallup_us201211,NA,United States,NA,NA,NA,2012,NA,NA,wtfctr,roper,gallup_us,USAIPOUSA2012-19,NA,NA,NA,NA
+gallup_vop2004,NA,country,iso3c,NA,"c(""BRZ""=""Brazil"", ""CRO""=""Croatia"", ""CZR""=""Czechia"", ""GER""=""Germany"", ""GUA""=""Guatemala"", ""ICE""=""Iceland"", ""IRE""=""Ireland"", ""KYA""=""Kenya"", ""KVO""=""Kosovo"", ""LTV""=""Latvia"", ""LIT""=""Lithuania"", ""MCD""=""North Macedonia"", ""MDV""=""Moldova"", ""PGY""=""Paraguay"", ""RMA""=""Romania"", ""RUSG""=""Russia"", ""SER""=""Serbia"", ""RSA""=""South Africa"", ""SPN""=""Spain"", ""SWI""=""Switzerland"", ""TOG""=""Togo"", ""UK""=""United Kingdom"")",2004,NA,NA,wt,icpsr,gallup_vop,ICPSR_24681,NA,NA,NA,NA
+gallup_vop2005,NA,country,iso3c,NA,"c(""BRZ""=""Brazil"", ""CRO""=""Croatia"", ""CZR""=""Czechia"", ""GER""=""Germany"", ""GUA""=""Guatemala"", ""ICE""=""Iceland"", ""IRE""=""Ireland"", ""KYA""=""Kenya"", ""KVO""=""Kosovo"", ""LTV""=""Latvia"", ""LIT""=""Lithuania"", ""MCD""=""North Macedonia"", ""MDV""=""Moldova"", ""PGY""=""Paraguay"", ""RMA""=""Romania"", ""RUSG""=""Russia"", ""SER""=""Serbia"", ""RSA""=""South Africa"", ""SPN""=""Spain"", ""SWI""=""Switzerland"", ""TOG""=""Togo"", ""UK""=""United Kingdom"")",2005,NA,NA,weight,icpsr,gallup_vop,ICPSR_04636,NA,NA,NA,NA
+gallup_vop2007,NA,country,iso3c,NA,"c(""BRZ""=""Brazil"", ""CRO""=""Croatia"", ""CZR""=""Czechia"", ""GER""=""Germany"", ""GUA""=""Guatemala"", ""ICE""=""Iceland"", ""IRE""=""Ireland"", ""KYA""=""Kenya"", ""KVO""=""Kosovo"", ""LTV""=""Latvia"", ""LIT""=""Lithuania"", ""MCD""=""North Macedonia"", ""MDV""=""Moldova"", ""PGY""=""Paraguay"", ""RMA""=""Romania"", ""RUSG""=""Russia"", ""SER""=""Serbia"", ""RSA""=""South Africa"", ""SPN""=""Spain"", ""SWI""=""Switzerland"", ""TOG""=""Togo"", ""UK""=""United Kingdom"")",2007,NA,NA,wt,icpsr,gallup_vop,ICPSR_21441,NA,NA,NA,NA
+ges1976,NA,Germany,NA,NA,NA,1976,NA,NA,NA,gesis,ges,ZA0823,NA,NA,NA,NA
+ges1983,NA,Germany,NA,NA,NA,1983,NA,NA,NA,gesis,ges,ZA1276,NA,NA,NA,NA
+ges1987,NA,Germany,NA,NA,NA,1987,NA,NA,NA,gesis,ges,ZA1536,NA,NA,NA,NA
+ges1990,NA,Germany,NA,NA,NA,1990,NA,NA,NA,gesis,ges,ZA1920,NA,NA,NA,NA
+gps2014,NA,nutsnaz,NA,NA,NA,2014,NA,NA,NA,gesis,euandi,ZA5970,NA,NA,NA,NA
+icenes1983,NA,Iceland,NA,NA,NA,1983,NA,NA,NA,misc,icenes,icenes1983,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1983_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1983_codebook_open_access_english_3release.pdf,NA
+icenes1987,NA,Iceland,NA,NA,NA,1987,NA,NA,NA,misc,icenes,icenes1987,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1987_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1987_codebook_open_access_english_3release.pdf,NA
+icenes1991,NA,Iceland,NA,NA,NA,1991,NA,NA,NA,misc,icenes,icenes1991,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1991_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1991_codebook_open_access_english_3release.pdf,NA
+icenes1995,NA,Iceland,NA,NA,NA,1995,NA,NA,NA,misc,icenes,icenes1995,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1995_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1995_codebook_open_access_english_3release.pdf,NA
+icenes1999,NA,Iceland,NA,NA,NA,1999,NA,NA,NA,misc,icenes,icenes1999,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1999_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_1999_codebook_open_access_english_3release.pdf,NA
+icenes2003,NA,Iceland,NA,NA,NA,2003,NA,NA,NA,misc,icenes,icenes2003,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_2003_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_2003_codebook_open_access_english_3release.pdf,NA
+icenes2007,NA,Iceland,NA,NA,NA,2007,NA,NA,NA,misc,icenes,icenes2007,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_2007_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_2007_codebook_open_access_english_3release.pdf,NA
+icenes2009,NA,Iceland,NA,NA,NA,2009,NA,NA,NA,misc,icenes,icenes2009,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_2009_open_access_english_3release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/icenes_2009_codebook_open_access_english_3release.pdf,NA
+icenes2013,NA,Iceland,NA,NA,NA,2013,NA,NA,NA,misc,icenes,icenes2013,NA,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/ICENES_2013/icenes_2013_open_access_english_1release.sav,http://fel.hi.is/sites/fel.hi.is/files/islenska_kosningarannsoknin/ICENESSecondrelease/2014/ICENES_2013/icenes_2013_codebook_open_access_english_1release.pdf,NA
+iears2018,NA,Ireland,NA,NA,NA,2018,NA,NA,NA,dataverse,ieref,iears2018,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JELRGK,NA,NA
+iccp2004,NA,Ireland,NA,NA,NA,2004,NA,NA,NA,misc,issda,iccp2004,NA,NA,NA,NA
+iccp2010,NA,Ireland,NA,NA,NA,2010,NA,NA,NA,misc,issda,iccp2010,NA,NA,NA,NA
+iemrbi200202,NA,Ireland,NA,NA,NA,2002,NA,NA,NA,misc,issda,iemrbi200202,NA,NA,NA,NA
+ines_long,NA,Ireland,NA,NA,NA,NA,ines,NA,"wt <- t_data$v1171; wt[t_data$y_dcpo==2003] <- t_data$v1174[t_data$y_dcpo==2003] ; wt[t_data$y_dcpo==2004] <- (t_data$v1175[t_data$y_dcpo==2004]/mean(t_data$v1175[t_data$y_dcpo==2004], na.rm=TRUE)); wt[t_data$y_dcpo==2006] <- (t_data$v1178[t_data$y_dcpo==2006] /mean(t_data$v1178[t_data$y_dcpo==2006] , na.rm = TRUE)); wt[t_data$y_dcpo==2007] <- t_data$v1180[t_data$y_dcpo==2007] ; wt[is.na(wt)] <- 1",misc,issda,ines_long,NA,https://www.ucd.ie/issda/t4media/INESLong_Beta.zip,https://www.ucd.ie/issda/t4media/INES%20Codebook.pdf,NA
+intune2007,NA,b,NA,NA,NA,NA,NA,"data_frame(orig=c(1:17,18), year = c(""2007"", ""2007"",""2007"", ""2007"", ""2007"", ""2007"",""2007"",""2007"",""2007"",""2007"",""2007"",""2007"",""2007"",""2007"",""2007"",""2007"",""2007"",""2008""))",w1,gesis,intune,ZA5695,NA,NA,NA,NA
+intune2009,NA,country,NA,NA,NA,2009,NA,NA,wmid2,gesis,intune,ZA5696,NA,NA,NA,NA
+ispas2001,NA,Ireland,NA,NA,NA,2001,NA,NA,wgtall,misc,issda,ispas2001,NA,NA,http://www.ucd.ie/issda/static/documentation/ispas/ispas-questionnaire.pdf,NA
+isshr2006,NA,Ireland,NA,NA,NA,2006,NA,NA,awgt2205,misc,issda,isshr2006,NA,NA,http://www.ucd.ie/issda/static/documentation/esri/isshr-questionnaire.pdf,NA
+isjp_comb9196,NA,v1,NA,NA,"c( ""Eastern Germany""=""Germany"", ""Western Germany""=""Germany"", ""Great Britain""= ""United Kingdom"")",NA,year,NA,weight,gesis,jsps,ZA3522,NA,NA,NA,NA
+issp1985,NA,v3,NA,"data_frame(orig=c(""aus"", ""d"", ""gb"", ""usa"", ""a"", ""i""), dest = c(""Australia"", ""Germany"", ""United Kingdom"", ""United States"", ""Austria"", ""Italy""))",NA,NA,NA,"data_frame(orig=c(""aus"", ""d"", ""gb"", ""usa"", ""a"", ""i""), year = c(""1986"", ""1985"", ""1985"", ""1985"", ""1986"", ""1985""))",v141,gesis,issp,ZA1490,NA,NA,NA,NA
+issp1987,NA,v3,NA,"data_frame(orig=c(""aus"", ""d"", ""gb"", ""usa"", ""a"", ""h"", ""nl"", ""i"", ""ch"", ""pl""), dest = c(""Australia"", ""Germany"", ""United Kingdom"", ""United States"", ""Austria"", ""Hungary"", ""Netherlands"", ""Italy"", ""Switzerland"", ""Poland""))",NA,NA,NA,"data_frame(orig=c(""aus"", ""d"", ""gb"", ""usa"", ""a"", ""h"", ""nl"", ""i"", ""ch"", ""pl""), year = c(""1988"", ""1987"", ""1987"", ""1987"", ""1988"", ""1987"", ""1987"", ""1987"", ""1987"", ""1987""))",v107,gesis,issp,ZA1680,NA,NA,NA,NA
+issp1987ie,NA,Ireland,NA,NA,NA,1989,NA,NA,v107,gesis,issp,ZA1306,NA,NA,NA,NA
+issp1988,NA,v3,NA,"data_frame(orig=c(""aus"", ""d"", ""gb"", ""usa"", ""a"", ""h"", ""nl"", ""i"", ""irl""), dest = c(""Australia"", ""Germany"", ""United Kingdom"", ""United States"", ""Austria"", ""Hungary"", ""Netherlands"", ""Italy"", ""Ireland""))",NA,NA,NA,"data_frame(orig=c(""aus"", ""d"", ""gb"", ""usa"", ""a"", ""h"", ""nl"", ""i"", ""irl""), year = c(""1988"", ""1988"", ""1988"", ""1988"", ""1988"", ""1988"", ""1988"", ""1989"", ""1989""))",v116,gesis,issp,ZA1700,NA,NA,NA,NA
+issp1988au,NA,Australia,NA,NA,NA,1991,NA,NA,NA,gesis,issp,ZA1977,NA,NA,NA,NA
+issp1990,NA,v3,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""nirl"", ""usa"", ""h"", ""i"", ""irl"", ""n"", ""il""), dest = c(""Australia"", ""Germany"", ""Germany"", ""United Kingdom"", ""Northern Ireland"", ""United States"", ""Hungary"",  ""Italy"", ""Ireland"", ""Norway"", ""Israel""))",NA,NA,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""nirl"", ""usa"", ""h"", ""i"", ""n"", ""irl"", ""il""), year = c(""1990"", ""1990"", ""1990"", ""1990"", ""1990"", ""1990"", ""1990"",  ""1990"", ""1990"", ""1991"", ""1991""))",v114,gesis,issp,ZA1950,NA,NA,NA,NA
+issp1991,NA,v3,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""usa"", ""a"", ""h"", ""nl"", ""i"", ""irl"", ""il"", ""nz"", ""n"", ""nirl"", ""rp"", ""pl"", ""rus"", ""slo""), dest = c(""Australia"", ""Germany"", ""Germany"", ""United Kingdom"", ""United States"", ""Austria"", ""Hungary"", ""Netherlands"", ""Italy"", ""Ireland"", ""Israel"", ""New Zealand"", ""Norway"", ""Northern Ireland"", ""Philippines"", ""Poland"", ""Russian Federation"", ""Slovenia""))",NA,NA,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""usa"", ""a"", ""h"", ""nl"", ""i"", ""irl"", ""il"", ""nz"", ""n"", ""nirl"", ""rp"", ""pl"", ""rus"", ""slo""), year = c(""1993"", ""1991"", ""1991"", ""1991"", ""1991"", ""1993"", ""1991"", ""1991"", ""1990"", ""1991"", ""1991"", ""1991"", ""1991"", ""1991"", ""1991"", ""1991"", ""1991"", ""1991""))",v131,gesis,issp,ZA2150,NA,NA,NA,NA
+issp1992,NA,v3,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""usa"", ""a"", ""h"", ""i"", ""nz"", ""n"", ""s"", ""rp"", ""cz"", ""pl"", ""bg"", ""rus"", ""slo"", ""cdn""), dest = c(""Australia"", ""Germany"", ""Germany"", ""United Kingdom"", ""United States"", ""Austria"", ""Hungary"", ""Italy"", ""New Zealand"", ""Norway"", ""Sweden"", ""Philippines"", ""Czechoslovakia"", ""Poland"", ""Bulgaria"", ""Russian Federation"", ""Slovenia"", ""Canada""))",NA,NA,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""usa"", ""a"", ""h"", ""i"", ""nz"", ""n"", ""s"", ""rp"", ""cz"", ""pl"", ""bg"", ""rus"", ""slo"", ""cdn""), year = c(""1993"", ""1992"", ""1992"", ""1992"", ""1992"", ""1993"", ""1992"", ""1992"", ""1992"", ""1992"", ""1991"", ""1992"", ""1992"", ""1992"", ""1993"", ""1992"", ""1992"", ""1992""))",v176,gesis,issp,ZA2310,NA,NA,NA,NA
+issp1992es,NA,Spain,NA,NA,NA,1994,NA,NA,NA,gesis,issp,ZA2496,NA,NA,NA,NA
+issp1994,NA,v3,NA,NA,"c(""NIRL- Northern Ireland""=""Northern Ireland"", ""D-E - Germany-East""=""Germany"", ""D-W - Germany-West""=""Germany"")",NA,NA,"data_frame(orig=c(""A   - Austria"", ""AUS - Australia"", ""BG  - Bulgaria"", ""CDN - Canada"", ""CZ  - Czech Republic"", ""D-E - Germany-East"", ""D-W - Germany-West"", ""E   - Spain"", ""GB  - Great Britain"", ""H   - Hungary"", ""I   - Italy"", ""IL  - Israel"", ""IRL - Ireland"", ""J   - Japan"", ""N   - Norway"", ""NIRL- Northern Ireland"", ""NL  - Netherlands"", ""NZ  - New Zealand"", ""PL  - Poland"", ""RP  - Philippines"", ""RUS - Russia"", ""S   - Sweden"", ""SLO - Slovenia"", ""USA - United States""), year = c(""1995"", ""1994"", ""1995"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1994"", ""1993"", ""1994""))",v315,gesis,issp,ZA2620,NA,NA,NA,NA
+issp1995,NA,v3,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""nirl"", ""usa"", ""a"", ""h"", ""i"", ""irl"", ""nz"", ""nl"", ""n"", ""s"", ""rp"", ""cz"", ""pl"", ""bg"", ""rus"", ""slo"", ""cdn"", ""IL-J"", ""IL-A"", ""j"", ""e"", ""lv"", ""f"", ""cy"", ""ch"", ""sk""), dest = c(""Australia"", ""Germany"", ""Germany"", ""United Kingdom"", ""Northern Ireland"", ""United States"", ""Austria"", ""Hungary"", ""Italy"", ""Ireland"", ""New Zealand"", ""Netherlands"", ""Norway"", ""Sweden"", ""Philippines"", ""Czechia"", ""Poland"", ""Bulgaria"", ""Russian Federation"", ""Slovenia"", ""Canada"", ""Israel"", ""Israel"", ""Japan"", ""Spain"", ""Latvia"", ""France"", ""Cyprus"", ""Switzerland"", ""Slovakia""))",NA,NA,NA,"tibble(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""usa"", ""a"", ""h"", ""i"", ""irl"", ""nl"", ""n"", ""s"", ""cz"", ""slo"", ""pl"", ""bg"", ""rus"", ""nz"", ""cdn"", ""rp"", ""j"", ""e"", ""lv"", ""sk""), year=c(""1995"", ""1995"", ""1995"", ""1995"", ""1996"", ""1995"", ""1995"", ""1995"", ""1995"", ""1995"", ""1995"", ""1995"", ""1995"", ""1994"", ""1995"", ""1995"", ""1996"", ""1996"", ""1995"", ""1995"", ""1995"", ""1995"", ""1995"", ""1996""))",v342,gesis,issp,ZA2880,NA,NA,NA,NA
+issp1996,NA,v3,NA,"data_frame(orig=c(""aus"", ""D-W"", ""D-E"", ""gb"", ""nirl"", ""usa"", ""a"", ""h"", ""i"", ""irl"", ""nz"", ""nl"", ""n"", ""s"", ""rp"", ""cz"", ""pl"", ""bg"", ""rus"", ""slo"", ""cdn"", ""IL-J"", ""IL-A"", ""j"", ""e"", ""lv"", ""f"", ""cy"", ""ch""), dest = c(""Australia"", ""Germany"", ""Germany"", ""United Kingdom"", ""Northern Ireland"", ""United States"", ""Austria"", ""Hungary"", ""Italy"", ""Ireland"", ""New Zealand"", ""Netherlands"", ""Norway"", ""Sweden"", ""Philippines"", ""Czechia"", ""Poland"", ""Bulgaria"", ""Russian Federation"", ""Slovenia"", ""Canada"", ""Israel"", ""Israel"", ""Japan"", ""Spain"", ""Latvia"", ""France"", ""Cyprus"", ""Switzerland""))",NA,NA,NA,"data_frame(orig = c(""aus"", ""bg"", ""cdn"", ""cy"", ""cz"", ""e"", ""f"", ""D-W"", ""D-E"", ""h"", ""irl"", ""IL-J"", ""IL-A"", ""i"", ""j"", ""lv"", ""nz"", ""n"", ""rp"", ""pl"", ""rus"", ""slo"", ""s"", ""ch"", ""gb"", ""usa""), year = c(""1996"", ""1997"", ""1996"", ""1996"", ""1996"", ""1996"", ""1997"", ""1996"", ""1996"", ""1996"", ""1996"", ""1996"", ""1996"", ""1996"", ""1996"", ""1996"", ""1997"", ""1996"", ""1996"", ""1997"", ""1997"", ""1995"", ""1996"", ""1998"", ""1996"", ""1996""))",v325,gesis,issp,ZA2900,NA,NA,NA,NA
+issp1998,NA,v3,NA,NA,"c(""NIRL-Northern Ireland""=""Northern Ireland"", ""D-E-Germany-East""=""Germany"", ""D-W-Germany-West""=""Germany"")",NA,NA,"data_frame(orig=c(""A-Austria"", ""AUS-Australia"", ""BG-Bulgaria"", ""CDN-Canada"", ""CH-Switzerland"", ""CY-Cyprus"", ""CZ-Czech Republic"", ""D-Denmark"", ""D-E-Germany-East"", ""D-W-Germany-West"", ""E-Spain"", ""F-France"", ""GB-Great Britain"", ""H-Hungary"", ""I-Italy"", ""IL-Israel Jews Arabs"", ""IRL-Ireland"", ""J-Japan"", ""LV-Latvia"", ""N-Norway"", ""NIRL-Northern Ireland"", ""NL-Netherlands"", ""NZ-New Zealand"", ""P-Portugal"", ""PL-Poland"", ""RCH-Chile"", ""RP-Philippines"", ""RUS-Russia"", ""S-Sweden"", ""SK-Slovak Republic"", ""SLO-Slovenia"", ""USA-United States""), year = c(""1999"", ""1998"", ""1999"", ""2000"", ""1999"", ""1999"", ""1999"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1999"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1999"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998"", ""1998""))",v316,gesis,issp,ZA3190,NA,NA,NA,NA
+issp1998br,NA,Brazil,NA,NA,NA,2002,NA,NA,NA,gesis,issp,ZA4674,NA,NA,NA,NA
+issp1999,NA,v3,NA,NA,"c(""NIRL Northern Ireland""=""Northern Ireland"", ""D-E Germany East""=""Germany"", ""D-W Germany West""=""Germany"")",NA,NA,"tibble(orig=c(""A Austria"", ""AUS Australia"", ""BG Bulgaria"", ""CDN Canada"", ""CY Cyprus"", ""CZ Czech Rep"", ""D-E Germany East"", ""D-W Germany West"", ""E Spain"", ""F France"", ""GB Great Britain"", ""H Hungary"", ""IL Israel"", ""IRL Ireland"", ""J Japan"", ""LV Latvia"", ""N Norway"", ""NIRL North Ireland"", ""NZ New Zealand"", ""P Portugal"", ""PL Poland"", ""RCH Chile"", ""RP Philippines"", ""RUS Russia"", ""S Sweden"", ""SLO Slovenia"", ""SVK Slovakia"", ""USA United States""), year=c(""2000"", ""2000"", ""1999"", ""2000"", ""1999"", ""1999"", ""2000"", ""2000"", ""1999"", ""1999"", ""1999"", ""1998"", ""1999"", ""1999"", ""1999"", ""1999"", ""1999"", ""1999"", ""1999"", ""1999"", ""1999"", ""2000"", ""1999"", ""1999"", ""1999"", ""1998"", ""2001"", ""2000""))",weight,gesis,issp,ZA3430,NA,NA,NA,NA
+issp1999br,NA,Brazil,NA,NA,NA,2001,NA,NA,weight,gesis,issp,ZA3558,NA,NA,NA,NA
+issp1999dk,NA,Denmark,NA,NA,NA,2001,NA,NA,NA,gesis,issp,ZA3562,NA,NA,NA,NA
+issp1999ie,NA,Ireland,NA,NA,NA,2001,NA,NA,weight,gesis,issp,ZA3613,NA,NA,NA,NA
+issp1999nl,NA,Netherlands,NA,NA,NA,1999,NA,NA,NA,gesis,issp,ZA3293,NA,NA,NA,NA
+issp1999ch,NA,Switzerland,NA,NA,NA,1999,NA,NA,weight,gesis,issp,ZA3297,NA,NA,NA,NA
+issp2000,NA,v3,NA,NA,"c(""NIRL-Northern Ireland""=""Northern Ireland"", ""D-E-Germany-East""=""Germany"", ""D-W-Germany-West""=""Germany"", ""FLA-Flanders""=""Belgium"")",NA,NA,"tibble(orig=c(""AUS-Australia"", ""D-W-Germany-West"", ""D-E-Germany-East"", ""GB-Great Britain"", ""NIRL-Northern Ireland"", ""USA-United States"", ""A-Austria"", ""H-Hungary"", ""I-Italy"", ""IRL-Ireland"", ""NL-Netherlands"", ""N-Norway"", ""S-Sweden"", ""CZ-Czech Republic"", ""SLO-Slovenia"", ""PL-Poland"", ""BG-Bulgaria"", ""RUS-Russia"", ""NZ-New Zealand"", ""CDN-Canada"", ""RP-Philippines"", ""IL-Israel"", ""IL-Israel Arabs"", ""J-Japan"", ""E-Spain"", ""LV-Latvia"", ""SK-Slovak Republic"", ""F-France"", ""CY-Cyprus"", ""P-Portugal"", ""RCH-Chile"", ""DK-Denmark"", ""CH-Switzerland"", ""BD-Bangladesh"", ""BR-Brasil"", ""YV-Venezuela"", ""SF-Finland"", ""MEX-Mexico"", ""FLA-Flanders"", ""ZA-South Africa"", ""RC-Taiwan""), year=c(""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2001"", ""2000"", ""2000"", ""2002"", ""2000"", ""2000"", ""2001"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2001"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2000"", ""2001"", ""2001"", ""2000"", ""2000"", ""2000"", ""2000"", ""2001"", ""2000"", ""2000"", ""2000""))",v327,gesis,issp,ZA3440,NA,NA,NA,NA
+issp2001,NA,v3,NA,NA,"c(""NIRL-Northern Ireland""=""Northern Ireland"", ""Germany-West""=""Germany"", ""Germany-East""=""Germany"",  ""Israel Jews""=""Israel"",""Israel Arabs""=""Israel"", ""Southafrica""=""South Africa"")",NA,NA,"tibble(orig=c(""AUS-Australia"",  ""D-W-Germany(West)"",  ""D-E-Germany(East)"",  ""GB-Great Britain"", ""NIRL-Northern Ireland"",  ""USA-USA-United States"", ""A-Austria"", ""H-Hungary"",  ""I-Italy"",    ""N-Norway"",   ""CZ-Czech Republic"",  ""SLO-Slovenia"",  ""PL-Poland"",  ""RUS-Russia"",  ""NZ-New Zealand"",  ""CDN-Canada"",  ""RP-Philippines"",  ""IL-Israel Jews"",   ""IL-Israel Arabs"",  ""J-Japan"", ""E-Spain"",""LV-Latvia"",    ""FR-France"",  ""CY-Cyprus"",   ""CL-Chile"", ""DK-Denmark"",  ""CH-Switzerland"",  ""BZ-Brazil"",  ""ZA-South Africa"",    ""F-Finland""), year=c( ""2002"",   ""2002"",   ""2002"",  ""2001"", ""2001"",  ""2002"",  ""2001"",  ""2001"",  ""2002"",   ""2001"",    ""2001"",  ""2000"",  ""2002"", ""2001"", ""2002"", ""2001"",  ""2001"",       ""2002"",    ""2002"",  ""2001"",""2001"", ""2001"",   ""2001"",  ""2001"",    ""2002"", ""2002"",  ""2002"",    ""2002"", ""2001"",    ""2002""))",weight,gesis,issp,ZA3680,NA,NA,NA,NA
+issp2002,NA,country,NA,NA,"c(""Germany (East) (DE-E)""=""Germany"", ""Northern Ireland (GB-NIR)""=""Northern Ireland"")",NA,NA,"tibble(orig=c(""Australia (AU)"", ""Germany (West) (DE-W)"", ""Germany (East) (DE-E)"", ""Great Britain (GB-GBN)"", ""Northern Ireland (GB-NIR)"", ""United States (US)"", ""Austria (AT)"", ""Hungary (HU)"", ""Ireland (IE)"", ""Netherlands (NL)"", ""Norway (NO)"", ""Sweden (SE)"", ""Czech Republic (CZ)"", ""Slovenia (SI)"", ""Poland (PL)"", ""Bulgaria (BG)"", ""Russia (RU)"", ""New Zealand (NZ)"", ""Philippines (PH)"", ""Israel (IL)"", ""Japan (JP)"", ""Spain (ES)"", ""Latvia (LV)"", ""Slovak Republic (SK)"", ""France (FR)"", ""Cyprus (CY)"", ""Portugal (PT)"", ""Chile (CL)"", ""Denmark (DK)"", ""Switzerland (CH)"", ""Belgium/ Flanders (BE-FLA)"", ""Brazil (BR)"", ""Finland (FI)"", ""Mexico (MX)"", ""Taiwan (TW)""), year=c(2002, 2002, 2002, 2002, 2002, 2002, 2004, 2002, 2002, 2002, 2002, 2002, 2002, 2003, 2002, 2001, 2002, 2002, 2002, 2002, 2002, 2003, 2003, 2002, 2002, 2002, 2003, 2002, 2002, 2003, 2002, 2003, 2002, 2003, 2002))",v361,gesis,issp,ZA3880,NA,NA,NA,NA
+issp2003,NA,country,NA,NA,"c(""Germany-East (DE-E)""=""Germany"", ""Germany-West (DE-W)""=""Germany"", ""Israel Jews (IL-J)""=""Israel"", ""Israel Arabs (IL-A)""=""Israel"")",NA,NA,"tibble(orig=c(""Australia (AU)"", ""Germany-West (DE-W)"", ""Germany-East (DE-E)"", ""Great Britain (GB-GBN)"", ""United States (US)"", ""Austria (AT)"", ""Hungary (HU)"", ""Ireland (IE)"", ""Netherlands (NL)"", ""Norway (NO)"", ""Sweden (SE)"", ""Czech Republic (CZ)"", ""Slovenia (SI)"", ""Poland (PL)"", ""Bulgaria (BG)"", ""Russia (RU)"", ""New Zealand (NZ)"", ""Canada (CA)"", ""Philippines (PH)"", ""Israel Jews (IL-J)"", ""Israel Arabs (IL-A)"", ""Japan (JP)"", ""Spain (ES)"", ""Latvia (LV)"", ""Slovakia (SK)"", ""France (FR)"", ""Portugal (PT)"", ""Chile (CL)"", ""Denmark (DK)"", ""Switzerland (CH)"", ""Venezuela (VE)"", ""Finland (FI)"", ""South Africa (ZA)"", ""Taiwan (TW)"", ""Korea (South) (KR)"", ""Uruguay (UY)""), year=c(""2003"", ""2004"", ""2004"", ""2003"", ""2004"", ""2004"", ""2003"", ""2003"", ""2005"", ""2003"", ""2003"", ""2003"", ""2003"", ""2005"", ""2003"", ""2003"", ""2003"", ""2004"", ""2003"", ""2004"", ""2004"", ""2003"", ""2003"", ""2003"", ""2004"", ""2003"", ""2004"", ""2003"", ""2003"", ""2003"", ""2004"", ""2003"", ""2003"", ""2003"", ""2003"", ""2004""))",weight,gesis,issp,ZA3910,NA,NA,NA,NA
+issp2004,NA,county,NA,NA,"c(""Germany-East (DE-E)""=""Germany"", ""Germany-West (DE-W)""=""Germany"",""FLA-Flanders""=""Belgium"")",NA,NA,"tibble(orig=c(""Australia (AU)"",""Austria(AT)"", ""Belgium/ Flanders (BE-FLA)"",""Brazil (BR)"", ""Bulgaria (BG)"",""Canada(CA)"",""Chile (CL)"",""Cyprus (CY)"", ""Czech Republic (CZ)"", ""Denmark (DK)"",   ""Finland (FI)"", ""France(FR)"",""Germany (West) (DE-W)"", ""Germany (East) (DE-E)"", ""Great Britain (GB-GBN)"",""Hungary (HU)"",  ""Ireland (IE)"", ""Israel (IL)"",""Japan (JP)"", ""South Korea(KR)"", ""Latvia (LV)"", ""Mexico (MX)"",""Netherlands (NL)"",""New Zealand (NZ)"",  ""Norway (NO)"", ""Philippines (PH)"",""Poland (PL)"",""Portugal (PT)"",  ""Russia (RU)"",""Slovak Republic (SK)"", ""Slovenia(SI)"",""South Africa(ZA)"",""Spain (ES)"",""Sweden (SE)"",""Switzerland (CH)"", ""Taiwan (TW)"",""United States (US)"", ""Uruguay (UY)"", ""Venezuela(VE)""), year=c(""2005"",""2004"",""2004"",""2006"",""2005"",""2004"",""2005"",""2004"",""2004"",""2005"",""2004"",""2004"",""2004"",""2004"",""2004"",""2004"",""2003"",""2005"",""2004"",""2004"",""2004"",""2006"",""2005"",""2004"",""2004"",""2004"",""2005"",""2004"",""2005"",""2005"",""2003"",""2004"",""2004"",""2004"",""2005"",""2004"",""2005"",""2004"",""2004""))",v381,gesis,issp,ZA3950,NA,NA,NA,NA
+issp2006,NA,v3a,NA,NA,NA,NA,NA,"tibble(orig=c(""AU-Australia"", ""CA-Canada"", ""CH-Switzerland"", ""CL-Chile"", ""CZ-Czech Republic"", ""DE-Germany"", ""DK-Denmark"", ""DO-Dominican Republic"", ""ES-Spain"", ""FI-Finland"", ""FR-France"", ""HR-Croatia"", ""HU-Hungary"", ""IE-Ireland"", ""JP-Japan"", ""KR-South Korea"", ""LV-Latvia"", ""NL-Netherlands"", ""NO-Norway"", ""NZ-New Zealand"", ""PH-Philippines"", ""PL-Poland"", ""PT-Portugal"", ""RU-Russia"", ""SE-Sweden"", ""SI-Slovenia"", ""SK-Slovak Republic"", ""TW-Taiwan"", ""US-United States"", ""UY-Uruguay"", ""VE-Venezuela"", ""ZA-South Africa"", ""IL-Israel"", ""GB-Great Britain""), year=c(""2007"", ""2006"", ""2007"", ""2006"", ""2006"", ""2006"", ""2008"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2005"", ""2006"", ""2006"", ""2007"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2007"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2006"", ""2005"", ""2006""))",weight,gesis,issp,ZA4700,NA,NA,NA,NA
+issp2006ar,NA,Argentina,NA,NA,NA,2007,NA,NA,weight,gesis,issp,ZA4685,NA,NA,NA,NA
+issp2006ni,NA,Northern Ireland,NA,NA,NA,2007,NA,NA,NA,gesis,issp,ZA4704,NA,NA,NA,NA
+issp2006sk,NA,Slovakia,NA,NA,NA,2008,NA,NA,weight,gesis,issp,ZA4710,NA,NA,NA,NA
+issp1985_2006,NA,v6,NA,NA,NA,NA,v4,NA,weight,gesis,issp,ZA4747,NA,NA,NA,NA
+issp2007,NA,v5,NA,NA,NA,NA,NA,"tibble(orig=c(""AR-Argentina"", ""2007"",   ""AU-Australia"",""2007"",    ""AT-Austria"", ""2008"",  ""FLA-Flanders (Belgium)"",  ""BG-Bulgaria"",  ""CA-Canada"",""CL-Chile"",   ""TW-Taiwan"",  ""HR-Croatia"",   ""CY-Cyprus"",  ""CZ-Czech Republic"", ""DO-Dominican Republic"", ""FI-Finland"", ""FR-France"",  ""DE-Germany"",  ""HU-Hungary"",  ""IE-Ireland"",   ""IL-Israel"",   ""JP-Japan"",""KR-South Korea"",""LV-Latvia"",   ""MX-Mexico"",""NZ-New Zealand"",   ""NO-Norway"", ""PH-Philippines"",    ""PL-Poland"",  ""PT-Portugal"", ""RU-Russia"",     ""SK-Slovak Republic"",    ""SI-Slovenia"", ""ZA-South Africa"",   ""ES-Spain"",  ""SE-Sweden"",  ""CH-Switzerland"",""TR-Turkey"",  ""GB-Great Britain (UK)"", ""US-United States"",    ""UY-Uruguay"",     ""VE-Venezuela"" ), year=c( ""2007"",  ""2007"",   ""2008"",  ""2007"",  ""2009"",  ""2007"", ""2007"",  ""2007"",   ""2006"",  ""2007"", ""2007"", ""2007"", ""2007"",  ""2007"",   ""2007"",  ""2007"",  ""2008"",   ""2007"", ""2007"",  ""2007"",""2007"",   ""2008"",  ""2007"",   ""2007"",""2008"", ""2008"", ""2007"", ""2007"",     ""2008"",  ""2006"", ""2007"",  ""2007"", ""2007"", ""2007"", ""2007"", ""2007"",""2008"",  ""2008"",   ""2007"" ))",weight,gesis,issp,ZA4850,NA,NA,NA,NA
+issp1991_2008,NA,v6,NA,NA,NA,NA,v4,NA,weight,gesis,issp,ZA5070,NA,NA,NA,NA
+issp2008,NA,v5,NA,NA,NA,NA,NA,"data_frame(orig=c(""AT-Austria"", ""AU-Australia"", ""BE-Belgium"", ""CH-Switzerland"", ""CL-Chile"", ""CY-Cyprus"", ""CZ-Czech Republic"", ""DE-Germany"", ""DK-Denmark"", ""DO-Dominican Republic"", ""ES-Spain"", ""FI-Finland"", ""FR-France"", ""GB-United Kingdom"", ""HR-Croatia"", ""HU-Hungary"", ""IE-Ireland"", ""IL-Israel"", ""IT-Italy"", ""JP-Japan"", ""KR-South Korea"", ""LV-Latvia"", ""MX-Mexico"", ""NL-Netherlands"", ""NO-Norway"", ""NZ-New Zealand"", ""PH-Philippines"", ""PL-Poland"", ""PT-Portugal"", ""RU-Russia"", ""SE-Sweden"", ""SI-Slovenia"", ""SK-Slovak Republic"", ""TR-Turkey"", ""TW-Taiwan"", ""UA-Ukraine"", ""US-United States"", ""UY-Uruguay"", ""VE-Venezuela"", ""ZA-South Africa""), year = c(2008, 2009, 2008, 2008, 2008, 2008, 2008, 2008, 2009, 2008, 2008, 2008, 2008, 2008, 2009, 2008, 2008, 2009, 2008, 2008, 2008, 2009, 2009, 2008, 2008, 2008, 2007, 2010, 2009, 2009, 2008, 2009, 2008, 2008, 2009, 2008, 2008, 2008, 2008, 2008))",weight,gesis,issp,ZA4950,NA,NA,NA,NA
+issp2008ca,NA,Canada,NA,NA,NA,2009,NA,NA,weight,gesis,issp,ZA4966,NA,NA,NA,NA
+issp2008a,NA,v5,NA,NA,NA,2008,NA,NA,weight,gesis,issp,ZA5690,NA,NA,NA,NA
+issp2009,NA,v5,NA,NA,NA,NA,NA,"tibble(orig=c(""AR-Argentina"", ""AT-Austria"", ""AU-Australia"", ""BE-Belgium"", ""BG-Bulgaria"", ""CH-Switzerland"", ""CL-Chile"", ""CN-China"", ""CY-Cyprus"", ""CZ-Czech Republic"", ""DE-Germany"", ""DK-Denmark"", ""EE-Estonia"", ""ES-Spain"", ""FI-Finland"", ""FR-France"", ""GB-Great Britain and/or United Kingdom"", ""HR-Croatia"", ""HU-Hungary"", ""IL-Israel"", ""IS-Iceland"", ""IT-Italy"", ""JP-Japan"", ""KR-South Korea"", ""LT-Lithuania"", ""LV-Latvia"", ""NO-Norway"", ""NZ-New Zealand"", ""PH-Philippines"", ""PL-Poland"", ""PT-Portugal"", ""RU-Russia"", ""SE-Sweden"", ""SI-Slovenia"", ""SK-Slovakia"", ""TR-Turkey"", ""TW-Taiwan"", ""UA-Ukraine"", ""US-United States"", ""VE-Venezuela"", ""ZA-South Africa""), year=c(""2010"", ""2010"", ""2010"", ""2009"", ""2009"", ""2009"", ""2009"", ""2008"", ""2009"", ""2008"", ""2010"", ""2009"", ""2010"", ""2009"", ""2009"", ""2009"", ""2009"", ""2009"", ""2009"", ""2009"", ""2010"", ""2011"", ""2009"", ""2009"", ""2010"", ""2009"", ""2010"", ""2009"", ""2009"", ""2010"", ""2009"", ""2009"", ""2009"", ""2009"", ""2009"", ""2009"", ""2009"", ""2009"", ""2010"", ""2010"", ""2009""))",weight,gesis,issp,ZA5400,NA,NA,NA,NA
+issp2009ca,NA,Canada,NA,NA,NA,2009,NA,NA,wvar,gesis,issp,ZA5389,NA,NA,NA,NA
+issp2009nl,NA,Netherlands,NA,NA,NA,2013,NA,NA,NA,gesis,issp,ZA5995,NA,NA,NA,NA
+issp2010,NA,v4,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA5500,NA,NA,NA,NA
+issp2010au,NA,Australia,NA,NA,NA,2012,NA,NA,weight,gesis,issp,ZA5512,NA,NA,NA,NA
+issp2010nl,NA,Netherlands,NA,NA,NA,2011,NA,NA,weight,gesis,issp,ZA5513,NA,NA,NA,NA
+issp2010is,NA,Iceland,NA,NA,NA,2012,NA,NA,weight,gesis,issp,ZA5515,NA,NA,NA,NA
+issp2010pt,NA,Portugal,NA,NA,NA,2012,NA,NA,weight,gesis,issp,ZA5516,NA,NA,NA,NA
+issp2011,NA,v4,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA5800,NA,NA,NA,NA
+issp2012,NA,v4,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA5900,NA,NA,NA,NA
+issp2013,NA,v4,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA5950,NA,NA,NA,NA
+issp2014,NA,v4,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA6670,NA,NA,NA,NA
+issp2016,NA,country,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA6900,NA,NA,NA,NA
+issp2017,NA,country,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA6980,NA,NA,NA,NA
+issp2018,NA,country,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA7570,NA,NA,NA,NA
+issp2018ext,NA,country,NA,NA,NA,NA,dateyr,NA,weight,gesis,issp,ZA7630,NA,NA,NA,NA
+issp2018tn,NA,Tunisia,NA,NA,NA,2019,NA,NA,weight,gesis,issp,ZA7629,NA,NA,NA,NA
+itdoxa199303,NA,Italy,NA,NA,NA,1993,NA,NA,NA,roper,itdoxa,ITDOXA1993-93010-07,NA,NA,NA,NA
+jgss,NA,Japan,NA,NA,NA,NA,ryear,NA,weight,icpsr,jgss,ICPSR_04472,NA,NA,NA,NA
+jgss2005,NA,Japan,NA,NA,NA,2005,NA,NA,weight,gesis,jgss,ZA4270,NA,NA,NA,NA
+jgss2006,NA,Japan,NA,NA,NA,2006,NA,NA,weight,gesis,jgss,ZA4873,NA,NA,NA,NA
+jgss2008,NA,Japan,NA,NA,NA,2008,NA,NA,weight,gesis,jgss,ZA5294,NA,NA,NA,NA
+jgss2010,NA,Japan,NA,NA,NA,2010,NA,NA,weight,gesis,jgss,ZA5352,NA,NA,NA,NA
+jgss2012,NA,Japan,NA,NA,NA,2012,NA,NA,weight,gesis,jgss,ZA6427,NA,NA,NA,NA
+kgss,NA,Korea,NA,NA,NA,NA,year,NA,NA,misc,kgss,kgss,NA,http://kgss.skku.edu/wp-content/uploads/2018/10/2003-2016_KGSS_ENG_09302018.sav_.zip,http://kgss.skku.edu/wp-content/uploads/2018/10/2003-2016-KGSS-Cumulative-Code-Book_09302018.pdf,NA
+lat198312,NA,United States,NA,NA,NA,1983,NA,NA,weight,roper,lat,USLAT1983-074,NA,NA,NA,"list(file = file_path, var_names = c(""q107"", ""weight""), var_cards = c(2, 3), var_positions = c(74, 2), var_widths = c(1, 5), total_cards = 3)"
+lat200006,NA,United States,NA,NA,NA,2000,NA,NA,weight,roper,lat,USLAT2000-442,NA,NA,NA,"list(file = file_path, var_names = c(""q24"", ""q30"", ""q31"", ""q33"", ""q34"", ""q54"", ""q57"", ""weight""), var_cards = c(1, 1, 1, 1, 1, 2, 2, 3), var_positions = c(58, 64, 65, 67, 68, 15, 18, 8), var_widths = c(1, 1, 1, 1, 1, 1, 1, 5), total_cards = 3)"
+lat200301,NA,United States,NA,NA,NA,2003,NA,NA,wtvar,roper,lat,USLAT2003-481,NA,NA,NA,NA
+lat200311,NA,United States,NA,NA,NA,2003,NA,NA,wtvar,roper,lat,USLAT2003-491,NA,NA,NA,NA
+lat200501,NA,United States,NA,NA,NA,2005,NA,NA,wtvar,roper,lat,USLAT2005-514,NA,NA,NA,NA
+lat200605,NA,United States,NA,NA,NA,2006,NA,NA,wtvar,roper,lat,USLAT2006-526,NA,NA,NA,NA
+lat200710,NA,United States,NA,NA,NA,2007,NA,NA,wtvar,roper,lat,USLAT2007-547,NA,NA,NA,NA
+lat200712,NA,United States,NA,NA,NA,2007,NA,NA,wtvar,roper,lat,USLAT2007-548,NA,NA,NA,NA
+lb1995,NA,pais,NA,NA,NA,1995,NA,NA,wt,misc,lb,lb1995,NA,NA,NA,NA
+lb1996,NA,pais,NA,NA,NA,1996,NA,NA,wt,misc,lb,lb1996,NA,NA,NA,NA
+lb1997,NA,idenpa,NA,NA,NA,1997,NA,NA,wt,misc,lb,lb1997,NA,NA,NA,NA
+lb1998,NA,idenpa,NA,NA,NA,1998,NA,NA,pondera,misc,lb,lb1998,NA,NA,NA,NA
+lb2000,NA,idenpa,NA,NA,NA,2000,NA,NA,wt,misc,lb,lb2000,NA,NA,NA,NA
+lb2001,NA,idenpa,NA,NA,NA,2001,NA,NA,wt,misc,lb,lb2001,NA,NA,NA,NA
+lb2002,NA,idenpa,NA,NA,NA,2002,NA,NA,wt,misc,lb,lb2002,NA,NA,NA,NA
+lb2003,NA,idenpa,NA,NA,NA,2003,NA,NA,wt,misc,lb,lb2003,NA,NA,NA,NA
+lb2004,NA,idenpa,NA,NA,NA,2004,NA,NA,wt,misc,lb,lb2004,NA,NA,NA,NA
+lb2005,NA,idenpa,NA,NA,NA,2005,NA,NA,wt,misc,lb,lb2005,NA,NA,NA,NA
+lb2006,NA,idenpa,NA,NA,NA,2006,NA,NA,wt,misc,lb,lb2006,NA,NA,NA,NA
+lb2007,NA,idenpa,NA,NA,NA,2007,NA,NA,wt,misc,lb,lb2007,NA,NA,NA,NA
+lb2008,NA,idenpa,NA,NA,NA,2008,NA,NA,wt,misc,lb,lb2008,NA,NA,NA,NA
+lb2009,NA,idenpa,NA,NA,NA,2009,NA,NA,wt,misc,lb,lb2009,NA,NA,NA,NA
+lb2010,NA,idenpa,NA,NA,NA,2010,NA,NA,wt,misc,lb,lb2010,NA,NA,NA,NA
+lb2011,NA,idenpa,NA,NA,NA,2011,NA,NA,wt,misc,lb,lb2011,NA,NA,NA,NA
+lb2013,NA,idenpa,NA,NA,NA,2013,NA,NA,wt,misc,lb,lb2013,NA,NA,NA,NA
+lb2015,NA,idenpa,NA,NA,NA,2015,NA,NA,wt,misc,lb,lb2015,NA,NA,NA,NA
+lb2016,NA,idenpa,NA,NA,NA,2016,NA,NA,wt,misc,lb,lb2016,NA,NA,NA,NA
+lb2017,NA,idenpa,NA,NA,NA,2017,NA,NA,wt,misc,lb,lb2017,NA,NA,NA,NA
+lb2018,NA,idenpa,NA,NA,"c(""[%214%] Rep. Dominicana""=""Dominican Republic"", ""[%76%] Brasil""=""Brazil"")",2018,NA,NA,wt,misc,lb,lb2018,NA,NA,NA,NA
+lits_wave1,NA,countryname,NA,NA,"c(""fyrom""=""North Macedonia"", ""BiH""=""Bosnia & Herzegovina"",""FYROM""=""North Macedonia"", ""FYR Macedonia"" = ""North Macedonia"",""czechrep""=""Czechia"")",2006,NA,NA,weight_2,misc,lits,lits_wave1,NA,http://www.ebrd.com/downloads/research/economics/microdata/litsstat.zip,http://www.ebrd.com/downloads/research/economics/microdata/litsques.pdf,NA
+lits_wave2,NA,countryname,NA,NA,"c(""fyrom""=""North Macedonia"", ""BiH""=""Bosnia & Herzegovina"",""FYROM""=""North Macedonia"", ""FYR Macedonia"" = ""North Macedonia"")",2010,NA,NA,xcweight,misc,lits,lits_wave2,NA,http://www.ebrd.com/downloads/research/surveys/lits2.dta,http://www.ebrd.com/downloads/research/surveys/lits2questions.pdf,NA
+lits_wave3,NA,country,NA,NA,"c(""fyrom""=""North Macedonia"", ""BiH""=""Bosnia & Herzegovina"",""FYROM""=""North Macedonia"", ""FYR Macedonia"" = ""North Macedonia"")",2016,NA,NA,weight_sample,misc,lits,lits_wave3,NA,https://www.ebrd.com/cs/Satellite?c=Content&cid=1395256887465&d=&pagename=EBRD%2FContent%2FDownloadDocument,http://www.ebrd.com/documents/oce/pdf-life-in-transition-iii.pdf,NA
+mosaic2000,NA,Switzerland,NA,NA,NA,2000,NA,NA,weights,misc,mosaic,mosaic2000,NA,NA,NA,NA
+nbb_combo,NA,country,NA,NA,NA,NA,year,NA,w,ukds,nbb,UKDA-6510-stata8,NA,NA,NA,NA
+nbc198507,NA,United States,NA,NA,NA,1985,NA,NA,NA,roper,nbcwsj,USNBC1985-JUL2,NA,NA,NA,NA
+nbcwsj199106,NA,United States,NA,NA,NA,1991,NA,NA,wvar1,roper,nbcwsj,USNBCWSJ1991-JUN,NA,NA,NA,NA
+nbcwsj199306,NA,United States,NA,NA,NA,1993,NA,NA,weight,roper,nbcwsj,USNBCWSJ1993-4039,NA,NA,NA,"list(file = file_path, var_names = c(""q15f"", ""q20g"", ""weight""), var_positions = c(62, 90, 118), var_widths = c(1, 1, 6))"
+nbcwsj199406,NA,United States,NA,NA,NA,1994,NA,NA,weight,roper,nbcwsj,USNBCWSJ1994-4048,NA,NA,NA,"list(file = file_path, var_names = c(""q12a8"", ""weight""), var_positions = c(92, 153), var_widths = c(1, 6))"
+nbcwsj199512,NA,United States,NA,NA,NA,1995,NA,NA,weight,roper,nbcwsj,USNBCWSJ1995-4065,NA,NA,NA,"list(file = file_path, var_names = c(""q13"", ""weight""), var_positions = c(73, 315), var_widths = c(1, 6))"
+nbcwsj199603,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,nbcwsj,USNBCWSJ1996-4067,NA,NA,NA,"list(file = file_path, var_names = c(""q17"", ""weight""), var_positions = c(113, 290), var_widths = c(1, 6))"
+nbcwsj199605,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,nbcwsj,USNBCWSJ1996-4068,NA,NA,NA,"list(file = file_path, var_names = c(""q20"", ""weight""), var_positions = c(110, 290), var_widths = c(1, 6))"
+nbcwsj199606,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,nbcwsj,USNBCWSJ1996-4069,NA,NA,NA,"list(file = file_path, var_names = c(""q19b"", ""weight""), var_positions = c(144, 310), var_widths = c(1, 6))"
+nbcwsj199608,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,nbcwsj,USNBCWSJ1996-4071,NA,NA,NA,"list(file = file_path, var_names = c(""q15a"", ""weight""), var_positions = c(63, 310), var_widths = c(1, 6))"
+nbcwsj199609,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,nbcwsj,USNBCWSJ1996-4073,NA,NA,NA,"list(file = file_path, var_names = c(""q27"", ""weight""), var_positions = c(130, 310), var_widths = c(1, 6))"
+nbcwsj199801,NA,United States,NA,NA,NA,1998,NA,NA,weight,roper,nbcwsj,USNBCWSJ1998-4086,NA,NA,NA,"list(file = file_path, var_names = c(""q16d"", ""weight""), var_positions = c(72, 190), var_widths = c(1, 6))"
+nbcwsj199802,NA,United States,NA,NA,NA,1998,NA,NA,weight,roper,nbcwsj,USNBCWSJ1998-4088,NA,NA,NA,"list(file = file_path, var_names = c(""q16"", ""weight""), var_positions = c(151, 300), var_widths = c(1, 6))"
+nbcwsj199906,NA,United States,NA,NA,NA,1999,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ1999-4098,NA,NA,NA,NA
+nbcwsj200001,NA,United States,NA,NA,NA,2000,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2000-6003,NA,NA,NA,NA
+nbcwsj200006,NA,United States,NA,NA,NA,2000,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2000-6006,NA,NA,NA,NA
+nbcwsj200007,NA,United States,NA,NA,NA,2000,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2000-6007A,NA,NA,NA,NA
+nbcwsj200301,NA,United States,NA,NA,NA,2003,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2003-6030,NA,NA,NA,NA
+nbcwsj200311,NA,United States,NA,NA,NA,2003,NA,NA,weights,roper,nbcwsj,USNBCWSJ2003-6038,NA,NA,NA,NA
+nbcwsj200809,NA,United States,NA,NA,NA,2008,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2008-6086,NA,NA,NA,NA
+nbcwsj200505,NA,United States,NA,NA,NA,2005,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2005-6054,NA,NA,NA,NA
+nbcwsj200705,NA,United States,NA,NA,NA,2007,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2007-6072,NA,NA,NA,NA
+nbcwsj200910,NA,United States,NA,NA,NA,2009,NA,NA,weight_1,roper,nbcwsj,USNBCWSJ2009-6098,NA,NA,NA,NA
+neb_combo,NA,country,NA,"tibble::tibble(orig=c(""Bulgar"", ""Czech"", ""ESlovk"", ""Hungar"", ""Pol"", ""Rom"", ""russia"", ""Scroat"", ""Serbia"", ""Sloven"", ""Tbelor"", ""Ukrain"", ""zEst"", ""zLat"", ""zLit""), dest = c(""Bulgaria"", ""Czechia"", ""Slovakia"", ""Hungary"", ""Poland"", ""Romania"", ""Russia"", ""Croatia"", ""Serbia"", ""Slovenia"", ""Belarus"", ""Ukraine"", ""Estonia"", ""Latvia"", ""Lithuania""))",NA,NA,year,NA,w,ukds,neb,UKDA-5241-stata8,NA,NA,NA,NA
+npes_combo,NA,Netherlands,NA,NA,NA,NA,a1,NA,NA,icpsr,npes,ICPSR_28221,NA,NA,NA,NA
+nsss_combo,NA,Australia,NA,NA,NA,NA,year,NA,NA,dataverse,nsss,nsss_combo,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/J3CN67,NA,NA
+nsss1984,NA,Australia,NA,NA,NA,1984,NA,NA,NA,dataverse,nsss,nsss1984,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/RDLL0Y,NA,NA
+nsss1987,NA,Australia,NA,NA,NA,1987,NA,NA,NA,dataverse,nsss,nsss1987,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/J41IBV,NA,NA
+nsss1989,NA,Australia,NA,NA,NA,1989,NA,NA,NA,dataverse,nsss,nsss1989,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/R7OO0J,NA,NA
+nsss1993,NA,Australia,NA,NA,NA,1993,NA,NA,NA,dataverse,nsss,nsss1993,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/OHK1J7,NA,NA
+nsss1994,NA,Australia,NA,NA,NA,1994,NA,NA,NA,dataverse,nsss,nsss1994,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/DDWXI7,NA,NA
+nsss1995,NA,Australia,NA,NA,NA,1995,NA,NA,NA,dataverse,nsss,nsss1995,NA,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/R70QJY,NA,NA
+pa_w1,NA,v4,NA,NA,NA,NA,NA,"tibble(orig=c(""Britain"",  ""Germany"",  ""Netherlands"",  ""Austria"", ""United States"", ""Italy"",  ""Switzerland"",  ""Finland""  ), year=c(""1973"",""1974"",""1974"", ""1974"",""1974"",""1975"", ""1976"",""1975""))",NA,gesis,pa,ZA0765,NA,NA,NA,NA
+pa_w2,NA,v1003,NA,"data_frame(orig=c(""GERMANY, PAN"" ,  ""GERMANY, CRS"", ""NETHERLANDS ,PAN"", ""NETHERLANDS,CRS"", ""USA, PAN"" ,   ""USA, CRS"" ), dest = c(""Germany"", ""Germany"", ""Netherlands"", ""Netherlands"", ""United States"",""United States""))",NA,NA,NA,"tibble(orig=c(""GERMANY, PAN"",   ""GERMANY, CRS"", ""NETHERLANDS, PAN"", ""NETHERLANDS, CRS"",   ""USA, PAN"" ,  ""USA, CRS"" ), year=c(""1980"",""1980"",""1980"", ""1980"",""1981"",""1981""))",NA,gesis,pa,ZA1188,NA,NA,NA,NA
+pew2002,NA,country,NA,NA,NA,2002,NA,NA,weight,pew,global,summer-2002-survey-data,NA,NA,NA,NA
+pew2005_6,NA,country,NA,NA,NA,2005,NA,NA,weight,pew,global,may-2005-survey-data,Pew Global Attitudes 2005 6-COUNTRY DATASET,NA,NA,NA
+pew2005_11,NA,country,NA,NA,NA,2005,NA,NA,weight,pew,global,may-2005-survey-data,Pew Global Attitudes 2005 11-COUNTRY DATASET,NA,NA,NA
+pew2006,NA,country,NA,NA,NA,2006,NA,NA,weight,pew,global,spring-2006-survey-data,NA,NA,NA,NA
+pew2007,NA,country,NA,NA,NA,2007,NA,NA,weight,pew,global,spring-2007-survey-data,NA,NA,NA,NA
+pew2008,NA,country,NA,NA,NA,2008,NA,NA,weight,pew,global,spring-2008-survey-data,NA,NA,NA,NA
+pew2009,NA,country,NA,NA,NA,2009,NA,NA,weight,pew,global,fall-2009-survey-data,NA,NA,NA,NA
+pew2010,NA,country,NA,NA,NA,2010,NA,NA,weight,pew,global,spring-2010-survey-data,NA,NA,NA,NA
+pew2011,NA,country,NA,NA,NA,2011,NA,NA,weight,pew,global,spring-2011-survey,NA,NA,NA,NA
+pew2012,NA,country,NA,NA,NA,2012,NA,NA,weight,pew,global,spring-2012-survey-data,NA,NA,NA,NA
+pew2013,NA,country,NA,NA,NA,2013,NA,NA,weight,pew,global,spring-2013-survey-data,NA,NA,NA,NA
+pew2014,NA,country,NA,NA,NA,2014,NA,NA,NA,pew,global,2014-spring-global-attitudes,NA,NA,NA,NA
+pew2014_india,NA,India,NA,NA,NA,2014,NA,NA,weight,pew,global,winter-2014-survey-data,NA,NA,NA,NA
+pew2015,NA,country,NA,NA,NA,2015,NA,NA,weight,pew,global,spring-2015-survey-data,NA,NA,NA,NA
+pew2016,NA,country,NA,NA,NA,2016,NA,NA,weight,pew,global,spring-2016-survey-data,NA,NA,NA,NA
+pew2017,NA,country,NA,NA,NA,2017,NA,NA,weight,pew,global,spring-2017-survey-data,NA,NA,NA,NA
+pew2017_us,NA,United States,NA,NA,NA,2017,NA,NA,weight,pew,global,october-2017-u-s-survey-data,NA,NA,NA,NA
+pew2017_fall,NA,country,NA,NA,NA,2017,NA,NA,weight,pew,global,fall-2017-survey-data,NA,NA,NA,NA
+pew2018,NA,country,NA,NA,NA,2018,NA,NA,weight,pew,global,spring-2018-survey-data,NA,NA,NA,NA
+pew2019,NA,country,NA,NA,NA,2019,NA,NA,weight,pew,global,spring-2019-survey-data,NA,NA,NA,NA
+pewrel2006_10nat,NA,country,NA,NA,NA,2006,NA,NA,gpwgt,roper,pew,MCPEW2006-10NAT,NA,NA,NA,NA
+pewrel2009_afr,NA,country,NA,NA,NA,2009,NA,NA,weight,pew,religion,tolerance-and-tension-islam-and-christianity-in-sub-saharan-africa,NA,NA,NA,NA
+pewrel2014_latam,NA,country,NA,NA,NA,2014,NA,NA,weight,pew,religion,religion-in-latin-america,NA,NA,NA,NA
+pewrel2014_us,NA,United States,NA,NA,NA,2014,NA,NA,weight,pew,religion,u-s-religious-landscape-survey,NA,NA,NA,NA
+pewrel2015_ee,NA,country,NA,NA,NA,2015,NA,NA,final_weight,pew,religion,eastern-european-survey-dataset,NA,NA,NA,NA
+pewrel2016_us,NA,United States,NA,NA,NA,2016,NA,NA,weight_w20,pew,religion,american-trends-panel-wave-20,NA,NA,NA,NA
+pewrel2017_we,NA,country,NA,NA,NA,2017,NA,NA,weight,pew,religion,western-europe-survey-dataset,NA,NA,NA,NA
+pewrel2017_us,NA,United States,NA,NA,NA,2017,NA,NA,weight_w30,pew,religion,american-trends-panel-wave-30,NA,NA,NA,NA
+pgss,NA,Poland,NA,NA,NA,NA,pgssyear,NA,weight,misc,pgss,pgss,NA,NA,NA,NA
+pipa200711,NA,country,NA,NA,NA,2008,NA,NA,weight,roper,pipa,MCUMARY2007-11,NA,NA,NA,NA
+pocbos199801,NA,Poland,NA,NA,NA,1998,NA,NA,weight,roper,pocbos,POCBOS1998-9804,NA,NA,NA,"list(file = file_path, var_names = c(""p35"", ""weight""), var_positions = c(122, 235), var_widths = c(1, 9))"
+politbarometer_2015,NA,Germany,NA,NA,NA,2015,NA,NA,v322,gesis,politbarometer,ZA6700,NA,NA,NA,NA
+politbarometer_east1991,NA,Germany,NA,NA,NA,1991,NA,NA,wt <- t_data$v277 * .279,gesis,politbarometer,ZA2114,NA,NA,NA,NA
+politbarometer_east1992,NA,Germany,NA,NA,NA,1992,NA,NA,wt <- t_data$v332 * .279,gesis,politbarometer,ZA2287,NA,NA,NA,NA
+politbarometer_east1993,NA,Germany,NA,NA,NA,1993,NA,NA,wt <- t_data$v321 * .279,gesis,politbarometer,ZA2390,NA,NA,NA,NA
+politbarometer_east1995,NA,Germany,NA,NA,NA,1995,NA,NA,wt <- t_data$v250 * .279,gesis,politbarometer,ZA2777,NA,NA,NA,NA
+politbarometer_east2000,NA,Germany,NA,NA,NA,2000,NA,NA,v291,gesis,politbarometer,ZA3426,NA,NA,NA,NA
+politbarometer_east2001,NA,Germany,NA,NA,NA,2001,NA,NA,v254,gesis,politbarometer,ZA3555,NA,NA,NA,NA
+politbarometer_west_combo,NA,Germany,NA,NA,NA,NA,v4,NA,v78,gesis,politbarometer,ZA2391,NA,NA,NA,NA
+politbarometer_west2000,NA,Germany,NA,NA,NA,2000,NA,NA,v285,gesis,politbarometer,ZA3425,NA,NA,NA,NA
+politbarometer_west2001,NA,Germany,NA,NA,NA,2001,NA,NA,v253,gesis,politbarometer,ZA3554,NA,NA,NA,NA
+prri201003_imm,NA,United States,NA,NA,NA,2010,NA,NA,weight,roper,prri,USPRRI2010-IMM,National_Sample,NA,NA,NA
+prri2011_avs,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,prri,USPRRI2011-AVS,NA,NA,NA,NA
+prri2011_pici,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,prri,USPRRI2011-PICI,NA,NA,NA,NA
+prri2011_mra,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,prri,USPRRI2011-MRA,NA,NA,NA,NA
+prri201111,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,prri,USPRRI2011-11,NA,NA,NA,NA
+prri2011_mrgl,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,prri,USPRRI2011-MRGL,NA,NA,NA,NA
+prri2012_3rns,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,prri,USPRRI2012-03,NA,NA,NA,NA
+prri2012_6rns,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,prri,USPRRI2012-06,NA,NA,NA,NA
+prri2012_avs,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,prri,USPRRI2012-AVS,NA,NA,NA,NA
+prri2012_rcc,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,prri,USPRRI2012-RCC,NA,NA,NA,NA
+prri2013_3rap,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,prri,USPRRI2013-03,NA,NA,NA,NA
+prri2013_rvi,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,prri,USPRRI2013-RVIR,NA,NA,NA,NA
+prri2013_5rap,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,prri,USPRRI2013-05,NA,NA,NA,NA
+prri2015_rap,NA,United States,NA,NA,NA,2015,NA,NA,weight,roper,prri,USPRRI2015-06,NA,NA,NA,NA
+prriatlantic2016_wwc,NA,United States,NA,NA,NA,2016,NA,NA,weight,roper,prri,31114325,NA,NA,NA,NA
+psra199402,NA,United States,NA,NA,NA,1994,NA,NA,weight,roper,psra,USPSRA1994-NW0294,NA,NA,NA,"list(file = file_path, var_names = c(""q10c"", ""q10d"", ""weight""), var_cards = c(1, 1, 2), var_positions = c(41, 43, 1), var_widths = c(1, 1, 5), total_cards = 2)"
+psra199506,NA,United States,NA,NA,NA,1995,NA,NA,weight,roper,psra,USPSRA1995-NW0695C,NA,NA,NA,"list(file = file_path, var_names = c(""q10"", ""weight""), var_positions = c(54, 81), var_widths = c(1, 5))"
+psra199605,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,psra,USPSRA1996-NW96005C,NA,NA,NA,"list(file = file_path, var_names = c(""q7c"", ""q7d"", ""weight""), var_positions = c(13, 14, 35), var_widths = c(1, 1, 4))"
+psra199610,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,psra,USPSRA1996-NW96010C,NA,NA,NA,"list(file = file_path, var_names = c(""q18"", ""weight""), var_positions = c(34, 60), var_widths = c(1, 4))"
+psra199706,NA,United States,NA,NA,NA,1997,NA,NA,weight,roper,psra,USPSRA1997-NW97009,NA,NA,NA,"list(file = file_path, var_names = c(""q4c"", ""q4d"", ""weight""), var_positions = c(63, 64, 89), var_widths = c(1, 1, 4))"
+psra199808,NA,United States,NA,NA,NA,1998,NA,NA,weight,roper,psra,USPSRA1998-NW9813,NA,NA,NA,NA
+psra200003,NA,United States,NA,NA,NA,2000,NA,NA,weight,roper,psra,USPSRA2000-NW10,NA,NA,NA,NA
+psra2002,NA,United States,NA,NA,NA,2002,NA,NA,weight,roper,psra,USPSRA2002-NW03,NA,NA,NA,NA
+psra2004,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,psra,USPSRA2004-NW04,NA,NA,NA,NA
+psra2008,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,psra,USPSRA2008-NW11,NA,NA,NA,NA
+ptvs2008,NA,Portugal,NA,NA,NA,2008,NA,NA,ponderador,misc,ptvs,ptvs2008,NA,http://er.cies.iscte-iul.pt/sites/default/dfiles/ElectorsSurvey_PT_2008_db_0.sav,http://er.cies.iscte-iul.pt/sites/default/dfiles/ElectorsSurvey_PT_2008_quest_EN.pdf,NA
+ptvs2012,NA,Portugal,NA,NA,NA,2012,NA,NA,pond,misc,ptvs,ptvs2012,NA,http://er.cies.iscte-iul.pt/sites/default/dfiles/ElectorsSurvey_PT_2012_db_0.sav,http://er.cies.iscte-iul.pt/sites/default/dfiles/ElectorsSurvey_PT_2012_quest_EN.pdf,NA
+rdet1969a,NA,var1,NA,"tibble(orig = sprintf(""%02d"", c(1:8, 11:18)), dest = c(""France"", ""Belgium"", ""Netherlands"", ""Luxembourg"", ""Italy"", ""Germany"", ""Switzerland"", ""Austria"", ""United Kingdom"", ""Ireland"", ""Denmark"", ""Finland"", ""Sweden"", ""Norway"", ""Spain"", ""Portugal""))",NA,1969,NA,NA,NA,ukds,rd,UKDA-987-stata8,d987a,NA,NA,NA
+rdet1969b,NA,var1,NA,"tibble(orig = sprintf(""%02d"", c(1:8, 11:18)), dest = c(""France"", ""Belgium"", ""Netherlands"", ""Luxembourg"", ""Italy"", ""Germany"", ""Switzerland"", ""Austria"", ""United Kingdom"", ""Ireland"", ""Denmark"", ""Finland"", ""Sweden"", ""Norway"", ""Spain"", ""Portugal""))",NA,1969,NA,NA,NA,ukds,rd,UKDA-987-stata8,d987b,NA,NA,NA
+rded1990,NA,nation,NA,NA,NA,1990,NA,NA,wpop,gesis,rd,ZA2322,NA,NA,NA,NA
+ress2014,NA,Russia,NA,NA,NA,2014,NA,NA,dweight,misc,ess,ress2014,NA,http://www.europeansocialsurvey.org/docs/related_studies/CESSI_ESS7/ESS7RU_main_data.zip,http://www.europeansocialsurvey.org/docs/related_studies/CESSI_ESS7/ESS7RU_questionnaire.pdf,NA
+sasas2014,NA,South Africa,NA,NA,NA,2014,NA,NA,weightza,misc,ess,sasas2014,NA,http://www.europeansocialsurvey.org/docs/related_studies/SASAS_2014/SASAS14_e01.stata.zip,http://www.europeansocialsurvey.org/docs/related_studies/SASAS_2014/sasas2014_questionnaire_q2.pdf,NA
+sasianb1,NA,v1,NA,NA,NA,2005,NA,NA,NA,misc,asianb,sasianb1,NA,NA,NA,NA
+sasianb2,NA,ccode,NA,NA,NA,2013,NA,NA,NA,misc,asianb,sasianb2,NA,NA,NA,NA
+som_combo,NA,Sweden,NA,NA,NA,NA,year,NA,NA,misc,som,som_combo,NA,NA,NA,NA
+tat2011,NA,country,NA,NA,NA,NA,p1a,NA,sd_weight1_bc,icpsr,tat,ICPSR_34423,NA,NA,NA,NA
+tcmeg2004,NA,mcountry,NA,NA,NA,NA,myear,NA,NA,icpsr,tcmeg,ICPSR_32302,NA,NA,NA,NA
+tt2002,NA,country,NA,NA,"c(""GB""=""United Kingdom"", ""NL""=""Netherlands"")",2002,NA,NA,NA,icpsr,tt,ICPSR_03730,NA,NA,NA,NA
+tt2003,NA,country,NA,"data_frame(orig=c(1:8), dest = c(""France"", ""Germany"", ""Italy"", ""Netherlands"", ""Poland"", ""Portugal"", ""United Kingdom"", ""United States""))",NA,2003,NA,NA,weight,icpsr,tt,ICPSR_03972,NA,NA,NA,"list(file = file_path, var_names = c(""country"", ""var024"", ""weight""), var_positions = c(1, 64, 447), var_widths = c(1, 1, 7))"
+tt2004,NA,var001,NA,NA,"c(""DEUTSCHLAND""= ""Germany"", ""ESPANA""=""Spain"", ""ITALIA""=""Italy"", ""NEDERLANDS""=""Netherlands"")",2004,NA,NA,var135,icpsr,tt,ICPSR_04243,NA,NA,NA,NA
+tt2005,NA,var001,NA,"data_frame(orig=c(3, 5, 6, 8, 10, 12, 15, 39, 41, 43, 55), dest = c(""Germany"", ""Spain"", ""France"", ""Italy"", ""Netherlands"", ""Portugal"", ""United Kingdom"", ""Poland"", ""Slovakia"", ""Turkey"", ""United States""))",NA,2005,NA,NA,var159,icpsr,tt,ICPSR_04605,NA,NA,NA,NA
+tt2006,NA,var001,NA,NA,NA,2006,NA,NA,var102,icpsr,tt,ICPSR_20302,NA,NA,NA,NA
+tt2007,NA,country,NA,NA,NA,2007,NA,NA,weights,icpsr,tt,ICPSR_28187,NA,NA,NA,NA
+tt2008,NA,country,NA,NA,NA,2008,NA,NA,wt_all,icpsr,tt,ICPSR_26501,NA,NA,NA,NA
+tt2009,NA,country,NA,NA,NA,2009,NA,NA,weight_3,icpsr,tt,ICPSR_28462,NA,NA,NA,NA
+tt2010,NA,country,NA,NA,NA,2010,NA,NA,weight_2_ac,icpsr,tt,ICPSR_33021,NA,NA,NA,NA
+tt2011,NA,country,NA,NA,NA,2011,NA,NA,weight_3_ac,icpsr,tt,ICPSR_34422,NA,NA,NA,NA
+tt2012,NA,country,NA,NA,NA,2012,NA,NA,weight_3_ac,icpsr,tt,ICPSR_34715,NA,NA,NA,NA
+tt2013,NA,country,NA,NA,NA,2013,NA,NA,weight_4_ac,icpsr,tt,ICPSR_34973,NA,NA,NA,NA
+tt2014,NA,country,NA,NA,NA,2014,NA,NA,weight_3_ac,icpsr,tt,ICPSR_36138,NA,NA,NA,NA
+tt_im2008,NA,country,NA,NA,NA,2008,NA,NA,weight2_all,icpsr,tt,ICPSR_26502,NA,NA,NA,NA
+tt_im2009,NA,p3,NA,NA,NA,2009,NA,NA,w_sd_2,icpsr,tt,ICPSR_31801,NA,NA,NA,NA
+tt_im2010,NA,country,NA,NA,NA,2010,NA,NA,sd_weight2_ac,icpsr,tt,ICPSR_33022,NA,NA,NA,NA
+tt_im2011,NA,country,NA,NA,NA,2011,NA,NA,sd_weight2_ac,icpsr,tt,ICPSR_34423,NA,NA,NA,NA
+usgss,NA,United States,NA,NA,NA,NA,year,NA,wtssnr,misc,gss,GSS7218_R3,NA,http://gss.norc.org/Documents/stata/gss_stata_with_codebook.zip,NA,NA
+usap198009,NA,United States,NA,NA,NA,1980,NA,NA,NA,roper,usap,USNBCAP1980-SEPT,NA,NA,NA,NA
+usap198010,NA,United States,NA,NA,NA,1980,NA,NA,NA,roper,usap,USNBCAP1980-OCT,NA,NA,NA,NA
+usap198901,NA,United States,NA,NA,NA,1989,NA,NA,weight,roper,usap,USMGAP1989-025,NA,NA,NA,NA
+usap198907,NA,United States,NA,NA,NA,1989,NA,NA,weight,roper,usap,USMGAP1989-027,NA,NA,NA,NA
+usap199205,NA,United States,NA,NA,NA,1992,NA,NA,pweight,roper,usap,USAPICR1992-922H,NA,NA,NA,NA
+usap199502,NA,United States,NA,NA,NA,1995,NA,NA,pweight,roper,usap,USAPICR1995-906K,NA,NA,NA,NA
+usicr200302,NA,United States,NA,NA,NA,2003,NA,NA,weight,roper,usicr,USICR2003-NPR012,NA,NA,NA,NA
+usicr200405,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,usicr,USICR2004-7386,NA,NA,NA,NA
+usnwr198509,NA,United States,NA,NA,NA,1985,NA,NA,weight,roper,usnwr,USRSPUSN1985-640-019,NA,NA,NA,NA
+usnwr198706,NA,United States,NA,NA,NA,1987,NA,NA,weight,roper,usnwr,USRSPUSN1987-744-136,NA,NA,NA,NA
+uspew1993_nii,NA,United States,NA,NA,NA,1993,NA,NA,weight,roper,pew,USTM1993-NII0893,NA,NA,NA,"list(file = file_path, var_names = c(""q17"", ""weight""), var_positions = c(69, 206), var_widths = c(1, 3))"
+uspew1996_media,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,pew,USPEW1996-96004,NA,NA,NA,"list(file = file_path, var_names = c(""q8e"", ""weight""), var_positions = c(47, 306), var_widths = c(1, 7))"
+uspew1996_05pol,NA,United States,NA,NA,NA,1996,NA,NA,weight,roper,pew,USPEW1996-96005,NA,NA,NA,"list(file = file_path, var_names = c(""q13d"", ""q14"", ""q15e"", ""weight""), var_positions = c(46, 58, 71, 244), var_widths = c(1, 1, 1, 7))"
+uspew1997_resp,NA,United States,NA,NA,NA,1997,NA,NA,weight,roper,pew,USPEW1997-RESP,NA,NA,NA,NA
+uspew1999_nii,NA,United States,NA,NA,NA,1999,NA,NA,weight,pew,politics,20018547,NA,NA,NA,NA
+uspew1999_typo,NA,United States,NA,NA,NA,1999,NA,NA,weight,roper,pew,USPEW1999-TYPO,NA,NA,NA,NA
+uspew2000_typo,NA,United States,NA,NA,NA,2000,NA,NA,weight,pew,politics,20018554,NA,NA,NA,NA
+uspew2003_06nii,NA,United States,NA,NA,NA,2003,NA,NA,weight,pew,politics,20018418,NA,NA,NA,NA
+uspew2003_10nii,NA,United States,NA,NA,NA,2003,NA,NA,weight,pew,politics,20018504,NA,NA,NA,NA
+uspew2003_rel,NA,United States,NA,NA,NA,2003,NA,NA,weight,pew,politics,20018533,NA,NA,NA,NA
+uspew2004_ial,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,pew,USPEW2004-IALSEL,NA,NA,NA,NA
+uspew2004_3nii,NA,United States,NA,NA,NA,2004,NA,NA,weight,pew,politics,20018453,NA,NA,NA,NA
+uspew2004_8nii,NA,United States,NA,NA,NA,2004,NA,NA,weight,pew,politics,20018303,NA,NA,NA,NA
+uspew2004_typo,NA,United States,NA,NA,NA,2004,NA,NA,weight,roper,pew,USPEW2004-TYPO,NA,NA,NA,NA
+uspew2005_news,NA,United States,NA,NA,NA,2005,NA,NA,weight,pew,politics,20018406,NA,NA,NA,NA
+uspew2005_rel,NA,United States,NA,NA,NA,2005,NA,NA,weight,pew,politics,20018535,NA,NA,NA,NA
+uspew2006_02nii,NA,United States,NA,NA,NA,2006,NA,NA,weight,roper,pew,USPEW2006-02NII,NA,NA,NA,NA
+uspew2006_02imm,NA,United States,NA,NA,NA,2006,NA,NA,weight,roper,pew,USPEW2006-IMM,NA,NA,NA,NA
+uspew2006_elec,NA,United States,NA,NA,NA,2006,NA,NA,weight,pew,politics,20018343,NA,NA,NA,NA
+uspew2006_nii,NA,United States,NA,NA,NA,2006,NA,NA,weight1,pew,politics,20018455,NA,NA,NA,NA
+uspew2006_09next,NA,United States,NA,NA,NA,2006,NA,NA,weight,roper,pew,USPEW2006-NEXT,NA,NA,NA,NA
+uspew2006_rel,NA,United States,NA,NA,NA,2006,NA,NA,weight,pew,politics,20018534,NA,NA,NA,NA
+uspew2007_prim,NA,United States,NA,NA,NA,2007,NA,NA,weight,pew,politics,20018499,NA,NA,NA,NA
+uspew2007_rel,NA,United States,NA,NA,NA,2007,NA,NA,weight,pew,politics,20018306,NA,NA,NA,NA
+uspew2007_rls,NA,United States,NA,NA,NA,2007,NA,NA,weight,pew,religion,u-s-religious-landscape-survey,NA,NA,NA,NA
+uspew2007_05st,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,pew,USPEW2007-SDT05,NA,NA,NA,NA
+uspew2007_10pol,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,pew,USPEW2007-10POL,NA,NA,NA,NA
+uspew2008_vote,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,pew,USPEW2008-06VOTE,NA,NA,NA,NA
+uspew2008_pol,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,pew,USPEW2008-05POL,NA,NA,NA,NA
+uspew2008_rel,NA,United States,NA,NA,NA,2008,NA,NA,weight,pew,politics,20018308,NA,NA,NA,NA
+uspew2008_10mid,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,pew,USPEW2008-10MID,NA,NA,NA,NA
+uspew2009_val,NA,United States,NA,NA,NA,2009,NA,NA,weight,roper,pew,USPEW2009-VALUES,NA,NA,NA,NA
+uspew2009_rel,NA,United States,NA,NA,NA,2009,NA,NA,weight,pew,politics,20018310,NA,NA,NA,NA
+uspew2009_10sdt,NA,United States,NA,NA,NA,2009,NA,NA,weight,roper,pew,USPEW2009-10SDT,NA,NA,NA,NA
+uspew2010_st,NA,United States,NA,NA,NA,2010,NA,NA,weight,roper,pew,USPEW2010-01SDT,NA,NA,NA,NA
+uspew2010_rel,NA,United States,NA,NA,NA,2010,NA,NA,weight,pew,politics,20018383,NA,NA,NA,NA
+uspew2010_06pol,NA,United States,NA,NA,NA,2010,NA,NA,weight,roper,pew,USPEW2010-06POL,NA,NA,NA,NA
+uspew2011_typo,NA,United States,NA,NA,NA,2011,NA,NA,weight,pew,politics,20034641,NA,NA,NA,NA
+uspew2011_09gen,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,pew,USPEW2011-09GEN,NA,NA,NA,NA
+uspew2011_11pol,NA,United States,NA,NA,NA,2011,NA,NA,weight,roper,pew,USPEW2011-11POL,NA,NA,NA,NA
+uspew2012_1pol,NA,United States,NA,NA,NA,2012,NA,NA,weight,pew,politics,20038480,NA,NA,NA,NA
+uspew2012_02pol,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,pew,USPEW2012-02POL,NA,NA,NA,NA
+uspew2012_comm,NA,United States,NA,NA,NA,2012,NA,NA,weight,pew,politics,20038461,NA,NA,NA,NA
+uspew2012_05val,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,pew,USPEW2012-VALUES,NA,NA,NA,NA
+uspew2012_07ial,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,pew,USPEW2012-IAL07,NA,NA,NA,NA
+uspew2012_10late,NA,United States,NA,NA,NA,2012,NA,NA,weight,roper,pew,USPEW2012-10LATE,NA,NA,NA,NA
+uspew2012_rel,NA,United States,NA,NA,NA,2012,NA,NA,weight,pew,politics,20045264,NA,NA,NA,NA
+uspew2013_3pol,NA,United States,NA,NA,NA,2013,NA,NA,weight,pew,politics,20050963,NA,NA,NA,NA
+uspew2013_5pol,NA,United States,NA,NA,NA,2013,NA,NA,weight,pew,politics,20052642,NA,NA,NA,NA
+uspew2013_07pol,NA,United States,NA,NA,NA,2013,NA,NA,weight,roper,pew,USPEW2013-07POL,NA,NA,NA,NA
+uspew2014_9rel,NA,United States,NA,NA,NA,2014,NA,NA,weight,pew,politics,20056958,NA,NA,NA,NA
+uspew2014_rls,NA,United States,NA,NA,NA,2014,NA,NA,weight,pew,religion,u-s-2014-religious-landscape-study,NA,NA,NA,NA
+uspew2014_typo,NA,United States,NA,NA,NA,2014,NA,NA,weight,pew,politics,20057011,NA,NA,NA,NA
+uspew2015_05mra,NA,United States,NA,NA,NA,2015,NA,NA,weight1,roper,pew,USPEW2015-0406,NA,NA,NA,NA
+uspew2015_5pol,NA,United States,NA,NA,NA,2015,NA,NA,weight,pew,politics,20058139,NA,NA,NA,NA
+uspew2015_7pol,NA,United States,NA,NA,NA,2015,NA,NA,weight,pew,politics,20059299,NA,NA,NA,NA
+uspew2015_09pol,NA,United States,NA,NA,NA,2015,NA,NA,weight,roper,pew,USPEW2015-09POL,NA,NA,NA,NA
+uspew2015_gov,NA,United States,NA,NA,NA,2015,NA,NA,weight,pew,politics,20060064,NA,NA,NA,NA
+uspew2016_3pol,NA,United States,NA,NA,NA,2016,NA,NA,weight,pew,politics,pol3-16,NA,NA,NA,NA
+uspew2016_fp,NA,United States,NA,NA,NA,2016,NA,NA,weight,pew,politics,20060061,NA,NA,NA,NA
+uspew2016_10pol,NA,United States,NA,NA,NA,2016,NA,NA,weight,roper,pew,USPEW2016-1025,NA,NA,NA,NA
+uspew2017_6typo,NA,United States,NA,NA,NA,2017,NA,NA,weight,pew,politics,typology-17,NA,NA,NA,NA
+uspew2017_12pol,NA,United States,NA,NA,NA,2017,NA,NA,weight,pew,politics,december-2017-political-survey,NA,NA,NA,NA
+uspew2018_03pol,NA,United States,NA,NA,NA,2018,NA,NA,weight,pew,politics,march-2018-political-survey,NA,NA,NA,NA
+uspew2018_09pol,NA,United States,NA,NA,NA,2018,NA,NA,weight,pew,politics,september-2018-political-survey,NA,NA,NA,NA
+uspew2019_07amtr,NA,United States,NA,NA,NA,2019,NA,NA,weight_w52,pew,politics,american-trends-panel-wave-52,NA,NA,NA,NA
+uspew2019_07pol,NA,United States,NA,NA,NA,2019,NA,NA,weight,pew,politics,july-2019-political-survey,NA,NA,NA,NA
+usvcu2001,NA,United States,NA,NA,NA,2001,NA,NA,finalwt,roper,vcu,USVIRGCU2001-LIFE,NA,NA,NA,NA
+usvcu2002,NA,United States,NA,NA,NA,2002,NA,NA,finalwt,roper,vcu,USVIRGCU2002-LIFE,NA,NA,NA,NA
+usvcu2003,NA,United States,NA,NA,NA,2003,NA,NA,finalwt,roper,vcu,USVIRGCU2003-LIFE,NA,NA,NA,NA
+usvcu2004,NA,United States,NA,NA,NA,2004,NA,NA,finalwt,roper,vcu,USVIRGCU2004-LIFE,NA,NA,NA,NA
+usvcu2005,NA,United States,NA,NA,NA,2005,NA,NA,finalwt,roper,vcu,USVIRGCU2005-LIFE,NA,NA,NA,NA
+usvcu2006,NA,United States,NA,NA,NA,2006,NA,NA,finwgt,roper,vcu,USVIRGCU2006-LIFE,NA,NA,NA,NA
+usvcu2007,NA,United States,NA,NA,NA,2007,NA,NA,weight,roper,vcu,USVIRGCU2007-LIFE,NA,NA,NA,NA
+usvcu2008,NA,United States,NA,NA,NA,2008,NA,NA,weight,roper,vcu,USVIRGCU2008-LIFE,NA,NA,NA,NA
+usvcu2010,NA,United States,NA,NA,NA,2010,NA,NA,weight,roper,vcu,USVIRGCU2010-LIFE,NA,NA,NA,NA
+uswapo199807,NA,United States,NA,NA,NA,1998,NA,NA,wgt,roper,wapo,USWASH1998-WPH006A,NA,NA,NA,NA
+uswapo199808,NA,United States,NA,NA,NA,1998,NA,NA,wgt,roper,wapo,USWASH1998-WPH006B,NA,NA,NA,NA
+vpcpce_czechpublic,NA,Czech Republic,NA,NA,NA,1993,NA,NA,macwt,ukds,vpcpce,UKDA-4129-stata6,vpcpce_czechpublic,NA,NA,NA
+vpcpce_hungarianpublic,NA,Hungary,NA,NA,NA,1993,NA,NA,macwt,ukds,vpcpce,UKDA-4129-stata6,vpcpce_hungarianpublic,NA,NA,NA
+vpcpce_russianpublic,NA,Russia,NA,NA,NA,1993,NA,NA,macwt,ukds,vpcpce,UKDA-4129-stata6,vpcpce_russianpublic,NA,NA,NA
+vpcpce_russianpfollow,NA,Russia,NA,NA,NA,1996,NA,NA,macwt,ukds,vpcpce,UKDA-4129-stata6,vpcpce_russianpfollow,NA,NA,NA
+vpcpce_slovakianpublic,NA,Slovakia,NA,NA,NA,1993,NA,NA,macwt,ukds,vpcpce,UKDA-4129-stata6,vpcpce_slovakianpublic,NA,NA,NA
+vpcpce_ukrainianpublic,NA,Ukraine,NA,NA,NA,1993,NA,NA,macwt,ukds,vpcpce,UKDA-4129-stata6,vpcpce_ukrainianpublic,NA,NA,NA
+wellcome2018,NA,wp5,NA,NA,NA,NA,year_calendar,NA,wgt,ukds,wellcome,UKDA-8466-stata,NA,NA,NA,NA
+wvs_combo,s025,s003,NA,NA,"c(""Northern Ireland""=""Northern Ireland"", ""SrpSka Republic""=""SrpSka Republic"")",NA,s020,NA,s017,misc,wvs,wvs_combo,NA,NA,NA,NA
+wvs4_swe,NA,s025,NA,NA,NA,1999,NA,NA,s018,misc,wvs,wvs4_swe,NA,NA,NA,NA
+wvs7,NA,s025,NA,NA,NA,NA,a_year,NA,w_weight,misc,wvs,wvs7,NA,NA,NA,NA
+wvs7_ethiopia,NA,Ethiopia,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_ethiopia,NA,NA,NA,NA
+wvs7_iran,NA,Iran,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_iran,NA,NA,NA,NA
+wvs7_kyrgyzstan,NA,Kyrgyzstan,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_kyrgyzstan,NA,NA,NA,NA
+wvs7_myanmar,NA,Myanmar,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_myanmar,NA,NA,NA,NA
+wvs7_nicaragua,NA,Nicaragua,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_nicaragua,NA,NA,NA,NA
+wvs7_philippines,NA,Philippines,NA,NA,NA,2019,NA,NA,w_weight,misc,wvs,wvs7_philippines,NA,NA,NA,NA
+wvs7_tajikistan,NA,Tajikistan,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_tajikistan,NA,NA,NA,NA
+wvs7_vietnam,NA,Vietnam,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_vietnam,NA,NA,NA,NA
+wvs7_zimbabwe,NA,Zimbabwe,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_zimbabwe,NA,NA,NA,NA
+=======
+>>>>>>> a74406be7060e04492d2c3a03749d2b7d0ced9c2
 abcwapo198105,,United States,,,,1981,,,weight,roper,abcwapo,USABCWASH1981-8846,,,,"list(file = file_path, var_names = c(""q45"", ""weight""), var_cards = c(2, 3), var_positions = c(15, 25), var_widths = c(1, 6), total_cards = 3)"
 abcwapo199406,,United States,,,,1994,,,weight,roper,abcwapo,USABCWASH1994-5294,,,,
 abcwapo199507,,United States,,,,1995,,,wght,roper,abcwapo,USABCWASH1995-5729,,,,
@@ -835,6 +1674,7 @@ wvs7_philippines,,Philippines,,,,2019,,,w_weight,misc,wvs,wvs7_philippines,,,,
 wvs7_tajikistan,,Tajikistan,,,,2020,,,w_weight,misc,wvs,wvs7_tajikistan,,,,
 wvs7_vietnam,,Vietnam,,,,2020,,,w_weight,misc,wvs,wvs7_vietnam,,,,
 wvs7_zimbabwe,,Zimbabwe,,,,2020,,,w_weight,misc,wvs,wvs7_zimbabwe,,,,
+<<<<<<< HEAD
 =======
 abcwapo198105,NA,United States,NA,NA,NA,1981,NA,NA,weight,roper,abcwapo,USABCWASH1981-8846,NA,NA,NA,"list(file = file_path, var_names = c(""q45"", ""weight""), var_cards = c(2, 3), var_positions = c(15, 25), var_widths = c(1, 6), total_cards = 3)"
 abcwapo199406,NA,United States,NA,NA,NA,1994,NA,NA,weight,roper,abcwapo,USABCWASH1994-5294,NA,NA,NA,NA
@@ -1672,3 +2512,6 @@ wvs7_tajikistan,NA,Tajikistan,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_tajikis
 wvs7_vietnam,NA,Vietnam,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_vietnam,NA,NA,NA,NA
 wvs7_zimbabwe,NA,Zimbabwe,NA,NA,NA,2020,NA,NA,w_weight,misc,wvs,wvs7_zimbabwe,NA,NA,NA,NA
 >>>>>>>  ees2004 nweight ZA5696 weight wmid2
+=======
+>>>>>>> upstream/master
+>>>>>>> a74406be7060e04492d2c3a03749d2b7d0ced9c2
