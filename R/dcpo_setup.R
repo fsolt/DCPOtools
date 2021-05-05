@@ -76,6 +76,7 @@ dcpo_setup <- function(vars,
               forcats::fct_relabel(., function(x) stringr::str_replace(x, "\\[\\d+\\]\\s+", ""))
             else .} %>%
             as.character() %>%
+            capwords(strict = TRUE) %>%
             stringr::str_replace("Haití", "Haiti") %>%
             stringr::str_replace("República Dominicana", "Dominican Republic") %>%
             {if (!is.na(ds$cc_dict))
