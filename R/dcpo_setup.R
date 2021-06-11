@@ -6,6 +6,7 @@
 #' @param datapath path to the directory that houses raw survey datasets
 #' @param file a file path to save output to (in comma-separated format)
 #' @param chime play chime when complete?
+#' @param survey_additions a data frame (or, optionally, a .csv file) of information on surveys not currently included in \code{surveys_data}
 #
 #' @details \code{dcpo_setup}, when passed a data frame of survey items, collects the
 #' responses and formats them for use with the \code{dcpo} function.
@@ -29,11 +30,21 @@
 dcpo_setup <- function(vars,
                        datapath = "../data/dcpo_surveys",
                        file = "",
-                       chime = TRUE) {
+                       chime = TRUE,
+                       survey_additions = NULL) {
   if ("data.frame" %in% class(vars)) {
     vars_table <- vars
   } else {
     vars_table <- readr::read_csv(vars, col_types = "cccc")
+  }
+  if (!is.null(survey_additions)) {
+    if ("data.frame" %in% class(survey_additions)) {
+      surveys_data <- bind_rows(surveys_data, survey_additions)
+    } else {
+      surveys_data <- bind_rows(surveys_data,
+                                readr::read_csv(survey_additions,
+                                                col_types = "ccccccncccccccccc"))
+    }
   }
 
   # loop rather than purrr to avoid reloading datasets (some are big and slow)
