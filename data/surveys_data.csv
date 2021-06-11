@@ -573,7 +573,7 @@ jgss2006,,Japan,,,,2006,,,weight,gesis,jgss,ZA4873,,,,
 jgss2008,,Japan,,,,2008,,,weight,gesis,jgss,ZA5294,,,,
 jgss2010,,Japan,,,,2010,,,weight,gesis,jgss,ZA5352,,,,
 jgss2012,,Japan,,,,2012,,,weight,gesis,jgss,ZA6427,,,,
-jgss2015,,Japan,,,,2015,,,weight,gesis,jgss,ICPSR_37874,,,,
+jgss2015,,Japan,,,,2015,,,weight,icpsr,jgss,ICPSR_37874,,,,
 kgss,,Korea,,,,,year,,,misc,kgss,kgss,,http://kgss.skku.edu/wp-content/uploads/2020/02/2003-2018_KGSS_eng_v2-02102020.zip,http://kgss.skku.edu/wp-content/uploads/2019/09/2003-2018-KGSS-Cumulative-Codebook_09062019.pdf,
 lat198312,,United States,,,,1983,,,weight,roper,lat,USLAT1983-074,,,,"list(file = file_path, var_names = c(""q107"", ""weight""), var_cards = c(2, 3), var_positions = c(74, 2), var_widths = c(1, 5), total_cards = 3)"
 lat200006,,United States,,,,2000,,,weight,roper,lat,USLAT2000-442,,,,"list(file = file_path, var_names = c(""q24"", ""q30"", ""q31"", ""q33"", ""q34"", ""q54"", ""q57"", ""weight""), var_cards = c(1, 1, 1, 1, 1, 2, 2, 3), var_positions = c(58, 64, 65, 67, 68, 15, 18, 8), var_widths = c(1, 1, 1, 1, 1, 1, 1, 5), total_cards = 3)"
