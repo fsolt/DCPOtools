@@ -47,3 +47,28 @@ format_claassen <- function(dcpo_data) {
 
     return(claassen_stan)
 }
+
+format_claassen_cls <- function(claassen_data) {
+    # satisfy R CMD check
+    country <- year <- item <- r <- n <- survey <- x <- NULL
+
+    # dichotomize (values above midpoint coded 1)
+    dat <- claassen_data %>%
+        filter(x > 0)
+
+    claassen_stan <- list(  N       = nrow(dat),
+                            K       = dplyr::n_distinct(dat$item),
+                            T       = max(dat$year) - min(dat$year) + 1,
+                            J       = dplyr::n_distinct(dat$country),
+                            P       = max(as.numeric(as.factor(paste(dat$country, dat$item)))),
+                            jj      = as.numeric(as.factor(dat$country)),
+                            kk      = as.numeric(as.factor(dat$item)),
+                            tt      = as.numeric(as.factor(dat$year)),
+                            pp      = as.numeric(as.factor(paste(dat$country, dat$item))),
+                            x       = round(dat$x),
+                            samp    = round(dat$samp),
+                            data    = dat)
+
+    return(claassen_stan)
+}
+
