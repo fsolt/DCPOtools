@@ -21,7 +21,7 @@
 #' @import rvest
 #' @import RSelenium
 #' @importFrom rio convert export
-#' @importFrom stringr str_replace str_subset str_detect
+#' @importFrom stringr str_replace str_subset str_detect regex
 #' @importFrom essurvey download_rounds
 #' @importFrom dataverse get_dataset get_file
 #' @importFrom httr content
@@ -507,7 +507,7 @@ get_surveys <- function(vars,
     elem1 <- remDr$findElements(using = "tag name", "iframe")
     remDr$switchToFrame(elem1[[1]])
     Sys.sleep(2)
-    remDr$findElement(using = "partial link text", "stata")$clickElement()
+    remDr$findElement(using = "partial link text", "2016 01 01 (Stata")$clickElement()
     Sys.sleep(3)
     remDr$findElement(using = "name", "LINOMBRE")$sendKeysToElement(list(getOption("pew_name")))
     remDr$findElement(using = "name", "LIEMPRESA")$sendKeysToElement(list(getOption("pew_org")))
