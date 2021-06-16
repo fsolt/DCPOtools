@@ -9,7 +9,8 @@ dcpo_setup(
   datapath = "../data/dcpo_surveys",
   file = "",
   chime = TRUE,
-  survey_additions = NULL
+  survey_additions = NULL,
+  ...
 )
 }
 \arguments{
@@ -22,6 +23,8 @@ dcpo_setup(
 \item{chime}{play chime when complete?}
 
 \item{survey_additions}{a data frame (or, optionally, a .csv file) of information on surveys not currently included in \code{surveys_data}}
+
+\item{...}{additional arguments}
 }
 \value{
 a data frame

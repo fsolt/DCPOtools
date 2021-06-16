@@ -7,6 +7,7 @@
 #' @param file a file path to save output to (in comma-separated format)
 #' @param chime play chime when complete?
 #' @param survey_additions a data frame (or, optionally, a .csv file) of information on surveys not currently included in \code{surveys_data}
+#' @param ... additional arguments
 #
 #' @details \code{dcpo_setup}, when passed a data frame of survey items, collects the
 #' responses and formats them for use with the \code{dcpo} function.
@@ -31,12 +32,14 @@ dcpo_setup <- function(vars,
                        datapath = "../data/dcpo_surveys",
                        file = "",
                        chime = TRUE,
-                       survey_additions = NULL) {
+                       survey_additions = NULL,
+                       ...) {
   if ("data.frame" %in% class(vars)) {
     vars_table <- vars
   } else {
-    vars_table <- readr::read_csv(vars, col_types = "cccc")
+    vars_table <- readr::read_csv(vars, col_types = cols(.default = "c"))
   }
+
   if (!is.null(survey_additions)) {
     if ("data.frame" %in% class(survey_additions)) {
       surveys_data <- bind_rows(surveys_data, survey_additions)
@@ -46,6 +49,8 @@ dcpo_setup <- function(vars,
                                                 col_types = "ccccccncccccccccc"))
     }
   }
+
+  dots <- list(...)
 
   # loop rather than purrr to avoid reloading datasets (some are big and slow)
   all_sets <- list()
@@ -106,6 +111,11 @@ dcpo_setup <- function(vars,
         t_data <- labelled::remove_labels(t_data)
         t_data <- t_data %>%
           dplyr::filter(c_dcpo == "Sweden")
+      }
+      if (ds$survey == "wvs6_bahrain") {
+        t_data <- labelled::remove_labels(t_data)
+        t_data <- t_data %>%
+          dplyr::filter(c_dcpo == "Bahrain")
       }
       if (ds$survey == "tcmeg2004") {
         t_data <- t_data %>%
@@ -213,11 +223,25 @@ dcpo_setup <- function(vars,
         mutate(target = eval(parse(text = v$variable)))
     }
     vals <- eval(parse(text = v$values))
-    t_data$target <- if_else(t_data$target %in% vals, t_data$target, NA_real_)
-    options(warn = 2)
-    t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(1:length(vals), vals)))
-    options(warn = 0)
-
+    if (!exists("include_nonresponses", where = dots)) {
+      t_data$target <- if_else(t_data$target %in% vals, t_data$target, NA_real_)
+      options(warn = 2)
+      t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(1:length(vals), vals)))
+      options(warn = 0)
+    } else {
+      if (dots$include_nonresponses) {
+        na_vals <- eval(parse(text = v$nonresponses))
+        t_data$target <- if_else(t_data$target %in% c(vals, na_vals), t_data$target, NA_real_)
+        options(warn = 2)
+        t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(c(rep(1,length(na_vals)), 1:length(vals)), c(na_vals, vals))))
+        options(warn = 0)
+      } else {
+        t_data$target <- if_else(t_data$target %in% vals, t_data$target, NA_real_)
+        options(warn = 2)
+        t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(1:length(vals), vals)))
+        options(warn = 0)
+      }
+    }
     # Summarize by country and year
     vars1 <- t_data %>%
       dplyr::select(c_dcpo, y_dcpo, wt_dcpo, target) %>%
@@ -266,3 +290,18 @@ dcpo_setup <- function(vars,
   return(all_data2)
 }
 
+claassen_setup <- function(vars,
+                           datapath = "../data/dcpo_surveys",
+                           file = "",
+                           chime = TRUE,
+                           survey_additions = NULL,
+                           include_nonresponses = TRUE) {
+
+  dcpo_setup(vars = vars,
+             datapath = datapath,
+             file = file,
+             chime = chime,
+             survey_additions = survey_additions,
+             include_nonresponses = include_nonresponses)
+
+}
