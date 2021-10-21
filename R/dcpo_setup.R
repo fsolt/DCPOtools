@@ -156,7 +156,7 @@ dcpo_setup <- function(vars,
               ungroup() %>%
               .[["y_dcpo"]]
           }
-        } else if (ds$survey == "cdcee" | ds$survey == "eqls") {
+        } else if (ds$survey == "cdcee" | ds$survey == "eqls_combo") {
           suppressWarnings(
             t_data[[ds$year_var]] %>%
               labelled::labelled(., attr(., "labels")) %>%
