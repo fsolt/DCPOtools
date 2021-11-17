@@ -170,6 +170,7 @@ aussa2007,,Australia,,,,2007,,,v656,dataverse,aussa,aussa2007,,https://dataverse
 aussa2009,,Australia,,,,2009,,,v488,dataverse,aussa,aussa2009,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/IH68HQ,,
 aussa2013,,Australia,,,,2013,,,,dataverse,aussa,aussa2013,,,,
 autnes2017,,Austria,,,,2017,,,"wt <- rowMeans(t_data %>% select(contains(""weightd"")), na.rm = TRUE)",dataverse,autnes,autnes2017,,https://data.aussda.at/dataset.xhtml?persistentId=doi:10.11587/I7QIYJ,,
+bes1987,,United Kingdom,,,,1987,,,weight,misc,bes,bes1987,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/87BES.dta,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1987BESQuestionaire.pdf,
 bges1992,,United Kingdom,,,,1992,,,wtfactor,ukds,bges,2981,,,,
 bges1997,,United Kingdom,,,,1997,,,wtallgb,icpsr,bges,ICPSR_02615,,,,
 brdir199109,,Brazil,,,,1991,,,peso,roper,datafolha,BRDIR1991-1033,,,,
@@ -446,23 +447,37 @@ gallup_canada1972,,Canada,,,,1972,,,,roper,gallup_canada,CNCIPO1972-355,,,,
 gallup_canada197409,,Canada,,,,1974,,,,roper,gallup_canada,CNCIPO1974-368,,,,
 gallup_canada197507,,Canada,,,,1975,,,,roper,gallup_canada,CNCIPO1975-378,,,,
 gallup_canada197902,,Canada,,,,1979,,,,roper,gallup_canada,CNCIPO1979-421B,,,,
+gallup_canada198211,,Canada,,,,1982,,,wtvar,roper,gallup_canada,CNCIPO82-467-1,,,,
 gallup_canada198307,,Canada,,,,1983,,,,roper,gallup_canada,CNCIPO1983-475-1,,,,
+gallup_canada198703,,Canada,,,,1987,,,wtvar,dataverse,gallup_canada,gallup_canada198703,,https://doi.org/10.5683/SP2/GS2IRT,https://dataverse.scholarsportal.info/api/access/datafile/83133,
+gallup_canada198803,,Canada,,,,1988,,,wtvar,dataverse,gallup_canada,gallup_canada198803,,https://doi.org/10.5683/SP2/UF6I3H,https://dataverse.scholarsportal.info/api/access/datafile/83167,
 gallup_canada198805,,Canada,,,,1988,,,,roper,gallup_canada,CNCIPO1988-533-1,,,,
 gallup_canada198809,,Canada,,,,1988,,,weight,roper,gallup_canada,CNCIPO1988-809-1,,,,
-gallup_canada198902,,Canada,,,,1989,,,weight,roper,gallup_canada,CNCIPO1989-902-2,,,,
-gallup_canada198908,,Canada,,,,1989,,,weight,roper,gallup_canada,CNCIPO1989-908-2,,,,"list(file = file_path, var_names = c(""q6a"", ""weight""), var_positions = c(25, 15), var_widths = c(1, 5))"
+gallup_canada198902,,Canada,,,,1989,,,weight,roper,gallup_canada,31082191,,,,
+gallup_canada198908,,Canada,,,,1989,,,weight,roper,gallup_canada,CNCIPO1989-908-2,,,,"list(file = file_path, var_names = c(""qq5"", ""q6a"", ""weight""), var_positions = c(39, 25, 15), var_widths = c(1, 1, 5))"
+gallup_canada198908a,,Canada,,,,1989,,,wtvar,dataverse,gallup_canada,gallup_canada198908a,,,,
 gallup_canada198912,,Canada,,,,1989,,,weight,roper,gallup_canada,CNCIPO1989-912-1,,,,
 gallup_canada199009,,Canada,,,,1990,,,weight,roper,gallup_canada,CNCIPO1990-009-2,,,,
 gallup_canada199105,,Canada,,,,1991,,,weight,roper,gallup_canada,CNCIPO1991-105-1,,,,
+gallup_canada199106,,Canada,,,,1991,,,wtvar,dataverse,gallup_canada,gallup_canada199106,,https://doi.org/10.5683/SP2/V7XPNY,,
+gallup_canada199205,,Canada,,,,1992,,,weight,dataverse,gallup_canada,gallup_canada199205,,https://doi.org/10.5683/SP2/OTWG9Z,,
 gallup_canada199209,,Canada,,,,1992,,,weight,roper,gallup_canada,CNCIPO1992-809T,,,,
 gallup_canada199306,,Canada,,,,1993,,,weight,roper,gallup_canada,CNCIPO1993-656T,,,,
+gallup_canada199312,,Canada,,,,1993,,,weight,roper,gallup_canada,31082204,,,,"list(file = file_path, var_names = c(""q8"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(14, 15), var_widths = c(1, 5))"
+gallup_canada199505,,Canada,,,,1995,,,weight,roper,gallup_canada,CNCIPO1995-95005,,,,"list(file = file_path, var_names = c(""q4a"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(35, 15), var_widths = c(1, 5))"
 gallup_canada199508,,Canada,,,,1995,,,weight,roper,gallup_canada,CNCIPO1995-95008,,,,
 gallup_canada1996,,Canada,,,,1996,,,weight,roper,gallup_canada,CNCIPO1996-96010,,,,
+gallup_canada199605,,Canada,,,,1996,,,weight,roper,gallup_canada,CNCIPO1996-96005,,,,"list(file = file_path, var_names = c(""q4"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(22, 15), var_widths = c(1, 5))"
+gallup_canada199611,,Canada,,,,1996,,,weight,roper,gallup_canada,CNCIPO1996-96011,,,,"list(file = file_path, var_names = c(""q11a"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(52, 15), var_widths = c(1, 5))"
+gallup_canada199707,,Canada,,,,1997,,,weight,roper,gallup_canada,CNCIPO1997-97007,,,,"list(file = file_path, var_names = c(""q5"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(27, 15), var_widths = c(1, 5))"
 gallup_canada199711,,Canada,,,,1997,,,weight,roper,gallup_canada,CNCIPO1997-97011,,,,
+gallup_canada199807,,Canada,,,,1998,,,weight,roper,gallup_canada,CNCIPO1998-98007,,,,"list(file = file_path, var_names = c(""q6"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(61, 15), var_widths = c(1, 5))"
 gallup_canada199811,,Canada,,,,1998,,,weight,roper,gallup_canada,CNCIPO1998-98011,,,,
 gallup_canada1999,,Canada,,,,1999,,,,roper,gallup_canada,CNCIPO1999-04,,,,
+gallup_canada199907,,Canada,,,,1999,,,weight,roper,gallup_canada,CNCIPO1999-07,,,,"list(file = file_path, var_names = c(""q5"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(61, 15), var_widths = c(1, 5))"
 gallup_canada199911,,Canada,,,,1999,,,weight,roper,gallup_canada,CNCIPO1999-11,,,,
 gallup_canada2000,,Canada,,,,2000,,,weight,roper,gallup_canada,CNCIPO2000-02,,,,
+gallup_canada200007,,Canada,,,,2000,,,weight,roper,gallup_canada,CNCIPO2000-07,,,,"list(file = file_path, var_names = c(""q5"", ""weight""), total_cards = 6, respondent_pattern = ""^\\d{4}"", card_pattern = ""(?<=^\\d{5})\\d"", var_cards = c(5, 1), var_positions = c(61, 15), var_widths = c(1, 5))"
 gallup_canada200011,,Canada,,,,2000,,,weight,roper,gallup_canada,CNCIPO2000-11,,,,
 gallup_uk196910,,United Kingdom,,,,1969,,,,roper,gallup_uk,GBSSLT1969-CQ654,,,,
 gallup_uk197311,,United Kingdom,,,,1973,,,,roper,gallup_uk,GBSSLT1973-CQ876,,,,
@@ -488,6 +503,10 @@ gallup_us199206,,United States,,,,1992,,,weight,roper,gallup_us,USAIPOGNS1992-22
 gallup_us199603,,United States,,,,1996,,,weight,roper,gallup_us,USAIPOCNUS1996-9603008,,,,"list(file = file_path, var_names = c(""q43a"", ""q44"", ""weight""), var_cards = c(6, 6, 1), var_positions = c(62, 64, 13), var_widths = c(1, 1, 3), total_cards = 7,  card_pattern = ""(?<=^.{10})\\d"", respondent_pattern = ""(?<=^\\s{2})\\d{4}"")"
 gallup_us199611,,United States,,,,1996,,,weight,roper,gallup_us,USAIPOGNS1996-9611036,,,,"list(file = file_path, var_names = c(""q12"", ""weight""), var_cards = c(6, 1), var_positions = c(51, 13), var_widths = c(1, 3), total_cards = 7,  card_pattern = ""(?<=^.{10})\\d"", respondent_pattern = ""^\\d{6}"")"
 gallup_us199902,,United States,,,,1999,,,weight,roper,gallup_us,USAIPOGNS1999-9902009,,,,"list(file = file_path, var_names = c(""q35"", ""q39a"", ""weight""), var_cards = c(7, 7, 1), var_positions = c(39, 49, 13), var_widths = c(1, 1, 3), total_cards = 7,  card_pattern = ""(?<=^.{10})\\d"", respondent_pattern = ""(?<=^\\s{2})\\d{4}"")"
+gallup_us199902a,,United States,,,,1999,,,weight,roper,gallup_us,USAIPOGNS1999-9902013,,,,"list(file = file_path, var_names = c(""q27"", ""q29"", ""weight""), var_cards = c(6, 6, 1), var_positions = c(46, 48, 13), var_widths = c(1, 1, 3), total_cards = 7,  card_pattern = ""(?<=^.{10})\\d"", respondent_pattern = ""(?<=^\\s{2})\\d{4}"")"
+gallup_us200009,,United States,,,,2000,,,wtfctr,roper,gallup_us,USAIPOGNS2000-39,,,,
+gallup_us200103,,United States,,,,2001,,,wtfctr,roper,gallup_us,USAIPOGNS2001-13,,,,
+gallup_us200209,,United States,,,,2002,,,wtfctr,roper,gallup_us,USAIPOCNUS2002-34,,,,
 gallup_us200305,,United States,,,,2003,,,wtfctr,roper,gallup_us,USAIPOGNS2003-31,,,,
 gallup_us200401,,United States,,,,2004,,,wtfctr,roper,gallup_us,USAIPOCNUS2004-02,,,,
 gallup_us200402,,United States,,,,2004,,,wtfctr,roper,gallup_us,USAIPOGNS2004-08,,,,
