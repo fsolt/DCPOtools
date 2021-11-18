@@ -173,15 +173,15 @@ get_surveys <- function(vars,
     walk(roper_ascii_files, function(file) {
       ra_ds <- ds %>%
         filter(file_id %in% file)
-      file_path <- file.path("../data/dcpo_surveys/roper_files",
+      dir_path <- file.path("../data/dcpo_surveys/roper_files",
                              paste0(ra_ds$surv_program, "_files"),
-                             file,
-                             paste0(file, ".dat"))
+                            file)
+      file_path <- file.path(dir_path, list.files(dir_path, pattern = ".dat"))
       x <- do.call(read_ascii, eval(parse(text = ra_ds$read_ascii_args)))
       if (!is.na(ra_ds$wt)) {
         x <- x %>%
           mutate(weight0 = as.numeric(weight %>% stringr::str_trim()),
-                 weight = weight0/mean(weight0))
+                 weight = if_else(is.na(weight0), 1, weight0/mean(weight0, na.rm = TRUE)))
       }
       rio::export(x, str_replace(file_path, "dat$", "RData"))
     })
