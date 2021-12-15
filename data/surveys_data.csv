@@ -687,7 +687,7 @@ nsss1989,,Australia,,,,1989,,,,dataverse,nsss,nsss1989,,https://dataverse.ada.ed
 nsss1993,,Australia,,,,1993,,,,dataverse,nsss,nsss1993,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/OHK1J7,,
 nsss1994,,Australia,,,,1994,,,,dataverse,nsss,nsss1994,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/DDWXI7,,
 nsss1995,,Australia,,,,1995,,,,dataverse,nsss,nsss1995,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/R70QJY,,
-pa_w1,,v4,,,,,,"tibble(orig=c(""britain"", ""germany"", ""netherlands"", ""austria"", ""usa"", ""italy"", ""switzerland"", ""finland""  ), year=c(""1973"",""1974"",""1974"", ""1974"",""1974"",""1975"", ""1976"",""1975""))",,gesis,pa,ZA0765,,,,
+pa_w1,,v4,,,,,,"tibble(orig=c(""Britain"",  ""Germany"",  ""Netherlands"",  ""Austria"", ""United States"", ""Italy"",  ""Switzerland"",  ""Finland""  ), year=c(""1973"",""1974"",""1974"", ""1974"",""1974"",""1975"", ""1976"",""1975""))",,gesis,pa,ZA0765,,,,
 pa_w2,,v1003,,"tibble(orig = c(""GERMANY, PAN"", ""GERMANY, CRS"", ""NETHERLANDS, PAN"", ""NETHERLANDS, CRS"",   ""USA, PAN"",  ""USA, CRS""), dest = c(""Germany"", ""Germany"", ""Netherlands"", ""Netherlands"", ""United States"",""United States""))",,,,"tibble(orig=c(""GERMANY, PAN"",   ""GERMANY, CRS"", ""NETHERLANDS, PAN"", ""NETHERLANDS, CRS"",   ""USA, PAN"" ,  ""USA, CRS"" ), year=c(""1980"",""1980"",""1980"", ""1980"",""1981"",""1981""))",,gesis,pa,ZA1188,,,,
 pew2002,,country,,,,2002,,,weight,pew,global,summer-2002-survey-data,,,,
 pew2005_6,,country,,,,2005,,,weight,pew,global,may-2005-survey-data,Pew Global Attitudes 2005 6-COUNTRY DATASET,,,
