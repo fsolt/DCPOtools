@@ -511,6 +511,7 @@ gallup_us197706,,United States,,,,1977,,,weight,roper,gallup_us,USAIPO1977-0978,
 gallup_us197811_ct,,United States,,,,1978,,,weight,roper,gallup_us,USAIPOSPGO1978-78139,,,,"list(file = file_path, var_names = c(""q60"", ""weight""), var_positions = c(67, 1), var_widths = c(1, 1))"
 gallup_us198206,,United States,,,,1982,,,weight,roper,gallup_us,USAIPO1982-1197G,,,,"list(file = file_path, var_names = c(""q09h"", ""q09j"", ""weight""), var_positions = c(36, 38, 1), var_widths = c(1, 1, 1))"
 gallup_us198606,,United States,,,,1986,,,weight,roper,gallup_us,USAIPO1986-1266G,,,,
+gallup_us198606a,,United States,,,,1986,,,weight,roper,gallup_us,31091243,,,,"list(file = file_path, var_names = c(""q6"", ""q14"", ""q38"", ""weight""), var_cards = c(1, 1, 1, 3), var_positions = c(41, 51, 79, 49), var_widths = c(1, 1, 1, 6), total_cards = 3)"
 gallup_us198703,,United States,,,,1987,,,weight,roper,gallup_us,USAIPOSPAI1987-852,,,,"list(file = file_path, var_names = c(""q20"", ""weight""), var_positions = c(32, 4), var_widths = c(1, 3))"
 gallup_us198807,,United States,,,,1988,,,weight,roper,gallup_us,USAIPOSPAI1988-874,,,,
 gallup_us198909,,United States,,,,1989,,,weight,roper,gallup_us,USAIPOSPGONEW1989-89262,,,,
