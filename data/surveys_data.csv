@@ -216,6 +216,7 @@ caucasusb2019,,country,,,,,cbyear,,,misc,cb,cb2019,,https://caucasusbarometer.or
 cbsnyt197710,,United States,,,,1977,,,weight,roper,cbsnyt,USCBSNYT1977-OCT,,,,"list(file = file_path, var_names = c(""q28b"", ""weight""), var_cards = c(1, 3), var_positions = c(73, 49), var_widths = c(1, 6), total_cards = 3)"
 cbsnyt197911,,United States,,,,1979,,,weight,roper,cbsnyt,USCBSNYT1979-NOV,,,,"list(file = file_path, var_names = c(""q41"", ""weight""), var_positions = c(154, 1), var_widths = c(1, 6))"
 cbsnyt198008,,United States,,,,1980,,,weight,roper,cbsnyt,USCBSNYT1980-AUG,,,,"list(file = file_path, var_names = c(""v81"", ""weight""), var_positions = c(96, 124), var_widths = c(1, 6))"
+cbsnyt198104,,United States,,,,1981,,,weight,roper,cbsnyt,31091171,,,,
 cbsnyt198105,,United States,,,,1981,,,weight,roper,cbsnyt,USCBSNYT1981-APRIL,,,,
 cbsnyt198106,,United States,,,,1981,,,weight,roper,cbsnyt,USCBSNYT1981-JUNESOCSEC,,,,"list(file = file_path, var_names = c(""q25"", ""weight""), var_cards = c(1, 3), var_positions = c(63, 49), var_widths = c(1, 6), total_cards = 3)"
 cbsnyt198501,,United States,,,,1985,,,weight,roper,cbsnyt,USCBSNYT1985-JAN,,,,"list(file = file_path, var_names = c(""q42"", ""weight""), var_cards = c(2, 3), var_positions = c(19, 49), var_widths = c(1, 6), total_cards = 3)"
@@ -260,6 +261,7 @@ chcep200604,,Chile,,,,2006,,,factor_m2,roper,chcep,CHCEP2006-0531,,,,
 chcep200803,,Chile,,,,2008,,,pond,roper,chcep,CHCEP2008-0416,,,,
 chcep200806,,Chile,,,,2008,,,fcorrecc,roper,chcep,CHCEP2008-0626,,,,
 chcep201810,,Chile,,,,2018,,,ponderad,roper,chcep,31115706,,,,
+cmlic1980_val,,United States,,,,1980,,,weight,roper,cmlic,31094115,,,,"list(file = file_path, var_names = c(""iv21"", ""weight""), var_cards = c(4, 5), var_positions = c(62, 62), var_widths = c(1, 6), total_cards = 8)"
 cnes1984,,Canada,,,,1984,,,wtfactor,icpsr,cnes,ICPSR_08544,,,,"list(file = file_path, var_names = c(""var332"", ""var335"", ""var336"", ""wtfactor""), var_cards = c(7, 7, 7, 13), var_positions = c(48, 51, 52, 30), var_widths = c(1, 1, 1, 7), total_cards = 17)"
 cnes1988,,Canada,,,,1988,,,wt1,icpsr,cnes,ICPSR_09386,,,,"list(file = file_path, var_names = c(""L5"", ""var335"", ""var336"", ""wt1""), var_cards = c(5, 7, 7, 15), var_positions = c(45, 51, 52, 14), var_widths = c(1, 1, 1, 5), total_cards = 15)"
 cnn199301,,United States,,,,1993,,,weight,roper,cnn,USYANK1993-85202,,,,
