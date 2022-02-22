@@ -242,6 +242,7 @@ cces2018,,United States,,,,2018,,,,dataverse,cces,cces2018,,https://dataverse.ha
 cces2019,,United States,,,,2019,,,commonweight,dataverse,cces,cces2019,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WOT7O8,,
 cceb2002,,country,,,,2002,,,weight1,gesis,cceb,ZA3979,,,,
 cceb2003_5,,country,,,,2003,,,weight1,gesis,cceb,ZA3983,,,,
+cceb2003_6,,country,,,,2003,,,weight1,gesis,cceb,ZA3984,,,,
 cceb2003_11,,country,,,,2003,,,weight1,gesis,cceb,ZA3986,,,,
 cceb2004,,country,,,,2004,,,weight1,gesis,cceb,ZA4246,,,,
 cdcee,,v3,,,"c(""East Germany""=""Germany"", ""West Germany""=""Germany"")",,v666,,wt <- t_data$v633; wt[!is.na(t_data$v634)] <- t_data$v634[!is.na(t_data$v634)]; wt[!is.na(t_data$v636)] <- t_data$v636[!is.na(t_data$v636)]; wt[!is.na(t_data$v637)] <- t_data$v637[!is.na(t_data$v637)]; wt[!is.na(t_data$v638)] <- t_data$v638[!is.na(t_data$v638)]; wt[!is.na(t_data$v639)] <- t_data$v639[!is.na(t_data$v639)]; wt[!is.na(t_data$v640)] <- t_data$v640[!is.na(t_data$v640)]; wt[is.na(wt)] <- 1,gesis,cdcee,ZA4054,,,,
