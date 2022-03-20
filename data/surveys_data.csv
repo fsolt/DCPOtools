@@ -170,7 +170,16 @@ aussa2007,,Australia,,,,2007,,,v656,dataverse,aussa,aussa2007,,https://dataverse
 aussa2009,,Australia,,,,2009,,,v488,dataverse,aussa,aussa2009,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/IH68HQ,,,
 aussa2013,,Australia,,,,2013,,,,dataverse,aussa,aussa2013,,,,,
 autnes2017,,Austria,,,,2017,,,"wt <- rowMeans(t_data %>% select(contains(""weightd"")), na.rm = TRUE)",dataverse,autnes,autnes2017,,https://data.aussda.at/dataset.xhtml?persistentId=doi:10.11587/I7QIYJ,,,
-bes1987,,United Kingdom,,,,1987,,,weight,misc,bes,bes1987,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/87BES.dta,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1987BESQuestionaire.pdf,,
+bes1987,,United Kingdom,,,,1987,,,weight,misc,bes,bes1987,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1987BESQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/87BES.dta
+bes1992,,United Kingdom,,,,1992,,,wtfactor,misc,bes,bes1992,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1992-1997BESPanelQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/92BES.dta
+bes1997,,United Kingdom,,,,1997,,,wtallgb,misc,bes,bes1997,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1997BESTechnicalReportandQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/97BES.dta
+bes2001,,United Kingdom,,,,2001,,,awgtgb,misc,bes,bes2001,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/2001BESCampaignPanelTechnicalReportCodebookQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/05/prepostagg.dta
+bes2005_pre,,United Kingdom,,,,2005,,,prewtbr,misc,bes,bes2005_pre,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/05/2005BESPreQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/05/2005BESa.dta
+bes2005_post,,United Kingdom,,,,2005,,,prewtbr,misc,bes,bes2005_post,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/05/2005BESPostQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/05/2005BESb.dta
+bes2010,,United Kingdom,,,,2010,,,aweightt,misc,bes,bes2010,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/2010BESPostQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/2010BESprepost.dta
+bes2015,,United Kingdom,,,,2015,,,wt_combined_main_capped,misc,bes,bes2015,,,https://www.britishelectionstudy.com/wp-content/uploads/2016/05/BES_2015_f2f_v3.0_codebook.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2018/01/bes_f2f_2015_v4.0.dta
+bes2017,,United Kingdom,,,,2017,,,sel_wt_capped,misc,bes,bes2017,,,https://www.britishelectionstudy.com/wp-content/uploads/2019/01/BES-2017-F2F-codebook.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2020/02/bes_f2f_2017_v1.5.dta
+bes2019,,United Kingdom,,,,2019,,,wt_sel_wt,misc,bes,bes2019,,,https://www.britishelectionstudy.com/wp-content/uploads/2021/05/bes_rps_2019_doc_1.1.1.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2021/05/bes_rps_2019_1.1.1_dta.zip
 bges1992,,United Kingdom,,,,1992,,,wtfactor,ukds,bges,2981,,,,,
 bges1997,,United Kingdom,,,,1997,,,wtallgb,icpsr,bges,ICPSR_02615,,,,,
 brdir199109,,Brazil,,,,1991,,,peso,roper,datafolha,BRDIR1991-1033,,,,,
