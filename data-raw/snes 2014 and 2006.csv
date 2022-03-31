@@ -1,0 +1,3 @@
+survey,cy_var,country_var,cc_origin,cc_dict,cc_match,year,year_var,year_dict,wt,archive,surv_program,file_id,subfile,data_link,cb_link,read_ascii_args,link
+snes2014,,Sweden,,,,2014,,,,misc,snd,snes2014,,,,,https://snd.gu.se/en/catalogue/study/snd1039#dataset
+snes2006,,Sweden,,,,2006,,,,misc,snd,snes2006,,,,,https://snd.gu.se/en/catalogue/study/snd0861#dataset
