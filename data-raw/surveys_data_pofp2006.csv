@@ -1,0 +1,6 @@
+survey,cy_var,country_var,cc_origin,cc_dict,cc_match,year,year_var,year_dict,wt,archive,surv_program,file_id,subfile,data_link,cb_link,read_ascii_args
+pofp2006us,,United States,,,,2006,,,weight,icpsr,pofp,ICPSR_04650,04650-0001-Data,https://www.icpsr.umich.edu/web/ICPSR/studies/04650,,
+pofp2006china,,China,,,,2006,,,WEIGHT_F,icpsr,pofp,ICPSR_04650,04650-0002-Data,https://www.icpsr.umich.edu/web/ICPSR/studies/04650,,
+pofp2006india,,India,,,,2006,,,WEIGHT_F,icpsr,pofp,ICPSR_04650,04650-0003-Data,https://www.icpsr.umich.edu/web/ICPSR/studies/04650,,
+pofp2006aus,,Australia,,,,2006,,,Q114,icpsr,pofp,ICPSR_04650,04650-0004-Data,https://www.icpsr.umich.edu/web/ICPSR/studies/04650,,
+pofp2006sk,,South Korea,,,,2006,,,WT,icpsr,pofp,ICPSR_04650,04650-0005-Data,https://www.icpsr.umich.edu/web/ICPSR/studies/04650,,
