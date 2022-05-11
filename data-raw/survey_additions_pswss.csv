@@ -1,8 +1,0 @@
-﻿survey,cy_var,country_var,cc_origin,cc_dict,cc_match,year,year_var,year_dict,wt,archive,surv_program,file_id,subfile,data_link,cb_link,read_ascii_args,link
-pswss1995_q1,,Philippines,,,,1995,,,,icpsr,pswss,ICPSR_02367,,,,,
-pswss1995_q2,,Philippines,,,,1995,,,,icpsr,pswss,ICPSR_02405,,,,,
-pswss1995_q3,,Philippines,,,,1995,,,,icpsr,pswss,ICPSR_02694,,,,,
-pswss1995_q4,,Philippines,,,,1995,,,,icpsr,pswss,ICPSR_02695,,,,,
-pswss2003_q1,,Philippines,,,,2003,,,,icpsr,pswss,ICPSR_34941,,,,,
-pswss2003_q3,,Philippines,,,,2003,,,,icpsr,pswss,ICPSR_34616,,,,,
-pswss2003_q4,,Philippines,,,,2003,,,,icpsr,pswss,ICPSR_34310,,,,,
