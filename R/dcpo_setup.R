@@ -231,9 +231,16 @@ dcpo_setup <- function(vars,
     } else {
       if (dots$include_nonresponses) {
         na_vals <- eval(parse(text = v$nonresponses))
+        t_data$target0 <- t_data$target
         t_data$target <- if_else(t_data$target %in% c(vals, na_vals), t_data$target, NA_real_)
         options(warn = 2)
         t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(c(rep(1,length(na_vals)), 1:length(vals)), c(na_vals, vals))))
+        if (all(t_data$target0 %in% c(na_vals) == FALSE)) {
+          t_data <- t_data %>%
+            mutate(target = if_else(is.na(target), 1, target))
+        }
+        t_data <- t_data %>%
+            select(-target0)
         options(warn = 0)
       } else {
         t_data$target <- if_else(t_data$target %in% vals, t_data$target, NA_real_)
