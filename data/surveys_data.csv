@@ -168,7 +168,7 @@ aussa2003,,Australia,,,,2003,,,,dataverse,aussa,aussa2003,,https://dataverse.ada
 aussa2005,,Australia,,,,2005,,,,dataverse,aussa,aussa2005,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/SRXRC6,,,
 aussa2007,,Australia,,,,2007,,,v656,dataverse,aussa,aussa2007,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/1UPIZO,,,
 aussa2009,,Australia,,,,2009,,,v488,dataverse,aussa,aussa2009,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/IH68HQ,,,
-aussa2013,,Australia,,,,2013,,,,dataverse,aussa,aussa2013,,,,,
+aussa2013,,Australia,,,,2013,,,,dataverse,aussa,aussa2013,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.4225/87/PK3EIF,,,
 autnes2017,,Austria,,,,2017,,,"wt <- rowMeans(t_data %>% select(contains(""weightd"")), na.rm = TRUE)",dataverse,autnes,autnes2017,,https://data.aussda.at/dataset.xhtml?persistentId=doi:10.11587/I7QIYJ,,,
 bes1987,,United Kingdom,,,,1987,,,weight,misc,bes,bes1987,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1987BESQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/87BES.dta
 bes1992,,United Kingdom,,,,1992,,,wtfactor,misc,bes,bes1992,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1992-1997BESPanelQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/92BES.dta
@@ -539,7 +539,7 @@ gallup_canada198805,,Canada,,,,1988,,,,roper,gallup_canada,CNCIPO1988-533-1,,,,,
 gallup_canada198809,,Canada,,,,1988,,,weight,roper,gallup_canada,CNCIPO1988-809-1,,,,,
 gallup_canada198902,,Canada,,,,1989,,,weight,roper,gallup_canada,31082191,,,,,
 gallup_canada198908,,Canada,,,,1989,,,weight,roper,gallup_canada,CNCIPO1989-908-2,,,,"list(file = file_path, var_names = c(""qq5"", ""q6a"", ""weight""), var_positions = c(39, 25, 15), var_widths = c(1, 1, 5))",
-gallup_canada198908a,,Canada,,,,1989,,,wtvar,dataverse,gallup_canada,gallup_canada198908a,,,,,
+gallup_canada198908a,,Canada,,,,1989,,,wtvar,dataverse,gallup_canada,gallup_canada198908a,,https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/MN4FME,,,
 gallup_canada198912,,Canada,,,,1989,,,weight,roper,gallup_canada,CNCIPO1989-912-1,,,,,
 gallup_canada199009,,Canada,,,,1990,,,weight,roper,gallup_canada,CNCIPO1990-009-2,,,,,
 gallup_canada199105,,Canada,,,,1991,,,weight,roper,gallup_canada,CNCIPO1991-105-1,,,,,
@@ -910,7 +910,7 @@ snes2014,,Sweden,,,,2014,,,,misc,snd,snes2014,,,,,https://snd.gu.se/en/catalogue
 svalu2018,,Sweden,,,,2018,,,,misc,snd,svalu2018,,,,,
 svalu2019,,Sweden,,,,2019,,,,misc,snd,svalu2019,,,,,
 so_combo,,v5,,"tibble(orig = c(79:85), dest = ""Sweden"")",,,,"tibble(orig = c(""79"", ""80"", ""81"", ""82"", ""83"", ""85""), year = c(""1979"", ""1980"", ""1981"", ""1982"", ""1983"", ""1985""))",,misc,snd,so_combo,,,,,
-som_combo,,Sweden,,,,,year,,,misc,snd,som_combo,,,,,
+som_combo,,Sweden,,,,,year,,,misc,snd,som_combo,,,https://snd.gu.se/en/catalogue/download/documentation/snd0905?filename=The%20SOM%20Institute%20Cumulative%20Dataset%201986-2020%20v2021.1.pdf&principal=gu.se&uuid=,,https://snd.gu.se/en/catalogue/study/snd0905#dataset
 tat2011,,country,,,,,p1a,,sd_weight1_bc,icpsr,tat,ICPSR_34423,,,,,
 tcmeg2004,,mcountry,,,,,myear,,,icpsr,tcmeg,ICPSR_32302,,,,,
 tt2002,,country,,,"c(""GB""=""United Kingdom"", ""NL""=""Netherlands"")",2002,,,,icpsr,tt,ICPSR_03730,,,,,
