@@ -294,6 +294,16 @@ cisim2014,,Spain,,,,2014,,,Ponderacion,misc,cis,ECIS3019,,,https://www.cis.es/ci
 cisim2015,,Spain,,,,2015,,,Ponderacion,misc,cis,ECIS3119,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3100_3119/3119/Ft3119.pdf,,https://analisis.cis.es/aDownloadFile.jsp
 cisim2016,,Spain,,,,2016,,,Ponderacion,misc,cis,ECIS3161,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3160_3179/3161/Ft3161.pdf,,https://analisis.cis.es/aDownloadFile.jsp
 cisim2017,,Spain,,,,2017,,,Ponderacion,misc,cis,ECIS3190,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3180_3199/3190/FT3190.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cispol1989,,Spain,,,,1989,,,peso,misc,cis,MD1788,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1780_1799/1788/cues1788.pdf,,
+cisbar198706,,Spain,,,,1987,,,,misc,cis,MD1695,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1680_1699/1695/cues1695.pdf,,
+cisbar199005,,Spain,,,,1990,,,peso,misc,cis,MD1871,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1860_1879/1871/cues1871.pdf,,
+cisbar199112,,Spain,,,,1991,,,,misc,cis,MD1984,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1980_1999/1984/cues1984.pdf,,
+cisbar199312,,Spain,,,,1993,,,,misc,cis,MD2076,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2060_2079/2076/cues2076.pdf,,
+cisbar201211,,Spain,,,,2012,,,,misc,cis,MD2966,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2960_2979/2966/cues2966.pdf,"list(file = file_path, var_names = ""p23"", var_positions = 72, var_widths = 1)",
+cisbar201704,,Spain,,,,2017,,,,misc,cis,MD3173,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3160_3179/3175/cues3175.pdf,,
+cisbar201804,,Spain,,,,2018,,,,misc,cis,MD3210,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3200_3219/3210/cues3210.pdf,,
+cisbar201912,,Spain,,,,2019,,,peso,misc,cis,MD3269,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3260_3279/3269/cues3269.pdf,,
+cisbar202102,,Spain,,,,2021,,,peso,misc,cis,MD3309,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3300_3319/3309/cues3309.pdf,,
 cmlic1980_val,,United States,,,,1980,,,weight,roper,cmlic,31094115,,,,"list(file = file_path, var_names = c(""iv21"", ""weight""), var_cards = c(4, 5), var_positions = c(62, 62), var_widths = c(1, 6), total_cards = 8)",
 cnes1984,,Canada,,,,1984,,,wtfactor,icpsr,cnes,ICPSR_08544,,,,"list(file = file_path, var_names = c(""var332"", ""var335"", ""var336"", ""wtfactor""), var_cards = c(7, 7, 7, 13), var_positions = c(48, 51, 52, 30), var_widths = c(1, 1, 1, 7), total_cards = 17)",
 cnes1988,,Canada,,,,1988,,,wt1,icpsr,cnes,ICPSR_09386,,,,"list(file = file_path, var_names = c(""L5"", ""var335"", ""var336"", ""wt1""), var_cards = c(5, 7, 7, 15), var_positions = c(45, 51, 52, 14), var_widths = c(1, 1, 1, 5), total_cards = 15)",
