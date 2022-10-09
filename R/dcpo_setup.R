@@ -93,7 +93,12 @@ dcpo_setup <- function(vars,
             else .} %>%
             as.character() %>%
             stringr::str_replace("Haití", "Haiti") %>%
+            stringr::str_replace("Brasil", "Brazil") %>%
+            stringr::str_replace("MÃ©xico", "Mexico") %>%
+            stringr::str_replace("PerÃº", "Peru") %>%
+            stringr::str_replace("PanamÃ¡", "Panama") %>%
             stringr::str_replace("República Dominicana", "Dominican Republic") %>%
+            stringr::str_replace("Rep\\. Dominicana", "Dominican Republic") %>%
             {if (!is.na(ds$cc_dict))
               countrycode(., "orig", "dest", custom_dict = eval(parse(text = ds$cc_dict)))
               else if (!is.na(ds$cc_origin) & !is.na(ds$cc_match))
