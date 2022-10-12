@@ -522,6 +522,8 @@ ess6,,cntry,iso2c,,"c(""XK""=""Kosovo"")",,inwyr,,dweight,misc,ess,ess6,,,,,
 ess7,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess7,,,,,
 ess8,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess8,,,,,
 ess9,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess9,,,,,
+eurasiab2001,,a01,,,,2001,,,,misc,eurasiab,eurasiab2001,,,,,https://office.eurasiabarometer.org/projects/eurasia-barometer
+eurasiab2010,,countries,iso2c,,,,,"tibble(orig = c(""AM"", ""AZ"", ""BY"", ""GE"", ""KZ"", ""KG"", ""MD"", ""RU"", ""UA""), year = c(rep(2010, 5), 2011, rep(2010, 3))",,misc,eurasiab,eurasiab2010,,,,,https://office.eurasiabarometer.org/projects/eurasia-barometer
 eunb_wave1,,isocntry,iso2c,,,2012,,,w1,gesis,eunb,ZA6288,,,,,
 eunb_wave2,,isocntry,iso2c,,,2012,,,w1,gesis,eunb,ZA6289,,,,,
 eunb_wave3,,isocntry,iso2c,,,2013,,,w1,gesis,eunb,ZA6290,,,,,
