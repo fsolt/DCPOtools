@@ -523,7 +523,7 @@ ess7,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess7,,,,,
 ess8,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess8,,,,,
 ess9,,cntry,iso2c,,,,inwyr,,dweight,misc,ess,ess9,,,,,
 eurasiab2001,,a01,,,,2001,,,,misc,eurasiab,eurasiab2001,,,,,https://office.eurasiabarometer.org/projects/eurasia-barometer
-eurasiab2010,,countries,iso2c,,,,,"tibble(orig = c(""AM"", ""AZ"", ""BY"", ""GE"", ""KZ"", ""KG"", ""MD"", ""RU"", ""UA""), year = c(rep(2010, 5), 2011, rep(2010, 3))",,misc,eurasiab,eurasiab2010,,,,,https://office.eurasiabarometer.org/projects/eurasia-barometer
+eurasiab2010,,countries,iso2c,,,,,"tibble(orig = c(""AM"", ""AZ"", ""BY"", ""GE"", ""KZ"", ""KG"", ""MD"", ""RU"", ""UA""), year = c(rep(2010, 5), 2011, rep(2010, 3)))",,misc,eurasiab,eurasiab2010,,,,,https://office.eurasiabarometer.org/projects/eurasia-barometer
 eunb_wave1,,isocntry,iso2c,,,2012,,,w1,gesis,eunb,ZA6288,,,,,
 eunb_wave2,,isocntry,iso2c,,,2012,,,w1,gesis,eunb,ZA6289,,,,,
 eunb_wave3,,isocntry,iso2c,,,2013,,,w1,gesis,eunb,ZA6290,,,,,
@@ -888,7 +888,8 @@ lits_wave3,,country,,,"c(""fyrom""=""North Macedonia"", ""BiH""=""Bosnia & Herze
 mosaic2000,,Switzerland,,,,2000,,,weights,misc,mosaic,mosaic2000,,,,,
 mxpofps2004,,Mexico,,,,2004,,,,icpsr,pofps,ICPSR_04136,,,,,
 nbb_combo,,country,,,,,year,,w,ukds,nbb,UKDA-6510-stata8,,,,,
-ndb_combo,,country,,,,,year,,w,misc,ndb,ndb_combo,,,,,
+ndb_combo,,country,,"tibble(orig = c(""Austr"", ""Bulgar"", ""Czech"", ""Eslovk"", ""Hungar"", ""Poland"", ""Rom"", 
+""Scroat"", ""Serbia"", ""Sloven"", ""Tbelor"", ""Ukrain""), c(""Austria"", ""Bulgaria"", ""Czechia"", ""Slovakia"", ""Hungary"", ""Poland"", ""Romania"", ""Croatia"", ""Serbia"", ""Slovenia"", ""Belarus"", ""Ukraine""))",,,year,,w,misc,ndb,ndb_combo,,,,,
 nbc198507,,United States,,,,1985,,,,roper,nbcwsj,USNBC1985-JUL2,,,,,
 nbcwsj199106,,United States,,,,1991,,,wvar1,roper,nbcwsj,USNBCWSJ1991-JUN,,,,,
 nbcwsj199306,,United States,,,,1993,,,weight,roper,nbcwsj,USNBCWSJ1993-4039,,,,"list(file = file_path, var_names = c(""q15f"", ""q20g"", ""weight""), var_positions = c(62, 90, 118), var_widths = c(1, 1, 6))",
