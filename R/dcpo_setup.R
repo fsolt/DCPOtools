@@ -172,6 +172,12 @@ dcpo_setup <- function(vars,
           t_data[[ds$year_var]]
         } else if (ds$survey == "neb_combo") {
           floor(t_data[[ds$year_var]])
+        } else if (ds$survey == "ndb_combo") {
+          case_when(t_data[[ds$year_var]] == 1 ~ 1991,
+                    t_data[[ds$year_var]] == 2 ~ 1992,
+                    t_data[[ds$year_var]] == 3 ~ 1994,
+                    t_data[[ds$year_var]] == 4 ~ 1996,
+                    t_data[[ds$year_var]] == 5 ~ 1998)
         } else if (ds$surv_program == "afrob" |   # single-wave cross-national surveys
                    ds$survey == "arabb3" |        # with interviews bleeding over years
                    ds$survey == "asianb3") {
