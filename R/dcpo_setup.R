@@ -17,6 +17,7 @@
 #' @import dplyr
 #' @import countrycode
 #' @importFrom beepr beep
+#' @importFrom dplyr group_by mutate
 #' @importFrom readr read_csv
 #' @importFrom rio import
 #' @importFrom forcats fct_relabel
@@ -219,8 +220,10 @@ dcpo_setup <- function(vars,
           wt <- as.numeric(with(t_data, get(ds$wt)))
         } else eval(parse(text = ds$wt))
         t_data$wt_dcpo <- wt
-        t_data$wt_dcpo[t_data$wt_dcpo > 10] <- 10
-        t_data$wt_dcpo <- t_data$wt_dcpo/mean(t_data$wt_dcpo, na.rm = TRUE)
+        t_data <- t_data %>%
+          dplyr::group_by(c_dcpo) %>%
+          dplyr::mutate(wt_dcpo = wt_dcpo/mean(wt_dcpo, na.rm = TRUE)) %>%
+          ungroup()
         t_data$wt_dcpo[is.na(t_data$wt_dcpo)] <- 1
         rm(wt)
       } else t_data$wt_dcpo <- 1
