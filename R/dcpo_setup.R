@@ -161,6 +161,13 @@ dcpo_setup <- function(vars,
                      y_dcpo = round(mean(year, na.rm = TRUE))) %>%
               ungroup() %>%
               .[["y_dcpo"]]
+          } else if ("inwde" %in% names(t_data)) {
+            t_data %>%
+              group_by(c_dcpo) %>%
+              mutate(year = lubridate::year(inwde),
+                     y_dcpo = round(mean(year, na.rm = TRUE))) %>%
+              ungroup() %>%
+              .[["y_dcpo"]]
           }
         } else if (ds$survey == "cdcee" | ds$survey == "eqls_combo") {
           suppressWarnings(
