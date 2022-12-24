@@ -677,7 +677,7 @@ gallup_canada199505,,Canada,,,,1995,,,weight,roper,gallup_canada,CNCIPO1995-9500
 gallup_canada199508,,Canada,,,,1995,,,weight,roper,gallup_canada,CNCIPO1995-95008,,,,,
 gallup_canada1996,,Canada,,,,1996,,,weight,roper,gallup_canada,CNCIPO1996-96010,,,,,
 gallup_canada199605,,Canada,,,,1996,,,weight,roper,gallup_canada,CNCIPO1996-96005,,,,"list(file = file_path, var_names = c(""q4"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(22, 15), var_widths = c(1, 5))",
-gallup_canada199610,,Canada,,,,1996,,,weight,misc,odesi,gallup_canada199610,,,,"list(file = file_path, var_names = c(""q11a"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(52, 15), var_widths = c(1, 5))",
+gallup_canada199610,,Canada,,,,1996,,,wtvar,misc,odesi,gallup_canada199610,,,,,
 gallup_canada199611,,Canada,,,,1996,,,weight,roper,gallup_canada,CNCIPO1996-96011,,,,"list(file = file_path, var_names = c(""q11a"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(52, 15), var_widths = c(1, 5))",
 gallup_canada199707,,Canada,,,,1997,,,weight,roper,gallup_canada,CNCIPO1997-97007,,,,"list(file = file_path, var_names = c(""q5"", ""weight""), total_cards = 6, var_cards = c(5, 1), var_positions = c(27, 15), var_widths = c(1, 5))",
 gallup_canada199711,,Canada,,,,1997,,,weight,roper,gallup_canada,CNCIPO1997-97011,,,,,
