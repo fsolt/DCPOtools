@@ -57,6 +57,7 @@ afrob5,,country,,,,,dateintr,,withinwt,misc,afrob,afrob5,,http://afrobarometer.o
 afrob6,,country,,,,,dateintr,,withinwt,misc,afrob,afrob6,,http://afrobarometer.org/sites/default/files/data/round-6/merged_r6_data_2016_36countries2.sav,http://afrobarometer.org/sites/default/files/data/round-6/merged_round_6_codebook_2016_repost042018.pdf,,
 afrob7,,country,,,,,dateintr,,withinwt,misc,afrob,afrob7,,http://afrobarometer.org/sites/default/files/data/round-7/r7_merged_data_34ctry.release.sav,,,
 allbus,,Germany,,,,,year,,wghtptew,gesis,allbus,ZA5276,,,,,
+allbus2021,,Germany,,,,2021,,,wghtpew,gesis,allbus,ZA5280,,,,,
 amb_antigua2016,,Antigua,,,,2016,,,wt,misc,amb,amb_antigua2016,,http://datasets.americasbarometer.org/database/files/2123276248Antigua%20LAPOP%20AmericasBarometer%202016%20V1.0_W.dta,,,
 amb_argentina2010,,Argentina,,,,2010,,,,misc,amb,amb_argentina2010,,http://datasets.americasbarometer.org/database/files/924077670Argentina_LAPOP_AmericasBarometer%202010%20data%20set%20approved%20v3.dta,,,
 amb_argentina2012,,Argentina,,,,2012,,,wt,misc,amb,amb_argentina2012,,http://datasets.americasbarometer.org/database/files/1240357522Argentina%20LAPOP%20AmericasBarometer%202012%20Rev1_W.dta,,,
@@ -986,6 +987,9 @@ nsss1989,,Australia,,,,1989,,,,dataverse,nsss,nsss1989,,https://dataverse.ada.ed
 nsss1993,,Australia,,,,1993,,,,dataverse,nsss,nsss1993,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/OHK1J7,,,
 nsss1994,,Australia,,,,1994,,,,dataverse,nsss,nsss1994,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/DDWXI7,,,
 nsss1995,,Australia,,,,1995,,,,dataverse,nsss,nsss1995,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/R70QJY,,,
+nores_combo1,,Norway,,,,aar,,,,misc,nsd,nores_combo1,,,,,https://search.nsd.no/en/study/NSD1760-1/
+nores_combo2,,Norway,,,,aar,,,,misc,nsd,nores_combo2,,,,,https://search.nsd.no/study/NSD1760-2/?version=7
+nores2013,,Norway,,,,2013,,,,misc,nsd,nores2013,,,,,
 nzes1993,,New Zealand,,,,1993,,,,dataverse,nzes,nzes1993,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/9ODFXU,,,
 nzes1996,,New Zealand,,,,1996,,,,dataverse,nzes,nzes1996,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/O0LRZZ,,,
 nzes2005,,New Zealand,,,,2005,,,,dataverse,nzes,nzes2005,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/WJ8DGC,,,
