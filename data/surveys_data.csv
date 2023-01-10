@@ -214,7 +214,7 @@ autnes2017,,Austria,,,,2017,,,"wt <- rowMeans(t_data %>% select(contains(""weigh
 belgiumes1991,,Belgium,,,,1991,,,v_weight,misc,dans,belgiumes1991,,,,,https://dx.doi.org/10.17026/dans-2za-cvds
 belgiumes1995,,Belgium,,,,1995,,,ls_belg,misc,dans,belgiumes1995,,,,,https://dx.doi.org/10.17026/dans-2b9-d6ac
 belgiumes1999,,Belgium,,,,1999,,,ls_belr,misc,dans,belgiumes1999,,,,,https://doi.org/10.17026/dans-z4z-zagc
-belgiumes2003,,Belgium,,,,2003,,,age_bel,misc,dans,belgiumes2003,,,,,https://doi.org/10.17026/dans-z2x-hfdx
+belgiumes2003,,Belgium,,,,2003,,,age_belg,misc,dans,belgiumes2003,,,,,https://doi.org/10.17026/dans-z2x-hfdx
 belgiumes2007,,Belgium,,,,2007,,,w_age_bel,misc,dans,belgiumes2007,,,,,https://doi.org/10.17026/dans-xyh-cces
 bes1987,,United Kingdom,,,,1987,,,weight,misc,bes,bes1987,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1987BESQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/87BES.dta
 bes1992,,United Kingdom,,,,1992,,,wtfactor,misc,bes,bes1992,,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/1992-1997BESPanelQuestionaire.pdf,,https://www.britishelectionstudy.com/wp-content/uploads/2014/04/92BES.dta
