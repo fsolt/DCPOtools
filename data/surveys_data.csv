@@ -316,6 +316,8 @@ cces2016,,United States,,,,2016,,,commonweight,dataverse,cces,cces2016,,https://
 cces2017,,United States,,,,2017,,,weights_common,dataverse,cces,cces2017,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3STEZY,,,
 cces2018,,United States,,,,2018,,,,dataverse,cces,cces2018,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZSBZ7K,,,
 cces2019,,United States,,,,2019,,,commonweight,dataverse,cces,cces2019,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WOT7O8,,,
+cces2020,,United States,,,,2020,,,commonweight,dataverse,cces,cces2020,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E9N6PH,,,
+cces2021,,United States,,,,2021,,,commonweight,dataverse,cces,cces2021,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQOCU,,,
 cdcee,,v3,,,"c(""East Germany""=""Germany"", ""West Germany""=""Germany"")",,v666,,wt <- t_data$v633; wt[!is.na(t_data$v634)] <- t_data$v634[!is.na(t_data$v634)]; wt[!is.na(t_data$v636)] <- t_data$v636[!is.na(t_data$v636)]; wt[!is.na(t_data$v637)] <- t_data$v637[!is.na(t_data$v637)]; wt[!is.na(t_data$v638)] <- t_data$v638[!is.na(t_data$v638)]; wt[!is.na(t_data$v639)] <- t_data$v639[!is.na(t_data$v639)]; wt[!is.na(t_data$v640)] <- t_data$v640[!is.na(t_data$v640)]; wt[is.na(wt)] <- 1,gesis,cdcee,ZA4054,,,,,
 ceeb1,,,,,,,,,,gesis,ceeb,,,,,,
 cgeis2015,,Canada,,,,2015,,,wtvar1,misc,odesi,cgeis2015,,,,,
@@ -927,7 +929,7 @@ itanes2001_2006_06,,Italy,,,,2006,,,peso_06,misc,itanes,itanes2001_2006_06,,http
 itanes2006,,Italy,,,,2006,,,apesdox,misc,itanes,itanes2006,,http://www.itanes.org/wp-json/ebd/file/4d55bb2e5d,,,
 itanes2006prepost,,Italy,,,,2006,,,cweight,misc,itanes,itanes2006prepost,,http://www.itanes.org/wp-json/ebd/file/52f06ba236,,,
 itanes2008,,Italy,,,,2008,,,,misc,itanes,itanes2008,,http://www.itanes.org/wp-json/ebd/file/de5f6c0938,,,
-itanes2011_2013,,Italy,,,,,,,,misc,itanes,itanes2011_2013,,http://www.itanes.org/wp-json/ebd/file/6def6a6067,,,
+itanes2011_2013,,Italy,,,,2011,,,,misc,itanes,itanes2011_2013,,http://www.itanes.org/wp-json/ebd/file/6def6a6067,,,
 itanes2013capi,,Italy,,,,2013,,,,misc,itanes,itanes2013capi,,http://www.itanes.org/wp-json/ebd/file/90386b747f,,,
 itanes2013rcs,,Italy,,,,2013,,,,misc,itanes,itanes2013rcs,,http://www.itanes.org/wp-json/ebd/file/db36e0c771,,,
 itanes2016,,Italy,,,,2016,,,,misc,itanes,itanes2016,,http://www.itanes.org/wp-json/ebd/file/9d692f250d,,,
@@ -1189,6 +1191,9 @@ sasianb1,,v1,,,,2005,,,,misc,asianb,sasianb1,,,,,
 sasianb2,,ccode,,,,2013,,,,misc,asianb,sasianb2,,,,,
 seessp2004,,v003,,"tibble(orig = c(1:7), dest = c(""Albania"", ""Bosnia and Hercegovina"", ""Montenegro"", ""Croatia"", ""Kosovo"", ""North Macedonia"", ""Serbia""))",,2004,,,v007,misc,nsd,seessp2004,,,http://www.nsd.no/data/individ/publikasjoner/NSD1930_SEESSP_Master_Merge_Codebook_Dist_1_29.09.06.pdf,,https://search.nsd.no/en/study/NSD1930/
 snes1988,,Sweden,,,,1988,,,,misc,snd,snes1988,,,,,
+snes1991,,Sweden,,,,1991,,,,misc,snd,snes1991,,,,,
+snes1994,,Sweden,,,,1994,,,,misc,snd,snes1994,,,,,
+snes1998,,Sweden,,,,1998,,,,misc,snd,snes1998,,,,,https://snd.gu.se/en/catalogue/study/snd0861#dataset
 snes2002,,Sweden,,,,2002,,,,misc,snd,snes2002,,,,,
 snes2006,,Sweden,,,,2006,,,,misc,snd,snes2006,,,,,https://snd.gu.se/en/catalogue/study/snd0861#dataset
 snes2010,,Sweden,,,,2010,,,,misc,snd,snes2010,,,https://snd.gu.se/en/catalogue/download/documentation/snd0876?filename=Kodbok%20VU2010.pdf&principal=gu.se&uuid=,,https://snd.gu.se/en/catalogue/study/snd0876#dataset
