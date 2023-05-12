@@ -353,18 +353,18 @@ cisbar202102,,Spain,,,,2021,,,peso,misc,cis,MD3309,,,https://www.cis.es/cis/expo
 cisim1990,,Spain,,,,1990,,,,misc,cis,ECIS1882,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1880_1899/1882/Ft1882.pdf,,https://analisis.cis.es/aDownloadFile.jsp
 cisim1991,,Spain,,,,1991,,,,misc,cis,ECIS1964,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1960_1979/1964/Ft1964.pdf,,https://analisis.cis.es/aDownloadFile.jsp
 cisim1993,,Spain,,,,1993,,,,misc,cis,ECIS2051,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2040_2059/2051/Ft2051.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim1995,,Spain,,,,1995,,,Ponderacion,misc,cis,ECIS2131,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2120_2139/2131/FT2131.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim1996,,Spain,,,,1996,,,Ponderacion,misc,cis,ECIS2214,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2200_2219/2214/FT2214.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2008fall,,Spain,,,,2008,,,Ponderacion,misc,cis,ECIS2773,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2760_2779/2773/ft2773.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2008winter,,Spain,,,,2009,,,Ponderacion,misc,cis,ECIS2792,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2780_2799/2792/Ft2792.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2009,,Spain,,,,2009,,,Ponderacion,misc,cis,ECIS2817,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2800_2819/2817/ft2817.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2010,,Spain,,,,2010,,,Ponderacion,misc,cis,ECIS2846,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2840_2859/2846/Ft2846.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2011,,Spain,,,,2011,,,Ponderacion,misc,cis,ECIS2918,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2900_2919/2918/Ft2918.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2012,,Spain,,,,2012,,,Ponderacion,misc,cis,ECIS2967,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2960_2979/2967/Ft2967.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2014,,Spain,,,,2014,,,Ponderacion,misc,cis,ECIS3019,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3000_3019/3019/FT3019.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2015,,Spain,,,,2015,,,Ponderacion,misc,cis,ECIS3119,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3100_3119/3119/Ft3119.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2016,,Spain,,,,2016,,,Ponderacion,misc,cis,ECIS3161,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3160_3179/3161/Ft3161.pdf,,https://analisis.cis.es/aDownloadFile.jsp
-cisim2017,,Spain,,,,2017,,,Ponderacion,misc,cis,ECIS3190,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3180_3199/3190/FT3190.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim1995,,Spain,,,,1995,,,ponderacion,misc,cis,ECIS2131,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2120_2139/2131/FT2131.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim1996,,Spain,,,,1996,,,ponderacion,misc,cis,ECIS2214,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2200_2219/2214/FT2214.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2008fall,,Spain,,,,2008,,,ponderacion,misc,cis,ECIS2773,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2760_2779/2773/ft2773.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2008winter,,Spain,,,,2009,,,ponderacion,misc,cis,ECIS2792,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2780_2799/2792/Ft2792.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2009,,Spain,,,,2009,,,ponderacion,misc,cis,ECIS2817,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2800_2819/2817/ft2817.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2010,,Spain,,,,2010,,,ponderacion,misc,cis,ECIS2846,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2840_2859/2846/Ft2846.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2011,,Spain,,,,2011,,,ponderacion,misc,cis,ECIS2918,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2900_2919/2918/Ft2918.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2012,,Spain,,,,2012,,,ponderacion,misc,cis,ECIS2967,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/2960_2979/2967/Ft2967.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2014,,Spain,,,,2014,,,ponderacion,misc,cis,ECIS3019,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3000_3019/3019/FT3019.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2015,,Spain,,,,2015,,,ponderacion,misc,cis,ECIS3119,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3100_3119/3119/Ft3119.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2016,,Spain,,,,2016,,,ponderacion,misc,cis,ECIS3161,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3160_3179/3161/Ft3161.pdf,,https://analisis.cis.es/aDownloadFile.jsp
+cisim2017,,Spain,,,,2017,,,ponderacion,misc,cis,ECIS3190,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3180_3199/3190/FT3190.pdf,,https://analisis.cis.es/aDownloadFile.jsp
 cispol1989,,Spain,,,,1989,,,peso,misc,cis,MD1788,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1780_1799/1788/cues1788.pdf,,
 cmlic1980_val,,United States,,,,1980,,,weight,roper,cmlic,31094115,,,,"list(file = file_path, var_names = c(""iv21"", ""weight""), var_cards = c(4, 5), var_positions = c(62, 62), var_widths = c(1, 6), total_cards = 8)",
 cnes1984,,Canada,,,,1984,,,wtfactor,icpsr,cnes,ICPSR_08544,,,,"list(file = file_path, var_names = c(""var332"", ""var335"", ""var336"", ""wtfactor""), var_cards = c(7, 7, 7, 13), var_positions = c(48, 51, 52, 30), var_widths = c(1, 1, 1, 7), total_cards = 17)",
@@ -529,9 +529,11 @@ eb764,,country,,,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - G
 eb773,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2012,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5612,,,,,
 eb774,,country,,,"c(""GB-NIR - Northern Ireland""=""United Kingdom"", ""DE-E - Germany East""=""Germany"", ""DE-W - Germany West""=""Germany"")",2012,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5613,,,,,
 eb781,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-W - Germany - West""=""Germany"", ""DE-E Germany East""=""Germany"")",2012,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5685,,,,,
+eb782,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-W - Germany - West""=""Germany"", ""DE-E Germany East""=""Germany"")",2012,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5686,,,,,
 eb792,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2013,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5688,,,,,
 eb793,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2013,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5689,,,,,
 eb794,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2013,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5852,,,,,
+eb795,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2013,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5875,,,,,
 eb801,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2013,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5876,,,,,
 eb802,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2013,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5877,,,,,
 eb812,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2014,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5913,,,,,
@@ -542,6 +544,7 @@ eb824,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germa
 eb832,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5965,,,,,
 eb833,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA5998,,,,,
 eb834,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6595,,,,,
+eb841,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6596,,,,,
 eb843,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2015,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6643,,,,,
 eb852,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2016,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6694,,,,,
 eb862,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2016,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6788,,,,,
@@ -552,6 +555,7 @@ eb882,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germa
 eb883,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2017,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6928,,,,,
 eb884,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2017,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6939,,,,,
 eb891,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2018,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]; wt[t_data$c_dcpo==""United Kingdom""] <- t_data$w4[t_data$c_dcpo==""United Kingdom""]",gesis,eb,ZA6963,,,,,
+eb892,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2018,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7482,,,,,
 eb902,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2018,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7488,,,,,
 eb903,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2018,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7489,,,,,
 eb904,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2018,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7556,,,,,
@@ -564,7 +568,6 @@ eb924,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germa
 eb931,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2020,,,wt <- t_data$w1,gesis,eb,ZA7649,,,,,
 eb941,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2020,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7749,,,,,
 eb942,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2021,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7750,,,,,
-eb943,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2020,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7780,,,,,
 eb943,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2021,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7780,,,,,
 eb951,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2021,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7781,,,,,
 eb952,,country,,,"c(""GB-NIR Northern Ireland""=""United Kingdom"", ""DE-E Germany East""=""Germany"", ""DE-W - Germany - West""=""Germany"")",2021,,,"wt <- t_data$w1; wt[t_data$c_dcpo==""Germany""] <- t_data$w3[t_data$c_dcpo==""Germany""]",gesis,eb,ZA7782,,,,,
@@ -946,6 +949,7 @@ jgss2018,,Japan,,,,2018,,,weight,icpsr,jgss,ICPSR_38162,,,,,
 jpvc1991,,Japan,,,,1991,,,,misc,ssjda,jpvc1991,,,,,
 jvo_combo,,kaisu,,"tibble(orig = c(1:8), dest = ""Japan"")",,,,"tibble(orig = c(1:8), dest = seq(1973, 2008, by = 5))",,misc,ssjda,jvo_combo,,,,,
 kgss,,Korea,,,,,year,,,misc,kgss,kgss,,http://kgss.skku.edu/wp-content/uploads/2020/02/2003-2018_KGSS_eng_v2-02102020.zip,http://kgss.skku.edu/wp-content/uploads/2019/09/2003-2018-KGSS-Cumulative-Codebook_09062019.pdf,,
+kgss_combo,,Korea,,,,,year,,,icpsr,kgss,ICPSR_38577,,,,,
 kobar1994,,Korea,,,,1994,,,,misc,kobar,kobar1994,,,,,
 kobar1996,,Korea,,,,1996,,,,misc,kobar,kobar1996,,,,,
 kobar1997,,Korea,,,,1997,,,,misc,kobar,kobar1997,,,,,
@@ -1295,6 +1299,7 @@ uspew2009_10sdt,,United States,,,,2009,,,weight,roper,pew,USPEW2009-10SDT,,,,,
 uspew2009_rel,,United States,,,,2009,,,weight,pew,politics,20018310,,,,,
 uspew2009_val,,United States,,,,2009,,,weight,roper,pew,USPEW2009-VALUES,,,,,
 uspew2010_06pol,,United States,,,,2010,,,weight,roper,pew,USPEW2010-06POL,,,,,
+uspew2010_09pi,,United States,,,,2010,,,weight,roper,pew,USPEW2010-09PI,,,,,
 uspew2010_rel,,United States,,,,2010,,,weight,pew,politics,20018383,,,,,
 uspew2010_st,,United States,,,,2010,,,weight,roper,pew,USPEW2010-01SDT,,,,,
 uspew2011_09gen,,United States,,,,2011,,,weight,roper,pew,USPEW2011-09GEN,,,,,
@@ -1323,11 +1328,11 @@ uspew2016_3pol,,United States,,,,2016,,,weight,pew,politics,pol3-16,,,,,
 uspew2016_fp,,United States,,,,2016,,,weight,pew,politics,20060061,,,,,
 uspew2017_12pol,,United States,,,,2017,,,weight,pew,politics,december-2017-political-survey,,,,,
 uspew2017_6typo,,United States,,,,2017,,,weight,pew,politics,typology-17,,,,,
-uspew2018_02amtr,,United States,,,,2018,,,weight,pew,politics,31114961,,,,,
+uspew2018_02amtr,,United States,,,,2018,,,weight_w,roper,pew,31114961,,,,,
 uspew2018_03pol,,United States,,,,2018,,,weight,pew,politics,march-2018-political-survey,,,,,
 uspew2018_09pol,,United States,,,,2018,,,weight,pew,politics,september-2018-political-survey,,,,,
 uspew2019_03pol,,United States,,,,2019,,,weight,roper,pew,31116197,,,,,
-uspew2019_05amtr,,United States,,,,2019,,,weight_w52,roper,pew,31116487,,,,,
+uspew2019_05amtr,,United States,,,,2019,,,weight_w,roper,pew,31116487,,,,,
 uspew2019_07amtr,,United States,,,,2019,,,weight_w52,pew,politics,american-trends-panel-wave-52,,,,,
 uspew2019_07pol,,United States,,,,2019,,,weight,pew,politics,july-2019-political-survey,,,,,
 uspew2019_09amtr,,United States,,,,2019,,,weight_w,roper,pew,31116843,,,,,
