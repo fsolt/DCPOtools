@@ -133,14 +133,19 @@ dcpo_setup <- function(vars,
       }
       if (ds$survey == "pew2002") {
         t_data <- t_data %>%
-          dplyr::filter(!country %in% c("Angola", "Bolivia", "Brazil", "China",
-                                        "Egypt", "Guatemala", "Honduras", "India",
-                                        "Indonesia", "Côte d’Ivoire", "Mali",
-                                        "Pakistan", "Senegal", "Venezuela", "Vietnam"))
+          dplyr::filter(!country %in% c(1, 4, 5, 8, 11, 15, 16, 17,
+                                        18, 9, 23, 27, 32, 42, 43))
+        # urban-heavy samples: c("Angola", "Bolivia", "Brazil", "China", "Egypt", "Guatemala", "Honduras", "India", "Indonesia", "Côte d’Ivoire", "Mali", "Pakistan", "Senegal", "Venezuela", "Vietnam")
       }
-      if (ds$survey == "pew2005") {
+      if (ds$survey == "pew2005_6") {
         t_data <- t_data %>%
-          dplyr::filter(!country %in% c("China", "India", "Morocco", "Pakistan"))
+          dplyr::filter(!country %in% c(10, 12))
+        # urban-heavy samples: c("Morocco", "Pakistan")
+      }
+      if (ds$survey == "pew2005_11") {
+        t_data <- t_data %>%
+          dplyr::filter(!country %in% c(3, 6))
+        # urban-heavy samples: c("China", "India")
       }
       if (ds$country_var %in% names(t_data)) {
         t_data <- t_data %>%
