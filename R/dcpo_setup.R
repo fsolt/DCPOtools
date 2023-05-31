@@ -131,6 +131,17 @@ dcpo_setup <- function(vars,
         t_data <- t_data %>%
           dplyr::filter(!v3 == 16)
       }
+      if (ds$survey == "pew2002") {
+        t_data <- t_data %>%
+          dplyr::filter(!country %in% c("Angola", "Bolivia", "Brazil", "China",
+                                        "Egypt", "Guatemala", "Honduras", "India",
+                                        "Indonesia", "Côte d’Ivoire", "Mali",
+                                        "Pakistan", "Senegal", "Venezuela", "Vietnam"))
+      }
+      if (ds$survey == "pew2005") {
+        t_data <- t_data %>%
+          dplyr::filter(!country %in% c("China", "India", "Morocco", "Pakistan"))
+      }
       if (ds$country_var %in% names(t_data)) {
         t_data <- t_data %>%
           mutate(c_dcpo = if_else(!is.na(c_dcpo), c_dcpo, as.character(.data[[ds$country_var]])))
