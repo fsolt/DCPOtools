@@ -4,7 +4,7 @@
 #'
 #' @param vars a data frame (or, optionally, a .csv file) of survey items
 #' @param datapath path to the directory that houses raw survey datasets
-#' @param file a file path to save output to (in comma-separated format)
+#' @param file a file path to save output to (usually a .csv or .rds, but any format supported by \code{rio::export})
 #' @param chime play chime when complete?
 #' @param survey_additions a data frame (or, optionally, a .csv file) of information on surveys not currently included in \code{surveys_data}
 #' @param ... additional arguments
@@ -12,14 +12,14 @@
 #' @details \code{dcpo_setup}, when passed a data frame of survey items, collects the
 #' responses and formats them for use with the \code{dcpo} function.
 #'
-#' @return a data frame
+#' @return a data frame or list of data frames
 #'
 #' @import dplyr
 #' @import countrycode
 #' @importFrom beepr beep
 #' @importFrom dplyr group_by mutate
 #' @importFrom readr read_csv
-#' @importFrom rio import
+#' @importFrom rio import export
 #' @importFrom forcats fct_relabel
 #' @importFrom labelled labelled to_character to_factor
 #' @importFrom lubridate year
@@ -271,10 +271,10 @@ dcpo_setup <- function(vars,
         t_data$target0 <- t_data$target
         t_data$target <- if_else(t_data$target %in% c(vals, na_vals), t_data$target, NA_real_)
         options(warn = 2)
-        t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(c(rep(1,length(na_vals)), 1:length(vals)), c(na_vals, vals))))
+        t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(c(rep(-1,length(na_vals)), 1:length(vals)), c(na_vals, vals))))
         if (all(t_data$target0 %in% c(na_vals) == FALSE)) {
           t_data <- t_data %>%
-            mutate(target = if_else(is.na(target), 1, target))
+            mutate(target = if_else(is.na(target), -1, target))
         }
         t_data <- t_data %>%
             select(-target0)
@@ -312,9 +312,13 @@ dcpo_setup <- function(vars,
   rm(list = c("t_data", "ds", "v"))
 
   all_data2 <- all_data %>%
+    distinct(country, year, item, r, n, .keep_all = TRUE) %>% # drop duplicated surveys (e.g., reported identically in both wvs_combo & wvs7)
     group_by(country, year, item, r) %>%
     summarize(n = sum(n),     # When two surveys ask the same question in
               survey = paste0(survey, collapse = ", ")) %>% # the same country-year, add samples together
+    ungroup() %>%
+    group_by(country, year, item) %>%
+    filter(!(r %in% c(-1, 999) & n == sum(n))) %>% # drop if *no one* answered question
     ungroup() %>%
     group_by(country) %>%
     mutate(cc_rank = n(),         # number of country-year-items (data-richness)
@@ -322,16 +326,37 @@ dcpo_setup <- function(vars,
     ungroup() %>%
     arrange(desc(cc_rank), country, year)
 
+  if (!exists("include_nonresponses", where = dots)) { # argument not used
+    if(file!="") {
+      rio::export(all_data2, file = file)
+    }
+    return(all_data2)
+  } else {
+    if (dots$include_nonresponses) { # argument = TRUE
+      all_data3 <- list(mar = all_data2 %>%
+                          filter(!r == -1),         # missing at random
+                        lower = all_data2,          # lower bound (all missing answer low)
+                        upper = all_data2 %>%       # upper bound (all missing answer high)
+                          mutate(r = case_when(r == -1 ~ 999,
+                                               TRUE ~ r)))
+      if(file!="") {
+        rio::export(all_data3, file = file)
+      }
+      return(all_data3)
+    } else { # argument = FALSE
+      if(file!="") {
+        rio::export(all_data2, file = file)
+      }
+      return(all_data2)
+    }
+
+  }
+
   # Chime
   if(chime) {
     beepr::beep()
   }
 
-  if(file!="") {
-    write_csv(all_data2, file)
-  }
-
-  return(all_data2)
 }
 
 claassen_setup <- function(vars,

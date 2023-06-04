@@ -18,7 +18,7 @@ dcpo_setup(
 
 \item{datapath}{path to the directory that houses raw survey datasets}
 
-\item{file}{a file path to save output to (in comma-separated format)}
+\item{file}{a file path to save output to (usually a .csv or .rds, but any format supported by \code{rio::export})}
 
 \item{chime}{play chime when complete?}
 
@@ -27,7 +27,7 @@ dcpo_setup(
 \item{...}{additional arguments}
 }
 \value{
-a data frame
+a data frame or list of data frames
 }
 \description{
 \code{dcpo_setup} prepares survey data for use with the \code{dcpo} function.

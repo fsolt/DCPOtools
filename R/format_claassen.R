@@ -15,6 +15,7 @@
 #'
 #' @import dplyr
 #' @importFrom stats median
+#' @importFrom purrr map
 #'
 #' @export
 
@@ -22,28 +23,39 @@ format_claassen <- function(dcpo_data) {
     # satisfy R CMD check
     country <- year <- item <- r <- n <- survey <- x <- NULL
 
-    # dichotomize (values above midpoint coded 1)
-    dat <- dcpo_data %>%
-        group_by(country, year, item) %>%
-        mutate(median_r = median(r)) %>%
-        summarize(x = sum(ifelse(r > median_r, n, 0)),
-                  samp = sum(n),
-                  survey = first(survey)) %>%
-        ungroup() %>%
-        filter(x > 0)
+    dcpo_data_original <- dcpo_data
+    if ("data.frame" %in% class(dcpo_data)) {
+        dcpo_data <- list(dcpo_data)
+    }
 
-    claassen_stan <- list(  N       = nrow(dat),
-                            K       = dplyr::n_distinct(dat$item),
-                            T       = max(dat$year) - min(dat$year) + 1,
-                            J       = dplyr::n_distinct(dat$country),
-                            P       = max(as.numeric(as.factor(paste(dat$country, dat$item)))),
-                            jj      = as.numeric(as.factor(dat$country)),
-                            kk      = as.numeric(as.factor(dat$item)),
-                            tt      = dat$year - min(dat$year) + 1,
-                            pp      = as.numeric(as.factor(paste(dat$country, dat$item))),
-                            x       = round(dat$x),
-                            samp    = round(dat$samp),
-                            data    = dat)
+    # dichotomize (values above midpoint of response scale coded 1)
+    claassen_stan <- map(dcpo_data, function(df) {
+        dat <- df %>%
+            group_by(country, year, item) %>%
+            mutate(median_r = median(setdiff(r, c(-1, 999)))) %>% # -1 & 999 are missing, not response values
+            summarize(x = sum(ifelse(r > median_r, n, 0)),
+                      samp = sum(n),
+                      survey = first(survey)) %>%
+            ungroup() %>%
+            filter(x > 0)
+
+        one_stan_input <- list(  N       = nrow(dat),
+                                 K       = dplyr::n_distinct(dat$item),
+                                 T       = max(dat$year) - min(dat$year) + 1,
+                                 J       = dplyr::n_distinct(dat$country),
+                                 P       = max(as.numeric(as.factor(paste(dat$country, dat$item)))),
+                                 jj      = as.numeric(as.factor(dat$country)),
+                                 kk      = as.numeric(as.factor(dat$item)),
+                                 tt      = dat$year - min(dat$year) + 1,
+                                 pp      = as.numeric(as.factor(paste(dat$country, dat$item))),
+                                 x       = round(dat$x),
+                                 samp    = round(dat$samp),
+                                 data    = dat)
+    })
+
+    if ("data.frame" %in% class(dcpo_data_original)) {
+        claassen_stan <- claassen_stan[[1]]
+    }
 
     return(claassen_stan)
 }
