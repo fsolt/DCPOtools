@@ -1124,6 +1124,7 @@ pewrel2015_ee,,country,,,,2015,,,final_weight,pew,religion,eastern-european-surv
 pewrel2016_us,,United States,,,,2016,,,weight_w20,pew,religion,american-trends-panel-wave-20,,,,,
 pewrel2017_us,,United States,,,,2017,,,weight_w30,pew,religion,american-trends-panel-wave-30,,,,,
 pewrel2017_we,,country,,,,2017,,,weight,pew,religion,western-europe-survey-dataset,,,,,
+pewrel2020_in,,India,,,,2020,,,weight,pew,religion,India-Full-Public-Dataset-12.15.22,,,,,
 pgss,,Poland,,,,,pgssyear,,weight,misc,pgss,pgss,,,,,
 pipa200711,,country,,,,2008,,,weight,roper,pipa,MCUMARY2007-11,,,,,
 pipa2007,,country,,,,2007,,,,misc,pipa,pipa2007,,,,,
