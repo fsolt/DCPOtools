@@ -158,7 +158,7 @@ dcpo_setup <- function(vars,
           labelled::labelled(., attr(., "labels")) %>%
           labelled::to_factor(levels = "labels") %>%
           as.character() %>%
-          countrycode("orig", "year", custom_dict = eval(parse(text = ds$year_dict)))
+          countrycode("orig", "year", custom_dict = eval(parse(text = ds$year_dict)), warn = FALSE)
       } else if (!is.na(ds$year_var)) { # if there's a year variable...
         if (length(unique(t_data$c_dcpo))==1) { # single-country study
           t_data[[ds$year_var]]
