@@ -368,7 +368,7 @@ cisim2016,,Spain,,,,2016,,,ponderacion,misc,cis,ECIS3161,,,https://www.cis.es/ci
 cisim2017,,Spain,,,,2017,,,ponderacion,misc,cis,ECIS3190,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/3180_3199/3190/FT3190.pdf,,https://analisis.cis.es/aDownloadFile.jsp
 cispol1989,,Spain,,,,1989,,,peso,misc,cis,MD1788,,,https://www.cis.es/cis/export/sites/default/-Archivos/Marginales/1780_1799/1788/cues1788.pdf,,
 cmlic1980_val,,United States,,,,1980,,,weight,roper,cmlic,31094115,,,,"list(file = file_path, var_names = c(""iv21"", ""weight""), var_cards = c(4, 5), var_positions = c(62, 62), var_widths = c(1, 6), total_cards = 8)",
-cnes1984,,Canada,,,,1984,,,wtfactor,icpsr,cnes,ICPSR_08544,,,,"list(file = file_path, var_names = c(""var332"", ""var335"", ""var336"", ""wtfactor""), var_cards = c(7, 7, 7, 13), var_positions = c(48, 51, 52, 30), var_widths = c(1, 1, 1, 7), total_cards = 17)",
+cnes1984,,Canada,,,,1984,,,wtfactor,icpsr,cnes,ICPSR_08544,,,,"list(file = file_path, var_names = c(""var044"", ""var332"", ""var335"", ""var336"", ""var378"", ""var380"", ""var465"", ""wtfactor""), var_cards = c(1, 7, 7, 7, 8, 8, 9, 13), var_positions = c(51, 48, 51, 52, 32, 35, 59, 30), var_widths = c(1, 1, 1, 1, 1, 1, 1, 7), total_cards = 17)",
 cnes1988,,Canada,,,,1988,,,wt1,icpsr,cnes,ICPSR_09386,,,,"list(file = file_path, var_names = c(""L5"", ""var335"", ""var336"", ""wt1""), var_cards = c(5, 7, 7, 15), var_positions = c(45, 51, 52, 14), var_widths = c(1, 1, 1, 5), total_cards = 15)",
 cnes1993,,Canada,,,,1993,,,,icpsr,cnes,ICPSR_06571,,,,,
 cnes1997,,Canada,,,,1997,,,cpsnwgt1,icpsr,cnes,ICPSR_02593,,,,,
