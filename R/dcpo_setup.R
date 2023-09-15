@@ -252,6 +252,22 @@ dcpo_setup <- function(vars,
       } else t_data$wt_dcpo <- 1
     }
 
+    # Subset
+    if (exists("subset_vars", where = dots)) {
+      for (j in 1:length(dots$subset_vars)) {
+        t_data <- t_data %>%
+          mutate(subset_var = eval(parse(text = v[[dots$subset_vars[j]]])))
+        vals <- eval(parse(text = v[[dots$subset_vals_var[j]]]))
+        t_data$subset_var <- if_else(t_data$subset_var %in% vals, t_data$subset_var, NA_real_)
+        options(warn = 2)
+        t_data$subset_var <- do.call(dplyr::recode, c(list(t_data$subset_var), setNames(1:length(vals), vals)))
+        options(warn = 0)
+        t_data <- t_data %>%
+          filter(subset_var == dots$subset_vals[j]) %>%
+          select(-subset_var)
+      }
+    }
+
     # Get variable of interest
     if (length(unlist(strsplit(v$variable, split = " "))) == 1) {
       t_data$target <- with(t_data, as.numeric(get(v$variable) %>% stringr::str_trim()))
@@ -284,6 +300,27 @@ dcpo_setup <- function(vars,
         options(warn = 2)
         t_data$target <- do.call(dplyr::recode, c(list(t_data$target), setNames(1:length(vals), vals)))
         options(warn = 0)
+      }
+
+      # Cross (subset numerator only)
+      if (exists("cross_vars", where = dots)) {
+        for (j in 1:length(dots$cross_vars)) {
+          if (!is.na(v[[dots$cross_vars[j]]])) {
+            t_data <- t_data %>%
+              mutate(cross_var = eval(parse(text = v[[dots$cross_vars[j]]])))
+            vals <- eval(parse(text = v[[dots$cross_vals_var[j]]]))
+            t_data$cross_var <- if_else(t_data$cross_var %in% vals, t_data$cross_var, NA_real_)
+            options(warn = 2)
+            t_data$cross_var <- do.call(dplyr::recode, c(list(t_data$cross_var), setNames(1:length(vals), vals)))
+            options(warn = 0)
+            t_data <- t_data %>%
+              mutate(target = if_else(cross_var == dots$cross_vals[j],
+                                      target,
+                                      ifelse(is.na(cross_var) | is.na(target),
+                                             NA_integer_,
+                                             1)))
+          }
+        }
       }
     }
     # Summarize by country and year
