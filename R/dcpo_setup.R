@@ -244,7 +244,7 @@ dcpo_setup <- function(vars,
         } else eval(parse(text = ds$wt))
         t_data$wt_dcpo <- wt
         t_data <- t_data %>%
-          dplyr::group_by(c_dcpo) %>%
+          dplyr::group_by(c_dcpo, y_dcpo) %>%
           dplyr::mutate(wt_dcpo = wt_dcpo/mean(wt_dcpo, na.rm = TRUE)) %>%
           ungroup()
         t_data$wt_dcpo[is.na(t_data$wt_dcpo)] <- 1
