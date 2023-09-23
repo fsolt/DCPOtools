@@ -956,7 +956,7 @@ jgss2012,,Japan,,,,2012,,,weight,gesis,jgss,ZA6427,,,,,
 jgss2015,,Japan,,,,2015,,,weight,icpsr,jgss,ICPSR_37874,,,,,
 jgss2018,,Japan,,,,2018,,,weight,icpsr,jgss,ICPSR_38162,,,,,
 jpvc1991,,Japan,,,,1991,,,,misc,ssjda,jpvc1991,,,,,
-jvo_combo,,kaisu,,"tibble(orig = c(1:8), dest = ""Japan"")",,,,"tibble(orig = c(1:8), dest = seq(1973, 2008, by = 5))",,misc,ssjda,jvo_combo,,,,,
+jvo_combo,,kaisu,,"tibble(orig = c(""1st"", ""2nd"", ""3rd"", ""4th"", ""5th"", ""6th"", ""7th"", ""8th""), dest = ""Japan"")",,,,"tibble(orig = c(""1st"", ""2nd"", ""3rd"", ""4th"", ""5th"", ""6th"", ""7th"", ""8th""), dest = seq(1973, 2008, by = 5))",,misc,ssjda,jvo_combo,,,,,
 kgss,,Korea,,,,,year,,,misc,kgss,kgss,,https://kgss.skku.edu/_res/kgss/etc/2003-2021_KGSS_ENG_public_v3_20230210.sav/wp-content/uploads/2020/02/2003-2018_KGSS_eng_v2-02102020.zip,https://kgss.skku.edu/_res/kgss/etc/2003-2021_KGSS_________v2.pdf,,
 kgss_combo,,Korea,,,,,year,,,icpsr,kgss,ICPSR_38577,,,,,
 kobar1994,,Korea,,,,1994,,,,misc,kobar,kobar1994,,,,,
@@ -1069,7 +1069,8 @@ nsss1994,,Australia,,,,1994,,,,dataverse,nsss,nsss1994,,https://dataverse.ada.ed
 nsss1995,,Australia,,,,1995,,,,dataverse,nsss,nsss1995,,https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/R70QJY,,,
 nores_combo1,,Norway,,,,,aar,,,misc,nsd,nores_combo1,,,,,https://search.nsd.no/en/study/NSD1760-1/
 nores_combo2,,Norway,,,,,aar,,,misc,nsd,nores_combo2,,,,,https://search.nsd.no/study/NSD1760-2/?version=7
-nores2013,,Norway,,,,2013,,,,misc,nsd,nores2013,,,,,
+nores2013,,Norway,,,,2013,,,,misc,nsd,nores2013,,,,,https://search.nsd.no/en/study/4e960e8d-914a-4444-b6db-89c6cae91176
+nores2017,,Norway,,,,2017,,,,misc,nsd,nores2017,,,,,https://search.nsd.no/en/study/70132cde-4842-4923-ba7b-9dcd64aadf53
 norcs2013_1,,Norway,,,,2013,,,,misc,nsd,norcs2013_1,,,,,https://search.nsd.no/en/series/ed271b1c-2595-47e4-8c97-3fcc00f02368
 norcs2014_2,,Norway,,,,2014,,,,misc,nsd,norcs2014_2,,,,,https://search.nsd.no/en/series/ed271b1c-2595-47e4-8c97-3fcc00f02368
 norcs2014_3,,Norway,,,,2014,,,,misc,nsd,norcs2014_3,,,,,https://search.nsd.no/en/series/ed271b1c-2595-47e4-8c97-3fcc00f02368
