@@ -1312,10 +1312,15 @@ uspew1993_nii,,United States,,,,1993,,,weight,roper,pew,USTM1993-NII0893,,,,"lis
 uspew1996_05pol,,United States,,,,1996,,,weight,roper,pew,USPEW1996-96005,,,,"list(file = file_path, var_names = c(""q13d"", ""q14"", ""q15e"", ""weight""), var_positions = c(46, 58, 71, 244), var_widths = c(1, 1, 1, 7))",,
 uspew1996_media,,United States,,,,1996,,,weight,roper,pew,USPEW1996-96004,,,,"list(file = file_path, var_names = c(""q8e"", ""weight""), var_positions = c(47, 306), var_widths = c(1, 7))",,
 uspew1997_resp,,United States,,,,1997,,,weight,roper,pew,USPEW1997-RESP,,,,,,
+uspew1998_09pol,,United States,,,,1998,,,weight,roper,pew,31095693,,,,,,"Pew Research Center for the People & the Press. Pew Research Center Poll: September, 1998 Political Poll, 1998 [Dataset]. Roper #31095693, Version 4. Princeton Survey Research Associates [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31095693"
 uspew1999_nii,,United States,,,,1999,,,weight,pew,politics,20018547,,,,,,
 uspew1999_typo,,United States,,,,1999,,,weight,roper,pew,USPEW1999-TYPO,,,,,,
 uspew2000_typo,,United States,,,,2000,,,weight,pew,politics,20018554,,,,,,
+uspew2000_06voter,,United States,,,,2000,,,weight,pew,politics,june-2000-voter-attitudes-survey,,,,,,"Pew Research Center for the People & the Press. Pew Research Center Poll: June, 2000 Voter Attitudes Survey--21st Century Voter, 2000 [Dataset]. Roper #31095722, Version 4. Princeton Survey Research Associates [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31095722"
+uspew2001_rel,,United States,,,,2001,,,weight,roper,pew,31095741,,,,,,"Pew Research Center for the People & the Press. Pew Research Center Poll: 2001 Religion and Public Life Survey, 2001 [Dataset]. Roper #31095741, Version 2. Princeton Survey Research Associates [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31095741"
+uspew2002_08int,,United States,,,,2002,,,weight,roper,pew,31095790,,,,,,"Pew Internet & American Life Project/Pew Research Center for the People & the Press/The George Washington University Institute for Politics, Democracy, and the Internet. Pew Research Center Poll: Internet and American Life, 2002 [Dataset]. Roper #31095790, Version 2. Princeton Survey Research Associates [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31095790"
 uspew2003_06nii,,United States,,,,2003,,,weight,pew,politics,20018418,,,,,,
+uspew2003_07val,,United States,,,,2003,,,weight,roper,pew,31095813,,,,,,"Pew Research Center for the People & the Press. Pew Research Center Poll: Politics and Values, 2003 [Dataset]. Roper #31095813, Version 2. Princeton Survey Research Associates International [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31095813"
 uspew2003_10nii,,United States,,,,2003,,,weight,pew,politics,20018504,,,,,,
 uspew2003_rel,,United States,,,,2003,,,weight,pew,politics,20018533,,,,,,
 uspew2004_3nii,,United States,,,,2004,,,weight,pew,politics,20018453,,,,,,
@@ -1327,7 +1332,7 @@ uspew2005_rel,,United States,,,,2005,,,weight,pew,politics,20018535,,,,,,
 uspew2006_02imm,,United States,,,,2006,,,weight,roper,pew,USPEW2006-IMM,,,,,,
 uspew2006_02nii,,United States,,,,2006,,,weight,roper,pew,USPEW2006-02NII,,,,,,
 uspew2006_09next,,United States,,,,2006,,,weight,roper,pew,USPEW2006-NEXT,,,,,,
-uspew2006_elec,,United States,,,,2006,,,weight,pew,politics,20018343,,,,,,
+uspew2006_elec,,United States,,,,2006,,,weight,pew,politics,20018343,,,,,,"Pew Research Center for the People & the Press. Pew Research Center Poll: : November 2006 Election Weekend Survey, 2006 [Dataset]. Roper #31095879, Version 2. Princeton Survey Research Associates International [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31095879"
 uspew2006_nii,,United States,,,,2006,,,weight1,pew,politics,20018455,,,,,,
 uspew2006_03nii,,United States,,,,2006,,,weight1,pew,politics,20018455,,,,,,
 uspew2006_06nii,,United States,,,,2006,,,weight,roper,pew,USPEW2006-06NII,,,,,,
