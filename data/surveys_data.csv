@@ -348,7 +348,7 @@ cces2019,,United States,,,,2019,,,commonweight,dataverse,cces,cces2019,,https://
 cces2020,,United States,,,,2020,,,commonweight,dataverse,cces,cces2020,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E9N6PH,,,,"Schaffner, Brian; Ansolabehere, Stephen; Luks, Sam, 2021, ``Cooperative Election Study Common Content, 2020"", https://doi.org/10.7910/DVN/E9N6PH, Harvard Dataverse, V4, UNF:6:zWLoanzs2F3awt+875kWBg== [fileUNF]"
 cces2021,,United States,,,,2021,,,commonweight,dataverse,cces,cces2021,,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQOCU,,,,"Ansolabehere, Stephen; Schaffner, Brian, 2022, ``CES Common Content, 2021"", https://doi.org/10.7910/DVN/OPQOCU, Harvard Dataverse, V1, UNF:6:c5xSZQhUMd7E0YS31a+BzQ== [fileUNF]"
 cdcee,,v3,,,"c(""East Germany""=""Germany"", ""West Germany""=""Germany"")",,v666,,wt <- t_data$v633; wt[!is.na(t_data$v634)] <- t_data$v634[!is.na(t_data$v634)]; wt[!is.na(t_data$v636)] <- t_data$v636[!is.na(t_data$v636)]; wt[!is.na(t_data$v637)] <- t_data$v637[!is.na(t_data$v637)]; wt[!is.na(t_data$v638)] <- t_data$v638[!is.na(t_data$v638)]; wt[!is.na(t_data$v639)] <- t_data$v639[!is.na(t_data$v639)]; wt[!is.na(t_data$v640)] <- t_data$v640[!is.na(t_data$v640)]; wt[is.na(wt)] <- 1,gesis,cdcee,ZA4054,,,,,,
-cdem2022,,Canada,,,,2022,,,,misc,odesi,cdc2022,,,,,https://odesi.ca/en/details?id=/odesi/doi__10-5683_SP3_TEKM3T.xml,
+cdem2022,,Canada,,,,2022,,,,misc,odesi,cdem2022,,,,,https://odesi.ca/en/details?id=/odesi/doi__10-5683_SP3_TEKM3T.xml,
 ceeb1,,v3,,,,,v4,,v280,gesis,ceeb,ZA3648,,,,,,
 cgeis2015,,Canada,,,,2015,,,wtvar1,misc,odesi,cgeis2015,,,,,,
 cgss2003,,China,,,,2003,,,ppwt,misc,cgss,cgss2003_14,,,,,,
