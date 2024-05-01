@@ -683,7 +683,7 @@ feb296,,country,,,,2010,,,w4,gesis,eb,ZA5444,,,,,,
 feb366,,country,,,,2012,,,w1,gesis,eb,ZA5885,,,,,,
 feb419,,country,,,"c(""DE-W - Germany - West""=""Germany"")",2015,,,w1,gesis,eb,ZA6641,,,,,,
 feb450,,country,,,,2017,,,w1,gesis,eb,ZA6856,,,,,,
-fnes1995,,France,,,,1995,,,weight,icpsr,fnes,ICPSR_06806,,,,"list(file = file_path, var_names = c(""q7a1"", ""q7a3"", ""q7a7"", ""q20a1"", ""rs21"", ""rs22"", ""rs23"", ""wghtx""), var_positions = c(35, 37, 41, 151, 321, 322, 323, 324), var_widths = c(1, 1, 1, 1, 1, 1, 1, 4))",,
+fnes1995,,France,,,,1995,,,weight,icpsr,fnes,ICPSR_06806,,,,"list(file = file_path, var_names = c(""q7a1"", ""q7a3"", ""q7a7"", ""q20a1"", ""q28"", ""rs21"", ""rs22"", ""rs23"", ""weight""), var_positions = c(35, 37, 41, 151, 209, 321, 322, 323, 324), var_widths = c(1, 1, 1, 1, 1, 1, 1, 1, 4))",,
 frifop197211,,France,,,,1972,,,,roper,frifop,FRIFOP1972-O461,,,,,,
 fsdcitizen2015,,Finland,,,,2015,,,paino,misc,fsd,FSD3254,,,,,,
 fsdcpul202101,,Finland,,,,2021,,,paino,misc,fsd,FSD3517,,,https://services.fsd.tuni.fi/catalogue/FSD3517/PIP/cbF3517e.pdf,,https://services.fsd.tuni.fi/catalogue/FSD3517?tab=download&lang=en&study_language=en,
@@ -1368,6 +1368,7 @@ uspew2010_09pi,,United States,,,,2010,,,weight,roper,pew,USPEW2010-09PI,,,,,,"Pe
 uspew2010_rel,,United States,,,,2010,,,weight,pew,politics,20018383,,,,,,
 uspew2010_st,,United States,,,,2010,,,weight,roper,pew,USPEW2010-01SDT,,,,,,
 uspew2011_09gen,,United States,,,,2011,,,weight,roper,pew,USPEW2011-09GEN,,,,,,"Pew Research Center for the People & the Press. Pew Research Center Poll: September 2011 Generations Survey, 2011 [Dataset]. Roper #31096044, Version 2. Princeton Survey Research Associates International [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31096044"
+uspew2011_09wk,,United States,,,,2011,,,weight,roper,pew,31096095,,,,,,"Pew Research Center for the People & the Press. Pew Research Center Poll: September 2011 Generations Survey, 2011 [Dataset]. Roper #31096044, Version 2. Princeton Survey Research Associates International [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31096044"
 uspew2011_11pol,,United States,,,,2011,,,weight,roper,pew,USPEW2011-11POL,,,,,,
 uspew2011_typo,,United States,,,,2011,,,weight,pew,politics,20034641,,,,,,
 uspew2012_02pol,,United States,,,,2012,,,weight,roper,pew,USPEW2012-02POL,,,,,,
