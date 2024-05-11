@@ -254,6 +254,7 @@ bes2010,,United Kingdom,,,,2010,,,aweightt,misc,bes,bes2010,,https://www.british
 bes2015,,United Kingdom,,,,2015,,,wt_combined_main_capped,misc,bes,bes2015,,https://www.britishelectionstudy.com/wp-content/uploads/2018/01/bes_f2f_2015_v4.0.dta,https://www.britishelectionstudy.com/wp-content/uploads/2016/05/BES_2015_f2f_v3.0_codebook.pdf,,,"Fieldhouse, E., Green, J., Evans, G., Schmitt, H., van der Eijk, C., Mellon, J., Prosser, C. (2019). British Election Study, 2015: Face-to-Face Post-Election Survey. [data collection]. UK Data Service. SN: 7972, DOI: 10.5255/UKDA-SN-7972-1"
 bes2017,,United Kingdom,,,,2017,,,sel_wt_capped,misc,bes,bes2017,,https://www.britishelectionstudy.com/wp-content/uploads/2020/02/bes_f2f_2017_v1.5.dta,https://www.britishelectionstudy.com/wp-content/uploads/2019/01/BES-2017-F2F-codebook.pdf,,,"Fieldhouse, E., Green, J., Evans, G., Schmitt, H., van der Eijk, C., Mellon, J., Prosser, C. (2019). British Election Study, 2017: Face-to-Face Post-Election Survey. [data collection]. UK Data Service. SN: 8418, DOI: 10.5255/UKDA-SN-8418-1"
 bes2019,,United Kingdom,,,,2019,,,wt_sel_wt,misc,bes,bes2019,,https://www.britishelectionstudy.com/wp-content/uploads/2021/05/bes_rps_2019_1.1.1_dta.zip,https://www.britishelectionstudy.com/wp-content/uploads/2021/05/bes_rps_2019_doc_1.1.1.pdf,,,"Fieldhouse, E., Green, J., Evans, G., Prosser, C., de Geus, R., Bailey, J., Schmitt, H., van der Eijk, C., Mellon, J. (2022). British Election Study, 2019: Post-Election Random Probability Survey. [data collection]. UK Data Service. SN: 8875, DOI: 10.5255/UKDA-SN-8875-1"
+besip_long,,,,"tibble(orig = c(1:25) %>% as.character(), dest = ""United Kingdom"")",,,,"tibble(orig = c(1:25) %>% as.character(), year = c(""2014"", ""2014"", ""2014"", ""2015"", ""2015"", ""2015"", ""2016"", ""2016"", ""2016"", ""2016"", ""2017"", ""2017"", ""2017"", ""2018"", ""2019"", ""2019"", ""2019"", ""2019"", ""2019"", ""2020"", ""2021"", ""2021"", ""2022"", ""2022"", ""2023"") )",weight,misc,bes,besip_long,,https://www.britishelectionstudy.com/wp-content/uploads/2024/02/BESIP_teaching_long.dta.zip,https://www.britishelectionstudy.com/wp-content/uploads/2024/02/besip_teaching_documentation.pdf,,https://www.britishelectionstudy.com/data-objects/panel-study-data/,"Fieldhouse, E. Green, J. Evans, G. Mellon, J. Prosser, C. Bailey, J. Griffiths, J. and Perrett, S. (2024). Teaching Version of the British Election Study Internet Panel. DOI:10.48420/25460980.v1"
 bges1992,,United Kingdom,,,,1992,,,wtfactor,ukds,bges,2981,,,,,,
 bges1997,,United Kingdom,,,,1997,,,wtallgb,icpsr,bges,ICPSR_02615,,,,,,
 brdir199109,,Brazil,,,,1991,,,peso,roper,datafolha,BRDIR1991-1033,,,,,,
@@ -688,11 +689,11 @@ feb296,,country,,,,2010,,,w4,gesis,eb,ZA5444,,,,,,
 feb366,,country,,,,2012,,,w1,gesis,eb,ZA5885,,,,,,
 feb419,,country,,,"c(""DE-W - Germany - West""=""Germany"")",2015,,,w1,gesis,eb,ZA6641,,,,,,
 feb450,,country,,,,2017,,,w1,gesis,eb,ZA6856,,,,,,
-formpubop1999,,Denmark,,,,1999,,,,misc,dkcssr_files,formpubop1999,,,,,,
-formpubop2000,,Denmark,,,,2000,,,,misc,dkcssr_files,formpubop2000,,,,,,
-formpubop2001,,Denmark,,,,2001,,,,misc,dkcssr_files,formpubop2001,,,,,,
-formpubop2002,,Denmark,,,,2002,,,,misc,dkcssr_files,formpubop2002,,,,,,
-formpubop2003,,Denmark,,,,2003,,,,misc,dkcssr_files,formpubop2003,,,,,,
+formpubop1999,,Denmark,,,,1999,,,,misc,dkcssr,formpubop1999,,,,,,
+formpubop2000,,Denmark,,,,2000,,,,misc,dkcssr,formpubop2000,,,,,,
+formpubop2001,,Denmark,,,,2001,,,,misc,dkcssr,formpubop2001,,,,,,
+formpubop2002,,Denmark,,,,2002,,,,misc,dkcssr,formpubop2002,,,,,,
+formpubop2003,,Denmark,,,,2003,,,,misc,dkcssr,formpubop2003,,,,,,
 fnes1995,,France,,,,1995,,,weight,icpsr,fnes,ICPSR_06806,,,,"list(file = file_path, var_names = c(""q7a1"", ""q7a3"", ""q7a7"", ""q20a1"", ""q28"", ""rs21"", ""rs22"", ""rs23"", ""weight""), var_positions = c(35, 37, 41, 151, 209, 321, 322, 323, 324), var_widths = c(1, 1, 1, 1, 1, 1, 1, 1, 4))",,
 frifop197211,,France,,,,1972,,,,roper,frifop,FRIFOP1972-O461,,,,,,
 fsdcitizen2015,,Finland,,,,2015,,,paino,misc,fsd,FSD3254,,,,,,
