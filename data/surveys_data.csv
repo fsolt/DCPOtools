@@ -1278,6 +1278,7 @@ snrs2003,,Sweden,,,,2003,,,,misc,snd,snrs2003,,,,,,
 so_combo,,v5,,"tibble(orig = c(79:85) %>% as.character(), dest = ""Sweden"")",,,,"tibble(orig = c(""79"", ""80"", ""81"", ""82"", ""83"", ""85""), year = c(""1979"", ""1980"", ""1981"", ""1982"", ""1983"", ""1985""))",,misc,snd,so_combo,,,,,,
 som_class2008,,Sweden,,,,2008,,,,misc,snd,som_class2008,,,,,,
 som_combo,,Sweden,,,,,year,,,misc,snd,som_combo,,,https://snd.gu.se/en/catalogue/download/documentation/snd0905?filename=The%20SOM%20Institute%20Cumulative%20Dataset%201986-2020%20v2021.1.pdf&principal=gu.se&uuid=,,https://snd.gu.se/en/catalogue/study/snd0905#dataset,
+szazadveg_cc2021,,cntry,,,,2021,,,,dataverse,szazadveg,szazadveg_cc2021,,https://doi.org/10.7910/DVN/TCOHJJ,,,,"Stefkovics, Ádám, Csilla Ágoston, Emőke Bukovenszki, Andrea Dúll, Olivér Hortay, and Attila Varga. ""Climate change worry in the times of the COVID-19 pandemic. Evidence from two large-scale European surveys."" Climate Risk Management44 (2024): 100599."
 svalu2018,,Sweden,,,,2018,,,,misc,snd,svalu2018,,,,,,
 svalu2019,,Sweden,,,,2019,,,,misc,snd,svalu2019,,,,,,
 tat2011,,country,,,,,p1a,,sd_weight1_bc,icpsr,tat,ICPSR_34423,,,,,,
