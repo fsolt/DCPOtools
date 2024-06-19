@@ -68,7 +68,7 @@ dcpo_setup <- function(vars,
                                 ds$file_id)
       dataset_file <- list.files(path = dataset_path) %>% stringr::str_subset(".RData") %>% last()
       if (!is.na(ds$subfile)) dataset_file <- paste0(ds$subfile, ".RData") # error message needed: this errors if survey is not included in surveys_data
-      t_data <- rio::import(file.path(dataset_path, dataset_file))
+      t_data <- rio::import(file.path(dataset_path, dataset_file), trust = TRUE)
 
       # Fix column names and make lowercase
       valid_column_names <- stringr::str_to_lower(names(t_data)) %>%
