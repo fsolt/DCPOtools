@@ -20,7 +20,7 @@
 
 mean_corr <- function(dcpo_input_raw) {
     df <- dcpo_input_raw %>%
-        format_dcpo(scale_q = names(dcpo_input_raw)[1], scale_cp = 1) %>%
+        format_dcpo(scale_q = dcpo_input_raw$item[1], scale_cp = 1) %>%
         pluck("data") %>%
         group_by(country, year, item) %>%
         summarize(mean_perc = y_r/n_r*100) %>%
