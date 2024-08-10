@@ -442,6 +442,19 @@ cses3,,c1006_nam,,,,,c1028,,c1012_1,gesis,cses,ZA5181,,,,,,
 cses4,,d1006_nam,,,,,d1028,,d1012_1,gesis,cses,ZA5182,,,,,,
 cses5,,e1006_nam,,,,,e1034,,e1012_1,gesis,cses,ZA7557,,,,,,
 de_rcs2009,,Germany,,,,2009,,,,gesis,rcs,ZA6969,,,,,,
+de_ecg1996,,Germany,,,,1996,,,,gesis,de_ecg,ZA2964,,,,,,
+de_ecg1998,,Germany,,,,1998,,,,gesis,de_ecg,ZA3277,,,,,,
+de_ecg2000,,Germany,,,,2000,,,,gesis,de_ecg,ZA3278,,,,,,
+de_ecg2002,,Germany,,,,2002,,,,gesis,de_ecg,ZA3902,,,,,,
+de_ecg2004,,Germany,,,,2004,,,,gesis,de_ecg,ZA4389,,,,,,
+de_ecg2006,,Germany,,,,2006,,,,gesis,de_ecg,ZA4497,,,,,,
+de_ecg2008,,Germany,,,,2008,,,,gesis,de_ecg,ZA4660,,,,,,
+de_ecg2010,,Germany,,,,2010,,,,gesis,de_ecg,ZA5072,,,,,,
+de_ecg2012,,Germany,,,,2012,,,,gesis,de_ecg,ZA5693,,,,,,
+de_ecg2014,,Germany,,,,2014,,,,gesis,de_ecg,ZA5967,,,,,,
+de_ecg2016,,Germany,,,,2016,,,,gesis,de_ecg,ZA6799,,,,,,
+de_ecg2018,,Germany,,,,2018,,,,gesis,de_ecg,ZA7493,,,,,,
+de_ecg2020,,Germany,,,,2020,,,gewicht,gesis,de_ecg,ZA8799,,,,,,
 dkes1971,,Denmark,,,,1971,,,,misc,dkcssr,dkes1971,,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1971&file=/nesstar/temp/download3728460921677844345.tmp/ElectionStudy-1971.zip&server=http://cssr.surveybank.aau.dk:80,,,,
 dkes1973,,Denmark,,,,1973,,,,misc,dkcssr,dkes1973,,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1973&file=/nesstar/temp/download8343303892344738382.tmp/ElectionStudy-1973.zip&server=http://cssr.surveybank.aau.dk:80,,,,
 dkes1975,,Denmark,,,,1975,,,,misc,dkcssr,dkes1975,,http://cssr.surveybank.aau.dk/webview/pdf?&mode=ddiToPDF&executepdf=true&study=http://172.18.36.233:80/obj/fStudy/ElectionStudy-1975&file=/nesstar/temp/download2786018609733727139.tmp/ElectionStudy-1975.zip&server=http://cssr.surveybank.aau.dk:80,,,,
@@ -506,7 +519,7 @@ eb391,,v6,,,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1993
 eb41,,v5,,,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1994,,,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2490,,,,,,"European Commission, Brussels: Eurobarometer 41.0, March-May 1994. International Research Associates (INRA), Brussels [Producer]; GESIS, Cologne [Publisher]: ZA2490, dataset version 1.1.0, doi:10.4232/1.10909."
 eb411,,v5,,,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1994,,,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2491,,,,,,"European Commission, Brussels: Eurobarometer 41.1, June-July 1994. International Research Associates (INRA), Brussels [Producer]; GESIS, Cologne [Publisher]: ZA2491, dataset version 1.1.0, doi:10.4232/1.10910."
 eb42,,v5,,,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1994,,,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2563,,,,,,"European Commission, Brussels: Eurobarometer 42, November-December 1994. International Research Associates (INRA), Brussels [Producer]; GESIS, Cologne [Publisher]: ZA2563, dataset version 1.0.1, doi:10.4232/1.10911."
-eb431,,v5,,,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1995,,,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2639,,,,,,
+eb431,,v5,,,"c(""Germany West""=""Germany"", ""Germany East""=""Germany"")",1995,,,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2639,,,,,,
 eb441,,v5,,,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1995,,,"wt <- t_data$v6; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v11[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2690,,,,,,"European Commission, Brussels: Eurobarometer 44.1, November-December 1995. International Research Associates (INRA), Brussels [Producer]; GESIS, Cologne [Publisher]: ZA2690, dataset version 1.0.1, doi:10.4232/1.10917."
 eb443,,v6,,,"c(""WEST GERMANY""=""Germany"", ""EAST GERMANY""=""Germany"")",1996,,,"wt <- t_data$v7; wt[grep(""DE\\-"", t_data$isocntry)] <- t_data$v12[grep(""DE\\-"", t_data$isocntry)]",gesis,eb,ZA2830,,,,,,"European Commission, Brussels: Eurobarometer 44.3OVR, February-April 1996. International Research Associates (INRA), Brussels [Producer]; GESIS, Cologne [Publisher]: ZA2830, dataset version 1.0.1, doi:10.4232/1.10921."
 eb471,,v13,,,,1997,,,v14,gesis,eb,ZA2936,,,,,,"European Commission, Brussels: Eurobarometer 47.1, March-April 1997. International Research Associates (INRA), Brussels [Producer]; GESIS, Cologne [Publisher]: ZA2936, dataset version 1.0.1, doi:10.4232/1.10926."
