@@ -192,7 +192,7 @@ dcpo_setup <- function(vars,
               labelled::to_character(levels = "prefixed") %>%
               stringr::str_extract("\\d{4}")
           )
-        } else if (ds$survey == "amb_combo") {
+        } else if (ds$survey %in% c("amb_combo", "wrp19_21")) {
           t_data[[ds$year_var]]
         } else if (ds$survey == "neb_combo") {
           floor(t_data[[ds$year_var]])
