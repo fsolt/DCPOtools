@@ -4,7 +4,7 @@
 #' @param output either (a) the output of \code{DCPO::dcpo} or the extracted predicted number of responses from this output (via \code{rstan::extract(dcpo_output, pars = "y_r_pred")}) or (b) the output of \code{rstan::stan} using a Claassen (2019) Stan file or the extracted predicted number of responses from this output (via \code{rstan::extract(dcpo_output, pars = "x_pred")})
 #' @param model the model employed to estimate the results, either "dcpo" or "claassen".  The default is "dcpo".
 #'
-#' @details
+#' @details Details
 #'
 #' @return A data frame of validation test statistics, including the model's mean absolute error,
 #' the percentage improvement of this mean absolute error over that of the baseline provided by
