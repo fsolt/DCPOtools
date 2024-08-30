@@ -35,6 +35,7 @@ Imports:
   gesisdata,
   icpsrdata,
   pewdata,
+  psych,
   ropercenter
 Suggests: knitr
 VignetteBuilder: knitr
