@@ -28,5 +28,5 @@ reported for reference.
 Internal Validation Tests for DCPO Models
 }
 \details{
-
+Details
 }

@@ -21,62 +21,82 @@ format_dcpo <- function(dcpo_data, scale_q, scale_cp, delta = TRUE) {
     # satisfy R CMD check
     country <- year <- item <- r <- n <- NULL
 
+    dcpo_data_original <- dcpo_data
+    if ("data.frame" %in% class(dcpo_data)) {
+        dcpo_data <- list(dcpo_data)
+    }
+
     # generate cumulative number of respondents with answers above each cutpoint
-    dat <- dcpo_data %>%
-        mutate(kk = as_factor(country),
-               tt = year - min(year) + 1,
-               qq = as_factor(item),
-               rr = r - 1,
-               question = item,
-               item = paste(question, r, "or higher")) %>%
-        group_by(country, year, question) %>%
-        arrange(desc(r), .by_group = TRUE) %>%
-        mutate(y_r = round(cumsum(n)),
-               n_r = round(sum(n))) %>%
-        arrange(r, .by_group = TRUE) %>%
-        ungroup() %>%
-        arrange(kk, tt) %>%
-        filter(y_r > 0 & rr > 0)
+    dcpo_stan <- map(dcpo_data, function(df) {
+        dat <- df %>%
+            group_by(country, year, item) %>%
+                       mutate(r = case_when(r == -1   ~ 1,
+                                             r == 999 ~ max(setdiff(r, 999)),
+                                             TRUE     ~ r)) %>%
+            ungroup() %>%
+            group_by(country, year, item, r, survey, cc_rank) %>%
+            summarize(n = sum(n), .groups = "keep") %>%
+            ungroup() %>%
+            arrange(desc(cc_rank), country, year) %>%
+            mutate(kk = as_factor(country),
+                   tt = year - min(year) + 1,
+                   qq = as_factor(item),
+                   rr = r - 1,
+                   question = item,
+                   item = paste(question, r, "or higher")) %>%
+            group_by(country, year, question) %>%
+            arrange(desc(r), .by_group = TRUE) %>%
+            mutate(y_r = round(cumsum(n)),
+                   n_r = round(sum(n))) %>%
+            arrange(r, .by_group = TRUE) %>%
+            ungroup() %>%
+            arrange(kk, tt) %>%
+            filter(y_r > 0 & rr > 0)
 
-    use_delta <- dat %>%
-        group_by(qq, kk) %>%
-        summarize(years = n_distinct(year)) %>%
-        ungroup() %>%
-        spread(key = kk, value = years, fill = 0) %>%
-        mutate(countries = rowSums(.[, -1] > 1)) %>%
-        mutate_at(vars(-qq, -countries),
-                  ~ if_else(. > 1 & countries > 2 & qq != scale_q, 1, 0)) %>%
-        select(-qq, -countries) %>%
-        {if (!delta) mutate_all(., ~ 0) else .}
+        use_delta <- dat %>%
+            group_by(qq, kk) %>%
+            summarize(years = n_distinct(year)) %>%
+            ungroup() %>%
+            spread(key = kk, value = years, fill = 0) %>%
+            mutate(countries = rowSums(.[, -1] > 1)) %>%
+            mutate_at(vars(-qq, -countries),
+                      ~ if_else(. > 1 & countries > 2 & qq != scale_q, 1, 0)) %>%
+            select(-qq, -countries) %>%
+            {if (!delta) mutate_all(., ~ 0) else .}
 
-    scale_item_matrix <- dat %>%
-        group_by(qq, rr) %>%
-        summarize(n = sum(n_r)) %>%
-        ungroup() %>%
-        spread(key = rr, value = n, fill = 0) %>%
-        janitor::clean_names() %>%
-        mutate_at(vars(matches(paste0("x\\d+$"))), ~if_else(. > 0, 10, 0)) %>%
-        mutate_at(vars(matches(paste0("x", scale_cp, "$"))), ~if_else(qq == scale_q, . + 1, 0)) %>%
-        mutate_at(vars(matches(paste0("x\\d+$"))), ~if_else(. > 0, . - 10, 0)) %>%
-        select(-qq) %>%
-        as.matrix()
-    stopifnot(sum(scale_item_matrix) == 1)
+        scale_item_matrix <- dat %>%
+            group_by(qq, rr) %>%
+            summarize(n = sum(n_r)) %>%
+            ungroup() %>%
+            spread(key = rr, value = n, fill = 0) %>%
+            janitor::clean_names() %>%
+            mutate_at(vars(matches(paste0("x\\d+$"))), ~if_else(. > 0, 10, 0)) %>%
+            mutate_at(vars(matches(paste0("x", scale_cp, "$"))), ~if_else(qq == scale_q, . + 1, 0)) %>%
+            mutate_at(vars(matches(paste0("x\\d+$"))), ~if_else(. > 0, . - 10, 0)) %>%
+            select(-qq) %>%
+            as.matrix()
+        stopifnot(sum(scale_item_matrix) == 1)
 
-    dcpo_stan <- list( K          = max(as.numeric(dat$kk)),
-                       T          = max(dat$tt),
-                       Q          = max(as.numeric(dat$qq)),
-                       R          = max(dat$rr),
-                       N          = nrow(dat),
-                       kk         = as.numeric(dat$kk),
-                       tt         = as.numeric(dat$tt),
-                       qq         = as.numeric(dat$qq),
-                       rr         = dat$rr,
-                       y_r        = dat$y_r,
-                       n_r        = dat$n_r,
-                       fixed_cutp = scale_item_matrix,
-                       use_delta  = use_delta,
-                       data       = dat,
-                       data_args  = list(scale_q = scale_q, scale_cp = scale_cp, delta = delta))
+        one_dcpo_stan <- list( K          = max(as.numeric(dat$kk)),
+                               T          = max(dat$tt),
+                               Q          = max(as.numeric(dat$qq)),
+                               R          = max(dat$rr),
+                               N          = nrow(dat),
+                               kk         = as.numeric(dat$kk),
+                               tt         = as.numeric(dat$tt),
+                               qq         = as.numeric(dat$qq),
+                               rr         = dat$rr,
+                               y_r        = dat$y_r,
+                               n_r        = dat$n_r,
+                               fixed_cutp = scale_item_matrix,
+                               use_delta  = use_delta,
+                               data       = dat,
+                               data_args  = list(scale_q = scale_q, scale_cp = scale_cp, delta = delta))
+    })
+
+    if ("data.frame" %in% class(dcpo_data_original)) {
+        dcpo_stan <- dcpo_stan[[1]]
+    }
 
     return(dcpo_stan)
 }

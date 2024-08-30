@@ -101,7 +101,7 @@ get_surveys <- function(vars,
         x <- do.call(ropercenter::read_ascii, eval(parse(text = read_ascii_args)))
         if (!is.na(wt)) {
           x <- x %>%
-            mutate(weight0 = as.numeric(weight %>% stringr::str_trim()),
+            mutate(weight0 = as.numeric(x[[ds$wt]] %>% stringr::str_trim()),
                    weight = weight0/mean(weight0))
         }
         rio::export(x, file.path(new_dir, str_replace(data_file, "txt$", "RData")))
