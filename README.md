@@ -1,4 +1,3 @@
-[![CRAN version](http://www.r-pkg.org/badges/version/DCPOtools)](https://CRAN.R-project.org/package=DCPOtools) ![](http://cranlogs.r-pkg.org/badges/grand-total/DCPOtools) [![Travis-CI Build Status](https://travis-ci.org/fsolt/DCPOtools.svg?branch=master)](https://travis-ci.org/fsolt/DCPOtools)
 
 ------------------------------------------------------------------------
 DCPOtools
