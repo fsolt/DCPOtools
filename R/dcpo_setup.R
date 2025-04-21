@@ -154,11 +154,19 @@ dcpo_setup <- function(vars,
 
       # Get years
       t_data$y_dcpo <- if (!is.na(ds$year_dict)) { # if there's a year dictionary...
-        t_data[[ds$country_var]] %>%
-          labelled::labelled(., attr(., "labels")) %>%
-          labelled::to_factor(levels = "labels") %>%
-          as.character() %>%
-          countrycode("orig", "year", custom_dict = eval(parse(text = ds$year_dict)), warn = FALSE)
+          if (!is.na(ds$year_var)) { # if there's a year variable
+              t_data[[ds$year_var]] %>%
+                  labelled::labelled(., attr(., "labels")) %>%
+                  labelled::to_factor(levels = "labels") %>%
+                  as.character() %>%
+                  countrycode("orig", "year", custom_dict = eval(parse(text = ds$year_dict)), warn = FALSE)
+          } else { # no year variable
+              t_data[[ds$country_var]] %>%
+                  labelled::labelled(., attr(., "labels")) %>%
+                  labelled::to_factor(levels = "labels") %>%
+                  as.character() %>%
+                  countrycode("orig", "year", custom_dict = eval(parse(text = ds$year_dict)), warn = FALSE)
+          }
       } else if (!is.na(ds$year_var)) { # if there's a year variable...
         if (length(unique(t_data$c_dcpo))==1) { # single-country study
           t_data[[ds$year_var]]
