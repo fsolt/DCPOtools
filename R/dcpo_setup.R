@@ -419,3 +419,82 @@ claassen_setup <- function(vars,
              include_nonresponses = include_nonresponses)
 
 }
+
+get_countries <- function(ds, t_data) {
+    # Get countries
+    suppressWarnings(
+        t_data$c_dcpo <- if (ds$country_var %in% names(t_data)) {
+            if (is.null(attr(t_data[[ds$country_var]], "labels"))) {
+                if (!is.null(attr(t_data[[ds$country_var]], "value.labels"))) {
+                    attr(t_data[[ds$country_var]], "labels") <- attr(t_data[[ds$country_var]],
+                                                                     "value.labels") %>% as.numeric()
+                    attr(attr(t_data[[ds$country_var]], "labels"), "names") <- attr(attr(t_data[[ds$country_var]],
+                                                                                         "value.labels"), "names")
+                }
+            }
+            t_data[[ds$country_var]] %>%
+                {if (!is.null(attr(t_data[[ds$country_var]], "labels")))
+                    labelled::labelled(., attr(., "labels")) %>%
+                        labelled::to_factor(levels = "prefixed") %>%
+                        forcats::fct_relabel(., function(x) stringr::str_replace(x, "\\[\\d+\\]\\s+", ""))
+                    else .} %>%
+                as.character() %>%
+                stringr::str_replace("Haití", "Haiti") %>%
+                stringr::str_replace("Brasil", "Brazil") %>%
+                stringr::str_replace("MÃ©xico", "Mexico") %>%
+                stringr::str_replace("PerÃº", "Peru") %>%
+                stringr::str_replace("PanamÃ¡", "Panama") %>%
+                stringr::str_replace("República Dominicana", "Dominican Republic") %>%
+                stringr::str_replace("Rep\\. Dominicana", "Dominican Republic") %>%
+                {if (!is.na(ds$cc_dict))
+                    countrycode(., "orig", "dest", custom_dict = eval(parse(text = ds$cc_dict)))
+                    else if (!is.na(ds$cc_origin) & !is.na(ds$cc_match))
+                        countrycode(., ds$cc_origin, "country.name", custom_match = eval(parse(text = ds$cc_match)))
+                    else if (!is.na(ds$cc_origin))
+                        countrycode(., ds$cc_origin, "country.name")
+                    else if (!is.na(ds$cc_match))
+                        countrycode(., "country.name", "country.name",
+                                    custom_match = eval(parse(text = ds$cc_match)))
+                    else countrycode(., "country.name", "country.name")}
+        } else ds$country_var %>%
+            countrycode(., "country.name", "country.name")
+    )
+    if (ds$survey == "wvs4_swe") {
+        t_data <- labelled::remove_labels(t_data)
+        t_data <- t_data %>%
+            dplyr::filter(c_dcpo == "Sweden")
+    }
+    if (ds$survey == "wvs6_bahrain") {
+        t_data <- labelled::remove_labels(t_data)
+        t_data <- t_data %>%
+            dplyr::filter(c_dcpo == "Bahrain")
+    }
+    if (ds$survey == "tcmeg2004") {
+        t_data <- t_data %>%
+            dplyr::filter(msurvey == 2)
+    }
+    if (ds$survey == "cdcee") {
+        t_data <- t_data %>%
+            dplyr::filter(!v3 == 16)
+    }
+    if (ds$survey == "pew2002") {
+        t_data <- t_data %>%
+            dplyr::filter(!country %in% c(1, 4, 5, 8, 11, 15, 16, 17,
+                                          18, 9, 23, 27, 32, 42, 43))
+        # urban-heavy samples: c("Angola", "Bolivia", "Brazil", "China", "Egypt", "Guatemala", "Honduras", "India", "Indonesia", "Côte d’Ivoire", "Mali", "Pakistan", "Senegal", "Venezuela", "Vietnam")
+    }
+    if (ds$survey == "pew2005_6") {
+        t_data <- t_data %>%
+            dplyr::filter(!country %in% c(10, 12))
+        # urban-heavy samples: c("Morocco", "Pakistan")
+    }
+    if (ds$survey == "pew2005_11") {
+        t_data <- t_data %>%
+            dplyr::filter(!country %in% c(3, 6))
+        # urban-heavy samples: c("China", "India")
+    }
+    if (ds$country_var %in% names(t_data)) {
+        t_data <- t_data %>%
+            mutate(c_dcpo = if_else(!is.na(c_dcpo), c_dcpo, as.character(.data[[ds$country_var]])))
+    }
+}
