@@ -1235,6 +1235,7 @@ pewrel2017_us,,United States,,,,2017,,,weight_w30,pew,religion,american-trends-p
 pewrel2017_we,,country,,,,2017,,,weight,pew,religion,western-europe-survey-dataset,,,,,,
 pewrel2020_in,,India,,,,2020,,,weight,pew,religion,India-Full-Public-Dataset-12.15.22,,,,,,
 pewrel2022_sea,,country,,,,2022,,,weight,pew,religion,Pew-South-and-Southeast-Asia-Full-Public-Dataset,,,,,,
+pewrel2023_ea,,demonym,,"tibble(orig=c(1:5) %>% as.character(), dest = c(""Hong Kong"", ""Japan"", ""South Korea"", ""Taiwan"", ""Vietnam""))",,2023,,,weight,pew,religion,Pew-East-Asian-Societies-Full-Public-Dataset,,,,,,"Evans, Jonathan. 2024. “East Asian Societies Survey Dataset.” Pew Research Center. doi: 10.58094/5jv2-m279"
 pgss,,Poland,,,,,pgssyear,,weight,misc,pgss,pgss,,,,,,"Institute for Social Studies, University of Warsaw, 2019, Polish General Social Survey, 1991-2010 [dataset]"
 pipa200711,,country,,,,2008,,,weight,roper,pipa,MCUMARY2007-11,,,,,,
 pipa2007,,country,,,,2007,,,,misc,pipa,pipa2007,,,,,,
@@ -1307,7 +1308,7 @@ rdet1969b,,var1,,"tibble(orig = sprintf(""%02d"", c(1:8, 11:18)), dest = c(""Fra
 ress2014,,Russia,,,,2014,,,dweight,misc,ess,ress2014,,http://www.europeansocialsurvey.org/docs/related_studies/CESSI_ESS7/ESS7RU_main_data.zip,http://www.europeansocialsurvey.org/docs/related_studies/CESSI_ESS7/ESS7RU_questionnaire.pdf,,,European Social Survey European Research Infrastructure (ESS ERIC). (2018). ESS7 - Russia [Data set]. Sikt - Norwegian Agency for Shared Services in Education and Research.
 rtm2018,,ctrcode,iso3c,,,2018,,,weight,misc,oecd,rtm2018,,,,,https://web-archive.oecd.org/temp/2024-04-03/480467-risks-that-matter.htm,
 rtm2020,,ctrcode,iso3c,,,2020,,,weight,misc,oecd,rtm2020,,,,,https://web-archive.oecd.org/temp/2024-04-03/480467-risks-that-matter.htm,
-rtm2022,,ctrcode,iso3c,,,2022,,,weight,misc,oecd,rtm2022,,,,,https://web-archive.oecd.org/temp/2024-04-03/480467-risks-that-matter.htm,
+rtm2022,,ctrcode,iso3c,,,2022,,,weight,misc,oecd,rtm2022,,,,,https://web-archive.oecd.org/temp/2024-04-03/480467-risks-that-matter.htm,"OECD (2023), Main Findings from the 2022 OECD Risks that Matter Survey, OECD Publishing, Paris, https://doi.org/10.1787/70aea928-en."
 sasas2014,,South Africa,,,,2014,,,weightza,misc,ess,sasas2014,,http://www.europeansocialsurvey.org/docs/related_studies/SASAS_2014/SASAS14_e01.stata.zip,http://www.europeansocialsurvey.org/docs/related_studies/SASAS_2014/sasas2014_questionnaire_q2.pdf,,,
 sasianb1,,v1,,,,2005,,,,misc,asianb,sasianb1,,,,,https://www.asianbarometer.org/datar?page=d10,"Hu Fu Center for East Asian Democratic Studies, South Asian Barometer Wave 1 Merge [Dataset], April 18, 2017"
 sasianb2,,ccode,,,,2013,,,,misc,asianb,sasianb2,,,,,https://www.asianbarometer.org/datar?page=d10,"Hu Fu Center for East Asian Democratic Studies, South Asian Barometer Wave 2 Merge [Dataset], January 4, 2023"
