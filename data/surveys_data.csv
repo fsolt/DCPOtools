@@ -1235,7 +1235,7 @@ pewrel2017_us,,United States,,,,2017,,,weight_w30,pew,religion,american-trends-p
 pewrel2017_we,,country,,,,2017,,,weight,pew,religion,western-europe-survey-dataset,,,,,,
 pewrel2020_in,,India,,,,2020,,,weight,pew,religion,India-Full-Public-Dataset-12.15.22,,,,,,
 pewrel2022_sea,,country,,,,2022,,,weight,pew,religion,Pew-South-and-Southeast-Asia-Full-Public-Dataset,,,,,,
-pewrel2023_ea,,demonym,,"tibble(orig=c(1:5) %>% as.character(), dest = c(""Hong Kong"", ""Japan"", ""South Korea"", ""Taiwan"", ""Vietnam""))",,2023,,,weight,pew,religion,Pew-East-Asian-Societies-Full-Public-Dataset,,,,,,"Evans, Jonathan. 2024. “East Asian Societies Survey Dataset.” Pew Research Center. doi: 10.58094/5jv2-m279"
+pewrel2023_ea,,demonym,,,,2023,,,weight,pew,religion,Pew-East-Asian-Societies-Full-Public-Dataset,,,,,,"Evans, Jonathan. 2024. “East Asian Societies Survey Dataset.” Pew Research Center. doi: 10.58094/5jv2-m279"
 pgss,,Poland,,,,,pgssyear,,weight,misc,pgss,pgss,,,,,,"Institute for Social Studies, University of Warsaw, 2019, Polish General Social Survey, 1991-2010 [dataset]"
 pipa200711,,country,,,,2008,,,weight,roper,pipa,MCUMARY2007-11,,,,,,
 pipa2007,,country,,,,2007,,,,misc,pipa,pipa2007,,,,,,
